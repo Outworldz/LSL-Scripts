@@ -1,6 +1,0 @@
-<Project name="Swarming Bees" guid="28b9fcdc-904f-4b1d-8f8b-04b33543c149">
-	<Object name="Object" guid="1f1858da-4289-4d6d-b359-d9c61786dd7c" active="true">
-		<Script name="Script.lsl" guid="3d55a81a-b3ec-425f-b082-2a352441ea9e">
-		</Script>
-	</Object>
-</Project>

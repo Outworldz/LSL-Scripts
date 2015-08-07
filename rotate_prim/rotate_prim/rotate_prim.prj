@@ -1,6 +1,0 @@
-<Project name="rotate_prim" guid="D782F200-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D782F2D0-6C00-1014-B904-200204C60A89">
-		<Script name="rotate_prim_1.lsl" guid="D7847843-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

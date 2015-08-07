@@ -1,6 +1,0 @@
-<Project name="Multiperson_online_indicator" guid="D80A7EAC-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D80A7FA8-6C00-1014-B904-200204C60A89">
-		<Script name="Multiperson_online_indicator_1.lsl" guid="D80A9D8A-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

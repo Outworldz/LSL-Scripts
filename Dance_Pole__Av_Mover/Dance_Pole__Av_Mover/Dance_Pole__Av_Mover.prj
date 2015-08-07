@@ -1,6 +1,0 @@
-<Project name="Dance_Pole__Av_Mover" guid="D704DFBC-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D704E0B1-6C00-1014-B904-200204C60A89">
-		<Script name="Dance_Pole__Av_Mover_1.lsl" guid="D7050766-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

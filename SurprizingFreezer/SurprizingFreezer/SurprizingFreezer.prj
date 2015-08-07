@@ -1,6 +1,0 @@
-<Project name="SurprizingFreezer" guid="D7B7CA6F-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7B7CB5D-6C00-1014-B904-200204C60A89">
-		<Script name="SurprizingFreezer_1.lsl" guid="D7B7EE59-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

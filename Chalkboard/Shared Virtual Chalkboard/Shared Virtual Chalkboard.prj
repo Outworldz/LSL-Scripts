@@ -1,6 +1,0 @@
-<Project name="Shared Virtual Chalkboard" guid="61204f3c-b628-4869-a98f-faed44985c01">
-	<Object name="Object" guid="1ebb11bd-7a72-4057-89aa-840ab1d5db88" active="true">
-		<Script name="Script.lsl" guid="040bbd8a-6a93-4d5d-855f-476ed47164c7">
-		</Script>
-	</Object>
-</Project>

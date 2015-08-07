@@ -1,6 +1,0 @@
-<Project name="Basic_sliding_doorscript" guid="D6E6D9CB-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6E6DAE2-6C00-1014-B904-200204C60A89">
-		<Script name="Basic_sliding_doorscript_1.lsl" guid="D6E6F80E-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

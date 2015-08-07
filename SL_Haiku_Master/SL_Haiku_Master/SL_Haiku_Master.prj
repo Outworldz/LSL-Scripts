@@ -1,8 +1,0 @@
-<Project name="SL_Haiku_Master" guid="D6BAF727-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6BAF7FC-6C00-1014-B904-200204C60A89">
-		<Script name="SL_Haiku_Master_1.lsl" guid="D6BB8161-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="SL_Haiku_Master_2.lsl" guid="D6BC125E-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

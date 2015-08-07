@@ -1,6 +1,0 @@
-<Project name="BasicGun" guid="D61218C1-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D61219BA-6C00-1014-B904-200204C60A89">
-		<Script name="BasicGun_1.lsl" guid="D612399C-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

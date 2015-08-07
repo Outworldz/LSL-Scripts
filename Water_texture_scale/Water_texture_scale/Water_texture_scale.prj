@@ -1,6 +1,0 @@
-<Project name="Water_texture_scale" guid="D8B76A1D-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8B76B21-6C00-1014-B904-200204C60A89">
-		<Script name="Water_texture_scale_1.lsl" guid="D8B78345-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

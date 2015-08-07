@@ -1,8 +1,0 @@
-<Project name="NPC_BotKiller" guid="d8f5fa1a-6c00-1014-b904-200204c60a89">
-	<Object name="Object" guid="d8f5fb06-6c00-1014-b904-200204c60a89">
-		<Script name="NPC_BotKiller_1.lsl" guid="d8f62f0a-6c00-1014-b904-200204c60a89">
-		</Script>
-		<Script name="NPC_BotKiller_Nearby.lsl" guid="2a3ba880-0da5-433a-9b6b-2561d19db2f4">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="Simple_Prim_Movement" guid="D8C4B1FC-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8C4B2EA-6C00-1014-B904-200204C60A89">
-		<Script name="Simple_Prim_Movement_1.lsl" guid="D8C4CAF2-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

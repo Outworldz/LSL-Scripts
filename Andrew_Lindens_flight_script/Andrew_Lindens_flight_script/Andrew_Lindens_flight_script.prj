@@ -1,6 +1,0 @@
-<Project name="Andrew_Lindens_flight_script" guid="D6DCB7B1-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6DCB899-6C00-1014-B904-200204C60A89">
-		<Script name="Andrew_Lindens_flight_script_1.lsl" guid="D6DD07C8-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

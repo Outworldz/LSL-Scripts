@@ -1,6 +1,0 @@
-<Project name="Animator" guid="D804E213-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D804E300-6C00-1014-B904-200204C60A89">
-		<Script name="Animator_1.lsl" guid="D8050B84-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

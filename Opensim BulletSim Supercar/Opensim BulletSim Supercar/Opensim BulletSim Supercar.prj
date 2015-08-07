@@ -1,6 +1,0 @@
-<Project name="Opensim BulletSim Supercar" guid="4ce3b1c9-3d27-4327-810e-7ee1eba3935e">
-	<Object name="Object" guid="b702c3e8-b0e8-4a07-9ab3-06fcd27c6497" active="true">
-		<Script name="Script.lsl" guid="53afa83a-89fa-4e4f-a312-d6b751d51755">
-		</Script>
-	</Object>
-</Project>

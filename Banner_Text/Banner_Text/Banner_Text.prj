@@ -1,6 +1,0 @@
-<Project name="Banner_Text" guid="D6E5181A-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6E51915-6C00-1014-B904-200204C60A89">
-		<Script name="Banner_Text_1.lsl" guid="D6E53F50-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

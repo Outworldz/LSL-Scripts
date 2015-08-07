@@ -1,6 +1,0 @@
-<Project name="Clean White Smoke" guid="2a370691-a1ed-4e31-99e2-26022082881f">
-	<Object name="Object" guid="9e20794e-10df-41ff-92e7-45c245605266" active="true">
-		<Script name="Script.lsl" guid="ec4d7c20-97cb-4b52-860a-d003ba90776e">
-		</Script>
-	</Object>
-</Project>

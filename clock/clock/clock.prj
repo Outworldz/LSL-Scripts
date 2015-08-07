@@ -1,6 +1,0 @@
-<Project name="Clock" guid="D7DD77CC-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7DD78A2-6C00-1014-B904-200204C60A89">
-		<Script name="Clock_1.lsl" guid="D7DD964F-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,8 +1,0 @@
-<Project name="Kill_all_NPCs" guid="d8f06ec9-6c00-1014-b904-200204c60a89">
-	<Object name="Object" guid="d8f06fba-6c00-1014-b904-200204c60a89">
-		<Script name="Kill_all_NPCs_1.lsl" guid="d8f092af-6c00-1014-b904-200204c60a89">
-		</Script>
-		<Script name="Kill_Nearby_NPC (10 Meters).lsl" guid="8886f3c0-0035-4dc1-8f95-a8658cde83d3">
-		</Script>
-	</Object>
-</Project>

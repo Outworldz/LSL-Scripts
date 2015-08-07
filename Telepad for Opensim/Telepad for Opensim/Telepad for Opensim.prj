@@ -1,8 +1,0 @@
-<Project name="Telepad for Opensim" guid="bfe6b180-0c86-4dec-a7bc-ea310fa62623">
-	<Object name="Object1" guid="e074f222-43eb-443b-bb74-b6a3b063880d" active="true">
-		<Script name="menu.lsl" guid="eb06671a-5af9-4c39-8e85-dbd359c763f7">
-		</Script>
-		<Script name="tp script.lsl" guid="44106a04-a201-4976-97d2-13552bebfab4">
-		</Script>
-	</Object>
-</Project>

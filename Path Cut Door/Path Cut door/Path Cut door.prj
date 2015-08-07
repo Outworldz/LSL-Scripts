@@ -1,6 +1,0 @@
-<Project name="Path Cut door" guid="9d5820fe-8b6d-4f05-bf87-3f6e25c71385">
-	<Object name="Door" guid="0f483fdf-8e01-42d7-8643-615d6dfccebf" active="true">
-		<Script name="Script.lsl" guid="6bb25ffe-71af-478d-b8c8-2ccec9a559ae">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="follower" guid="d75b78b8-6c00-1014-b904-200204c60a89">
-	<Object name="follower" guid="d75b7d6e-6c00-1014-b904-200204c60a89">
-		<Script name="follower.lsl" guid="d75b9e57-6c00-1014-b904-200204c60a89">
-		</Script>
-	</Object>
-</Project>

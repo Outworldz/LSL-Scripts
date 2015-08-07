@@ -1,6 +1,0 @@
-<Project name="Jump_Super" guid="D734AAF3-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D734ABEC-6C00-1014-B904-200204C60A89">
-		<Script name="Jump_Super_1.lsl" guid="D734C1F8-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

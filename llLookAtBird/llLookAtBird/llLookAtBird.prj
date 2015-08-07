@@ -1,8 +1,0 @@
-<Project name="llLookAtBird" guid="02f85f2c-6b8a-47d6-94aa-3a962c669ff2">
-	<Object name="Object" guid="bd592acf-6b80-48d4-8805-2778621e707c" active="true">
-		<Script name="Find owner.lsl" guid="95a99ba4-93f4-4584-b61d-9ca3b8792ed2">
-		</Script>
-		<Script name="Find anyone.lsl" guid="dbdec6a3-6c0d-4f01-b5e6-44ef126ce4a6">
-		</Script>
-	</Object>
-</Project>

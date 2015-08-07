@@ -1,6 +1,0 @@
-<Project name="Flower_rezzer_1" guid="d724c9d0-6c00-1014-b904-200204c60a89">
-	<Object name="Object" guid="d724cacd-6c00-1014-b904-200204c60a89">
-		<Script name="Flower_rezzer_1_1.lsl" guid="d724ef87-6c00-1014-b904-200204c60a89">
-		</Script>
-	</Object>
-</Project>

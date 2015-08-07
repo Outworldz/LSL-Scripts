@@ -1,6 +1,0 @@
-<Project name="Simple_Casting" guid="D79CEFF7-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D79CF0D6-6C00-1014-B904-200204C60A89">
-		<Script name="Simple_Casting_1.lsl" guid="D79D0D99-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

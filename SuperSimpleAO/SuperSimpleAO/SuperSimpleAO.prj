@@ -1,6 +1,0 @@
-<Project name="SuperSimpleAO" guid="99b787a9-bc13-4052-b324-ea02cb8a1b37">
-	<Object name="Object" guid="888eaa36-76de-4e9b-bf92-2d3f94440f73" active="true">
-		<Script name="Script.lsl" guid="66e9342a-9d1d-4465-a074-59015349395b">
-		</Script>
-	</Object>
-</Project>

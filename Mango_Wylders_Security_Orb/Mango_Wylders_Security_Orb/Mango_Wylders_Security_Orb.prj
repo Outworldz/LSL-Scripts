@@ -1,8 +1,0 @@
-<Project name="Mango_Wylders_Security_Orb" guid="D8D3F01F-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8D3F10A-6C00-1014-B904-200204C60A89">
-		<Script name="Mango_Wylders_Security_Orb_1.lsl" guid="D8D4C569-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Mango_Wylders_Security_Orb_2.lsl" guid="D8D4E84F-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

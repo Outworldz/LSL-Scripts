@@ -1,6 +1,0 @@
-<Project name="WeatherVane with Smoke trail" guid="70f43b54-c5bc-46d0-a3a0-9096b86469af">
-	<Object name="Vane" guid="2042addb-1fcd-4b2f-a8b7-ba9e31270762" active="true">
-		<Script name="Script.lsl" guid="b362a8d3-d02c-4d9d-bdcf-3ffbe2b24e46">
-		</Script>
-	</Object>
-</Project>

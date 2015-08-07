@@ -1,6 +1,0 @@
-<Project name="Exploding_object" guid="D82F7A82-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D82F7B73-6C00-1014-B904-200204C60A89">
-		<Script name="Exploding_object_1.lsl" guid="D82FAA1C-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

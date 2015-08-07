@@ -1,6 +1,0 @@
-<Project name="Jet_Pack_Script" guid="D733C0CE-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D733C1BF-6C00-1014-B904-200204C60A89">
-		<Script name="Jet_Pack_Script_1.lsl" guid="D733F8BD-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

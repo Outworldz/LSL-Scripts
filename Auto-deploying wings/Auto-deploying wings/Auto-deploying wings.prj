@@ -1,6 +1,0 @@
-<Project name="Auto-deploying wings" guid="e2ae587a-f4ef-47e4-96c4-d8d157bec477">
-	<Object name="Wing" guid="f56db651-ddcc-4ae4-9044-8ff4e5015c0a" active="true">
-		<Script name="auto wing deploy script.lsl" guid="602532b6-ee9f-4395-b79d-86968120bced">
-		</Script>
-	</Object>
-</Project>

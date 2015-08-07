@@ -1,8 +1,0 @@
-<Project name="Camera_HUD" guid="D8C104C5-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8C105A4-6C00-1014-B904-200204C60A89">
-		<Script name="Camera_HUD_1.lsl" guid="D8C12670-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Camera_HUD_2.lsl" guid="D8C13917-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

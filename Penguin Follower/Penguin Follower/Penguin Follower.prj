@@ -1,6 +1,0 @@
-<Project name="Penguin Follower" guid="660df512-a010-48c2-92bc-cc702b93a2ff">
-	<Object name="Object" guid="c12668af-f2ec-46dc-9b85-d7790024ae79" active="true">
-		<Script name="evil peng script.lsl" guid="0f2218ef-0ea5-4b16-82e1-40d1e7ab9a7f">
-		</Script>
-	</Object>
-</Project>

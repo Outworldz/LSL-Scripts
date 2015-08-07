@@ -1,6 +1,0 @@
-<Project name="Aim_Detection" guid="D89B644D-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D89B6545-6C00-1014-B904-200204C60A89">
-		<Script name="Aim_Detection_1.lsl" guid="D89B7F6C-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

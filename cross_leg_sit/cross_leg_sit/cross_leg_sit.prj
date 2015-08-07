@@ -1,6 +1,0 @@
-<Project name="cross_leg_sit" guid="D703D0CB-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D703D1AC-6C00-1014-B904-200204C60A89">
-		<Script name="cross_leg_sit_1.lsl" guid="D703EBDB-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="eyeball_follower" guid="D71AF2EF-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D71AF3D9-6C00-1014-B904-200204C60A89">
-		<Script name="eyeball_follower_1.lsl" guid="D71B0DC9-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

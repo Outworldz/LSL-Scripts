@@ -1,6 +1,0 @@
-<Project name="Sunbathing_Script" guid="D7B66A94-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7B66B97-6C00-1014-B904-200204C60A89">
-		<Script name="Sunbathing_Script_1.lsl" guid="D7B69031-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

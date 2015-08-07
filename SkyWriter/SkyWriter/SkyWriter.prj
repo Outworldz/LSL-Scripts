@@ -1,6 +1,0 @@
-<Project name="SkyWriter" guid="134eace8-98db-4bbc-9e3b-7d3fc2658d34">
-	<Object name="Object" guid="7c91e893-ed39-404f-9d9b-9d0abe33662e" active="true">
-		<Script name="Script.lsl" guid="c9860fb0-0085-42ac-abae-623459c1eb8d">
-		</Script>
-	</Object>
-</Project>

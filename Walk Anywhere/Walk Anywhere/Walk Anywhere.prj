@@ -1,6 +1,0 @@
-<Project name="Walk Anywhere" guid="5b9c8f31-8ad9-4cf9-83c8-93b697845231">
-	<Object name="Object" guid="4137381f-4abd-4844-a226-1fa7eac50f33" active="true">
-		<Script name="Script.lsl" guid="8c22c6af-f567-42a0-b120-1724749ad884">
-		</Script>
-	</Object>
-</Project>

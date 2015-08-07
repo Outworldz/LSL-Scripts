@@ -1,6 +1,0 @@
-<Project name="controlled_window" guid="D702F78A-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D702F88E-6C00-1014-B904-200204C60A89">
-		<Script name="controlled_window_1.lsl" guid="D7030EB1-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

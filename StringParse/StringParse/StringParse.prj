@@ -1,6 +1,0 @@
-<Project name="StringParse" guid="D6A299CB-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6A29AAA-6C00-1014-B904-200204C60A89">
-		<Script name="StringParse_1.lsl" guid="D6A31E30-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

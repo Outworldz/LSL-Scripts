@@ -1,6 +1,0 @@
-<Project name="Zombies" guid="D8E52872-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8E52962-6C00-1014-B904-200204C60A89">
-		<Script name="Zombies_1.lsl" guid="D8E5CBF0-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

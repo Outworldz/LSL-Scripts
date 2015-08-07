@@ -1,5 +1,0 @@
-2008  "RR Lighting System" by alt "Runay Roussel"
-2009  Scripts were lost after leaving SL
-2011  Rewritten from scratch for OpenSim
-2012  Ported to SL
-2015  Dedicated to the public domain

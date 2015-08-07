@@ -1,6 +1,0 @@
-<Project name="SmokingActions" guid="D7AF27F0-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7AF28CB-6C00-1014-B904-200204C60A89">
-		<Script name="SmokingActions_1.lsl" guid="D7AF3F9C-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

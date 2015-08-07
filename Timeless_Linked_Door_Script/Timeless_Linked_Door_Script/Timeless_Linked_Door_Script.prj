@@ -1,6 +1,0 @@
-<Project name="Timeless_Linked_Door_Script" guid="D7C4298E-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7C42A86-6C00-1014-B904-200204C60A89">
-		<Script name="Timeless_Linked_Door_Script_1.lsl" guid="D7C47BFD-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

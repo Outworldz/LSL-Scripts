@@ -1,6 +1,0 @@
-<Project name="Dance_all_NPC" guid="D8EFF098-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8EFF197-6C00-1014-B904-200204C60A89">
-		<Script name="Dance_all_NPC_1.lsl" guid="D8F013A3-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

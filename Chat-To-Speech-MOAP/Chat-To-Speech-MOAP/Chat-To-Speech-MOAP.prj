@@ -1,6 +1,0 @@
-<Project name="Chat-To-Speech-MOAP" guid="a06559c9-750b-443d-8133-35e03cada760">
-	<Object name="Object" guid="65a42942-5877-424a-a3fe-8572b3defc33" active="true">
-		<Script name="Script.lsl" guid="a349949e-6f27-4aa4-a5d4-e6431d861b82">
-		</Script>
-	</Object>
-</Project>

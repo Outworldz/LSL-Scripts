@@ -1,6 +1,0 @@
-<Project name="swimming_fish" guid="D7BA050E-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7BA05F9-6C00-1014-B904-200204C60A89">
-		<Script name="swimming_fish_1.lsl" guid="D7BA436B-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

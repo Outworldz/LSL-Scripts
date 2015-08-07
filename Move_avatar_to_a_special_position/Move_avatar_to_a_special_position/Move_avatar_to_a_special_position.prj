@@ -1,8 +1,0 @@
-<Project name="Move_avatar_to_a_special_position" guid="D8ED3CCF-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8ED404D-6C00-1014-B904-200204C60A89">
-		<Script name="Move_avatar_to_a_special_position_1.lsl" guid="D8ED7A5B-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Move_avatar_to_a_special_position_2.lsl" guid="D8ED9F04-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

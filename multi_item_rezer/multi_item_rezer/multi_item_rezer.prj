@@ -1,6 +1,0 @@
-<Project name="multi_item_rezer" guid="D75C6921-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D75C6A2A-6C00-1014-B904-200204C60A89">
-		<Script name="multi_item_rezer_1.lsl" guid="D75C92E1-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

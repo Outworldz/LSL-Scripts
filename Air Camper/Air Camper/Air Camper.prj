@@ -1,6 +1,0 @@
-<Project name="Air Camper" guid="f44f40f0-1649-4d79-9908-61afdae1f7ce">
-	<Object name="Object" guid="11b10416-2aeb-4f0a-9ca7-fbb5e3ea2c4d" active="true">
-		<Script name="Script.lsl" guid="acbeb60e-4e76-4fce-9442-b7cbf01ab2fa">
-		</Script>
-	</Object>
-</Project>

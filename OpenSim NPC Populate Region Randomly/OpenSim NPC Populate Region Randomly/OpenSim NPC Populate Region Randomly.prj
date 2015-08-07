@@ -1,6 +1,0 @@
-<Project name="OpenSim NPC Populate Region Randomly" guid="6f75448a-80bd-45a2-819e-a01bbc8f464c">
-	<Object name="Object" guid="389011c2-3bb9-4e2a-9dca-74ae924b92e5" active="true">
-		<Script name="Script.lsl" guid="ac43d91c-173f-40eb-a3ef-78a6c8ebd172">
-		</Script>
-	</Object>
-</Project>

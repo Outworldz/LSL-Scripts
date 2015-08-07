@@ -1,6 +1,0 @@
-<Project name="Kill_Object_1" guid="D737C95A-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D737CA68-6C00-1014-B904-200204C60A89">
-		<Script name="Kill_Object_1_1.lsl" guid="D73803E0-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

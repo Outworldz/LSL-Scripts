@@ -1,6 +1,0 @@
-<Project name="Opensim_NPC_Recorder" guid="D8F3AC79-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8F3AD42-6C00-1014-B904-200204C60A89">
-		<Script name="Opensim_NPC_Recorder_1.lsl" guid="D8F3F29B-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

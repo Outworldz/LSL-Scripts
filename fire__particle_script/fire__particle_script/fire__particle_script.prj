@@ -1,6 +1,0 @@
-<Project name="fire__particle_script" guid="D71C7A4B-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D71C7B30-6C00-1014-B904-200204C60A89">
-		<Script name="fire__particle_script_1.lsl" guid="D71C9EE6-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

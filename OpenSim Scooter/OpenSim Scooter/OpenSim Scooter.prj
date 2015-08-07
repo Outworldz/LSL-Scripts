@@ -1,6 +1,0 @@
-<Project name="OpenSim Scooter" guid="3b20e7b6-5b11-49fe-82f8-f9071671dd06">
-	<Object name="Object" guid="a1e9e499-dd39-4035-b850-eff8551a8bc6" active="true">
-		<Script name="Script.lsl" guid="86217c83-7d17-4c20-a812-31cea69111c7">
-		</Script>
-	</Object>
-</Project>

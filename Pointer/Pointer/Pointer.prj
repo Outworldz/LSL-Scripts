@@ -1,8 +1,0 @@
-<Project name="Pointer" guid="D8101528-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8101617-6C00-1014-B904-200204C60A89">
-		<Script name="Pointer_1.lsl" guid="D81031C3-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Pointer_2.lsl" guid="D8104C30-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

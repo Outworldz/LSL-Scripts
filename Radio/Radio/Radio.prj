@@ -1,6 +1,0 @@
-<Project name="Radio" guid="14b94962-1e1c-4ef2-9cb6-2cbe613fb066">
-	<Object name="Object" guid="b1ebdb6d-f90d-459f-bfe0-acdabe655106" active="true">
-		<Script name="HTTP Radio.lsl" guid="2213516e-df6e-4d02-ac34-673a795bc2ae">
-		</Script>
-	</Object>
-</Project>

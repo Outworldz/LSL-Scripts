@@ -1,6 +1,0 @@
-<Project name="osTextBoard" guid="588b84b1-5861-44be-b976-c9ac080ecafc">
-	<Object name="Object" guid="e405bd81-92a5-4188-8a59-eb9b29cf9458" active="true">
-		<Script name="OsTextBoard script.lsl" guid="c834b9a5-ce73-4833-9ac0-947704705e10">
-		</Script>
-	</Object>
-</Project>

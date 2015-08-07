@@ -1,8 +1,0 @@
-<Project name="Splash" guid="d69a638f-6c00-1014-b904-200204c60a89">
-	<Object name="Object" guid="d69a6498-6c00-1014-b904-200204c60a89">
-		<Script name="Splash_1.lsl" guid="d69bb767-6c00-1014-b904-200204c60a89">
-		</Script>
-		<Script name="Splash_2.lsl" guid="b47c1bc8-3167-41e4-be37-d67965f916c7">
-		</Script>
-	</Object>
-</Project>

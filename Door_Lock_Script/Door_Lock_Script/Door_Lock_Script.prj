@@ -1,6 +1,0 @@
-<Project name="Door_Lock_Script" guid="D71236F2-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D71237D0-6C00-1014-B904-200204C60A89">
-		<Script name="Door_Lock_Script_1.lsl" guid="D71270F4-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

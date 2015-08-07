@@ -1,6 +1,0 @@
-<Project name="Perching bird" guid="c457fef6-2044-4f61-99b2-1d7e730e1013">
-	<Object name="Bird" guid="f11bfbfc-6739-4de8-9ce2-0796b2dc4e98" active="true">
-		<Script name="Script.lsl" guid="965c5307-9452-4fe3-bb33-e0ca9ba550ad">
-		</Script>
-	</Object>
-</Project>

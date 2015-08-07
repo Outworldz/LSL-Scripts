@@ -1,8 +1,0 @@
-<Project name="Platformer" guid="D810846B-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8108556-6C00-1014-B904-200204C60A89">
-		<Script name="Platformer_1.lsl" guid="D810A89F-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Platformer_2.lsl" guid="D810C40E-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

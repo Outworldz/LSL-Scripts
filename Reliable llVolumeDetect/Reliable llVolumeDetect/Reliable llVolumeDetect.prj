@@ -1,6 +1,0 @@
-<Project name="Reliable llVolumeDetect" guid="aeed1144-acd0-4bc7-b11e-72f7fed45515">
-	<Object name="Object" guid="90834c3e-8035-41d6-8a69-77111ab4bd2a" active="true">
-		<Script name="Script.lsl" guid="c9e9ab2f-fd3c-4a5a-be97-b8fdae0993f6">
-		</Script>
-	</Object>
-</Project>

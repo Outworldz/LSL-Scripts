@@ -1,6 +1,0 @@
-<Project name="SteamJunk_ManholeVent_Smoker" guid="D813F827-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D813F911-6C00-1014-B904-200204C60A89">
-		<Script name="SteamJunk_ManholeVent_Smoker_1.lsl" guid="D8142145-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

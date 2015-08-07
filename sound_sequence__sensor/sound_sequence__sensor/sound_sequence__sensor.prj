@@ -1,6 +1,0 @@
-<Project name="sound_sequence__sensor" guid="D7B239F5-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7B23AD9-6C00-1014-B904-200204C60A89">
-		<Script name="sound_sequence__sensor_1.lsl" guid="D7B258AF-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="Door_Script_for_linked_Objects_with" guid="D7E85C41-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7E85D1B-6C00-1014-B904-200204C60A89">
-		<Script name="Door_Script_for_linked_Objects_with_1.lsl" guid="D7E8B1DD-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

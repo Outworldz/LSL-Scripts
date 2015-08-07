@@ -1,6 +1,0 @@
-<Project name="eltees_Particle_Engine_1" guid="D717F108-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D717F1F7-6C00-1014-B904-200204C60A89">
-		<Script name="eltees_Particle_Engine_1_1.lsl" guid="D7183DE8-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="Leopard_Animball_V3" guid="D752B99A-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D752BA7C-6C00-1014-B904-200204C60A89">
-		<Script name="Leopard_Animball_V3_1.lsl" guid="D752DAB6-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

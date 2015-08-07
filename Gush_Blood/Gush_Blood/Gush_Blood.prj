@@ -1,6 +1,0 @@
-<Project name="Gush_Blood" guid="D8AD3152-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8AD323B-6C00-1014-B904-200204C60A89">
-		<Script name="Gush_Blood_1.lsl" guid="D8AD6214-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

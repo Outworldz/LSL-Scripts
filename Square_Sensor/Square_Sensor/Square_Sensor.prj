@@ -1,6 +1,0 @@
-<Project name="Square_Sensor" guid="D808CCCE-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D808CDCA-6C00-1014-B904-200204C60A89">
-		<Script name="Square_Sensor_1.lsl" guid="D808F1FD-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="Walk_Other" guid="D8078DDD-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8078ED8-6C00-1014-B904-200204C60A89">
-		<Script name="Walk_Other_1.lsl" guid="D807B313-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

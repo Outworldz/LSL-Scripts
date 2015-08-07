@@ -1,8 +1,0 @@
-<Project name="Chains" guid="4fb1928e-9eb3-4e75-949b-dcedc1e8c360">
-	<Object name="Object" guid="4d408f10-17c2-4ca7-9c72-da4d060939f6" active="true">
-		<Script name="chain script.lsl" guid="b5cdbcde-37ae-440f-80d1-6a52405f0486">
-		</Script>
-		<Snapshot name="chain.png" guid="af011fb9-b2ac-44ec-bfc3-1a86546dd520">
-		</Snapshot>
-	</Object>
-</Project>

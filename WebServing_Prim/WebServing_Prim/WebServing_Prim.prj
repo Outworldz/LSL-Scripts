@@ -1,6 +1,0 @@
-<Project name="WebServing_Prim" guid="D86373EC-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D86374CA-6C00-1014-B904-200204C60A89">
-		<Script name="WebServing_Prim_1.lsl" guid="D863B075-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

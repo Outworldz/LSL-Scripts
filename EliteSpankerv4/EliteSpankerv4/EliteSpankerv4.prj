@@ -1,8 +1,0 @@
-<Project name="EliteSpankerv4" guid="D7DF0130-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7DF020F-6C00-1014-B904-200204C60A89">
-		<Script name="EliteSpankerv4_1.lsl" guid="D7DF5A80-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="EliteSpankerv4_2.lsl" guid="D7DF8DA8-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

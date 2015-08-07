@@ -1,6 +1,0 @@
-<Project name="SL_Pie_Chart_Maker" guid="D6C4E130-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6C4E20B-6C00-1014-B904-200204C60A89">
-		<Script name="SL_Pie_Chart_Maker_1.lsl" guid="D6D089D5-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

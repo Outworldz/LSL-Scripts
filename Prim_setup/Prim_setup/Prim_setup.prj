@@ -1,8 +1,0 @@
-<Project name="Prim_setup" guid="D872C8AE-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D872C9A3-6C00-1014-B904-200204C60A89">
-		<Script name="Prim_setup_1.lsl" guid="D872EBA5-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Prim_setup_2.lsl" guid="D873002B-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="Linkset_Resizer" guid="D8742CB0-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8742D9A-6C00-1014-B904-200204C60A89">
-		<Script name="Linkset_Resizer_1.lsl" guid="D87458C1-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

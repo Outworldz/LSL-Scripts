@@ -1,6 +1,0 @@
-<Project name="Make_TinyURLs_by_script" guid="D860977E-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D860986C-6C00-1014-B904-200204C60A89">
-		<Script name="Make_TinyURLs_by_script_1.lsl" guid="D860B2CA-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

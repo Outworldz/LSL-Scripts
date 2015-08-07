@@ -1,6 +1,0 @@
-<Project name="Physics_Watcher_Script" guid="D76B5B00-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D76B5C14-6C00-1014-B904-200204C60A89">
-		<Script name="Physics_Watcher_Script_1.lsl" guid="D76B8B3C-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

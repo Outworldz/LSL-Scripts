@@ -1,6 +1,0 @@
-<Project name="Nonrotating_HUD_positioner" guid="D8CEBE1D-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8CEBEFD-6C00-1014-B904-200204C60A89">
-		<Script name="Nonrotating_HUD_positioner_1.lsl" guid="D8CEDE8D-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

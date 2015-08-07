@@ -1,6 +1,0 @@
-<Project name="Simple_MP3_music_player" guid="D84E6ECE-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D84E6FB4-6C00-1014-B904-200204C60A89">
-		<Script name="Simple_MP3_music_player_1.lsl" guid="D84E9185-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

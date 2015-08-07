@@ -1,6 +1,0 @@
-<Project name="Attitude_Indicator_Artificial_Horiz" guid="D8B93317-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8B93407-6C00-1014-B904-200204C60A89">
-		<Script name="Attitude_Indicator_Artificial_Horiz_1.lsl" guid="D8B957C1-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

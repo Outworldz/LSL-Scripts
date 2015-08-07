@@ -1,6 +1,0 @@
-<Project name="Fog_ground" guid="D725AE84-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D725AF75-6C00-1014-B904-200204C60A89">
-		<Script name="Fog_ground_1.lsl" guid="D7263DAD-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

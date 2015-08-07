@@ -1,6 +1,0 @@
-<Project name="Sound_Script" guid="D7B1E52F-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7B1E60D-6C00-1014-B904-200204C60A89">
-		<Script name="Sound_Script_1.lsl" guid="D7B1FC6E-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

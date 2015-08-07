@@ -1,6 +1,0 @@
-<Project name="L61basicwateranimation" guid="D73A1420-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D73A150F-6C00-1014-B904-200204C60A89">
-		<Script name="L61basicwateranimation_1.lsl" guid="D73A2E56-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

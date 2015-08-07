@@ -1,6 +1,0 @@
-<Project name="Free_flight_bird_script" guid="D8668ADF-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8668BD3-6C00-1014-B904-200204C60A89">
-		<Script name="Free_flight_bird_script_1.lsl" guid="D8673A9D-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

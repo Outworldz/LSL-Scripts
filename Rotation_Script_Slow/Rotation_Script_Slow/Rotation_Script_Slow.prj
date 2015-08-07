@@ -1,6 +1,0 @@
-<Project name="Rotation_Script_Slow" guid="D7867CC2-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7867DA9-6C00-1014-B904-200204C60A89">
-		<Script name="Rotation_Script_Slow_1.lsl" guid="D78698C0-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

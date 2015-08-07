@@ -1,8 +1,0 @@
-<Project name="HTML_Rendering_from_Notecard" guid="D861B68A-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D861B76A-6C00-1014-B904-200204C60A89">
-		<Script name="HTML_Rendering_from_Notecard_1.lsl" guid="D861E0BE-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="HTML_Rendering_from_Notecard_2.lsl" guid="D861FA43-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

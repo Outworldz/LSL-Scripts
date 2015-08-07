@@ -1,6 +1,0 @@
-<Project name="Chain_a_Person" guid="d8c9fb3d-6c00-1014-b904-200204c60a89">
-	<Object name="Object" guid="d8c9fc2e-6c00-1014-b904-200204c60a89">
-		<Script name="Chain_a_Person_1.lsl" guid="d8ca31a8-6c00-1014-b904-200204c60a89">
-		</Script>
-	</Object>
-</Project>

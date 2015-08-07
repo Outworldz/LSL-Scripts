@@ -1,6 +1,0 @@
-<Project name="Shrink-on-collide" guid="6a48d62e-86f7-4cd2-86e4-c0a18cabbe68">
-	<Object name="Object" guid="73554f12-adc0-405f-8efe-8a80eb9ef720" active="true">
-		<Script name="Script.lsl" guid="3441d06e-0cac-4861-bfa7-5fe956533e7c">
-		</Script>
-	</Object>
-</Project>

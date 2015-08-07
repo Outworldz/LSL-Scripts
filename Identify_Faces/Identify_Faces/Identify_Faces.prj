@@ -1,6 +1,0 @@
-<Project name="Identify_Faces" guid="D7307C57-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7307D3D-6C00-1014-B904-200204C60A89">
-		<Script name="Identify_Faces_1.lsl" guid="D7309BCE-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

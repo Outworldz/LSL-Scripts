@@ -1,6 +1,0 @@
-<Project name="steam" guid="D7B5EA4E-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7B5EB3D-6C00-1014-B904-200204C60A89">
-		<Script name="steam_1.lsl" guid="D7B6285A-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

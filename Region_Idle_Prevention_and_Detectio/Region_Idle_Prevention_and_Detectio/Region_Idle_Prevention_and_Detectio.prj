@@ -1,8 +1,0 @@
-<Project name="Region_Idle_Prevention_and_Detectio" guid="D8CCF16E-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8CCF25A-6C00-1014-B904-200204C60A89">
-		<Script name="Region_Idle_Prevention_and_Detectio_1.lsl" guid="D8CD0AB0-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Region_Idle_Prevention_and_Detectio_2.lsl" guid="D8CD1FD3-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

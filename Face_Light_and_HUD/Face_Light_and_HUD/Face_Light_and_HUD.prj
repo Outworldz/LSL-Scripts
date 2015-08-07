@@ -1,8 +1,0 @@
-<Project name="Face_Light_and_HUD" guid="D84ABC41-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D84ABD20-6C00-1014-B904-200204C60A89">
-		<Script name="Face_Light_and_HUD_1.lsl" guid="D84AE179-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Face_Light_and_HUD_2.lsl" guid="D84AF6C1-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="NPC_Save_Apperance_Notecard_Maker" guid="D8F43B89-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8F43C7A-6C00-1014-B904-200204C60A89">
-		<Script name="NPC_Save_Apperance_Notecard_Maker_1.lsl" guid="D8F452B4-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

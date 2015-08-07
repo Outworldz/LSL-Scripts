@@ -1,6 +1,0 @@
-<Project name="BasicParticle" guid="D6127954-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6127A30-6C00-1014-B904-200204C60A89">
-		<Script name="BasicParticle_1.lsl" guid="D612A0A0-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

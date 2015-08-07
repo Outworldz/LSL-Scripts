@@ -1,6 +1,0 @@
-<Project name="Blinking Eye" guid="a7489c31-29a9-4574-87c2-645601158b92">
-	<Object name="Object" guid="d5e32e8b-506b-426d-af4b-050d8ee7b018" active="true">
-		<Script name="Script.lsl" guid="21c2cb7a-1687-45fe-bc5e-eb9f063a2c78">
-		</Script>
-	</Object>
-</Project>

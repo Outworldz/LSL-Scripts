@@ -1,6 +1,0 @@
-<Project name="T_Poser" guid="D7BE64F6-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7BE65E7-6C00-1014-B904-200204C60A89">
-		<Script name="T_Poser_1.lsl" guid="D7BE81D7-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

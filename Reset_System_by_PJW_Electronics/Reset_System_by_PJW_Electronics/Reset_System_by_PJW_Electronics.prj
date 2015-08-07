@@ -1,8 +1,0 @@
-<Project name="Reset_System_by_PJW_Electronics" guid="D8BA849D-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8BA8585-6C00-1014-B904-200204C60A89">
-		<Script name="Reset_System_by_PJW_Electronics_1.lsl" guid="D8BAA54F-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Reset_System_by_PJW_Electronics_2.lsl" guid="D8BABA52-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

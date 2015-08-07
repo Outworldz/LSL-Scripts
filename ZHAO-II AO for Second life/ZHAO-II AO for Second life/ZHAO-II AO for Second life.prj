@@ -1,6 +1,0 @@
-<Project name="ZHAO-II AO for Second life" guid="b1f01165-e0bb-4d83-a965-e2052d2f3cdd">
-	<Object name="Object" guid="8688f052-db07-48a1-a2c4-3f5ef2d1c974" active="true">
-		<Script name="ZHAO-II.lsl" guid="003f5d80-352a-4211-b624-233871d646df">
-		</Script>
-	</Object>
-</Project>

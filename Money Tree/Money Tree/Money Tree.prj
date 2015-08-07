@@ -1,8 +1,0 @@
-<Project name="Money Tree" guid="4ec392c0-3199-4dfd-873c-7b38c94f75c6">
-	<Object name="Object" guid="bad4c4ff-35f9-43bc-b080-75b33f8aaf97" active="true">
-		<Script name="Leaf.lsl" guid="a9dc3f87-0f0b-491f-98b4-9890aa3faf56">
-		</Script>
-		<Script name="Tree.lsl" guid="a467be49-4d79-45d8-8f9e-99458c40a83a">
-		</Script>
-	</Object>
-</Project>

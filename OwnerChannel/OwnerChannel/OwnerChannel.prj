@@ -1,6 +1,0 @@
-<Project name="OwnerChannel" guid="42bb0c2d-7dbb-4b75-9fbc-76b7314ac9be">
-	<Object name="Object" guid="7c1a6863-8121-4ec9-9b37-75b177ae8c52" active="true">
-		<Script name="Owner Channel for listens.lsl" guid="7ac14d2c-d47c-483a-8d2d-1a31950d54ce">
-		</Script>
-	</Object>
-</Project>

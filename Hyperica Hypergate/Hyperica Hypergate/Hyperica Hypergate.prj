@@ -1,6 +1,0 @@
-<Project name="Hyperica Hypergate" guid="428a7001-aa10-44cc-8412-09df394c82dc">
-	<Object name="Gate" guid="41263065-3c0d-4585-a87f-cbcf841fb1d6" active="true">
-		<Script name="Hyperica Hypergate Script CC0 LL v2.0.lsl" guid="2750c86e-03b4-4ea6-b5f1-f901c20834b9">
-		</Script>
-	</Object>
-</Project>

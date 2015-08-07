@@ -1,8 +1,0 @@
-<Project name="ButterflyGenerator" guid="ee8ed798-4c05-493f-9fc9-b83e90c38c24">
-	<Object name="rezzer Box" guid="b40c2e84-991a-4349-8cee-8c9bc7e6d8ce" active="true">
-		<Snapshot name="butterfly002.png" guid="2e3621cd-7fdc-4c6b-ad80-4d5836c4b236">
-		</Snapshot>
-		<Script name="ButterflyGenerator.lsl" guid="a7d8a825-4104-45e7-993b-172ef0d6dd2f">
-		</Script>
-	</Object>
-</Project>

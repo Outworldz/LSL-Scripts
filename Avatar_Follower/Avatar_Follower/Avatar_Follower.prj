@@ -1,6 +1,0 @@
-<Project name="Avatar_Follower" guid="D89CBB94-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D89CBC83-6C00-1014-B904-200204C60A89">
-		<Script name="Avatar_Follower_1.lsl" guid="D89CFBBE-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

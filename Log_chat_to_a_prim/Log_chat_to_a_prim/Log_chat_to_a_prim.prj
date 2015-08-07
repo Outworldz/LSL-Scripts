@@ -1,6 +1,0 @@
-<Project name="Log_chat_to_a_prim" guid="D862FE73-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D862FF67-6C00-1014-B904-200204C60A89">
-		<Script name="Log_chat_to_a_prim_1.lsl" guid="D86330CF-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

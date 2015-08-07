@@ -1,8 +1,0 @@
-<Project name="Typing animation" guid="ddcfd75e-4fee-4091-b707-af952c23d547">
-	<Object name="Object" guid="373d86d2-a977-4c98-9d77-f1e47bcd85c6" active="true">
-		<Script name="Controller script.lsl" guid="7971f9e5-a9eb-4620-af8d-3732dbd3e16b">
-		</Script>
-		<Script name="top of prim.lsl" guid="ebb62cc8-ead8-4190-a198-dbc765493618">
-		</Script>
-	</Object>
-</Project>

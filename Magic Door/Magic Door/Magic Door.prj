@@ -1,8 +1,0 @@
-<Project name="Magic Door" guid="88d18c45-2370-4224-a28b-ed275fa3efbb">
-	<Object name="Object" guid="75887cd1-b9cf-4f50-b229-6bb8cf73e881" active="true">
-		<Script name="Fairy door script.lsl" guid="aaead990-4d57-4db2-b8b3-2bef3d395256">
-		</Script>
-		<Script name="moving prim for door.lsl" guid="6e5301ce-37a0-4a1f-935b-c3ca7beba146">
-		</Script>
-	</Object>
-</Project>

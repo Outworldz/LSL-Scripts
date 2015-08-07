@@ -1,6 +1,0 @@
-<Project name="Make_an_entire_prim_set_invisible_o" guid="D8B3F249-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8B3F347-6C00-1014-B904-200204C60A89">
-		<Script name="Make_an_entire_prim_set_invisible_o_1.lsl" guid="D8B40E2A-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

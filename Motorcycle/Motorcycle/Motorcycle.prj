@@ -1,6 +1,0 @@
-<Project name="Motorcycle" guid="D75AB0D7-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D75AB1DC-6C00-1014-B904-200204C60A89">
-		<Script name="Motorcycle_1.lsl" guid="D75AE171-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

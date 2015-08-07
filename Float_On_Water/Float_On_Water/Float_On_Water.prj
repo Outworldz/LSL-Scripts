@@ -1,8 +1,0 @@
-<Project name="Float_On_Water" guid="D80F98A6-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D80F99B0-6C00-1014-B904-200204C60A89">
-		<Script name="Float_On_Water_1.lsl" guid="D80FB99C-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Float_On_Water_2.lsl" guid="D80FD1C6-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

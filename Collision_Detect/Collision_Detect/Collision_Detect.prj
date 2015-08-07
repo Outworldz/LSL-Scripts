@@ -1,6 +1,0 @@
-<Project name="Collision_Detect" guid="D80AE32F-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D80AE421-6C00-1014-B904-200204C60A89">
-		<Script name="Collision_Detect_1.lsl" guid="D80B1179-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

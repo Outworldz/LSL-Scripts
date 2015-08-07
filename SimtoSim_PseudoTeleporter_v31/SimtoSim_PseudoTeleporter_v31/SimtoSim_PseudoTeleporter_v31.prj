@@ -1,6 +1,0 @@
-<Project name="SimtoSim_PseudoTeleporter_v31" guid="D8C41610-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8C416F8-6C00-1014-B904-200204C60A89">
-		<Script name="SimtoSim_PseudoTeleporter_v31_1.lsl" guid="D8C46AF3-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

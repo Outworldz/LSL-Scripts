@@ -1,6 +1,0 @@
-<Project name="SLPhant" guid="5c16b914-0dac-480b-9aa5-0ed6923662b3">
-	<Object name="Object" guid="f1142dab-b04a-4b34-bbfa-78f3c6d470f2" active="true">
-		<Script name="Script.lsl" guid="bf9840ce-f53e-49ff-ad32-2af43a701f36">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="Special_Particle_Sensor__Brain_" guid="D7B2E817-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7B2E8F5-6C00-1014-B904-200204C60A89">
-		<Script name="Special_Particle_Sensor__Brain__1.lsl" guid="D7B325C6-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

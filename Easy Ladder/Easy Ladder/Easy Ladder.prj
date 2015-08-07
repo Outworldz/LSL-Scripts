@@ -1,6 +1,0 @@
-<Project name="Easy Ladder" guid="b943122d-db4a-4794-bfe9-75d9b84fa9d7">
-	<Object name="Object" guid="3354bb52-2de2-44de-97c0-5bb50dba135e" active="true">
-		<Script name="Script.lsl" guid="1321aa33-477b-4dc6-8d8e-fa557a394339">
-		</Script>
-	</Object>
-</Project>

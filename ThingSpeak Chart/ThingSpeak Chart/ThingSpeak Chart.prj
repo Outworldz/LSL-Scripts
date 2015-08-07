@@ -1,6 +1,0 @@
-<Project name="ThingSpeak Chart" guid="7baf63b5-8d5e-4185-9a19-f63fa9137e66">
-	<Object name="Web Chart Sender" guid="55798561-38d6-4ad2-91fc-d8ea5997ad19" active="true">
-		<Script name="Script.lsl" guid="255edfda-df79-4ddd-aa76-c67ed1b0859d">
-		</Script>
-	</Object>
-</Project>

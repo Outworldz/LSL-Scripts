@@ -1,6 +1,0 @@
-<Project name="Heart_shower_when_two_people_are_near" guid="d8bc3e31-6c00-1014-b904-200204c60a89">
-	<Object name="Object" guid="d8bc3f28-6c00-1014-b904-200204c60a89">
-		<Script name="Heart_shower_when_two_people_are_near_1.lsl" guid="d8bc850f-6c00-1014-b904-200204c60a89">
-		</Script>
-	</Object>
-</Project>

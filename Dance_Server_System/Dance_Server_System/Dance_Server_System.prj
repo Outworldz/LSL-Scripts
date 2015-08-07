@@ -1,8 +1,0 @@
-<Project name="Dance_Server_System" guid="D8AFDB05-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8AFDC1B-6C00-1014-B904-200204C60A89">
-		<Script name="Dance_Server_System_1.lsl" guid="D8B020DE-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Dance_Server_System_2.lsl" guid="D8B03E6C-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

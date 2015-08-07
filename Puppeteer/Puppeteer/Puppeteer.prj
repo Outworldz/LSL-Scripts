@@ -1,8 +1,0 @@
-<Project name="Puppeteer" guid="D8C1CCDA-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8C1CDA7-6C00-1014-B904-200204C60A89">
-		<Script name="Puppeteer_1.lsl" guid="D8C20B4A-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Puppeteer_2.lsl" guid="D8C22CDB-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

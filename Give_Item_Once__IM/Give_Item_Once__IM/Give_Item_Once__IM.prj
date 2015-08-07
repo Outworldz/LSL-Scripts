@@ -1,6 +1,0 @@
-<Project name="Give_Item_Once__IM" guid="D728F3BB-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D728F4A0-6C00-1014-B904-200204C60A89">
-		<Script name="Give_Item_Once__IM_1.lsl" guid="D72911F6-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

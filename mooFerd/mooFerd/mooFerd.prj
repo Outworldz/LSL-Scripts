@@ -1,6 +1,0 @@
-<Project name="mooFerd" guid="144d920d-ebae-45b6-8875-214a7b3b65e2">
-	<Object name="Animal" guid="0d275a46-116e-4f85-ab61-251d7107d829" active="true">
-		<Script name="Script.lsl" guid="1d8b7fe7-0a0b-4773-b422-667dd6a635a4">
-		</Script>
-	</Object>
-</Project>

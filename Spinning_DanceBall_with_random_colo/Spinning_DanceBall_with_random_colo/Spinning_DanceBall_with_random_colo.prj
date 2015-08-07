@@ -1,6 +1,0 @@
-<Project name="Spinning_DanceBall_with_random_colo" guid="D8A1620F-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8A16306-6C00-1014-B904-200204C60A89">
-		<Script name="Spinning_DanceBall_with_random_colo_1.lsl" guid="D8A18336-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

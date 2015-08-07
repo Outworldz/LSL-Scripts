@@ -1,6 +1,0 @@
-<Project name="Camera_on_Top" guid="D8CE492A-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8CE4A27-6C00-1014-B904-200204C60A89">
-		<Script name="Camera_on_Top_1.lsl" guid="D8CE79E2-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

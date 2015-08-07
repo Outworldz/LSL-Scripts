@@ -1,6 +1,0 @@
-<Project name="Basic_Emailer_Script" guid="D6E58A24-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6E58B17-6C00-1014-B904-200204C60A89">
-		<Script name="Basic_Emailer_Script_1.lsl" guid="D6E5BD60-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

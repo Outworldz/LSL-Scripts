@@ -1,6 +1,0 @@
-<Project name="Domino" guid="D70EF054-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D70EF142-6C00-1014-B904-200204C60A89">
-		<Script name="Domino_1.lsl" guid="D710D4DB-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

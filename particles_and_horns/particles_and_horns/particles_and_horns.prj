@@ -1,6 +1,0 @@
-<Project name="particles_and_horns" guid="D718811D-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7188208-6C00-1014-B904-200204C60A89">
-		<Script name="particles_and_horns_1.lsl" guid="D718ACB2-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

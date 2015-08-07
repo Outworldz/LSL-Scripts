@@ -1,6 +1,0 @@
-<Project name="Light_Bulb_Broadcaster" guid="D7536D09-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7536E02-6C00-1014-B904-200204C60A89">
-		<Script name="Light_Bulb_Broadcaster_1.lsl" guid="D75387E8-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

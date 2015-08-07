@@ -1,6 +1,0 @@
-<Project name="day_night_script_that_detect_and_do" guid="D70771D3-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D70772CD-6C00-1014-B904-200204C60A89">
-		<Script name="day_night_script_that_detect_and_do_1.lsl" guid="D70788F9-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

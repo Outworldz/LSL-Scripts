@@ -1,6 +1,0 @@
-<Project name="CaseInsensitiveListenRezzer" guid="D7DC9421-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7DC94FE-6C00-1014-B904-200204C60A89">
-		<Script name="CaseInsensitiveListenRezzer_1.lsl" guid="D7DCD121-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

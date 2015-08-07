@@ -1,8 +1,0 @@
-<Project name="Tour Bird" guid="f551d1a4-32ff-4cfc-89d3-8c4def4cfb8c">
-	<Object name="10" guid="f96572b6-d53f-4fad-a158-1bbe90e8718a" active="true">
-		<Script name="10.lsl" guid="ae1dee76-1d26-45cc-8041-114cd9121ba7">
-		</Script>
-		<Script name="Recorder.lsl" guid="1cb47f75-6a72-4ca2-9d9a-6126207196a2">
-		</Script>
-	</Object>
-</Project>

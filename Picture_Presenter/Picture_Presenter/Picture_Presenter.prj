@@ -1,6 +1,0 @@
-<Project name="Picture_Presenter" guid="D76BE074-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D76BE163-6C00-1014-B904-200204C60A89">
-		<Script name="Picture_Presenter_1.lsl" guid="D76C058F-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

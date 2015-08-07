@@ -1,8 +1,0 @@
-<Project name="Multiple_level_logger_for_debug" guid="D7E485B6-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7E48690-6C00-1014-B904-200204C60A89">
-		<Script name="Multiple_level_logger_for_debug_1.lsl" guid="D7E4A295-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Multiple_level_logger_for_debug_2.lsl" guid="D7E4BB0A-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

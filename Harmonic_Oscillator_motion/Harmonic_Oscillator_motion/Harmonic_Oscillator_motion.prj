@@ -1,6 +1,0 @@
-<Project name="Harmonic_Oscillator_motion" guid="D8C0A702-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8C0ABA6-6C00-1014-B904-200204C60A89">
-		<Script name="Harmonic_Oscillator_motion_1.lsl" guid="D8C0C9B2-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

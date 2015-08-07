@@ -1,6 +1,0 @@
-<Project name="ColorChange" guid="D700FB2E-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D700FC97-6C00-1014-B904-200204C60A89">
-		<Script name="ColorChange_1.lsl" guid="D7011A47-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

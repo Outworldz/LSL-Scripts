@@ -1,6 +1,0 @@
-<Project name="SL_Molecule_Builder" guid="D6BEBAA0-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6BEBB8A-6C00-1014-B904-200204C60A89">
-		<Script name="SL_Molecule_Builder_1.lsl" guid="D6BEDDD4-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

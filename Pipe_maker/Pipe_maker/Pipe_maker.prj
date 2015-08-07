@@ -1,6 +1,0 @@
-<Project name="Pipe_maker" guid="D7ECF6EA-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7ECF7E5-6C00-1014-B904-200204C60A89">
-		<Script name="Pipe_maker_1.lsl" guid="D7ED5E94-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

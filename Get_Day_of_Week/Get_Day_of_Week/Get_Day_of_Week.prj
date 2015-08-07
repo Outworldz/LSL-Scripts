@@ -1,8 +1,0 @@
-<Project name="Get_Day_of_Week" guid="D7F573DA-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7F575F2-6C00-1014-B904-200204C60A89">
-		<Script name="Get_Day_of_Week_1.lsl" guid="D7F59ECA-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Get_Day_of_Week_2.lsl" guid="D7F5C943-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

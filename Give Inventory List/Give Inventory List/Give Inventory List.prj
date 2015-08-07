@@ -1,6 +1,0 @@
-<Project name="Give Inventory List" guid="0980a525-ca9b-4d66-9b5b-8172524f3861">
-	<Object name="Object" guid="ef0770bd-dba5-44df-851c-7039d3e1c574" active="true">
-		<Script name="Script.lsl" guid="bdfe0501-2611-4db3-b5b4-7c7035fe85a7">
-		</Script>
-	</Object>
-</Project>

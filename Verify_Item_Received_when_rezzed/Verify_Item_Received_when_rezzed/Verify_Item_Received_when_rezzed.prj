@@ -1,6 +1,0 @@
-<Project name="Verify_Item_Received_when_rezzed" guid="D8344F56-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8345038-6C00-1014-B904-200204C60A89">
-		<Script name="Verify_Item_Received_when_rezzed_1.lsl" guid="D834B846-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

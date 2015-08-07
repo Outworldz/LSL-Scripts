@@ -1,6 +1,0 @@
-<Project name="Color_fade_script" guid="D6FF7607-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6FF76F1-6C00-1014-B904-200204C60A89">
-		<Script name="Color_fade_script_1.lsl" guid="D6FFB892-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

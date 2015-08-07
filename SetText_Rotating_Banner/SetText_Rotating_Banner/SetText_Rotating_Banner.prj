@@ -1,6 +1,0 @@
-<Project name="SetText_Rotating_Banner" guid="D7979041-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7979129-6C00-1014-B904-200204C60A89">
-		<Script name="SetText_Rotating_Banner_1.lsl" guid="D797B67A-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

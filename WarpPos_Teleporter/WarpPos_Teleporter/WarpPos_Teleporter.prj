@@ -1,6 +1,0 @@
-<Project name="WarpPos_Teleporter" guid="D80CB1D8-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D80CB2AC-6C00-1014-B904-200204C60A89">
-		<Script name="WarpPos_Teleporter_1.lsl" guid="D80CD40B-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

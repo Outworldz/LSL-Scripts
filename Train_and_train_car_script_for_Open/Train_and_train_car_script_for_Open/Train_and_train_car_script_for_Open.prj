@@ -1,8 +1,0 @@
-<Project name="Train_and_train_car_script_for_Open" guid="D8788B37-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8788C32-6C00-1014-B904-200204C60A89">
-		<Script name="Train_and_train_car_script_for_Open_1.lsl" guid="D878DBF7-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Train_and_train_car_script_for_Open_2.lsl" guid="D878FBB3-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

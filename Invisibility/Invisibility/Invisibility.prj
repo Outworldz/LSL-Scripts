@@ -1,6 +1,0 @@
-<Project name="Invisibility" guid="D73245E3-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D73246CE-6C00-1014-B904-200204C60A89">
-		<Script name="Invisibility_1.lsl" guid="D732817B-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

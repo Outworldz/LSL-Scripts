@@ -1,6 +1,0 @@
-<Project name="Color Shifter" guid="ff183ea8-8b6b-4828-b876-f0069d2d76a6">
-	<Object name="Object" guid="9d7cb4bc-5d42-4e64-8f4f-01575cf29d34" active="true">
-		<Script name="Color Shifter.lsl" guid="21eb0bc2-e6c2-4f29-b48d-3876308364f9">
-		</Script>
-	</Object>
-</Project>

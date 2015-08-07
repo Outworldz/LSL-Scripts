@@ -1,6 +1,0 @@
-<Project name="LandMark_NoteCard_Giver" guid="D7506FA3-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7507081-6C00-1014-B904-200204C60A89">
-		<Script name="LandMark_NoteCard_Giver_1.lsl" guid="D7509AFF-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

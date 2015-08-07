@@ -1,8 +1,0 @@
-<Project name="Vendor" guid="D6A7ADDE-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6A7AEAC-6C00-1014-B904-200204C60A89">
-		<Script name="Vendor_1.lsl" guid="D6AB2CE7-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Vendor_2.lsl" guid="D6AB4A0B-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

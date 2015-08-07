@@ -1,6 +1,0 @@
-<Project name="Change_window_resolution" guid="D85D0291-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D85D0390-6C00-1014-B904-200204C60A89">
-		<Script name="Change_window_resolution_1.lsl" guid="D85D19E3-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

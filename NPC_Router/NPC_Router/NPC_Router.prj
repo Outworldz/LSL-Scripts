@@ -1,6 +1,0 @@
-<Project name="NPC_Router" guid="D8F67CFC-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8F67E16-6C00-1014-B904-200204C60A89">
-		<Script name="NPC_Router_1.lsl" guid="D8F6A76A-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

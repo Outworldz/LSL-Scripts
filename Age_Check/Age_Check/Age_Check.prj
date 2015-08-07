@@ -1,6 +1,0 @@
-<Project name="Age_Check" guid="D6D9FF6B-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6DA004E-6C00-1014-B904-200204C60A89">
-		<Script name="Age_Check_1.lsl" guid="D6DA2149-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

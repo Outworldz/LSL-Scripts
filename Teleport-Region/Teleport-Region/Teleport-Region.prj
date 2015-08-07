@@ -1,6 +1,0 @@
-<Project name="Teleport-Region" guid="3b0a95cc-a03e-40a5-a0b0-e5ca0f1f564a">
-	<Object name="Object" guid="92a82f59-72e8-4a56-9187-96958eb696d7" active="true">
-		<Script name="Script.lsl" guid="56127147-6990-428e-af9b-645e8df5db7d">
-		</Script>
-	</Object>
-</Project>

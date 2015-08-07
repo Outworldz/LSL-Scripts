@@ -1,6 +1,0 @@
-<Project name="Gambling_Engine" guid="D727E4A2-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D727E580-6C00-1014-B904-200204C60A89">
-		<Script name="Gambling_Engine_1.lsl" guid="D728076C-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

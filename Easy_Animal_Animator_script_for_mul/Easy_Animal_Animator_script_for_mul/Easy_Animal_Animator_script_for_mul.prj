@@ -1,8 +1,0 @@
-<Project name="Easy_Animal_Animator_script_for_mul" guid="D84CCD08-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D84CCDE5-6C00-1014-B904-200204C60A89">
-		<Script name="Easy_Animal_Animator_script_for_mul_1.lsl" guid="D84CF30C-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Easy_Animal_Animator_script_for_mul_2.lsl" guid="D84D26F1-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

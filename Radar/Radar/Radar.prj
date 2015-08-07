@@ -1,6 +1,0 @@
-<Project name="Radar" guid="D68D2D60-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D68D2E3D-6C00-1014-B904-200204C60A89">
-		<Script name="Radar_1.lsl" guid="D68EE03B-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="Hud_Hider" guid="D7302600-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D73026E9-6C00-1014-B904-200204C60A89">
-		<Script name="Hud_Hider_1.lsl" guid="D7303D8F-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="listener" guid="D7541BAA-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7541C98-6C00-1014-B904-200204C60A89">
-		<Script name="listener_1.lsl" guid="D75438B8-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="DrinkScript" guid="D715BEC5-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D715BFA4-6C00-1014-B904-200204C60A89">
-		<Script name="DrinkScript_1.lsl" guid="D715DCC1-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

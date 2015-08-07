@@ -1,6 +1,0 @@
-<Project name="Dodge" guid="D811D5E8-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D811D6DA-6C00-1014-B904-200204C60A89">
-		<Script name="Dodge_1.lsl" guid="D811F0E3-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

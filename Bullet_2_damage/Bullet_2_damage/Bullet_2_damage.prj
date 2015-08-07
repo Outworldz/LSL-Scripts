@@ -1,6 +1,0 @@
-<Project name="Bullet_2_damage" guid="D61C09EF-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D61C0AE4-6C00-1014-B904-200204C60A89">
-		<Script name="Bullet_2_damage_1.lsl" guid="D61DFDAA-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

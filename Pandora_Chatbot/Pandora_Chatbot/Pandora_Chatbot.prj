@@ -1,8 +1,0 @@
-<Project name="Pandora_Chatbot" guid="D7E6B0F5-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7E6B20A-6C00-1014-B904-200204C60A89">
-		<Script name="Pandora_Chatbot_1.lsl" guid="D7E6DA98-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Pandora_Chatbot_2.lsl" guid="D7E6F0A1-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

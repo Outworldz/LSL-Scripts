@@ -1,6 +1,0 @@
-<Project name="Breakable_Crate" guid="D80E36D6-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D80E37C2-6C00-1014-B904-200204C60A89">
-		<Script name="Breakable_Crate_1.lsl" guid="D80E6E99-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

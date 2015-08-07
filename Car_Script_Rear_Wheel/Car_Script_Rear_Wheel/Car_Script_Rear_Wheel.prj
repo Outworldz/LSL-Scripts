@@ -1,6 +1,0 @@
-<Project name="Car_Script_Rear_Wheel" guid="D6F4CF3E-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6F4D02E-6C00-1014-B904-200204C60A89">
-		<Script name="Car_Script_Rear_Wheel_1.lsl" guid="D6F4EA2C-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

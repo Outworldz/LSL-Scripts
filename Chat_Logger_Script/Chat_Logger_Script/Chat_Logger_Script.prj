@@ -1,6 +1,0 @@
-<Project name="Chat_Logger_Script" guid="D6F773F6-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6F774E5-6C00-1014-B904-200204C60A89">
-		<Script name="Chat_Logger_Script_1.lsl" guid="D6F794E2-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="Bow_and_Arrow" guid="D82AA778-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D82AA86B-6C00-1014-B904-200204C60A89">
-		<Script name="Bow_and_Arrow_1.lsl" guid="D82ACB33-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

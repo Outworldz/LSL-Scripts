@@ -1,6 +1,0 @@
-<Project name="Lag_meter" guid="D7EDA100-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7EDA1F8-6C00-1014-B904-200204C60A89">
-		<Script name="Lag_meter_1.lsl" guid="D7EDBE2C-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

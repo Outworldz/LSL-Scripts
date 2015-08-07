@@ -1,6 +1,0 @@
-<Project name="Hoverboard" guid="D72FA364-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D72FA529-6C00-1014-B904-200204C60A89">
-		<Script name="Hoverboard_1.lsl" guid="D72FE3BB-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

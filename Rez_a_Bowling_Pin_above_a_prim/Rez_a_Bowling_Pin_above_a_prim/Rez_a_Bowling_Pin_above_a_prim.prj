@@ -1,6 +1,0 @@
-<Project name="Rez_a_Bowling_Pin_above_a_prim" guid="D84F40E7-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D84F41D6-6C00-1014-B904-200204C60A89">
-		<Script name="Rez_a_Bowling_Pin_above_a_prim_1.lsl" guid="D84F5CCF-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

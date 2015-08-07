@@ -1,6 +1,0 @@
-<Project name="Pilots_Chair_ver_1" guid="D76D0B27-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D76D0C1B-6C00-1014-B904-200204C60A89">
-		<Script name="Pilots_Chair_ver_1_1.lsl" guid="D76D272F-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

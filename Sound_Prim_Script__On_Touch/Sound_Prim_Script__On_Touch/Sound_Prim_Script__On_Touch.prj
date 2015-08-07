@@ -1,6 +1,0 @@
-<Project name="Sound_Prim_Script__On_Touch" guid="D7B1980C-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7B19913-6C00-1014-B904-200204C60A89">
-		<Script name="Sound_Prim_Script__On_Touch_1.lsl" guid="D7B1B005-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="basic_follower__rotation" guid="D6E641B2-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6E64385-6C00-1014-B904-200204C60A89">
-		<Script name="basic_follower__rotation_1.lsl" guid="D6E668C3-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="Tape_measure" guid="D7BEC00D-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7BEC0FB-6C00-1014-B904-200204C60A89">
-		<Script name="Tape_measure_1.lsl" guid="D7BEDF9F-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

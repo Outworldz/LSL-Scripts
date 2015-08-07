@@ -1,8 +1,0 @@
-<Project name="View_Your_Second_Life_Cache" guid="D87180FD-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8718235-6C00-1014-B904-200204C60A89">
-		<Script name="View_Your_Second_Life_Cache_1.lsl" guid="D871A51D-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="View_Your_Second_Life_Cache_2.lsl" guid="D871C49A-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

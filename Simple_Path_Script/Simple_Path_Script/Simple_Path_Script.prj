@@ -1,6 +1,0 @@
-<Project name="Simple_Path_Script" guid="D8EF649C-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8EF6593-6C00-1014-B904-200204C60A89">
-		<Script name="Simple_Path_Script_1.lsl" guid="D8EF9E30-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

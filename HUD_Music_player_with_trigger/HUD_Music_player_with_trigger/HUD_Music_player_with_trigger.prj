@@ -1,8 +1,0 @@
-<Project name="HUD_Music_player_with_trigger" guid="D8DE4DE7-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8DE5073-6C00-1014-B904-200204C60A89">
-		<Script name="HUD_Music_player_with_trigger_1.lsl" guid="D8DE75FF-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="HUD_Music_player_with_trigger_2.lsl" guid="D8DE92EA-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

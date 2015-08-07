@@ -1,6 +1,0 @@
-<Project name="Typing_sound" guid="D80BAF71-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D80BB066-6C00-1014-B904-200204C60A89">
-		<Script name="Typing_sound_1.lsl" guid="D80BC972-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

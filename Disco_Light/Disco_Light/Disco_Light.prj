@@ -1,6 +1,0 @@
-<Project name="Disco_Light" guid="D84B91F8-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D84B92D4-6C00-1014-B904-200204C60A89">
-		<Script name="Disco_Light_1.lsl" guid="D84BA9E6-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

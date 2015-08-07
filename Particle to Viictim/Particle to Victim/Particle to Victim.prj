@@ -1,6 +1,0 @@
-<Project name="Particle to Victim" guid="ca88ea45-6be9-4eac-9bdf-3523ad814046">
-	<Object name="Object" guid="879e3c52-15d1-4aae-8b3a-be0070e70ab6" active="true">
-		<Script name="Script.lsl" guid="538a5218-ffd4-4611-a3de-64d471024c14">
-		</Script>
-	</Object>
-</Project>

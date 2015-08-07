@@ -1,6 +1,0 @@
-<Project name="Frog_timer" guid="D7279334-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D727943E-6C00-1014-B904-200204C60A89">
-		<Script name="Frog_timer_1.lsl" guid="D727ACB4-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

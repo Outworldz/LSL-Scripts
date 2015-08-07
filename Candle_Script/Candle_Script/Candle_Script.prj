@@ -1,6 +1,0 @@
-<Project name="Candle_Script" guid="D6F2CA3D-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6F2CB3B-6C00-1014-B904-200204C60A89">
-		<Script name="Candle_Script_1.lsl" guid="D6F2E414-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

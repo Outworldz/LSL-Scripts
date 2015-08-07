@@ -1,6 +1,0 @@
-<Project name="Square_Particle_Garden" guid="D8ADF614-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8ADF709-6C00-1014-B904-200204C60A89">
-		<Script name="Square_Particle_Garden_1.lsl" guid="D8AE5618-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

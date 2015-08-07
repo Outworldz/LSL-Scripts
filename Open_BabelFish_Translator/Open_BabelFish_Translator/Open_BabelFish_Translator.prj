@@ -1,8 +1,0 @@
-<Project name="Open_BabelFish_Translator" guid="D6D20383-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6D2047D-6C00-1014-B904-200204C60A89">
-		<Script name="Open_BabelFish_Translator_1.lsl" guid="D6D2418E-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Open_BabelFish_Translator_2.lsl" guid="D6D26448-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

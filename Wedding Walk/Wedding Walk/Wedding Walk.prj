@@ -1,6 +1,0 @@
-<Project name="Wedding Walk" guid="0ef74103-055a-4b8a-be68-61459811dd62">
-	<Object name="Object" guid="c67847ef-9e4c-4f76-9dd6-d97be3b6d5f1" active="true">
-		<Script name="Script.lsl" guid="9476312a-ee59-489f-8852-825eb86d8072">
-		</Script>
-	</Object>
-</Project>

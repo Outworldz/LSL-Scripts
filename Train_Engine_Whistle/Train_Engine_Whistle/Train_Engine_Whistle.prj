@@ -1,6 +1,0 @@
-<Project name="Train_Engine_Whistle" guid="D81BE913-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D81BEA0E-6C00-1014-B904-200204C60A89">
-		<Script name="Train_Engine_Whistle_1.lsl" guid="D81C0713-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

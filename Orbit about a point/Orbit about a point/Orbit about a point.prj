@@ -1,6 +1,0 @@
-<Project name="Orbit about a point" guid="b28c1489-1642-4e65-bb48-5f7e59af3ded">
-	<Object name="Object" guid="02e1d6b5-95e6-4bc4-aa5b-08427c26fc4b" active="true">
-		<Script name="Script.lsl" guid="9cdeb6b4-035f-4dd8-9f1b-ac46c8b85ec1">
-		</Script>
-	</Object>
-</Project>

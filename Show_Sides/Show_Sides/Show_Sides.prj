@@ -1,6 +1,0 @@
-<Project name="Show_Sides" guid="D7984C2C-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7984D04-6C00-1014-B904-200204C60A89">
-		<Script name="Show_Sides_1.lsl" guid="D798658A-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

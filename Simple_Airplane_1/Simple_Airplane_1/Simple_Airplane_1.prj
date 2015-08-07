@@ -1,6 +1,0 @@
-<Project name="Simple_Airplane_1" guid="D79C7951-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D79C7A2B-6C00-1014-B904-200204C60A89">
-		<Script name="Simple_Airplane_1_1.lsl" guid="D79CAA41-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="SitCameraSetter" guid="D8575CB1-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8575DAB-6C00-1014-B904-200204C60A89">
-		<Script name="SitCameraSetter_1.lsl" guid="D8578EAC-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

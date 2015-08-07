@@ -1,6 +1,0 @@
-<Project name="Waterfall_Mist" guid="D7CF0B4A-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7CF0C49-6C00-1014-B904-200204C60A89">
-		<Script name="Waterfall_Mist_1.lsl" guid="D7CF4249-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

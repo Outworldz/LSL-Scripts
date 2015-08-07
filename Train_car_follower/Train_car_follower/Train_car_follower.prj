@@ -1,6 +1,0 @@
-<Project name="Train_car_follower" guid="D8161C7E-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8161D69-6C00-1014-B904-200204C60A89">
-		<Script name="Train_car_follower_1.lsl" guid="D8164400-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

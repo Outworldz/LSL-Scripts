@@ -1,8 +1,0 @@
-<Project name="hi_riseelevator_script" guid="D7E78762-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7E78858-6C00-1014-B904-200204C60A89">
-		<Script name="hi_riseelevator_script_1.lsl" guid="D7E7B122-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="hi_riseelevator_script_2.lsl" guid="D7E7C7D9-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

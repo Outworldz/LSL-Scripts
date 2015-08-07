@@ -1,6 +1,0 @@
-<Project name="Music_Jukebox" guid="D7E72026-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7E7211C-6C00-1014-B904-200204C60A89">
-		<Script name="Music_Jukebox_1.lsl" guid="D7E7453A-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

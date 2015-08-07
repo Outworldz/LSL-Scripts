@@ -1,6 +1,0 @@
-<Project name="rental_bot" guid="D83510E8-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D83511C4-6C00-1014-B904-200204C60A89">
-		<Script name="rental_bot_1.lsl" guid="D835780D-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

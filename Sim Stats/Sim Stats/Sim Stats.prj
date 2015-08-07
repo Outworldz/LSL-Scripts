@@ -1,6 +1,0 @@
-<Project name="Sim Stats" guid="d7fc11c5-6c00-1014-b904-200204c60a89">
-	<Object name="Object" guid="d7fc129e-6c00-1014-b904-200204c60a89">
-		<Script name="Sim stats HUD.lsl" guid="d7fc42e2-6c00-1014-b904-200204c60a89">
-		</Script>
-	</Object>
-</Project>

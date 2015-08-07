@@ -1,8 +1,0 @@
-<Project name="Swarm_Script" guid="d7b96a39-6c00-1014-b904-200204c60a89">
-	<Object name="Object" guid="d7b96b2b-6c00-1014-b904-200204c60a89">
-		<Script name="Swarm_Script_1.lsl" guid="d7b99345-6c00-1014-b904-200204c60a89">
-		</Script>
-		<Script name="Swarm_Script_Instructions_NOTECARD_1.lsl" guid="ff5d066b-6c68-4903-ab7d-7fab7aa3fe8d">
-		</Script>
-	</Object>
-</Project>

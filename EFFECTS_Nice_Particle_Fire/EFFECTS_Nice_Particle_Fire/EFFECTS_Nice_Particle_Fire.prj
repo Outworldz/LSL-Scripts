@@ -1,6 +1,0 @@
-<Project name="EFFECTS_Nice_Particle_Fire" guid="D6D82C5A-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6D82D3B-6C00-1014-B904-200204C60A89">
-		<Script name="EFFECTS_Nice_Particle_Fire_1.lsl" guid="D6D84AB8-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

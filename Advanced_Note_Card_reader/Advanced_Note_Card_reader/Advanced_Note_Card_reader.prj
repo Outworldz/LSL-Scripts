@@ -1,8 +1,0 @@
-<Project name="Advanced_Note_Card_reader" guid="D7D6537A-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D7D65456-6C00-1014-B904-200204C60A89">
-		<Script name="Advanced_Note_Card_reader_1.lsl" guid="D7D6DF1D-6C00-1014-B904-200204C60A89">
-		</Script>
-		<Script name="Advanced_Note_Card_reader_2.lsl" guid="D7D6FD69-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

@@ -1,6 +1,0 @@
-<Project name="Random_Sound_on_Collide" guid="D6ECC5C9-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D6ECC6DA-6C00-1014-B904-200204C60A89">
-		<Script name="Random_Sound_on_Collide_1.lsl" guid="D6ECDF1C-6C00-1014-B904-200204C60A89">
-		</Script>
-	</Object>
-</Project>

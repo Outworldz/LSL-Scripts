@@ -1,0 +1,6 @@
+<Project name="Opensim Waypoint Recorder and Display" guid="65cb813c-8d15-4c82-a65a-1c45b9cfe5c6">
+	<Object name="Object" guid="0b3f3259-de62-4e3c-93ef-988f58c63cd8" active="true">
+		<Script name="Script.lsl" guid="ecc78a43-172f-4fbe-865e-130866016497">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Matrix_Glasses_24_Controller" guid="D7568AFB-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7568BDE-6C00-1014-B904-200204C60A89">
+		<Script name="Matrix_Glasses_24_Controller_1.lsl" guid="D756B566-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

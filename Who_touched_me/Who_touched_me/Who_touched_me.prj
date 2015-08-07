@@ -1,0 +1,6 @@
+<Project name="Who_touched_me" guid="D7D10CBF-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7D10DD8-6C00-1014-B904-200204C60A89">
+		<Script name="Who_touched_me_1.lsl" guid="D7D12DFF-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

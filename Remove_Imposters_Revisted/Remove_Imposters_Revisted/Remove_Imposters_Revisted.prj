@@ -1,0 +1,6 @@
+<Project name="Remove_Imposters_Revisted" guid="D8AB5079-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8AB515F-6C00-1014-B904-200204C60A89">
+		<Script name="Remove_Imposters_Revisted_1.lsl" guid="D8AB735E-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Translate_web_page_on_click" guid="D8D52F78-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8D53065-6C00-1014-B904-200204C60A89">
+		<Script name="Translate_web_page_on_click_1.lsl" guid="D8D54A08-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Cyberflight_1_1" guid="D7041E3D-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7041F0F-6C00-1014-B904-200204C60A89">
+		<Script name="Cyberflight_1_1_1.lsl" guid="D7045530-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

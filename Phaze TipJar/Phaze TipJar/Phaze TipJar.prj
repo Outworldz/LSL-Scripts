@@ -1,0 +1,12 @@
+<Project name="Phaze TipJar" guid="5fa87a8e-5e68-4972-ae51-a87b1e11106c">
+	<Object name="Top Half sphere" guid="1299d0f3-3612-47a7-b21c-133cb6e1577d" active="true">
+		<Script name="Script.lsl" guid="7133cfe5-b191-4fbd-ae69-0694b05b539d">
+		</Script>
+		<Sound name="pop" guid="0e0d8c3d-c207-4cb3-9840-b17650dca9e2">
+		</Sound>
+	</Object>
+	<Object name="Base" guid="ac61b009-a6d6-470f-a53f-0dfd1caf34bf">
+		<Script name="Butterflies.lsl" guid="46fb3504-f57f-4595-ad42-4cc7aaa61bb3">
+		</Script>
+	</Object>
+</Project>

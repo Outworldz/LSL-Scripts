@@ -1,0 +1,6 @@
+<Project name="Simple_door_swinger_works_at_any_an" guid="D8C2F33E-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8C2F442-6C00-1014-B904-200204C60A89">
+		<Script name="Simple_door_swinger_works_at_any_an_1.lsl" guid="D8C31332-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

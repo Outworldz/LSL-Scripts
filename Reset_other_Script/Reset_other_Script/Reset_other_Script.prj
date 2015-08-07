@@ -1,0 +1,6 @@
+<Project name="Reset_other_Script" guid="D77A39D9-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D77A3AB1-6C00-1014-B904-200204C60A89">
+		<Script name="Reset_other_Script_1.lsl" guid="D77A562E-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

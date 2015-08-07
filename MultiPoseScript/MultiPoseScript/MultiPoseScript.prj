@@ -1,0 +1,6 @@
+<Project name="MultiPoseScript" guid="D7609472-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7609560-6C00-1014-B904-200204C60A89">
+		<Script name="MultiPoseScript_1.lsl" guid="D760BD17-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

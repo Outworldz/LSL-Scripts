@@ -1,0 +1,8 @@
+<Project name="Rotation_Clock" guid="D8082137-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8082240-6C00-1014-B904-200204C60A89">
+		<Script name="Rotation_Clock_1.lsl" guid="D8084728-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Rotation_Clock_2.lsl" guid="D8087151-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

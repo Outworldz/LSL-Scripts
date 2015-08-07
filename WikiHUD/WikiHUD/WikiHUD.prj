@@ -1,0 +1,6 @@
+<Project name="WikiHUD" guid="D7FF6EE5-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7FF6FD3-6C00-1014-B904-200204C60A89">
+		<Script name="WikiHUD_1.lsl" guid="D7FFB9D1-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Quiz_HUD_script_for_educators" guid="D7E17A9F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7E17B79-6C00-1014-B904-200204C60A89">
+		<Script name="Quiz_HUD_script_for_educators_1.lsl" guid="D7E190FF-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

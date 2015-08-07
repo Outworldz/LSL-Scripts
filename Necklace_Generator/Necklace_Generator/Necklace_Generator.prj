@@ -1,0 +1,10 @@
+<Project name="Necklace_Generator" guid="D7FD5971-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7FD5A54-6C00-1014-B904-200204C60A89">
+		<Script name="Necklace_Generator_1.lsl" guid="D7FD82B1-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Necklace_Generator_2.lsl" guid="D7FD9918-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Necklace_Generator_3.lsl" guid="D7FDAAD0-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Running_water" guid="D78A0061-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D78A0154-6C00-1014-B904-200204C60A89">
+		<Script name="Running_water_1.lsl" guid="D78BCF87-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,14 @@
+<Project name="Zombies" guid="1cf5a964-3691-4049-9167-5da16d4508d5">
+	<Object name="Zombies" guid="a76aff63-526f-4af8-b301-267d076ac2f3" active="true">
+		<Script name="Animator.lsl" guid="b1d52726-b8f9-4e5d-98e8-887c52d3eb8e">
+		</Script>
+		<Notecard name="Movement" guid="6f1df51a-38f5-4be2-978e-44cd86a39c98">
+		</Notecard>
+		<Notecard name="Notecard.txt" guid="d2393620-1bb3-403d-aab8-4f8f98a3d9e4">
+		</Notecard>
+		<Script name="pose ball.lsl" guid="f2a07fc2-16b3-413a-b8cd-293435e9fe04">
+		</Script>
+		<Script name="walk script.lsl" guid="57ea9b17-751a-402c-9d00-e9646e36cfd5">
+		</Script>
+	</Object>
+</Project>

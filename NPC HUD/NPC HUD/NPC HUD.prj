@@ -1,0 +1,22 @@
+<Project name="NPC HUD" guid="371177b4-029b-4264-b784-c26fe0887177">
+	<Object name="Object" guid="be5a995c-2cfb-4b6d-9711-b5113951bd02" active="true">
+		<Script name="~animator.lsl" guid="1ee3c3d8-f6a4-4afe-a449-02a9835f18e1">
+		</Script>
+		<Script name="~clonesit.lsl" guid="0be36ed2-7bb1-49ed-aa8b-20d9d3343cf6">
+		</Script>
+		<Script name="~comehere.lsl" guid="ec3fa46f-7175-4a50-81ea-24d2f7c91010">
+		</Script>
+		<Script name="~controler.lsl" guid="9a64cdca-d58b-4d7e-8226-6af4a5444e26">
+		</Script>
+		<Script name="~dance.lsl" guid="1a195cc6-3376-4336-aa83-d38812c10d87">
+		</Script>
+		<Script name="~follow.lsl" guid="c2a2f807-3084-4b70-83e6-f84b55b91fb9">
+		</Script>
+		<Script name="~master.lsl" guid="ac7e5ab2-ac8e-4bd8-afc1-a9efe547af46">
+		</Script>
+		<Script name="~recall.lsl" guid="2d4a8bc3-1db7-47cf-ade2-3770ef7e4904">
+		</Script>
+		<Script name="~StopAllAnimations.lsl" guid="54e5e74f-3fa0-4131-8459-2e425f0e6c4b">
+		</Script>
+	</Object>
+</Project>

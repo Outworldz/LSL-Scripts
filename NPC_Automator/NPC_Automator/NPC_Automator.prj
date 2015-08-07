@@ -1,0 +1,6 @@
+<Project name="NPC_Automator" guid="D8F0E83C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8F0E92D-6C00-1014-B904-200204C60A89">
+		<Script name="NPC_Automator_1.lsl" guid="D8F12CA2-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

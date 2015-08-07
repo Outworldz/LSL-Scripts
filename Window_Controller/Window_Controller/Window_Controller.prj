@@ -1,0 +1,6 @@
+<Project name="Window_Controller" guid="D7D1B6F4-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7D1B7E2-6C00-1014-B904-200204C60A89">
+		<Script name="Window_Controller_1.lsl" guid="D7D1EE1C-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

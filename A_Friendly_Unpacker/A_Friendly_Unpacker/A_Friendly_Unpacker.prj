@@ -1,0 +1,6 @@
+<Project name="A_Friendly_Unpacker" guid="D8AEF9CC-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8AEFAC0-6C00-1014-B904-200204C60A89">
+		<Script name="A_Friendly_Unpacker_1.lsl" guid="D8AF1FB1-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

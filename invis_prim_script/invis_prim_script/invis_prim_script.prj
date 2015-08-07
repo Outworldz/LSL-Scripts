@@ -1,0 +1,6 @@
+<Project name="invis_prim_script" guid="D731431A-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D73143EF-6C00-1014-B904-200204C60A89">
+		<Script name="invis_prim_script_1.lsl" guid="D7315A98-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

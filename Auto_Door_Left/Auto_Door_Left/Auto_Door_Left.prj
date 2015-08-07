@@ -1,0 +1,6 @@
+<Project name="Auto_Door_Left" guid="D6E1F2E3-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6E1F3D1-6C00-1014-B904-200204C60A89">
+		<Script name="Auto_Door_Left_1.lsl" guid="D6E22F92-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

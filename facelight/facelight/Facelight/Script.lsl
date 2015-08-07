@@ -1,0 +1,109 @@
+// :CATEGORY:FaceLight
+// :NAME:facelight
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2014-04-04 22:00:54
+// :EDITED:2014-04-04
+// :ID:1031
+// :NUM:1607
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// a user settable facelight with a HUD control script
+// :CODE:
+
+
+
+vector gColor = <1,1,1>;        /// WHITE ( all colors on )
+float intensity = 1.0;          
+float radius = 1.0;
+float falloff = 1.0;        // these can be tweaked
+
+
+integer gLightOn = FALSE;
+
+lightControl()
+{
+    llSetPrimitiveParams([
+                
+                PRIM_COLOR, 
+                ALL_SIDES, 
+                gColor, 
+                0.0,
+                PRIM_POINT_LIGHT, 
+                 gLightOn, 
+                 gColor, 
+                 intensity, 
+                 radius, 
+                 falloff
+                 
+                 ]);
+}
+
+
+
+default
+{
+    on_rez(integer start_param) 
+    {
+        llResetScript();
+    }
+    
+    
+    listen(integer channel, string name, key id, string message) 
+    {
+        ///  llOwnerSay("Heard " + message);
+        
+        if (message == "ON") 
+        {
+            gLightOn = TRUE;
+        } 
+        else if (message == "OFF") 
+        {
+            gLightOn = FALSE;
+        }
+        else if (message == "Brilliant") 
+        {
+            intensity = 1.0;
+            gLightOn = TRUE;   
+        }
+        else if (message == "Normal") 
+        {
+            intensity = 0.8;  /// YOU MAY NEED TO CHANGE THIS   
+            gLightOn = TRUE;
+        }
+        else if (message == "Subtle") 
+        {
+            intensity = 0.4;  /// YOU MAY NEED TO CHANGE THIS for lower light level
+            gLightOn = TRUE;
+        }
+        
+        
+        lightControl();     // This executes the lamp commands
+    }
+
+    state_entry() 
+    {
+        llListen(-9999, "", "", "");
+        
+        gLightOn = TRUE;        // Default = on;
+        
+        lightControl();         /// turn it on with the defaults
+        
+        
+        if (llGetAttached() == 0) 
+        {
+            llRequestPermissions(llGetOwner(), PERMISSION_ATTACH);
+        }
+    }
+    
+    // this automatically attaches it to your chin, even if rezzed in-world.
+    
+    run_time_permissions( integer perms ) 
+    {
+        if (perms & PERMISSION_ATTACH) 
+        {
+            llAttachToAvatar(ATTACH_CHIN);
+        }
+    }
+}

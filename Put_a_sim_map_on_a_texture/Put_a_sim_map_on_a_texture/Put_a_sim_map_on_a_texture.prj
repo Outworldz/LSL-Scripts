@@ -1,0 +1,6 @@
+<Project name="Put_a_sim_map_on_a_texture" guid="D8540CF6-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8540E03-6C00-1014-B904-200204C60A89">
+		<Script name="Put_a_sim_map_on_a_texture_1.lsl" guid="D854409A-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

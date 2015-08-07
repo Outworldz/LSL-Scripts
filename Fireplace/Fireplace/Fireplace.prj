@@ -1,0 +1,6 @@
+<Project name="Fireplace" guid="56a769b0-1cbf-4bca-a438-21e312d5bc26">
+	<Object name="Object" guid="78fb0111-7ab1-4653-88ca-76225f1f2ac3" active="true">
+		<Script name="Script.lsl" guid="4f94206f-1f70-4073-bf0e-e2f3e8885874">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Talking_animated_picture" guid="D856B4DF-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D856B60A-6C00-1014-B904-200204C60A89">
+		<Script name="Talking_animated_picture_1.lsl" guid="D856E4BF-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

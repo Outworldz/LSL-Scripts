@@ -1,0 +1,12 @@
+<Project name="Franimation_Overrider" guid="D82B1A02-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D82B1AE5-6C00-1014-B904-200204C60A89">
+		<Script name="Franimation_Overrider_1.lsl" guid="D82B80AC-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Franimation_Overrider_2.lsl" guid="D82BCAED-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Franimation_Overrider_3.lsl" guid="D82C037E-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Franimation_Overrider_4.lsl" guid="D82C3915-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

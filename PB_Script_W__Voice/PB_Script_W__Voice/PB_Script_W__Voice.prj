@@ -1,0 +1,6 @@
+<Project name="PB_Script_W__Voice" guid="D769C11C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D769C206-6C00-1014-B904-200204C60A89">
+		<Script name="PB_Script_W__Voice_1.lsl" guid="D769F17A-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

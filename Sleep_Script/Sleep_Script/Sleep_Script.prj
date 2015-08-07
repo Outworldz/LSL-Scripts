@@ -1,0 +1,6 @@
+<Project name="Sleep_Script" guid="D7AB9170-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7AB924C-6C00-1014-B904-200204C60A89">
+		<Script name="Sleep_Script_1.lsl" guid="D7ABAEBA-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

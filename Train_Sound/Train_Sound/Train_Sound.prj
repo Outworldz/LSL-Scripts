@@ -1,0 +1,6 @@
+<Project name="Train_Sound" guid="D81B5882-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D81B5979-6C00-1014-B904-200204C60A89">
+		<Script name="Train_Sound_1.lsl" guid="D81B790F-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

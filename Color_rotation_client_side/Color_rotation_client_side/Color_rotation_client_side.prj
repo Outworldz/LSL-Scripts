@@ -1,0 +1,6 @@
+<Project name="Color_rotation_client_side" guid="d70058be-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d70059bb-6c00-1014-b904-200204c60a89">
+		<Script name="Color_rotation_client_side_1.lsl" guid="d70071d9-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+</Project>

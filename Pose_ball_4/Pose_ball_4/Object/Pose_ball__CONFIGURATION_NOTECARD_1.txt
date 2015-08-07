@@ -1,0 +1,33 @@
+// :CATEGORY:Pose Ball
+// :NAME:Pose_ball_4
+// :AUTHOR:Anonymous
+// :CREATED:2013-09-13 14:59:47
+// :EDITED:2013-09-18 15:39:00
+// :ID:641
+// :NUM:1500
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Configuration notecard for pose ball
+// :CODE:
+// CATEGORY:Pose Balls
+// NAME:Pose_ball__CONFIGURATION_NOTECARD
+// PART:1
+// AUTHOR:Anonymous
+// CREATED:2010-01-10 05:20:56.000
+// EDITED:2010-01-10 05:20:56.000
+// ID:1072
+// NUM:1096
+// REV:1.0
+// WORLD: Second Life
+// DESCRIPTION:
+// Pose ball - CONFIGURATION [NOTECARD].lsl
+// CODE 
+
+title: Sit on me!
+
+offset: <0,0,1>
+
+voice: No
+
+sit_button: Sit Here// END //

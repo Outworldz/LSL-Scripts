@@ -1,0 +1,6 @@
+<Project name="Train_Station_Engine_Rezzer" guid="D81C57E1-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D81C58F0-6C00-1014-B904-200204C60A89">
+		<Script name="Train_Station_Engine_Rezzer_1.lsl" guid="D827BC0B-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

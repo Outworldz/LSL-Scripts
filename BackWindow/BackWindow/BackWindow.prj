@@ -1,0 +1,6 @@
+<Project name="BackWindow" guid="D6E49EB2-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6E49FB9-6C00-1014-B904-200204C60A89">
+		<Script name="BackWindow_1.lsl" guid="D6E4BFA0-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

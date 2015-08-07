@@ -1,0 +1,6 @@
+<Project name="teleport_anywhere_script" guid="D7BF1BD9-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7BF1CD7-6C00-1014-B904-200204C60A89">
+		<Script name="teleport_anywhere_script_1.lsl" guid="D7BF3CD0-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="JetPack" guid="D651BE7C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D651BF6D-6C00-1014-B904-200204C60A89">
+		<Script name="JetPack_1.lsl" guid="D655FF26-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

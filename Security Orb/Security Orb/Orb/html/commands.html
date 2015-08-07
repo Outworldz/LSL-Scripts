@@ -1,0 +1,618 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr" lang="en-au"><head>
+
+
+
+
+
+
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Home Security  Prim - Commands</title>
+  
+
+  
+  
+  <meta content="Psyke Phaeton" name="author">
+
+  
+  <meta content="HomeSecurity Prim Documentation" name="description">
+
+  
+  <link href="bright.css" type="text/css" title="Bright">
+
+  
+  <link rel="stylesheet" href="psykes.css" type="text/css" title="Dark">
+
+<meta name="qrichtext" content="1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+p, li { white-space: pre-wrap; }
+      </style><meta name="qrichtext" content="1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+p, li { white-space: pre-wrap; }
+      </style><meta name="qrichtext" content="1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style><meta name="qrichtext" content="1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body alink="#ff6600" link="#ff6600" vlink="#ff6600">
+<table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; width: 33%; white-space: nowrap;">&nbsp;</td>
+      <td style="vertical-align: top; width: 33%; white-space: nowrap; text-align: center;">
+		&nbsp;</td>
+      <td style="vertical-align: top; width: 33%; white-space: nowrap; text-align: right; color: rgb(255, 102, 0);">
+		&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Home Security Prim Documentation</h1>
+
+<h2><span editable="true" id="PageTitle">Commands
+</span></h2>
+
+&gt; <a href="#Introduction">Introduction<br>
+</a>&gt; <a href="#Basic_Commands">Basic Commands</a><br>
+
+&gt; <a href="#AddingRemoving_Information">Adding/Removing Names and
+Network</a><br>
+
+&gt; <a href="#Changing_Settings">Changing Settings</a><br>
+
+&gt; <a href="#Menu_Buttons_are_Commands">Menu Buttons are Commands</a><br>
+
+<span editable="true" id="SectionTitle1"></span>
+<h3><span editable="true" id="SectionTitle1"><a name="Introduction"></a>Introduction
+</span></h3>
+
+<h4><span editable="true" id="Body1">In most cases you can
+change all your settings by using the HS Prims menu.</span></h4>
+
+<br>
+
+To use commands you type them in chat while standing next to the HS Prim
+and hit Enter.<br>
+
+<span editable="true" id="Body1"><br>
+To
+add information such as names or set up networking you will need to
+know <a href="#AddingRemoving_Information">these commands</a>.<br>
+<br>
+All the commands bellow are assuming that your settings card has the
+default setting for channel. That is channel 8.<br>
+If you wish to change the channel the Prim accepts commands on or sends
+normal messages see the "Channel" notecard inside it.<br>
+</span>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="10">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; width: 1%;"><br>
+      </td>
+      <td style="vertical-align: top; color: red;"><span editable="true" id="Body1">You
+must be within 20 meters when typing commands for the HS Prim to hear
+you. If you shout the command you must be within 100m. It may not work
+over region borders.</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<span editable="true" id="Body1"><br>
+<span style="color: rgb(51, 255, 51);">Green</span> entries are not on
+the menus, many are advanced commands.<br>
+</span><span editable="true" id="Body1"></span>
+<h3><a name="Basic_Commands"></a>Basic Commands
+</h3>
+
+<br>
+
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="10">
+
+  <tbody>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8menu</td>
+      <td style="vertical-align: top;">for the popup control menu
+(shout this if you aren't near the Prim)</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; vertical-align: top; color: rgb(51, 255, 51);" class="notranslate">/8reset</td>
+      <td style="vertical-align: top;">force the Prim to read and
+process the Settings notecard (It doesn't by
+default anymore) without loosing current names or old network HSIDs in
+memory.</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8status</td>
+      <td style="vertical-align: top;">summary of status for all scripts</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8off<span style="color: rgb(51, 204, 255);"></span><br>
+      </td>
+      <td style="vertical-align: top;">Turn Off</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 204, 255);" class="notranslate">/8public</td>
+      <td style="vertical-align: top;">Turn on for public areas like
+shops and clubs. Attacks only Targets.</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 204, 255);" class="notranslate">/8guests</td>
+      <td style="vertical-align: top;">Turn on for private areas like
+homes. Attacks all not in Guests or Friends list or not Group Safe
+member.</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 204, 255);" class="notranslate">/8friends</td>
+      <td style="vertical-align: top;">Turn
+on for private areas like homes for Friends ONLY. Attacks ANYONE not in
+Friends list. Will attack Group Safe members and Guests.</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8hsid</td>
+      <td style="vertical-align: top;">gives the HS Prims's HSID for
+networking. Shout this and you will know which HS Prims are within 100m. Will also give the Prims distance.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<h3><a name="AddingRemoving_Information"></a>Adding/Removing Names and
+Network
+</h3>
+
+<br>
+
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="10">
+
+  <tbody>
+    <tr>
+      <td class="notranslate" style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51); vertical-align: top;">/8addt <span style="font-style: italic;">full name<br>
+      </span>/8addt <span style="font-style: italic;">user.name<br>
+      </span><small><span style="text-decoration: line-through; color: red;">/8addt
+      </span><span style="font-style: italic; text-decoration: line-through; color: red;">&#9733;&#9829;
+Display Name &#9829;&#9733;</span></small>
+      
+      
+      <br>
+      </td>
+      <td style="vertical-align: top;">Adds a name to Target List using
+either legacy Full Name or new <a href="http://wiki.secondlife.com/wiki/Usernames">user.name</a><br>
+      <small><span style="color: red;">Do not use <a href="http://wiki.secondlife.com/wiki/Display_names">Display Names</a>.<!--/span><span style="color: rgb(153, 153, 153);"> It
+will work </span><span style="text-decoration: underline; color: rgb(153, 153, 153);">temporarily</span><span style="color: rgb(153, 153, 153);"> for emergency situations.</span></small--><br>
+      </span></small></td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: red; text-decoration: line-through;" class="notranslate"><small>/8addt <span style="font-style: italic;">*companyname</span></small></td>
+      <td><small><span style="color: rgb(102, 102, 102);">Discontinued in Version 12.</span></small><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51); vertical-align: top;" class="notranslate">/8addg <span style="font-style: italic;">full name<br>
+      </span>/8addg <span style="font-style: italic;">user.name<br>
+      </span><small><span style="text-decoration: line-through; color: red;">/8addg
+      </span><span style="font-style: italic; text-decoration: line-through; color: red;">&#9733;&#9829;
+Display Name &#9829;&#9733;</span></small>
+      
+      
+      <br>
+      </td>
+      <td><span style="color: rgb(204, 51, 204);"></span>Adds a name to the Guest
+List using either legacy Full Name or user.name <span style="font-style: italic;"><br>
+      <small><span style="color: rgb(153, 153, 153);">Guests are allowed when
+online
+in 'Guests Mode', and not allowed when online in </span><font style="color: rgb(153, 153, 153);" class="notranslate">'Friends Mode'.</font></small></span><small><span style="color: rgb(153, 153, 153);"> You can also use
+groups to control who is allowed to visit when in Guest Mode. See </span><a href="groups.html">Groups</a>. <span style="color: red;"><br>
+Do not use Display Names.</span></small>
+      </td>
+    </tr>
+    <tr>
+<td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51); vertical-align: top;" class="notranslate">/8addf <span style="font-style: italic;">full name<br>
+</span>/8addf <span style="font-style: italic;">user.name<br>
+</span><small><span style="text-decoration: line-through; color: red;">/8addg
+      </span><span style="font-style: italic; text-decoration: line-through; color: red;">&#9733;&#9829;
+Display Name &#9829;&#9733;</span></small>
+
+
+<br>
+</td>
+      <td><span style="color: rgb(204, 51, 204);"></span>Adds a name to the Friends
+List using eithe legacy Full Name or user.name<span style="font-style: italic;"><br>
+      </span><small>Friends are always
+allowed to
+visit. Note: <a href="groups.html#Group_Safe">Group Safe</a> members and Guests are
+NOT allowed to visit when online in Friends Mode. <span style="color: red;">Do not use Display Names.</span></small>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51); vertical-align: top;" class="notranslate">/8addo <span style="font-style: italic;">full name<br>
+</span>/8addo <span style="font-style: italic;">user.name<br>
+</span><small><span style="text-decoration: line-through; color: red;">/8addo
+      </span><span style="font-style: italic; text-decoration: line-through; color: red;">&#9733;&#9829;
+Display Name &#9829;&#9733;</span></small>
+
+
+<br>
+      </td>
+
+      <td>Adds a name to the Operator List using eithe legacy Full Name or user.name<br><small>
+You can also use groups to control who is an Operator. See <a href="groups.html">Groups</a>.<br>
+      <span style="color: red;">Do not use Display Names.</span><br>
+      </small>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8addn <i>HSID</i> </td>
+      <td>Adds a HSID to the Network List.
+See <a href="network.html">Networking</a>.<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8delt <i>name</i></td>
+      <td>Deletes <span style="font-style: italic;">name</span> from Target
+List. Click Names on the menu for better method.<br>
+</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8delg <i>name</i></td>
+      <td>Deletes <span style="font-style: italic;">name</span> from Guest
+List. Click Names on the menu for better method.</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8delf <i>name</i></td>
+      <td>Deletes <span style="font-style: italic;">name</span> from Friends
+List. Click Names on the menu for better method.</td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8delo <i>name</i></td>
+      <td>Deletes <span style="font-style: italic;">name</span> from Operator
+List. Click Names on the menu for better method.</td>
+    </tr>
+    <tr>
+<td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8del <i>name</i></td><td>Deletes <span style="font-style: italic;">name</span> from Friend, Guest &amp; Operator
+List with one command.</td></tr>
+<tr>
+      <td style="color: rgb(51, 255, 51); background-color: rgb(26, 26, 26);" class="notranslate">/8deln <i>HSID</i></td>
+      <td>Deletes <span style="font-style: italic;">HSID</span> from Network
+List. Click Names on the menu for better method.</td>
+    </tr>
+    <tr>
+      <td style="color: rgb(51, 255, 51); background-color: rgb(26, 26, 26); vertical-align: top;" class="notranslate">/8deltv</td>
+      <td><span style="color: rgb(204, 51, 204);"></span>Deletes <span style="color: red;">ALL</span> Targets and <span style="color: red;">ALL</span>
+Visitors (Guests and Friends) INCLUDING YOU. Re-add yourself just
+incase.<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="color: rgb(51, 255, 51); background-color: rgb(26, 26, 26); vertical-align: top;" class="notranslate">/8delop</td>
+      <td><span style="color: rgb(204, 51, 204);"></span>Deletes <span style="color: red;">ALL</span> Operators, then adds you as an Operator.
+      </td>
+    </tr>
+    <tr>
+      <td style="color: rgb(51, 255, 51); background-color: rgb(26, 26, 26); vertical-align: top;" class="notranslate">/8delnr</td>
+      <td><span style="color: rgb(204, 51, 204);"></span>Deletes <span style="color: red;">ALL</span> Network HSIDs.
+      </td>
+    </tr>
+    <tr>
+      <td style="color: rgb(51, 255, 51); background-color: rgb(26, 26, 26); white-space: nowrap; vertical-align: top;" class="notranslate">/8sendtv<span style="color: rgb(102, 102, 102);"></span><br>
+      </td>
+      <td><span style="color: rgb(204, 51, 204);"></span>Send all Targets and Visitors (Guests and Friends) names to all Prims in this network.</td>
+    </tr>
+    <tr>
+      <td style="color: rgb(51, 255, 51); background-color: rgb(26, 26, 26); white-space: nowrap; vertical-align: top;" class="notranslate">/8sendo<span style="color: rgb(102, 102, 102);"></span><br>
+      </td>
+      <td><span style="color: rgb(204, 51, 204);"></span>Send all Operators names to all Prims in this network. v12.018+</td>
+    </tr>
+    <tr>
+      <td style="color: rgb(51, 255, 51); background-color: rgb(26, 26, 26); white-space: nowrap; vertical-align: top;" class="notranslate">/8lb <i>h.h avatar</i><span style="color: rgb(102, 102, 102);"></span><br>
+      </td>
+      <td><span style="color: rgb(204, 51, 204);"></span>Land Ban <i><font color="gray">avatar </font></i> for <i><font color="gray">h.h</font></i> hours. To unban you will need to remove the name using a SL version 2+ client in <font color="green">About Land / Access</font>. These names are not stored in the HS Prim. It simply passes the request onto SL for you. Requires v12.015+
+      <br><i><font color="gray">avatar</font></i> can be a User Name or Key.
+      <br><i><font color="gray">h.h</font></i> is between 0.0 and 144.0 hours, 0 means forever.<span style="color: rgb(102, 102, 102);"></span></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(51, 255, 51); background-color: rgb(26, 26, 26); white-space: nowrap; vertical-align: top;" class="notranslate">/8tp <i>avatar</i><span style="color: rgb(102, 102, 102);"></span><br>
+      </td>
+      <td><span style="color: rgb(204, 51, 204);"></span>Teleport Home <i><font color="gray">avatar </font></i>. These names are not stored in the HS Prim. It simply passes the request onto SL for you. Requires v12.017+
+      <br><i><font color="gray">avatar</font></i> can be a User Name or Key.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<h3><a name="Changing_Settings"></a>Changing Settings
+</h3>
+
+Most settings are changed on the menu under Settings. These commands
+below are not on the menu.<br>
+
+<br>
+
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="10">
+
+  <tbody>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8visible<br>/8v </td>
+      <td style="vertical-align: top;">Toggle on/off both the visibility of the HS Prim and its floating text. </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51); vertical-align: top;" class="notranslate">/8up=<span style="font-style: italic;">number</span></td>
+      <td style="vertical-align: top;">How far above the Prim to limit
+attacks (for apartments &amp; multilevel buildings, skyboxes) in meters.<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51); vertical-align: top;" class="notranslate">/8down=<span style="font-style: italic;">number</span>
+      </td>
+      <td style="vertical-align: top;">How far below the Prim to limit
+attacks (for apartments &amp; multilevel buildings, skyboxes) in meters. </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51); width: 1%;" class="notranslate">/8amsg <span style="font-style: italic;">Attacked
+message</span> </td>
+      <td style="vertical-align: top;">Sets attacked intruders popup to
+say "Attacked message". </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8wmsg <span style="font-style: italic;">Warning
+message</span> </td>
+      <td style="vertical-align: top;">Sets intruders warning popup to
+say "Warning message". </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51); vertical-align: top;" class="notranslate">/8dmsg <span style="font-style: italic;">Fake
+Display <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name message</span> </td>
+      <td style="vertical-align: top;">When
+a detected avatar, who is not an Operator, has a Display Name exactly
+matching an Operator they will be optionally Teleported Home. Then a
+popup will say <span style="font-style: italic;">"Fake
+Display Name message"</span>. See SETTINGS / Scanner / DispProt<span style="font-style: italic;"><br>
+      </span></td>
+    </tr>
+<tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51); vertical-align: top;" class="notranslate">/8gwmsg <span style="font-style: italic;">Guests
+message</span> </td>
+      <td style="vertical-align: top;">Overrides "Warning message" with
+"Guests message" when guest/group members try to enter while HS Prim is
+in Friends only Mode. If not set then "Warning message" from /8wmsg is
+used. </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);" class="notranslate">/8warn on<span style="color: white;">|</span>off </td>
+      <td style="vertical-align: top;">enable/disables the warning of
+intruders before attacking. </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26);"><span style="color: rgb(51, 255, 51);" class="notranslate">/8oi on<span style="color: white;">|</span>off</span><br>
+      </td>
+      <td style="vertical-align: top;">enables/disables HS Guardian HUD
+communication with the HS Prim.<br>
+      <small style="color: red;"><span style="font-style: italic;">Leave
+off unless needed.</span></small><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26);"><span style="color: rgb(51, 255, 51);" class="notranslate">/8ban on<span style="color: white;">|</span>off</span><br>
+      </td>
+      <td style="vertical-align: top;">enables/disables banning a
+person from the land for 30 minutes. Script
+land banned people will see blinking "NO ENTRY" ban lines but may
+not be listed in About Land/Access unless you use a modern Viewer 2 client. The default 0.5 hours can be changed with <span class="notranslate"><font color="lime">/8bantime=<i>n.n</i></font></span>
+</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26);"><span style="color: rgb(51, 255, 51);" class="notranslate">/8bantime=<i>number</i></span><br>
+      </td>
+      <td style="vertical-align: top;">Ban time in hours when Ban is
+set on. 0.0 hours means permanently. SL has a maximum limit of 144.0
+hours except when permanent is used.
+<br>Disable with <font color="lime">/8ban off</font> and enable with <font color="lime">/8ban on</font>
+</td>
+    </tr>
+    <tr>
+<td style="vertical-align: top; background-color: rgb(26, 26, 26);"><span style="color: rgb(51, 255, 51);" class="notranslate">/8web on<span style="color: white;">|</span>off</span><br>
+      </td><td style="vertical-align: top;"><font 255,51)="" color="rgb(51,"><font><span style="color: rgb(51, 51, 51);"></span></font></font>"New Web URL" and "Web page changed" Instant Messages sent to last Operator on or off.<br>
+</td></tr>
+    <tr>
+    </tr><tr>
+<td style="vertical-align: top; background-color: rgb(26, 26, 26);"><span style="color: rgb(51, 255, 51);" class="notranslate">/8nthop on<span style="color: white;">|</span>off</span><br>
+      </td><td style="vertical-align: top;"><font 255,51)="" color="rgb(51,"><font><span style="color: rgb(51, 51, 51);"></span></font></font>When Notify Target pop-up is in use (see <font color="cyan">/8nt</font> below) should the pop-up <u>hide</u> the Operator's name who activated the Prim. (Version 13.031+)<br>
+</td></tr>
+
+<tr>
+<td style="vertical-align: top; background-color: rgb(26, 26, 26);" nowrap="nowrap"><span style="color: rgb(51, 255, 51);" class="notranslate"><a name="Script_Limits"></a>/8slw <i style="font-style: italic;">scriptmb scriptcount <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; scripttime scripttime</i><span style="font-style: italic;">count</span><br>
+      </span></td><td style="vertical-align: top;"><font 255,51)="" color="rgb(51,"><font><span style="color: rgb(51, 51, 51);"></span></font></font> Script Limit Warnings for all avatars. Exceeding these limits results
+in them seeing a pop-up asking them to detach some scripts. <br>
+      <br>
+If less than 4 parameters are supplied the script assumes the missing
+paramaters at the end are unchanged. Any parameter that is a <span style="color: aqua;">*</span> (asterix) is unchanged. Any parameter that is <span style="color: aqua;">-1</span> disables that parameter.<br>
+      <br>
+ <font color="gray"><i>scriptmb</i></font> is the amount of attached script memory in megabytes before seeing a warning.
+      <br><font color="gray"><i>scriptcount</i></font> is the count of attached scripts before seeing a warning.
+      <br><font color="gray"><i>scripttime</i></font> is the simulator CPU time in µs (<a href="http://en.wikipedia.org/wiki/Micro-">micro-</a>seconds)
+per simulator frame of the avatar's scripts before they see a warning.
+The simulator under ideal conditions produces 45 frames a second,
+therefore 22,222µs per frame. A portion of this 22,222µs is devoted to
+running scripts. An avatar who has a script time of 1,000µs would be
+using 4.5% of the simulators processing time. <br>
+      <font color="gray"><i>scripttimecount </i></font>is the number of consecutive scans the scripttime has been crossed before action is taken.<br>
+<br>
+      <br>Examples:
+      <table rows="5" border="0" cols="2">
+      <tbody><tr><td nowrap="nowrap" valign="top"><span style="color: rgb(51, 255, 51);">/8slw -1 -1 -1 -1<br>
+ </span></td><td> disables all script warnings.</td></tr>
+      <tr><td nowrap="nowrap" valign="top"><span style="color: rgb(51, 255, 51);">/8slw 0<br>
+ </span></td><td> shows warning popup to scripted avatars (because any script would be more than 0MB).</td></tr>
+      <tr><td nowrap="nowrap" valign="top"><span style="color: rgb(51, 255, 51);">/8slw 3 10 </span></td><td> warns scripted avatars who have more than 3MB of scripts OR more than 10 scripts.</td></tr>
+      <tr><td nowrap="nowrap" valign="top"><span style="color: rgb(51, 255, 51);">/8slw 3 </span></td><td> would enable script memory check and warn at over 3MB, ignore the script count and CPU time check.</td></tr>
+      <tr><td nowrap="nowrap" valign="top"><span style="color: rgb(51, 255, 51);">/8slw -1 10 </span></td><td> would enable script count check and warn at over 10 scripts and ignore the script memory and CPU time check.</td></tr>
+      <tr><td nowrap="nowrap" valign="top"><span style="color: rgb(51, 255, 51);">/8slw -1 -1 1000 </span></td><td> would enable script CPU time checks and warn at over 1000µs usage and ignore the script memory and count check.</td></tr>
+      <tr><td nowrap="nowrap" valign="top"><span style="color: rgb(51, 255, 51);">/8slw 10 -1 1000 10<br>
+</span></td><td> would enable script memory check and warn at over
+10MB, ignore the script count check, and check for script usage over
+over 1000µs usage for 10 consecutive scans.</td></tr>
+      </tbody></table>
+</td></tr>
+    <tr>
+<td style="vertical-align: top; background-color: rgb(26, 26, 26);" nowrap="nowrap"><span style="color: rgb(51, 255, 51);" class="notranslate">/8slt <i>scriptmb scriptcount <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; scripttime scripttimecount</i><br>
+      </span></td><td style="vertical-align: top;"><font 255,51)="" color="rgb(51,"><font><span style="color: rgb(51, 51, 51);"></span></font></font> Script Limit Teleports for non-Friend avatars. Exceeding these limits results in them being teleported home.
+      <br><br>This works in the same fashion as <font color="lime">/8slw</font> above except the result will be a teleport home. See <font color="lime">/8slw</font> above for examples.
+</td></tr>
+
+
+
+    
+
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26);"><span style="color: lime;">/8stmon</span><br>
+      </td>
+      <td style="vertical-align: top;">Enable monitoring of script time
+usage of avatars within range that are over the scripttime warn or TP
+limits. This is whispered so you need to be within 10m of the HS Prim to
+see the text.<br>
+      </td>
+    </tr>
+<tr>
+<td style="vertical-align: top; background-color: rgb(26, 26, 26);"><span style="color: rgb(51, 255, 51);" class="notranslate">/8age <i>daysold</i><br>/8age <i>daysold hours</i><br>/8age off<br>
+      </span></td><td style="vertical-align: top;"><font 255,51)="" color="rgb(51,"><font><span style="color: rgb(51, 255, 51);"></span></font></font>Attack any avatar equal to or under <font color="gray"><i>daysold</i></font> old for the next <font color="gray"><i>hours</i></font>.<br>
+      Ignoring hours will default to <a href="http://en.wikipedia.org/wiki/Year_2038_problem">until the year 2038</a>.
+      <br><span style="color: rgb(51, 255, 51);">/8age off</span> disables. Version 12.020+
+</td></tr>
+
+  </tbody>
+</table>
+
+&nbsp;
+<h3><a name="Menu_Buttons_are_Commands"></a>Menu Buttons are Commands
+</h3>
+
+Most menu buttons are commands also but it is probably easier to use
+the menus.<br>
+
+Here are some examples:<br>
+
+<br>
+
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="10">
+
+  <tbody>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; vertical-align: top; color: rgb(51, 255, 51);"><span style="color: rgb(51, 204, 255);" class="notranslate">/8sleep</span> </td>
+      <td style="vertical-align: top;">Enables/Disables sleeping when
+Operator is within range. Useful for
+some Estates where security systems must be off when no one is there.<span style="color: rgb(51, 51, 51);"></span> </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 204, 255);" class="notranslate">/8st=<span style="font-style: italic;">number</span>
+      </td>
+      <td style="vertical-align: top;">Set the Scan Timer rate in
+seconds. Lowest should be 6, Lindens<br>
+recommend 10 seconds<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; vertical-align: top; color: rgb(51, 204, 255);" class="notranslate">/8ar=<span style="font-style: italic;">number</span>
+      </td>
+      <td style="vertical-align: top;">Limit Armed Range (ie. when in
+Public or Guests or Friends Mode). Non-zero number.<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26);"><span style="color: rgb(51, 204, 255);">/8thisland</span><br>
+      </td>
+      <td style="vertical-align: top;">Limit Armed Range to this land parcel only.<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26);"><span style="color: rgb(51, 204, 255);">/8landowners</span><br>
+      </td>
+      <td style="vertical-align: top;">Limit Armed Range to all of this land owner's parcels within this region.<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26);"><span style="color: rgb(51, 204, 255);">/8region</span><br>
+      </td>
+      <td style="vertical-align: top;">Limit Armed Range to the whole region.<br>
+The Prim will still repect <span style="font-style: italic;">Foreign Land Safe</span>, <span style="font-style: italic;">Other Land Safe</span>, <span style="font-style: italic;">Up</span> and <span style="font-style: italic;">Down</span> restrictions.<br>
+      </td>
+    </tr>
+<tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 204, 255);" class="notranslate">/8sr=<span style="font-style: italic;">number</span><br>
+      </td>
+      <td style="vertical-align: top;">Limit NoAttack mode range. Non-zero number.<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 255, 51);"><span style="color: rgb(51, 204, 255);" class="notranslate">/8teleport</span>
+      </td>
+      <td style="vertical-align: top;">make the weapon be Teleport Home
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 204, 255);" class="notranslate">/8eject </td>
+      <td style="vertical-align: top;">make the weapon be Eject </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 204, 255);" class="notranslate">/8gs on<span style="color: white;">|</span>off </td>
+      <td style="vertical-align: top;">Group Safe on or off </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 204, 255);" class="notranslate">/8fls on<span style="color: white;">|</span>off </td>
+      <td style="vertical-align: top;">Foreign Land Safe on or off.
+Foreign Land is land with a different owner to the land under the HS
+Prim. </td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(26, 26, 26); white-space: nowrap; color: rgb(51, 204, 255);" class="notranslate">/8ols on<span style="color: white;">|</span>off </td>
+      <td style="vertical-align: top;">Other Land Safe on or off. Other land is any other land, even if
+it has the same name. </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 1%; white-space: nowrap; background-color: rgb(26, 26, 26); color: rgb(51, 204, 255);" class="notranslate">/8nop im<span style="color: white;">|</span>menu<span style="color: white;">|</span>off</td>
+      <td style="vertical-align: top;">Notify
+Operator who turned it on (IM = Instant Message, Menu = Popup Blue menu
+(menu only works after you visit the Region the Prim is in), Off.<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26); color: rgb(51, 204, 255);" class="notranslate">/8nt on<span style="color: white;">|</span>off</td>
+      <td style="vertical-align: top;">Notify Target on or off</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26); color: rgb(51, 204, 255);" class="notranslate">/8log</td>
+      <td style="vertical-align: top;">See the log menu</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26); color: rgb(51, 204, 255);" class="notranslate">/8vlog</td>
+      <td style="vertical-align: top;">Visitors Log</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(26, 26, 26); color: rgb(51, 204, 255);" class="notranslate">/8clog</td>
+      <td style="vertical-align: top;">Commands Log</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+Note: A few more examples are <font class="notranslate">/8weapon,
+/8listnear, /8groupsafe, /8public, /8names, /8visitors</font> etc etc<br>
+
+<br>
+
+<div style="text-align: center;"><small style="color: rgb(51, 51, 51);"><small><a href="index.html">Index</a></small></small><br>
+<small style="color: rgb(51, 51, 51);"><small>
+This document is Public Domain</small></small><br style="color: rgb(51, 51, 51);">
+<small style="color: rgb(51, 51, 51);"><small>Psyke's Defense Systems®,
+PDS Dagger Logo and PDS HomeSecurity&#8482; are Trademarks or Registered
+Trademarks of Psyke Phaeton.</small></small><br>
+</div>
+
+</body></html>

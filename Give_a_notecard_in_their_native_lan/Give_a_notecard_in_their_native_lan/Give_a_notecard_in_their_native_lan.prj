@@ -1,0 +1,6 @@
+<Project name="Give_a_notecard_in_their_native_lan" guid="D8BD525D-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8BD5330-6C00-1014-B904-200204C60A89">
+		<Script name="Give_a_notecard_in_their_native_lan_1.lsl" guid="D8BD6FFC-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

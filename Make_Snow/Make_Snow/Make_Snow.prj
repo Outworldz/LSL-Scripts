@@ -1,0 +1,6 @@
+<Project name="Make_Snow" guid="D8550350-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8550448-6C00-1014-B904-200204C60A89">
+		<Script name="Make_Snow_1.lsl" guid="D85524D4-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

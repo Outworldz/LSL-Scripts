@@ -1,0 +1,6 @@
+<Project name="Simple_Music_Stream_changer_by_Gatt" guid="D79DA7FA-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D79DA8E3-6C00-1014-B904-200204C60A89">
+		<Script name="Simple_Music_Stream_changer_by_Gatt_1.lsl" guid="D79DC0A2-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

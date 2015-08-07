@@ -1,0 +1,6 @@
+<Project name="L97campfire" guid="D74C2CA9-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D74C2D7F-6C00-1014-B904-200204C60A89">
+		<Script name="L97campfire_1.lsl" guid="D74C47F3-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

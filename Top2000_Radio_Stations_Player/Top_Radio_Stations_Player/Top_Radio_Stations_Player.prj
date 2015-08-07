@@ -1,0 +1,8 @@
+<Project name="Top_Radio_Stations_Player" guid="d8d2be06-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d8d2bef0-6c00-1014-b904-200204c60a89">
+		<Script name="Remote parcel script.lsl" guid="b7faaa75-fdaf-49d1-8d10-1fb25dcadbde">
+		</Script>
+		<Script name="Top_Radio_Stations_Player_1.lsl" guid="d8d2f6ec-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,21 @@
+This work is licensed as Creative Commons Attribution/NonCommercial/Share Alike 
+See http://creativecommons.org/licenses/by-nc-sa/3.0/
+Noncommercial -- You may not use this work for commercial purposes except when be sold inside an original work of your own making.
+If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+This means that you cannot sell this code but you may share this code. You must attribute authorship to me and leave this notice intact. 
+You are not selling the script, you are selling the build! If you do not like or agree with this, then you may not distribute these scripts, textures or sounds.
+        Ferd Frederix
+
+This code is based on original code from Xundra Snowpaw which was licensed on a new BSD License: http://www.opensource.org/licenses/bsd-license.php
+A FreeBSD license of this type must remain with the original code and allows modifications and relicensing provided that the original authors license is included.
+Copyright (c) 2010, Xundra Snowpaw
+All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentationand/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

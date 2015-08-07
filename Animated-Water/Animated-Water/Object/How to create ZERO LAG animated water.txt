@@ -1,0 +1,191 @@
+// :CATEGORY:Water
+// :NAME:Animated-Water
+// :AUTHOR:Auryn Beorn
+// :CREATED:2013-12-13 13:08:14 
+// :EDITED:2014-01-21 15:37:25
+// :ID:1006
+// :NUM:1549
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// How to create ZERO LAG animated water
+// :CODE:
+----------------------------------------------------------------------------------------------------------
+:: How to create ZERO LAG animated water ::
+----------------------------------------------------------------------------------------------------------
+By Auryn Beorn (2012)
+
+----------------------------------------------------------------------------------------------------------
+TABLE OF CONTENTS
+
+    PLEASE, SHARE THIS BOX FOR FREE!
+    CREATING ANIMATED WATER ON SL - THE MAIN IDEA
+    CREATING ANIMATED WATER ON SL - THE DETAILS
+        ANIMATED WATER - SLIDING
+        ANIMATED WATER - RIPPLES, WAVES (CELL ANIMATION)
+
+    IMPORTANT NOTES
+----------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------
+PLEASE, SHARE THIS BOX FOR FREE!
+----------------------------------------------------------------------------------------------------------
+Creating animated water in SL is a very basic skill that, sadly, the way it's usually performed, contributes in increasing the server side lag. This is by not being aware of the following fact: the scripts to animate water CAN be removed. Instead, they are left in the prims, and thus, SL has plenty of animated water with (unnecessary) scripts which add to server side lag.
+
+For this reason, I've developed this document, that will teach you how to create zero-lag animated water and put together several animate texture scripts that include a self delete function.
+
+For the same reason, I want that the content of the folder is FREELY DISTRIBUTED, all together.
+Please, SHARE with your fellow builders all the contents of this folder, and tell them to do the same.
+
+If you have questions, please feel free to contact me asking about how to do it.
+
+The following contents are ALLOWED to be distributed FOR FREE:
+
+    This documentation:
+        [Black Tulip] How to create ZERO LAG animated water
+
+    Scripts:
+        [Black Tulip] Anim - Smooth & Self Delete
+        [Black Tulip] Anim - Rotate Smooth & Self Delete
+        [Black Tulip] Anim - Cell Animation & Self Delete
+        [Black Tulip] Anim - Stop Animated Texture & Self Delete
+
+    Sample Water Textures:
+        [Black Tulip] Sample Water - Seamless (Sliding)
+        [Black Tulip] Sample Water Cols: 3 - Rows: 4 (Cell Animation)
+        [Black Tulip] Sample Water Cols: 4 - Rows: 4 (Cell Animation)
+
+Thanks for your concern in creating a prettier SL with less lag.
+----------------------------------------------------------------------------------------------------------
+CREATING ANIMATED WATER ON SL - THE MAIN IDEA
+----------------------------------------------------------------------------------------------------------
+The effect of water in SL is usually achieved by using, what we call "animated water." Then particles could also be used to enhance parts like where the water falls against the ground or rocks. For the purposes of this document, which is to create a simple guide for builders creating ZERO LAG animated water, we will focus in using animated textures.
+
+We may use two specific ways of animating textures in order to get water flowing (rivers/waterfalls/etc) or waving/rippling water (pools/ponds/etc). Both of these ways require a script to start the animation for the texture, and that is true, but, what perhaps you didn't know is...
+
+... that once you have your animated prim, you CAN DELETE the script from the primitive.
+
+What do we achieve with this? We achieve NOT increasing the server side lag due to the existence of scripts inworld. Animated water DOES NOT NEED that scripts remain in the prims: DELETE THEM.
+
+So this will be the general procedure that we will follow in order to get a primitive with an animated texture to emulate running water.
+
+    - Build your primitive, resize, rotate, etc
+    - Apply on it the water texture you want for it
+    - Drop one of the scripts from this box, depending of the specific kind of animated water we want
+
+----------------------------------------------------------------------------------------------------------
+CREATING ANIMATED WATER ON SL - THE DETAILS
+----------------------------------------------------------------------------------------------------------
+Make sure of being at a place where you can rez.
+
+Now rez a box. For this you can click the "Build" button at the bottom of your viewer or, alternatively, click CTRL 4. Either case, the edit window will show up, and the mouse pointer will change its icon to a magic wand. Click on the ground, and you'll see the box appearing (if there's lag, this could take a few seconds to appear.)
+
+Now, under the "General" tab of the edit window, give this box the following name:
+
+    My Water Prim - Test
+
+Depending on the type of water, you will need one or other texture, and also one or other script.
+
+If you want water flowing, as you would expect it from a waterfall or a river, you will need to use an appropriate texture and the script to make the water to slide. This is explained under the "Animated Water - Sliding" subsection.
+
+If you want water waving, or rippling, as you would expect it from a pool or a pond, you will need to use a different kind of texture and another script to make the water to "wave" or "ripple". This is explained under the "Animated Water - Ripples, waves (Cell Animation)" subsection.
+
+Both subsections explain you how to tweak the corresponding script if you wish to change the speed in the animation, as well as the number of frames for the "cell animation" case.
+
+If the script does not compile... DON'T DROP IT IN THE PRIM!
+You will know this because you will see a "Syntax Error" appearing.
+
+Consider asking for help in groups that offer assistance to creators, if you don't know how to fix this.
+
+----------------------------------------------------------------------------------------------------------
+    ANIMATED WATER - SLIDING
+----------------------------------------------------------------------------------------------------------
+
+Edit your "My Water Prim - Test" box. Click the "Texture" tab of the edit window and drop in here the "[Black Tulip] Sample Water - Seamless (Sliding)" texture. This is a seamless texture that will look good no matter which direction you want the texture to flow: you changed that by changing the texture rotation to 0, 90, 180 or 270 degrees.
+
+Click now the "Content" tab of the edit window and drop the "[Black Tulip] Anim - Smooth & Self Delete" script inside the primitive. It will animate the texture and then self delete.
+
+If the water is not flowing in the direction you wish to see it, proceed this way:
+
+Click the "Texture" tab of the edit window.
+Change the number in the "Rotation" edit box. It's 0 by default in boxes.
+Interesting values here are:
+    0, 90, 180, 270
+
+When you have the one you like, close the edit window.
+
+WATER IS FLOWING TOO FAST/SLOW? HOW CAN I CHANGE THIS?
+
+Open the "[Black Tulip] Anim - Smooth & Self Delete" from your folder in your inventory.
+Look for the line saying:
+
+float   rate = 0.025;       // Rate - Low values: Slow - High values: Quick
+
+Change this 0.025 to any other number of seconds you wish. 1.0, 2.25, 0.53...
+
+Click the "Save" button or hit CTRL S to get the script to save and compile. Once you get the message telling you that the script has compiled, drop it inside the primitive. This will refresh the rate of the animation and self delete again the script.
+
+----------------------------------------------------------------------------------------------------------
+    ANIMATED WATER - RIPPLES, WAVES (CELL ANIMATION)
+----------------------------------------------------------------------------------------------------------
+
+Edit your "My Water Prim - Test" box. Click the "Texture" tab of the edit window and drop in here the "[Black Tulip] Sample Water Cols: 3 - Rows: 4 (Cell Animation)" texture. This is a texture containing 12 cells, distributed in 3 columns and 4 rows, that make a total of 12 frames that will be played one after the other to create the illusion of the water rippling.
+
+Click now the "Content" tab of the edit window and drop the "[Black Tulip] Anim - Cell Animation & Self Delete" script inside the primitive. It will animate the texture and then self delete. You can now close the edit window.
+
+WATER IS FLOWING TOO FAST/SLOW? HOW CAN I CHANGE THIS?
+Refer to the previous subsection - Procedure is the same here.
+
+MY TEXTURE HAS A DIFFERENT NUMBER OF COLUMNS/ROWS - WHAT DO I HAVE TO CHANGE IN THE SCRIPT?
+
+Open the "[Black Tulip] Anim - Cell Animation & Self Delete" from your folder in your inventory.
+Look for the lines saying:
+
+integer columns = 3;
+integer rows = 4;
+
+Change those numbers to the number of columns and rows your texture has.
+
+Those numbers can't contain decimals. An example, the following is NOT correct:
+
+integer columns = 3.24;     // This is WRONG
+integer rows = 4.75;        // This is WRONG
+
+but the following:
+
+integer columns = 4;
+integer rows = 5;
+
+is CORRECT (and what you would change this to, if your texture had 4 columns and 5 rows - which total 20 frames for your animation.)
+
+Click the "Save" button or hit CTRL S to get the script to save and compile. Once you get the message telling you that the script has compiled, drop it inside the primitive. This will refresh the rate of the animation and self delete again the script.
+
+There it is another texture in this folder to help you in practicing with this:
+
+[Black Tulip] Sample Water Cols: 4 - Rows: 4 (Cell Animation)
+
+This one has 4 columns and 4 rows. So you should change the numbers in the "[Black Tulip] Anim - Cell Animation & Self Delete" script to:
+
+integer columns = 4;
+integer rows = 4;
+
+save the script, and then drop it into the primitive.
+
+----------------------------------------------------------------------------------------------------------
+IMPORTANT NOTES
+----------------------------------------------------------------------------------------------------------
+
+NOTE: As of 2012-05-29, there's still a bug that will stop the animation on a copied primitive by using the SHIFT COPY technique to duplicate a primitive. You may use a workaround here: Take a copy of your scriptless animated primitive into your inventory, then rez a new copy. The animation is preserved on rez if you have removed the script to activate it.
+
+More information, here: http://jira.secondlife.com/browse/SVC-3925
+
+NOTE: To animate water, you won't need to rotate this texture as it's animated, usually, but to complete the collection of scripts with the most used animated texture effects, this box also contains a script named "[Black Tulip] Anim - Rotate Smooth & Self Delete".
+
+NOTE: If you want to STOP the effect of animating a texture, use the script named "[Black Tulip] Anim - Stop Animated Texture & Self Delete". Edit the prim, drop the script. It will stop any texture animation that could be running.
+
+NOTE: To STOP all the animated textures in a linked object, use the "[Black Tulip] Anim - Stop Linked Animated Texture & Self Delete" script instead.
+    
+
+All the scripts in this box self delete. Please USE and SHARE them!
+
+-- Auryn Beorn

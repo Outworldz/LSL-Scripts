@@ -1,0 +1,6 @@
+<Project name="lens_opacity" guid="D7526715-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7526807-6C00-1014-B904-200204C60A89">
+		<Script name="lens_opacity_1.lsl" guid="D752802D-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

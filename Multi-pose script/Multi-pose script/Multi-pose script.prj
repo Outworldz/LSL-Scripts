@@ -1,0 +1,6 @@
+<Project name="Multi-pose script" guid="233f6e31-95a1-438e-80d0-4448aa0cac7b">
+	<Object name="Object" guid="bc7ae54d-932e-4b75-9bb2-f63409d6fccd" active="true">
+		<Script name="Script.lsl" guid="e52a0629-9fda-4d09-b6ef-e8a41a54115b">
+		</Script>
+	</Object>
+</Project>

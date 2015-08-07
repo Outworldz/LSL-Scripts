@@ -1,0 +1,6 @@
+<Project name="Sand_Hurricane_Script" guid="D78FA52F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D78FA60D-6C00-1014-B904-200204C60A89">
+		<Script name="Sand_Hurricane_Script_1.lsl" guid="D78FD72D-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Opensim Jetski" guid="d831a1c5-9ade-478c-bb94-a4d49156befd">
+	<Object name="Object" guid="ad604dd0-6ef5-4927-8601-be75944fc038" active="true">
+		<Script name="Script.lsl" guid="0e93611a-760e-40de-aec4-7587b79dbe4f">
+		</Script>
+	</Object>
+</Project>

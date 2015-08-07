@@ -1,0 +1,8 @@
+<Project name="Millisecond_Time" guid="D7F8E602-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7F8E6FE-6C00-1014-B904-200204C60A89">
+		<Script name="Millisecond_Time_1.lsl" guid="D7F90BB3-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Millisecond_Time_2.lsl" guid="D7F91F2D-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

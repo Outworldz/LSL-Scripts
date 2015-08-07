@@ -1,0 +1,6 @@
+<Project name="Jukebox_Track_WAV" guid="D7343A57-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7343B40-6C00-1014-B904-200204C60A89">
+		<Script name="Jukebox_Track_WAV_1.lsl" guid="D7346439-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

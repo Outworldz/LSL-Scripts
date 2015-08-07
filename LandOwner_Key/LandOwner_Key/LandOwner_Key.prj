@@ -1,0 +1,6 @@
+<Project name="LandOwner_Key" guid="D750D7BB-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D750D8DC-6C00-1014-B904-200204C60A89">
+		<Script name="LandOwner_Key_1.lsl" guid="D750F289-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

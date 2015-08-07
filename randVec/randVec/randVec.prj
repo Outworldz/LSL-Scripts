@@ -1,0 +1,6 @@
+<Project name="randVec" guid="D8028F39-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D802904D-6C00-1014-B904-200204C60A89">
+		<Script name="randVec_1.lsl" guid="D802A7E0-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

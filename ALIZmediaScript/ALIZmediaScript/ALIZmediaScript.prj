@@ -1,0 +1,8 @@
+<Project name="ALIZmediaScript" guid="D6D39CD7-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6D39DED-6C00-1014-B904-200204C60A89">
+		<Script name="ALIZmediaScript_1.lsl" guid="D6D3C56F-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="ALIZmediaScript_2.lsl" guid="D6D3DFDB-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

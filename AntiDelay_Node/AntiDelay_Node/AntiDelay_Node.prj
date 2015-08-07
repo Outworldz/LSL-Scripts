@@ -1,0 +1,14 @@
+<Project name="AntiDelay_Node" guid="D7D74759-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7D7484A-6C00-1014-B904-200204C60A89">
+		<Script name="AntiDelay_Node_1.lsl" guid="D7D7796C-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="AntiDelay_Node_2.lsl" guid="D7D79024-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="AntiDelay_Node_3.lsl" guid="D7D7A75F-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="AntiDelay_Node_4.lsl" guid="D7D7BF25-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="AntiDelay_Node_5.lsl" guid="D7D7DD08-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,14 @@
+<Project name="Advanced_Sculptie_Exporter_From_May" guid="D87D9D66-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D87D9E79-6C00-1014-B904-200204C60A89">
+		<Script name="Advanced_Sculptie_Exporter_From_May_1.lsl" guid="D87DEBF4-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Advanced_Sculptie_Exporter_From_May_2.lsl" guid="D87E499C-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Advanced_Sculptie_Exporter_From_May_3.lsl" guid="D87E96C8-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Advanced_Sculptie_Exporter_From_May_4.lsl" guid="D87ED225-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Advanced_Sculptie_Exporter_From_May_5.lsl" guid="D87F0E39-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

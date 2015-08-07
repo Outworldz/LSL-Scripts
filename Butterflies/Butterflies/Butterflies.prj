@@ -1,0 +1,14 @@
+<Project name="Butterflies" guid="3ee231bb-eea8-46ea-a9cd-889a33e78675">
+	<Object name="Object" guid="744117d9-6a1a-43f1-84bd-1f6bb2d8443b" active="true">
+		<Script name="butterflap.lsl" guid="700a6325-42fd-4193-8818-919a6d44b66a">
+		</Script>
+		<Script name="color change.lsl" guid="5afccb3d-19b4-4fb4-b6c6-5a1b326d1c0e">
+		</Script>
+		<Script name="flight.lsl" guid="82b229c3-15ff-44c0-81f2-7f92d790585c">
+		</Script>
+	</Object>
+	<Object name="Controller" guid="a27909ff-1ec9-42a3-9d96-70a28b0b0282">
+		<Script name="rezzer-controller.lsl" guid="62ad9eab-4dc3-4e20-8657-f1948ee39cdc">
+		</Script>
+	</Object>
+</Project>

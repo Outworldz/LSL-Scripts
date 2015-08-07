@@ -1,0 +1,6 @@
+<Project name="KillHoverText" guid="D738E296-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D738E386-6C00-1014-B904-200204C60A89">
+		<Script name="KillHoverText_1.lsl" guid="D7396BB6-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

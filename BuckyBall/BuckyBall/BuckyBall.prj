@@ -1,0 +1,6 @@
+<Project name="BuckyBall" guid="adfe4a5b-0adc-4f3d-a651-812f6f2fb37d">
+	<Object name="Object" guid="43b750ee-ebf8-4d62-baa9-5b385824cac6" active="true">
+		<Script name="Script.lsl" guid="df06807a-32dc-4dff-b454-5107dc80ba1c">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,52 @@
+Options Indexes
+
+
+
+# SET INDEX OPTIONS
+IndexOptions IgnoreCase FancyIndexing FoldersFirst NameWidth=* DescriptionWidth=* SuppressHTMLPreamble  IconsAreLinks IconHeight=24 IconWidth=24
+
+# SPECIFY HEADER FILE
+HeaderName /library/header.html
+ 
+# SPECIFY FOOTER FILE
+ReadmeName /library/footer.html
+
+IndexIgnore _vti* thumbs.db  .htaccess *.sol *.prj 
+
+# DEFAULT ICON
+DefaultIcon /library/icons/box.png
+
+# DIR
+AddIcon /library/icons/box_into.png ^^DIRECTORY^^
+
+# UP
+AddIcon /library/icons/box_previous.png ..
+
+
+# CUSTOM IMAGE ICONS
+AddIconByType (IMG,/library/icons/photo_portrait.png) image/*
+
+AddIcon (MP3,/library/icons/folder_music.png) .mp3 .wav
+AddIcon (LSL,/library/icons/text_view.png) .lsl .txt
+AddIcon (DAE,/library/icons/transform2.png) .ac .dae .blend
+AddIcon (XML,/library/icons/transform2.png) .xml
+AddIcon (BVH,/library/icons/heart.png) .bvh .anim
+AddIcon (PSD,/library/icons/photo_portrait.png) .psd
+
+AddDescription  "<span class='description'>Second Life or OpenSim LSL Script</span>" .lsl
+AddDescription  "<span class='description'>Image file</span>" .jpg .png .gif .tga .bmp .pic
+AddDescription  "<span class='description'>Collada DAE file (3d mesh)</span>" .dae
+AddDescription  "<span class='description'>AC3D 3-D CAD file</span>" .ac
+AddDescription  "<span class='description'>Wave Sound file</span>" .wav .snd
+AddDescription  "<span class='description'>Plain Text</span>" .txt
+AddDescription  "<span class='description'>MPEG Layer 3 Format</span>" .mp3
+AddDescription  "<span class='description'>Prim 'Object'</span>" Object
+AddDescription  "<span class='description'>XML file for Imprudence</span>" .xml
+AddDescription  "<span class='description'>Blender 3D model</span>" .blend
+AddDescription  "<span class='description'>Material</span>" .slm
+AddDescription  "<span class='description'>Animation</span>" .bvh .anim .ani
+AddDescription  "<span class='description'>Photoshop PSD file</span>" .psd
+AddDescription  "<span class='description'>LSLEditor LandMark</span>" .lmrk
+AddDescription  "<span class='description'>LSLEditor Gesture</span>" .ges
+
+

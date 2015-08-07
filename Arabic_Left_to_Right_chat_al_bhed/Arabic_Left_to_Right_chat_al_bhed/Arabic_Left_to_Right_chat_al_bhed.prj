@@ -1,0 +1,6 @@
+<Project name="Arabic_Left_to_Right_chat_al_bhed" guid="D8703283-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D870336E-6C00-1014-B904-200204C60A89">
+		<Script name="Arabic_Left_to_Right_chat_al_bhed_1.lsl" guid="D870570D-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

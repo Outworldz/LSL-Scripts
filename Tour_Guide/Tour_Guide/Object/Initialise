@@ -1,0 +1,17 @@
+// :CATEGORY:Tour Guide
+// :NAME:Tour_Guide
+// :AUTHOR:Wandering Yaffle
+// :KEYWORDS:
+// :CREATED:2010-01-10 05:20:56.000
+// :EDITED:2014-03-10
+// :ID:908
+// :NUM:1285
+// :REV:1.1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// This Tour Guide by Wandering Yaffle for Second Life turns a set of coordinates and notecards into an automated tour. The object hovers along a path, emitting chat lines at each stop and waiting to be touched to continue.// // Place the following script and notecards in an object. Add a notecard for each stop in the tour. The "initialise" notecard contains the x,y,z coordinates and the names of notecards with chat lines. Waypoints with no comment are noted with ">". These are useful for going around walls, up stairways, etc. // // Sample "initialise" notecard
+// :CODE:
+anything goes here|<177,87,30>|Start the tour
+line 2 is also ignored|<150,87,30>|This is line 2 and is chatted
+ditto for line 3|<169,91,30>|
+ciopy and paste these from chat|<177,87,30>|End of tour

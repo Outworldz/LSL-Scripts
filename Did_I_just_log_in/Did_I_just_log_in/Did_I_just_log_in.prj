@@ -1,0 +1,6 @@
+<Project name="Did_I_just_log_in" guid="D8E4377C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8E43874-6C00-1014-B904-200204C60A89">
+		<Script name="Did_I_just_log_in_1.lsl" guid="D8E4531F-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

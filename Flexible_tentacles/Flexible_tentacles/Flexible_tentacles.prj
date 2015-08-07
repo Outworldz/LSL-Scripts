@@ -1,0 +1,6 @@
+<Project name="Flexible_tentacles" guid="D8ADA459-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8ADA542-6C00-1014-B904-200204C60A89">
+		<Script name="Flexible_tentacles_1.lsl" guid="D8ADBC2C-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

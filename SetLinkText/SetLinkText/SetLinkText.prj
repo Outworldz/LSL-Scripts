@@ -1,0 +1,6 @@
+<Project name="SetLinkText" guid="D89A0D47-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D89A0E64-6C00-1014-B904-200204C60A89">
+		<Script name="SetLinkText_1.lsl" guid="D89A2ADF-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

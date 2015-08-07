@@ -1,0 +1,6 @@
+<Project name="glow_when_stept_on" guid="D86E22FB-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D86E23E5-6C00-1014-B904-200204C60A89">
+		<Script name="glow_when_stept_on_1.lsl" guid="D86E4478-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

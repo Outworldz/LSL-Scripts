@@ -1,0 +1,6 @@
+<Project name="Smoke Puffs" guid="246b25ad-2cc9-4176-9ec8-06e3213175d1">
+	<Object name="Object" guid="ece12b08-f1eb-497c-bdc7-91d9af085945" active="true">
+		<Script name="Script.lsl" guid="9ef9adea-ab0c-4aa7-a514-2850a9a6e8d0">
+		</Script>
+	</Object>
+</Project>

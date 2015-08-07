@@ -1,0 +1,6 @@
+<Project name="Whoopie_cushion" guid="D8E1C0B2-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8E1C1BD-6C00-1014-B904-200204C60A89">
+		<Script name="Whoopie_cushion_1.lsl" guid="D8E1E5DD-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

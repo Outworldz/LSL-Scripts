@@ -1,0 +1,6 @@
+<Project name="Boat_lsl_for_opensim" guid="D86B399F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D86B3A92-6C00-1014-B904-200204C60A89">
+		<Script name="Boat_lsl_for_opensim_1.lsl" guid="D86B8FA8-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

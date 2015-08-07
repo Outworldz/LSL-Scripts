@@ -1,0 +1,6 @@
+<Project name="Malthus_Bling_Scriptgood_one" guid="D7560E8C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7560F79-6C00-1014-B904-200204C60A89">
+		<Script name="Malthus_Bling_Scriptgood_one_1.lsl" guid="D7564772-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

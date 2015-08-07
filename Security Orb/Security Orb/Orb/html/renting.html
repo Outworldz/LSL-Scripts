@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr" lang="en-au"><head>
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Home Security  Prim - Renting</title><meta content="Psyke Phaeton" name="author"><meta content="HomeSecurity Prim Documentation" name="description"><link rel="stylesheet" href="psykes.css" type="text/css" title="Dark"><link href="bright.css" type="text/css" title="Bright"></head><body alink="#ff6600" link="#ff6600" vlink="#ff6600">
+<h1>Home Security  Prim Documentation</h1>
+<h2><span editable="true" id="PageTitle">Renting Land and Apartments
+</span></h2>
+<h3>Rented Land and Apartments</h3>
+<span editable="true" id="Body1"></span>Since version 9.008 the Prim can
+detect land borders. This allows landlords to have HS Prims
+protect one parcel of land and not affect the neighbours parcel.<br>
+<br>
+The setting to enable this is called Other Land Safe and it is found in the menus by going to SETTINGS / Weapon / OtherLand.<br>
+<br>
+It is also settable for experienced users by editing the "HomeSecurity Settings" notecard and changing: <span style="color: rgb(51, 204, 255);">other_land_safe=1</span> then using the command: <span style="color: rgb(51, 204, 0);">/8reset</span><br>
+<br>
+<h4>&nbsp;<span style="color: rgb(51, 204, 0);">/8reset</span> command will reset the Prim to the Settings notecard defaults but names won't be lost.</h4>
+
+<br>
+This Settings notecard feature can be used for: <br>
+<ul>
+  <li>copying one Settings notecard into multiple Prims, then <span style="color: rgb(51, 204, 0);">/8reset</span> them, for faster set ups.</li>
+  <li><span style="color: rgb(51, 204, 0);">/8reset</span> could also be used to reset the Prim after a renter leaves (<span style="color: red;">Names will need to be removed via menus</span>).</li>
+</ul>
+<h3>Apartment Complexes</h3>
+You need to update to HS Prim version 9.010 or above before following these instructions.<br>
+<br>
+Appartments have an additional problems caused by the fact that each
+appartment may have neighbouring appartments above, below and each side
+of the appartment.<br>
+<br>
+The HomeSecurity&#8482; Prim solves these issues with two methods working together:<br>
+<br>
+<ol>
+  <li><span style="font-weight: bold;"></span>The first is commands to
+tell the HS Prim how far above itself the roof is and how far below it
+the floor is. These commands are: <br>
+    <br>
+    <span style="color: rgb(51, 204, 0);">/8up=<span style="font-style: italic;">number</span> </span>(where number is above 0.0)<br>
+    <br>
+and<br>
+    <br>
+    <span style="color: rgb(51, 204, 0);">/8down=<span style="font-style: italic;">number</span> </span>(where number is above 0.0)<br>
+    <br>
+The <span style="font-style: italic;">number</span> can be anything
+including decimal point numbers.<br>The Prims attack range should be "ThisLand".<br>
+    <br>
+    <br>
+
+    
+  </li>
+  <li><span style="font-weight: bold;"></span>The second method is
+designed to tell the HS Prim where the outer walls of the apartment is.
+Rather than use coordinates which can be very technical and confusing
+or involve extra prims the Prim uses land borders. This means that each
+column of apartments should be on different land. Please see the diagram
+below for an example.<br>
+    <br>
+    <div style="text-align: center;"><img style="width: 512px; height: 512px;" alt="HSPrim Apartments" src="images/hsPrimapartments.jpg">
+    </div>
+    <br>
+Once each column has its own unique land name then the HS Prim needs the
+setting "Other Land Safe" ON. This can be done through the normal set
+up or in SETTINGS / Weapon / OtherLand.<br>
+    <br>
+    <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td style="vertical-align: middle; width: 1%;"><img style="width: 40px; height: 36px;" alt="Warning:" src="images/warn40px.png"><br>
+          </td>
+          <td style="vertical-align: top;"><span style="color: red; font-style: italic;">Each
+Prim needs to be more than 20m apart or menus will show from each HS Prim
+within 20m. If the HS Prims can not be placed more than 20m apart make
+each of the HS Prims use a different channel to the others within 20m.
+You do this by editing the </span><span style="color: red; font-weight: bold;">HomeSecurity Channel</span><span style="color: red; font-style: italic;"> notecard inside the HS Prim and changing </span><span style="color: rgb(51, 102, 255);">channel=8</span><span style="color: red; font-style: italic;"> to another number. Each HS Prim within 20m of another will need a different number.</span><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </li>
+</ol>
+<br>
+
+
+<div style="text-align: center;"><small style="color: rgb(51, 51, 51);"><small><a href="index.html">Index</a></small></small><br>
+<small style="color: rgb(51, 51, 51);"><small>
+This document is Public Domain</small></small><br><small style="color: rgb(51, 51, 51);"><small>Psyke's Defense Systems®, PDS Dagger Logo and PDS HomeSecurity&#8482; are Trademarks or Registered Trademarks of Psyke Phaeton.</small></small></div>
+</body></html>

@@ -1,0 +1,6 @@
+<Project name="Script_controller" guid="D88E07C7-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D88E08F6-6C00-1014-B904-200204C60A89">
+		<Script name="Script_controller_1.lsl" guid="D899C0DD-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

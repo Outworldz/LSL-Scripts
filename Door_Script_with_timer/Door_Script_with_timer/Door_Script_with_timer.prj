@@ -1,0 +1,6 @@
+<Project name="Door_Script_with_timer" guid="D71400DD-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D71401D0-6C00-1014-B904-200204C60A89">
+		<Script name="Door_Script_with_timer_1.lsl" guid="D7144608-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

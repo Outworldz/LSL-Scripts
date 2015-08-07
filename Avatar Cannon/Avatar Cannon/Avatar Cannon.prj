@@ -1,0 +1,6 @@
+<Project name="Avatar Cannon" guid="d6e42608-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d6e426e0-6c00-1014-b904-200204c60a89">
+		<Script name="Avatar Cannon.lsl" guid="d6e45090-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+</Project>

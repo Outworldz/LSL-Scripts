@@ -1,0 +1,10 @@
+<Project name="Play-Sound-and-Animation" guid="9b9f16a6-82d6-473f-9283-43f41eadf5ed">
+	<Object name="Object" guid="7f45d6b1-1022-4551-854b-a41ebcc284b9" active="true">
+		<Animation name="Animation.ani" guid="f95c896d-1524-4e06-bc44-ff877b4b1f1b">
+		</Animation>
+		<Script name="Script.lsl" guid="1ae0fd51-917e-4130-95d0-6beca36b1842">
+		</Script>
+		<Sound name="Sound.snd" guid="d73733f5-5a7d-4d99-aa91-e4e9c798317f">
+		</Sound>
+	</Object>
+</Project>

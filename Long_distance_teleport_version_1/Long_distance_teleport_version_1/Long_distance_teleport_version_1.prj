@@ -1,0 +1,6 @@
+<Project name="Long_distance_teleport_version_1" guid="D754E1C3-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D754E2B8-6C00-1014-B904-200204C60A89">
+		<Script name="Long_distance_teleport_version_1_1.lsl" guid="D7550F3C-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

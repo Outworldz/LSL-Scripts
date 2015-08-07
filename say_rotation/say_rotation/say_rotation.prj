@@ -1,0 +1,6 @@
+<Project name="say_rotation" guid="D790A5AB-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D790A6AA-6C00-1014-B904-200204C60A89">
+		<Script name="say_rotation_1.lsl" guid="D790C106-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="chair_sitting_script" guid="D6F666AC-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6F6679B-6C00-1014-B904-200204C60A89">
+		<Script name="chair_sitting_script_1.lsl" guid="D6F67DA5-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

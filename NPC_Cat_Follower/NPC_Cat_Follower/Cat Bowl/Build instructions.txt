@@ -1,0 +1,67 @@
+// :SHOW:
+// :CATEGORY:NPC
+// :NAME:NPC_Cat_Follower
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2013-12-07 19:20:18
+// :EDITED:2015-05-29  11:26:02
+// :ID:1004
+// :NUM:1752
+// :REV:1
+// :WORLD:Opensim
+// :DESCRIPTION:
+// INSTRUCTIONS for KITTEH KAT FUD BOWL
+// :CODE:
+
+-------------------------------------------------------
+To make either of these these cats, you must first make a avatar and a cat food bowl.   You also have to have NPC's enabled on your land.  
+
+See http://opensimulator.org/wiki/OSSLNPC
+
+Upload the Cat1.dae file.     Give the model a name such as "Kitteh Kat", and select the pulldown for "Avatar Shape" on the Level of Detail screen.
+
+Physics can be set to Lowest- or anything since this is a NPC, it will be ignored. But you may want a static model, so Lowest will work best then.
+
+You must select the two switches on the upload tab for  Include Skin Weight and Include Joint Positions boxes.
+
+Texture it, and wear the cat.
+
+Go to "Me"->Appearance so we can get rid of our old body with an Alpha Layer
+
+Edit appearance:  Click the little gear at the bottom of the Edit Appearance window and select New->Alpha Layer.
+
+Locate the Alpha Tab and click all of the check boxes for the alpha boxes. 
+
+Save this as "Kat Alpha".
+
+Take everything you are wearing off except the cat.
+
+With a 100% alpha, you will look like a cat with the arms crossed. 
+
+Now edit your shape.   At the borttom of the first shape screen is a setting for avatar offset.    Add an offset to your avatar so the rear legs are on the ground.   I also shorten the legs and lengthen the arms to the maximum so that all 4 feet are on the ground.  Save this appearance at "Kitteh Kat  shape".
+
+You can also upload Katt2.dae and it's tail and texture it separately.
+
+Anims:
+
+The anims go in a box or circular cat bowl with the main script.    I put some water in my cat bowl using a script from a waterfall, but that is optional.
+
+Upload the animations  "Stand.bvh and "Walk.bvh". Upload them with 'loop' checked.     If you play them, you should be standing there, or walking. 
+
+The file "claw.anim" and "meow.anim" is "bulk uploaded" and it goes in the same bowl.   Put all of them in the bowl and name these  "Meow", "Claw", "Stand", and "Walk".
+
+Add the NPC_Cat_Follower script to the box or cat fud bowl. (Cat fud is the correct spelling for kitteh kat fud bowls", according to  teh Internets).
+
+Upload and add all the sounds and put them in the same box.
+
+Now take the cat and tail off, and put it back on again. (Very Necessary as this saves the attachment point).
+
+Then click the box and select "Appearance" from the menu.  This will make the notecard for your Grid.   Then click "Start".
+
+A cat should appear and follow you around.
+
+Cat bowls made this way work on a single grid. To go to another grid requires that the notecard be recreated for each grid.
+
+KTHXBYE
+
+Fred

@@ -1,0 +1,6 @@
+<Project name="Auto_attach_when_dropped_on_ground" guid="D8AC6B78-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8AC6C79-6C00-1014-B904-200204C60A89">
+		<Script name="Auto_attach_when_dropped_on_ground_1.lsl" guid="D8AC8706-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

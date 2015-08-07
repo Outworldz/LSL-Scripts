@@ -1,0 +1,6 @@
+<Project name="Opal_Bling" guid="D765E4E1-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D765E5C2-6C00-1014-B904-200204C60A89">
+		<Script name="Opal_Bling_1.lsl" guid="D766070B-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

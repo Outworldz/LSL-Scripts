@@ -1,0 +1,6 @@
+<Project name="Camera_Follower_by_WolfWings_Majest" guid="D6F26C0E-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6F26CEB-6C00-1014-B904-200204C60A89">
+		<Script name="Camera_Follower_by_WolfWings_Majest_1.lsl" guid="D6F28B39-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

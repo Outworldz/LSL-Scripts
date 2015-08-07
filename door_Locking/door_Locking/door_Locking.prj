@@ -1,0 +1,6 @@
+<Project name="door_Locking" guid="D712C603-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D712C6F6-6C00-1014-B904-200204C60A89">
+		<Script name="door_Locking_1.lsl" guid="D7130575-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Blacksmoke_like_on_a_fire" guid="D71E95D8-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D71E96CB-6C00-1014-B904-200204C60A89">
+		<Script name="Blacksmoke_like_on_a_fire_1.lsl" guid="D71EC0DF-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

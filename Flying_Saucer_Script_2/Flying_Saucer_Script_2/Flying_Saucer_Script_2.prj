@@ -1,0 +1,6 @@
+<Project name="Flying_Saucer_Script_2" guid="D7252ED2-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7252FBF-6C00-1014-B904-200204C60A89">
+		<Script name="Flying_Saucer_Script_2_1.lsl" guid="D7256A99-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

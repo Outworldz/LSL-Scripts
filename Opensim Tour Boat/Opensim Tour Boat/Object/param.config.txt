@@ -1,0 +1,55 @@
+// :SHOW:
+// :CATEGORY:Tour
+// :NAME:Opensim Tour Boat
+// :AUTHOR:thailow
+// :KEYWORDS:
+// :CREATED:2015-02-25 22:54:39
+// :EDITED:2015-02-25  21:54:58
+// :ID:1068
+// :NUM:1719
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// A tour boat
+// :CODE:
+# ===================================================
+# CONFIG PARAMETER
+# ===================================================
+# Le linee che iniziano con il carattere # sono commenti e vengono escluse
+# durante il caricamento. Anche le righe vuote vengono escluse, tuttavia
+# per migliorare le prestazioni, una volta terminata la configurazione, sarebbe 
+# meglio rimuovere tutte le righe vuote ed i commenti  (per maggiori dettagli
+# leggere il file read.me a corredo)
+# ===================================================
+
+# PARAMETRO  OBBLIGATORIO
+# posizione iniziale della barca, la stessa posizione cui la barca verrà inviata 
+# al termine del tour. Inserire le coordinate del vettore posizione.
+# La Z può essere lasciata a 0, al caricamento verrà impostata il livello 
+# del mare.
+
+startPos = <0,0,0>
+
+
+# PARAMETRI FACOLTATIVI
+# Ricordarsi di togliere il carattere # per renderli attivi.
+
+# rotazione iniziale della barca, la stessa rotazione cui la barca verrà inviata 
+# al termine del tour. I valori del vettore sono gli angoli in X,Y,Z.
+# Ricordarsi di togliere il carattere # per renderlo attivo.
+#startRot = <0,0,0>
+
+# altezza del prim "engine" sul livello dell'acua espresso in metri.
+#hoverwater = 0,1         
+
+# velocità (o spinta) della barca.
+#speed = 2
+
+# ogni quanti secondi la barca riceve una spinta. Si consiglia di rimanere
+# tra i 0.2 ed i 0.6 secondi
+#pushtime = 0.3
+
+# se posto ad 1, il proprietario della barca riceverà dei messaggi di stato
+# utili per il controllo in fase di posizionamento e settaggio del percorso.
+# Impostare a 0 per disabilitare i messaggi.
+#debug=1

@@ -1,0 +1,6 @@
+<Project name="Spiral Stair Maker" guid="6ab25f57-397a-452b-b3a8-5e7bcfccb2dc">
+	<Object name="Object" guid="b3ac5099-73cf-497c-bb1b-86b5f8865359" active="true">
+		<Script name="root prim.lsl" guid="7784123a-db46-42b0-a3f4-a8a8b4366655">
+		</Script>
+	</Object>
+</Project>

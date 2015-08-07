@@ -1,0 +1,8 @@
+<Project name="Multidimensional_Array_API" guid="D7F9C284-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7F9C376-6C00-1014-B904-200204C60A89">
+		<Script name="Multidimensional_Array_API_1.lsl" guid="D7F9EC40-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Multidimensional_Array_API_2.lsl" guid="D7FA04CA-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

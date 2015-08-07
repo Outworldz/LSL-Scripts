@@ -1,0 +1,36 @@
+<Project name="Music Player" guid="b7ccf3f2-98c4-478f-821b-82e78f28bac1">
+	<Object name="Sensor" guid="c2cc9806-16a3-49c2-9f1e-a9834a0241b7" active="true">
+		<Script name="Music_Script.lsl" guid="180c1b32-10fc-462d-8c6c-6c05d2d1c827">
+		</Script>
+		<Script name="Sensor.lsl" guid="430218c3-8ec1-4b25-ae2c-aa4a773d4ad0">
+		</Script>
+		<Sound name="TIR_Alien_Community 01.wav" guid="c583f493-58a7-4130-a031-2eb8920513ab">
+		</Sound>
+		<Sound name="TIR_Alien_Community 02.wav" guid="4c906b3a-a087-48f7-ae84-93b059ce1de1">
+		</Sound>
+		<Sound name="TIR_Alien_Community 03.wav" guid="a4c22779-0f5b-457a-9395-4687eaf27ebd">
+		</Sound>
+		<Sound name="TIR_Alien_Community 04.wav" guid="f7c917fb-acad-420f-a945-ee913bab84c7">
+		</Sound>
+		<Sound name="TIR_Alien_Community 05.wav" guid="5747375e-8472-40ba-a270-18b8dacd41dd">
+		</Sound>
+		<Sound name="TIR_Alien_Community 06.wav" guid="edd14b83-cbb7-4be0-8eb4-960236fffa6c">
+		</Sound>
+		<Sound name="TIR_Alien_Community 07.wav" guid="eb52fd83-1c95-4ed7-bb70-464fe8c2bfb8">
+		</Sound>
+		<Sound name="TIR_Alien_Community 08.wav" guid="35503214-6463-4bd7-a1a9-8e02fe10b158">
+		</Sound>
+		<Sound name="TIR_Alien_Community 09.wav" guid="2359d39c-5d7a-4653-9492-861b14f8ea67">
+		</Sound>
+		<Sound name="TIR_Alien_Community 10.wav" guid="feb3efce-3d39-4827-bb75-4dd7f3fbfe5d">
+		</Sound>
+		<Sound name="TIR_Alien_Community 11.wav" guid="7f0cd15b-bca7-4d36-b22d-e9370a3debf1">
+		</Sound>
+		<Sound name="TIR_Alien_Community 12.wav" guid="14654d37-f6a0-4471-9f44-d60756d0b400">
+		</Sound>
+		<Sound name="TIR_Alien_Community 13.wav" guid="9e9996fa-cb12-4f0d-9158-071f9806fb72">
+		</Sound>
+		<Sound name="TIR_Alien_Community 14.wav" guid="8c096f24-f86f-4630-9781-cf5ae23349cb">
+		</Sound>
+	</Object>
+</Project>

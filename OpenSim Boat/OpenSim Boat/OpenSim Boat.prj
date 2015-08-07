@@ -1,0 +1,6 @@
+<Project name="OpenSim Boat" guid="0ff87ba1-29a0-4c9d-be02-c83b5b5f1dec">
+	<Object name="Object" guid="9aa5454d-e416-4265-a78c-6d41e986819a" active="true">
+		<Script name="Script.lsl" guid="af303923-7b2b-4cc5-8e04-722088e9836f">
+		</Script>
+	</Object>
+</Project>

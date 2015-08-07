@@ -1,0 +1,6 @@
+<Project name="HoverTextPointer" guid="8f92ffe1-a78b-447c-bd4d-3c135ac427b1">
+	<Object name="Invisible Object" guid="9506f466-67ab-42da-8bae-7273daa3fcf3" active="true">
+		<Script name="Hovertext.lsl" guid="e6adad59-48ef-4e2d-afd7-c187f62975d5">
+		</Script>
+	</Object>
+</Project>

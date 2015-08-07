@@ -1,0 +1,10 @@
+<Project name="Transmogrifier" guid="D8F7D263-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8F7D35D-6C00-1014-B904-200204C60A89">
+		<Script name="Transmogrifier_1.lsl" guid="D8F805D6-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Transmogrifier_2.lsl" guid="D8F82512-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Transmogrifier_3.lsl" guid="D8F83CFD-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

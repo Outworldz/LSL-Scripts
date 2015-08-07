@@ -1,0 +1,24 @@
+<Project name="Owl Project" guid="c670f79e-2fbd-4ebf-942e-6a3231e69006">
+	<Object name="Flappy Wing" guid="18dfa8a3-d3a6-4a48-ba62-9400677f85a6">
+		<Script name="flap wing.lsl" guid="9d007808-fe8a-42dc-8dfe-ec1713e57c70">
+		</Script>
+	</Object>
+	<Object name="RootPrim" guid="5d38772f-7ca5-4ae6-8ff1-7812a31280a4" active="true">
+		<Script name="animator.lsl" guid="ad4dc44e-1b59-4a8b-ad95-667b01077094">
+		</Script>
+		<Script name="controller.lsl" guid="5c20f3a7-f87a-4937-af41-828aa20c771f">
+		</Script>
+		<Sound name="Hoot.snd" guid="04fad807-a2a5-4aa8-a996-8a7a5b63c779">
+		</Sound>
+		<Notecard name="Movement" guid="283db651-626a-47ce-b875-011e4dd68428">
+		</Notecard>
+		<Sound name="Owl Call.snd" guid="67e30a5c-4e77-41e4-8a11-acdc3d476a17">
+		</Sound>
+		<Script name="Owl script.lsl" guid="de86fc00-6340-4c88-a538-b87ac87bb4b2">
+		</Script>
+	</Object>
+	<Object name="Squirrel" guid="26a00339-4968-48aa-a316-eff1055eb76a">
+		<Script name="squirrel.lsl" guid="54fadce0-db51-4227-a71b-40c510d2479e">
+		</Script>
+	</Object>
+</Project>

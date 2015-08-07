@@ -1,0 +1,6 @@
+<Project name="Random_Movement__Flight" guid="D8110B1F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8110C17-6C00-1014-B904-200204C60A89">
+		<Script name="Random_Movement__Flight_1.lsl" guid="D8112B30-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

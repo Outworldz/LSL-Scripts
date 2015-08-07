@@ -1,0 +1,6 @@
+<Project name="Prim_Movement_4_Axis" guid="D8C56E7F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8C56F61-6C00-1014-B904-200204C60A89">
+		<Script name="Prim_Movement_4_Axis_1.lsl" guid="D8C593ED-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

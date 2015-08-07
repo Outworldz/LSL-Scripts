@@ -1,0 +1,6 @@
+<Project name="SteamJunk_Factory_Smoker_BigStack" guid="D8146A2F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8146B4A-6C00-1014-B904-200204C60A89">
+		<Script name="SteamJunk_Factory_Smoker_BigStack_1.lsl" guid="D81499BD-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

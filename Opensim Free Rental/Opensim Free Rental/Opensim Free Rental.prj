@@ -1,0 +1,6 @@
+<Project name="Opensim Free Rental" guid="1c586a29-bab1-47b4-b9a8-8fdbecc9cfe2">
+	<Object name="Object" guid="93f98a4d-b371-4624-beca-0a05f88dd9e6" active="true">
+		<Script name="Script.lsl" guid="14663866-d930-41d0-b842-932ff1a830ed">
+		</Script>
+	</Object>
+</Project>

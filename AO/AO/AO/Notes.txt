@@ -1,0 +1,21 @@
+// :CATEGORY:AO
+// :NAME:AO
+// :AUTHOR:Anonymous
+// :CREATED:2013-09-13 13:52:05
+// :EDITED:2013-09-18 15:38:47
+// :ID:46
+// :NUM:1496
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// AO Notecard
+// :CODE:
+Need typing anim
+
+GLitch in start walkL:
+
+[12:50] Tiger AO: Tiger Walk Fast
+[12:50] Tiger AO: stop Fidgit
+[12:50] Tiger AO: Fidgit
+[12:50] Tiger AO: stop Tiger Walk Fast
+

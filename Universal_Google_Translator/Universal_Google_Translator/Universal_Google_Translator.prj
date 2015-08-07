@@ -1,0 +1,10 @@
+<Project name="Universal_Google_Translator" guid="D8301CB0-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8301D99-6C00-1014-B904-200204C60A89">
+		<Script name="Universal_Google_Translator_1.lsl" guid="D830F61E-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Universal_Google_Translator_2.lsl" guid="D831FEF5-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Universal_Google_Translator_3.lsl" guid="D8321B60-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

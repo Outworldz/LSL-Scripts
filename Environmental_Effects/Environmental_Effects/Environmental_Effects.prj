@@ -1,0 +1,6 @@
+<Project name="Environmental_Effects" guid="D71A3882-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D71A3962-6C00-1014-B904-200204C60A89">
+		<Script name="Environmental_Effects_1.lsl" guid="D71A5318-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

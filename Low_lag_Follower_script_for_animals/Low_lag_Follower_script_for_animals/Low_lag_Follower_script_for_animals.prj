@@ -1,0 +1,8 @@
+<Project name="Low_lag_Follower_script_for_animals" guid="D8B461EE-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8B462DB-6C00-1014-B904-200204C60A89">
+		<Script name="Low_lag_Follower_script_for_animals_1.lsl" guid="D8B4B2A1-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Low_lag_Follower_script_for_animals_2.lsl" guid="D8B4E0AC-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

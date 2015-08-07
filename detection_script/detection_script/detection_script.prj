@@ -1,0 +1,6 @@
+<Project name="detection_script" guid="D7082C07-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7082D07-6C00-1014-B904-200204C60A89">
+		<Script name="detection_script_1.lsl" guid="D70845E7-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

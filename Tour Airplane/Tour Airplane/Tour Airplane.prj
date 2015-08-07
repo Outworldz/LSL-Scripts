@@ -1,0 +1,28 @@
+<Project name="Tour Airplane" guid="ce635c58-9ed0-49a9-a0f1-8ed7e270855f">
+	<Object name="Root Prim" guid="5b958c00-1664-4749-afe9-53898e7420b9" active="true">
+		<Script name="Autopilot.lsl" guid="b8eaf479-8826-48b2-84a6-d398dd387c07">
+		</Script>
+		<Script name="Camera.lsl" guid="cfff5761-aa80-4519-8596-13e1088bb32e">
+		</Script>
+		<Script name="Random controller.lsl" guid="058c6d93-c4a3-4b2e-aed6-2c6d97810759">
+		</Script>
+		<Notecard name="Route" guid="ff8b0558-c9ba-4676-bb13-df50f0f8143d">
+		</Notecard>
+		<Script name="Scooter.lsl" guid="97313bed-5562-40d6-9c79-eddbd3f50db7">
+		</Script>
+		<Sound name="sDoorClose" guid="ed4c7b09-f90a-4321-91a2-2dc822291cca">
+		</Sound>
+		<Sound name="sEngineOn" guid="8d970732-75ac-448c-9efa-f76cb01af2c1">
+		</Sound>
+		<Sound name="sEngineStart" guid="fed70736-4f67-4c8e-b5d0-50daa748b77c">
+		</Sound>
+		<Script name="Simple Airplane.lsl" guid="0047a0e7-f1ef-4a31-a08c-d670905fecb9">
+		</Script>
+		<Sound name="sThrottleUp" guid="85b6c374-e7c1-4dbb-8b6b-537fb5064c7c">
+		</Sound>
+		<Script name="supercar.lsl" guid="68741232-333b-4394-ad40-b19b6c8710a9">
+		</Script>
+		<Script name="Tour controller.lsl" guid="069733cd-d982-47a4-926e-46ec9923c6a9">
+		</Script>
+	</Object>
+</Project>

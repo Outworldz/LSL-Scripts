@@ -1,0 +1,6 @@
+<Project name="SnowGlobe_Script_2" guid="D7AF6CFD-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7AF6DD0-6C00-1014-B904-200204C60A89">
+		<Script name="SnowGlobe_Script_2_1.lsl" guid="D7AF8D56-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

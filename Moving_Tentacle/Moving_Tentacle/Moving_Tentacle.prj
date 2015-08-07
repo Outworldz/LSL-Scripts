@@ -1,0 +1,6 @@
+<Project name="Moving_Tentacle" guid="D75BECD4-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D75BEDBC-6C00-1014-B904-200204C60A89">
+		<Script name="Moving_Tentacle_1.lsl" guid="D75C0D29-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

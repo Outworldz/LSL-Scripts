@@ -1,0 +1,10 @@
+<Project name="Unlimited_storage_Prim_Animator" guid="D8B99836-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8B9990F-6C00-1014-B904-200204C60A89">
+		<Script name="Unlimited_storage_Prim_Animator_1.lsl" guid="D8B9FCC8-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Unlimited_storage_Prim_Animator_2.lsl" guid="D8BA1D7A-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Unlimited_storage_Prim_Animator_3.lsl" guid="D8BA4326-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Persist_NPC_thru_a_reboot" guid="D8F2D4AE-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8F2D5A5-6C00-1014-B904-200204C60A89">
+		<Script name="Persist_NPC_thru_a_reboot_1.lsl" guid="D8F2F83B-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

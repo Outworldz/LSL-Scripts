@@ -1,0 +1,6 @@
+<Project name="SL_Email_Terminal" guid="D6B27315-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6B273EE-6C00-1014-B904-200204C60A89">
+		<Script name="SL_Email_Terminal_1.lsl" guid="D6B2DABC-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

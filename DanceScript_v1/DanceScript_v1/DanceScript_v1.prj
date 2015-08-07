@@ -1,0 +1,6 @@
+<Project name="DanceScript_v1" guid="D706308F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7063175-6C00-1014-B904-200204C60A89">
+		<Script name="DanceScript_v1_1.lsl" guid="D70652F0-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

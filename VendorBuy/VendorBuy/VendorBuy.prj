@@ -1,0 +1,6 @@
+<Project name="VendorBuy" guid="D6AD417D-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6AD4283-6C00-1014-B904-200204C60A89">
+		<Script name="VendorBuy_1.lsl" guid="D6AE9A5E-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

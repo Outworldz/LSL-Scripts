@@ -1,0 +1,6 @@
+<Project name="Timed_Mine" guid="D80DCC6D-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D80DCD57-6C00-1014-B904-200204C60A89">
+		<Script name="Timed_Mine_1.lsl" guid="D80DF5D9-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

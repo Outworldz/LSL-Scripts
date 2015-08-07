@@ -1,0 +1,18 @@
+<Project name="TextureAllByDescription" guid="937b67c4-fd0e-4ac0-8aea-37541a370aca">
+	<Object name="Object" guid="091fe119-58e7-48e4-a3e7-0170bf4e2722" active="true">
+		<Script name="Texture_all_by_Description_Script.lsl" guid="976cb8b5-3d24-4ad0-8020-d664e48a15c7">
+		</Script>
+		<Texture name="A-Body" guid="add5b5e5-e639-487c-854e-1666c20fb577">
+		</Texture>
+		<Texture name="A-Head" guid="037f491a-dfc5-40f4-9698-6f52afa75134">
+		</Texture>
+		<Texture name="A-Leg" guid="469f0a4a-737a-4edf-8700-8b1ee83e3bc8">
+		</Texture>
+		<Texture name="B-Body" guid="086b0120-0829-427d-bfe2-ab8a42bd0530">
+		</Texture>
+		<Texture name="B-Head" guid="3984654a-4b6f-4556-a912-e5c9e8e8113c">
+		</Texture>
+		<Texture name="B-Leg" guid="fc57682b-229f-45bf-8576-0e343576fa39">
+		</Texture>
+	</Object>
+</Project>

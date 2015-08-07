@@ -1,0 +1,10 @@
+<Project name="Hypergates" guid="aa69f39d-4f8f-4a06-b326-e7f0d8fcd771">
+	<Object name="Object" guid="d4677966-2d42-47b3-af94-7d5b9280dbe7" active="true">
+		<Script name="HG Script.lsl" guid="e1255449-838f-4dee-92a9-6f0257df930f">
+		</Script>
+		<Script name="Script Updater.lsl" guid="7e41710c-a218-4112-8f0e-a961f9727c8b">
+		</Script>
+		<Script name="Script. Udater Server.lsl" guid="0c83afc0-1834-4a30-a5c4-ee0a64b9737d">
+		</Script>
+	</Object>
+</Project>

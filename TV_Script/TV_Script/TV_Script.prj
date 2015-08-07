@@ -1,0 +1,6 @@
+<Project name="TV_Script" guid="D7C7B05A-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7C7B13A-6C00-1014-B904-200204C60A89">
+		<Script name="TV_Script_1.lsl" guid="D7C7E363-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

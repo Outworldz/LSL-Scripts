@@ -1,0 +1,6 @@
+<Project name="KeyFrame_Animator_Script" guid="D8EB39F5-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8EB3AE1-6C00-1014-B904-200204C60A89">
+		<Script name="KeyFrame_Animator_Script_1.lsl" guid="D8EB5DFB-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

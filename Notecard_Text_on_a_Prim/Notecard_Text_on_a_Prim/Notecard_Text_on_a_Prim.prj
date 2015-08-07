@@ -1,0 +1,6 @@
+<Project name="Notecard_Text_on_a_Prim" guid="D8615205-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D86152EC-6C00-1014-B904-200204C60A89">
+		<Script name="Notecard_Text_on_a_Prim_1.lsl" guid="D86172A0-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

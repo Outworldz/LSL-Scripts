@@ -1,0 +1,10 @@
+<Project name="Clone_Prim" guid="D7EDFBDC-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7EDFCCF-6C00-1014-B904-200204C60A89">
+		<Script name="Clone_Prim_1.lsl" guid="D7EE4D95-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Clone_Prim_2.lsl" guid="D7EE6BEF-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Clone_Prim_3.lsl" guid="D7EE88E5-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

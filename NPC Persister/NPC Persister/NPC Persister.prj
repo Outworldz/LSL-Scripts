@@ -1,0 +1,6 @@
+<Project name="NPC Persister" guid="0378356f-bed3-418c-9ee4-ce8a6885fa1f">
+	<Object name="Object" guid="a1b21a6a-528b-4e18-bc90-53fe563830bb" active="true">
+		<Script name="NPC Persister.lsl" guid="e58b73eb-fe8e-48aa-8ea5-cc7ddaeb5aa5">
+		</Script>
+	</Object>
+</Project>

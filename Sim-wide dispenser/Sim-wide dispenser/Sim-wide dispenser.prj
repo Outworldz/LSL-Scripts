@@ -1,0 +1,12 @@
+<Project name="Sim-wide dispenser" guid="db242654-16f2-46ae-8aba-7ecede6a9bfb">
+	<Object name="Dispenser" guid="d89b0f7f-cc2e-4793-8cef-51393dceb1d3">
+		<Script name="Dispenser.lsl" guid="126ec9b4-f699-4cf8-ab07-df3a3d0ebc3f">
+		</Script>
+	</Object>
+	<Object name="Server" guid="2c9ec1e1-a6c6-4547-8140-8928fd82fd69" active="true">
+		<Texture name="Banished Skin by Doler Matova,400,1" guid="4c139a9b-695b-455f-82a4-d7ab7a73c075">
+		</Texture>
+		<Script name="Server Script.lsl" guid="a88c0e28-2b1a-4a4e-be33-b5c6c4d53ce2">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="seat_script_bumper_car" guid="D7923767-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D792384E-6C00-1014-B904-200204C60A89">
+		<Script name="seat_script_bumper_car_1.lsl" guid="D7925AB8-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

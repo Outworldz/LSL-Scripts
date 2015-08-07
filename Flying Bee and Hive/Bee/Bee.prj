@@ -1,0 +1,12 @@
+<Project name="Bee" guid="2d65667d-4e39-430c-afa1-10c34cb81b46">
+	<Object name="Object" guid="f42f3cb7-8547-47e0-b543-07425cd034b5" active="true">
+		<Script name="Bee wings.lsl" guid="c9981d52-2cf0-491c-8e77-2e0316e84c93">
+		</Script>
+		<Script name="Bee.lsl" guid="b749b8f1-6a86-4d40-bfb4-4d409b5b82d3">
+		</Script>
+		<Sound name="buzz2.wav" guid="09a5600d-73d3-45ae-bffa-34d8383af3a6">
+		</Sound>
+		<Script name="Opensim Bee.lsl" guid="e00e7b3d-4982-4a91-a9aa-4357b59fd74e">
+		</Script>
+	</Object>
+</Project>

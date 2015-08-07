@@ -1,0 +1,6 @@
+<Project name="Green_Particles" guid="D72B48DB-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D72B49B6-6C00-1014-B904-200204C60A89">
+		<Script name="Green_Particles_1.lsl" guid="D72B772B-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

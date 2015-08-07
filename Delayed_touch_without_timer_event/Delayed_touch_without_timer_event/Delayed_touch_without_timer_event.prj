@@ -1,0 +1,6 @@
+<Project name="Delayed_touch_without_timer_event" guid="D869C357-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D869C450-6C00-1014-B904-200204C60A89">
+		<Script name="Delayed_touch_without_timer_event_1.lsl" guid="D869DEA3-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

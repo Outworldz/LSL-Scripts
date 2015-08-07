@@ -1,0 +1,150 @@
+<Project name="XS Robot" guid="c80df288-4384-4842-939a-f712ce463d26">
+	<Object name="Debug" guid="54fd3d14-caae-4ac9-9f03-dc66d1db9047">
+		<Script name="Force breeding early female.lsl" guid="7248992e-b716-43f1-9432-932ceced9727">
+		</Script>
+		<Script name="Force breeding early male.lsl" guid="5f909601-e80e-4973-982d-885a19e30d67">
+		</Script>
+		<Script name="Global constants.lsl" guid="a9e937d1-6333-43f9-983d-33e2186cbf96">
+		</Script>
+		<Notecard name="READ ME.txt" guid="94d177b0-a2b8-44f4-8f16-9c8d7eafa8fd">
+		</Notecard>
+		<Notecard name="Revisions.txt" guid="57b026ad-f377-4bc9-a2c7-a70880840064">
+		</Notecard>
+		<Script name="xs_ager test script.lsl" guid="f231ac97-8b9b-44ed-b56a-789f2f679fa3">
+		</Script>
+		<Script name="xs_debug.lsl" guid="b8c922d3-141f-47b7-b503-373575ccf811">
+		</Script>
+	</Object>
+	<Object name="Eyes" guid="eee1a573-ecda-4ce2-b7c1-446cec48c1ee">
+		<Script name="xs_animated_eye script.lsl" guid="12a2cb0a-9876-4b2e-af09-1f8c6c7b4d3c">
+		</Script>
+		<Script name="xs_sleep script.lsl" guid="72948788-d928-4422-a203-8cceb0db50dd">
+		</Script>
+		<Script name="xs_two-texture eyes.lsl" guid="8c9d2eb5-a8c8-4dc8-a066-4738ecabfaad">
+		</Script>
+	</Object>
+	<Object name="Home Flag" guid="8b5c7038-452d-40bb-a38e-be392010fa4e">
+		<Script name="rotate the globe.lsl" guid="d68f0ea9-edb2-45a9-80e9-7ffdc08aa1dd">
+		</Script>
+		<Script name="waving flag.lsl" guid="c0f60406-9477-493c-9b4c-a9e00922886e">
+		</Script>
+		<Script name="xs_home.lsl" guid="31cba2e9-a207-4895-b609-2d615936e57c">
+		</Script>
+	</Object>
+	<Object name="Moonlet plug-on" guid="b4def4cb-6c09-4549-811f-57e8bfbaff38">
+		<Script name="Moonlet Pose Ball.lsl" guid="5260d297-ac69-4dec-87a8-ff2f0e850ac9">
+		</Script>
+		<Notecard name="README.txt" guid="f0ea34c1-ca35-4f21-a073-9d4b3716859c">
+		</Notecard>
+		<Script name="rotate moon.lsl" guid="1e9d3e44-8769-4206-8312-7740a697f6cd">
+		</Script>
+		<Script name="walking.lsl" guid="200f2d53-b423-49e8-9df6-907b19bb6f81">
+		</Script>
+		<Script name="xs movement plug-in for robot sphere walk.lsl" guid="35e5e940-1cb6-4d9d-a1c2-6c51b323c528">
+		</Script>
+		<Script name="xs_home.lsl" guid="95b63ac0-a764-4d77-9fba-8ec3ac745ef1">
+		</Script>
+		<Script name="xs_radius.lsl" guid="01af28da-e304-4c37-a946-32505ce0d89a">
+		</Script>
+	</Object>
+	<Object name="Mr Fusion" guid="258afba7-0361-4019-9155-f8fb10d70a97">
+		<Script name="xs_foodbowl.lsl" guid="757b9c71-c891-432d-a3e3-794e7b9aeef4">
+		</Script>
+		<Script name="xs_foodbowl_anim.lsl" guid="8183504a-8f07-40dc-8858-bfc53a2a8323">
+		</Script>
+	</Object>
+	<Object name="Nut and Bolt Egg" guid="fdfb89e6-e313-4c34-8745-91bd9fb73f53">
+		<Script name="xs coloring plug-in.lsl" guid="243522fe-4221-460e-97c2-7d2af94b9493">
+		</Script>
+		<Script name="xs_egg.lsl" guid="92835c07-c310-4d72-9ffe-0a17f39039f4">
+		</Script>
+	</Object>
+	<Object name="Nut and Bolt Toolbox" guid="4bee461e-2216-45b3-89af-32ed3b9cc971">
+		<Script name="xs coloring plug-in.lsl" guid="110aaf8a-08aa-4ba8-96de-56bce3651504">
+		</Script>
+		<Script name="xs_eggcup.lsl" guid="8bf72019-4048-4d25-bf54-55b6fc55c08a">
+		</Script>
+	</Object>
+	<Object name="Robot Transport UFO" guid="f52aeb7c-96b3-4260-9e2c-ef0bef47f506">
+		<Script name="Beam Particle effects.lsl" guid="15eaefee-f0b8-4a00-b93c-f5cf8105faf6">
+		</Script>
+		<Script name="rotate the teleport.lsl" guid="bce0bc54-5fd7-4192-9631-a304b558b214">
+		</Script>
+		<Script name="xs coloring plugin.lsl" guid="be2a60ad-e47c-42da-b1b6-3e5b13d7e7e1">
+		</Script>
+		<Script name="xs_cryocrate.lsl" guid="cd96a0a5-9a2e-48be-8be9-9e5017b798f5">
+		</Script>
+	</Object>
+	<Object name="Server" guid="34767b71-c634-45ed-9930-226b20e2d619">
+		<Texture name="Body 0" guid="4b86f2d4-d920-4a18-adbb-1cf84ae47146">
+		</Texture>
+		<Texture name="Body 1" guid="fa8b0052-3a8d-48ce-ac56-6d14bfb956a9">
+		</Texture>
+		<Texture name="Body 2" guid="3dce1b13-d5cb-48df-8deb-4f19f33b5eeb">
+		</Texture>
+		<Notecard name="Breeds" guid="d4d56bf4-776e-4ec5-b8c8-75584d88687e">
+		</Notecard>
+		<Texture name="Head 0" guid="120520b1-59d5-4b18-8340-5b37b7caedfe">
+		</Texture>
+		<Texture name="Head 1" guid="15f68371-f96f-427f-bef0-aeb1a517e930">
+		</Texture>
+		<Texture name="Head 2" guid="02d37810-3d04-4f61-9efe-89b6ac8ffe9e">
+		</Texture>
+		<Texture name="LegV 0" guid="25f18371-f96f-427f-bef0-aeb1a517e932">
+		</Texture>
+		<Texture name="LegV 1" guid="c20520b1-59d5-4b18-8340-5b37b7caed13">
+		</Texture>
+		<Texture name="LegV 2" guid="25f68371-f96f-427f-bef0-aeb1a517e914">
+		</Texture>
+		<Script name="texture_server.lsl" guid="38d586c6-535c-4a37-a99a-007890f89c93">
+		</Script>
+		<Script name="texture_test by touch.lsl" guid="3814984a-cb5b-4e01-ac6d-a6cee153c026">
+		</Script>
+		<Texture name="Wing 0" guid="1b86f2d4-d920-4a18-adbb-1cf84ae47146">
+		</Texture>
+		<Texture name="Wing 1" guid="1a8b0052-3a8d-48ce-ac56-6d14bfb956a9">
+		</Texture>
+		<Texture name="Wing 2" guid="1dce1b13-d5cb-48df-8deb-4f19f33b5eeb">
+		</Texture>
+		<Script name="xs_texture.lsl" guid="6189a18c-05b7-405c-9dd3-578a64ae989b">
+		</Script>
+	</Object>
+	<Object name="Troubot" guid="c6ba70f2-3dc7-43e9-b90a-cb9f2312570e" active="true">
+		<Script name="add_animations.lsl" guid="bcb99f6c-949e-4aa9-b5ea-0c3b11c1fdb0">
+		</Script>
+		<Script name="Animator.lsl" guid="f6b6e7bb-15eb-464e-bb91-10bb4ee45841">
+		</Script>
+		<Script name="Compiler.lsl" guid="226411ae-e33a-4259-9095-f8fcd8a494ab">
+		</Script>
+		<Script name="Optional -  xs_home_in_pet.lsl" guid="0894c8ff-359a-4fcc-a976-071f18854492">
+		</Script>
+		<Script name="Optional  - xs_infomatic - home in pet.lsl" guid="02d4513e-69b2-4006-bc30-93215c75d01c">
+		</Script>
+		<Script name="Optional Birth particle_plug_in.lsl" guid="33a681ea-86fb-41f1-9cf2-fe87f57aff00">
+		</Script>
+		<Script name="prim animator timer (DEBUG).lsl" guid="b43990ba-9b6a-42c2-9a57-9fe4875dc33c">
+		</Script>
+		<Script name="xs_ager.lsl" guid="ec58985b-d0f0-48e3-8e19-54ec8a4ab12a">
+		</Script>
+		<Script name="xs_brain.lsl" guid="72c9b464-97f3-40bc-80b1-c69a739d9ba0">
+		</Script>
+		<Script name="xs_breeding.lsl" guid="9662f464-cd1c-4e6d-8f65-b243559d9485">
+		</Script>
+		<Script name="xs_eater.lsl" guid="51e4673b-65f7-4066-a052-49eb111c0826">
+		</Script>
+		<Script name="xs_infomatic.lsl" guid="fa9bf3b5-431f-4d0b-b7f5-c558935bc747">
+		</Script>
+		<Script name="xs_movement.lsl" guid="2c370d67-c165-4c86-99ff-9a8a31c2e4c6">
+		</Script>
+		<Script name="xs_sex OPTIONAL.lsl" guid="fe304beb-5918-4eea-a512-c3d028fbb25d">
+		</Script>
+		<Script name="xs_Sound_Module.lsl" guid="8054b9da-5557-4c06-8d24-fe10475e2312">
+		</Script>
+		<Script name="xs_special.lsl" guid="02f78fdd-c8fe-4445-abb4-dab5f06d0a53">
+		</Script>
+	</Object>
+	<Object name="Updater Prim" guid="1ace00a4-d078-468a-8bb1-064cad1cc363">
+		<Script name="XsPet Updater.lsl" guid="b82482d0-aad0-404c-b457-c83423c991b7">
+		</Script>
+	</Object>
+</Project>

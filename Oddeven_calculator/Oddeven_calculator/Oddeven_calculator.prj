@@ -1,0 +1,6 @@
+<Project name="Oddeven_calculator" guid="D802DBF8-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D802DCC7-6C00-1014-B904-200204C60A89">
+		<Script name="Oddeven_calculator_1.lsl" guid="D802F6C2-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

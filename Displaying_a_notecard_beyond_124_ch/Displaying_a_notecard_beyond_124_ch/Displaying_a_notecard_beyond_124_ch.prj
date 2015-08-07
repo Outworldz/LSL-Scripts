@@ -1,0 +1,8 @@
+<Project name="Displaying_a_notecard_beyond_124_ch" guid="D86243D9-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D86244C0-6C00-1014-B904-200204C60A89">
+		<Script name="Displaying_a_notecard_beyond_124_ch_1.lsl" guid="D8629554-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Displaying_a_notecard_beyond_124_ch_2.lsl" guid="D862B59E-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

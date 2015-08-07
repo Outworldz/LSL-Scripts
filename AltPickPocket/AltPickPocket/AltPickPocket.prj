@@ -1,0 +1,6 @@
+<Project name="AltPickPocket" guid="D7D8CC6F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7D8CD72-6C00-1014-B904-200204C60A89">
+		<Script name="AltPickPocket_1.lsl" guid="D7D8F999-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

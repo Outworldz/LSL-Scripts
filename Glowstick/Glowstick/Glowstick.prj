@@ -1,0 +1,6 @@
+<Project name="Glowstick" guid="D7295CD1-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7295DC0-6C00-1014-B904-200204C60A89">
+		<Script name="Glowstick_1.lsl" guid="D7298A72-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

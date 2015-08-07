@@ -1,0 +1,44 @@
+// :CATEGORY:Tandy
+// :NAME:Tandy the Nymph
+// :AUTHOR:Ferd Frederix
+// :CREATED:2013-09-13 15:09:04
+// :EDITED:2013-09-18 15:39:06
+// :ID:867
+// :NUM:1507
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// AO for Tandy
+// :CODE:
+<ao>
+    <walk>
+        <walking>avatar_walk_fast</walking>
+    </walk>
+    <fly>
+        <flying>sweetness-fly-1</flying>
+        <flying>sweetness-fly-2</flying>
+    </fly>
+    <sit>
+        <sitting>Japanese-sit1</sitting>
+        <sitting>Japanese-sit13</sitting>
+    </sit>
+    <hover>
+        <hovering>sweetness-hover1</sitting>
+        <hovering>sweetness-hover2</sitting>
+        <hovering>sweetness-hover3</sitting>
+        <hovering>sweetness-hover4</sitting>
+    </hover>
+    <run>
+        <running>avatar_run_fast</running>
+    </run>
+    <type>
+        <typing>avatar_type</typing>
+    </type>
+    <stand>
+        <standing>ao-sweetness-stand1</standing>
+        <standing>ao-sweetness-stand2</standing>
+        <standing>ao-sweetness-stand3</standing>
+        <standing>ao-sweetness-stand4</standing>
+        <standing>ao-sweetness-stand5</standing>
+    </stand>
+</ao>

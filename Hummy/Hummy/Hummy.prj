@@ -1,0 +1,6 @@
+<Project name="Hummy" guid="1ea8c4a7-d8af-45e3-bd8a-d55fdc152a6f">
+	<Object name="Body" guid="9ed84d88-48cf-4dee-bb6d-a64556e76df6" active="true">
+		<Script name="Hummy script.lsl" guid="cbaf3b76-2709-42f3-a31c-bb1c5a6c89f5">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,12 @@
+<Project name="Spiral_Starcase_generator" guid="D87FD8F4-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D87FD9E0-6C00-1014-B904-200204C60A89">
+		<Script name="Spiral_Starcase_generator_1.lsl" guid="D8800F02-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Spiral_Starcase_generator_2.lsl" guid="D8802EBA-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Spiral_Starcase_generator_3.lsl" guid="D8803F46-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Spiral_Starcase_generator_4.lsl" guid="D8807C5E-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

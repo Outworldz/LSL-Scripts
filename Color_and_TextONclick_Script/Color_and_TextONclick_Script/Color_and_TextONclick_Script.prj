@@ -1,0 +1,6 @@
+<Project name="Color_and_TextONclick_Script" guid="D6FDCA5A-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6FDCB4A-6C00-1014-B904-200204C60A89">
+		<Script name="Color_and_TextONclick_Script_1.lsl" guid="D6FDE5F8-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,18 @@
+<Project name="Swan" guid="60eb1591-606a-41c3-8f1d-1b1858eea17a">
+	<Object name="Object" guid="4c87cc1a-cd3c-4e06-888d-957ee015698b" active="true">
+		<Script name="10.lsl" guid="b8368214-4d6d-43a9-8ec5-bf07b8fa9ccf">
+		</Script>
+		<Script name="poseballs.lsl" guid="9d735cb3-1a7b-4fce-abeb-288ab977f98d">
+		</Script>
+		<Script name="recorder.lsl" guid="ac6997d0-644d-4eda-9c8e-6058dd160479">
+		</Script>
+		<Script name="rezzert.lsl" guid="cda3b3e7-f006-426a-bada-0a15dc9c90e1">
+		</Script>
+		<Notecard name="Route.txt" guid="9d05e57d-29f4-40ac-93d9-e07542edb435">
+		</Notecard>
+		<Script name="tour guide.lsl" guid="99c1716c-78bd-463d-a2d1-3414b6aed674">
+		</Script>
+		<Script name="Wing Script.lsl" guid="d6b377a4-754b-4b2d-ac82-29f7abbd6543">
+		</Script>
+	</Object>
+</Project>

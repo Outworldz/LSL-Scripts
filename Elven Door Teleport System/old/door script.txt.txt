@@ -1,0 +1,78 @@
+// door swing script
+
+integer open = 0;
+integer side = 2;
+
+
+opendoor()
+{
+    if (open == TRUE)
+        return;
+    float swing =  120;             // in degrees
+    rotation rot = llGetRot();
+    rotation delta = llEuler2Rot(<0,0,swing> );
+    rotation finalrot = delta * rot;          // add the delta
+    llSetRot(finalrot);
+    open = TRUE;
+}
+
+closedoor()
+{
+    if (open == FALSE)
+        return;
+    float swing =  -120;             // in degrees
+    rotation rot = llGetRot();
+    rotation delta = llEuler2Rot(<0,0,swing> );
+    rotation finalrot = delta * rot;          // add the delta
+    llSetRot(finalrot);
+    open = FALSE;
+}
+
+default
+{
+    state_entry()
+    {
+       
+    }
+
+    touch_start(integer total_number)
+    {
+        if (open)
+        {
+            llSetTimerEvent(0.1);      //close door
+        }
+        else
+        {
+            opendoor();
+            llMessageLinked(LINK_ALL_OTHERS, 0,"rez","");
+            llSetTimerEvent(30.0);
+        }
+    }
+    
+    timer()
+    {
+        closedoor();   
+        llSetTimerEvent(0.0);
+    }
+    
+    link_message(integer sender_num,integer num, string str, key id)
+    {
+        //llOwnerSay("Heard:" + str);
+        if (str =="open")
+        {
+            llSetTimerEvent(30.0);
+            opendoor();  
+        }
+        else if (str =="close")
+        {
+            llSetTimerEvent(0.0);
+            closedoor();   
+        }
+        
+    }
+    
+    on_rez(integer p)
+    {
+        llResetScript();
+    }
+}

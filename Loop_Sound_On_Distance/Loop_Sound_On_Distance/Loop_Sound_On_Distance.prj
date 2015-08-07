@@ -1,0 +1,6 @@
+<Project name="Loop_Sound_On_Distance" guid="D80C64B9-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D80C6599-6C00-1014-B904-200204C60A89">
+		<Script name="Loop_Sound_On_Distance_1.lsl" guid="D80C7EE6-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

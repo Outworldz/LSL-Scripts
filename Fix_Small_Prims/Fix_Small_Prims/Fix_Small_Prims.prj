@@ -1,0 +1,6 @@
+<Project name="Fix_Small_Prims" guid="D71D60C4-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D71D61A7-6C00-1014-B904-200204C60A89">
+		<Script name="Fix_Small_Prims_1.lsl" guid="D71D9516-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

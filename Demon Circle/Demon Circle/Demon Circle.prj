@@ -1,0 +1,6 @@
+<Project name="Demon Circle" guid="fc653c89-c641-4ada-986f-292c78d121fa">
+	<Object name="Floor" guid="0d6f3519-2cf2-447f-9988-cee97ebae0d5" active="true">
+		<Script name="pointer test.lsl" guid="f03e511b-f61d-467b-9876-fa0fdc1a6d7d">
+		</Script>
+	</Object>
+</Project>

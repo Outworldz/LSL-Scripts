@@ -1,0 +1,10 @@
+<Project name="Side_Numbering" guid="d79b624c-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d79b633e-6c00-1014-b904-200204c60a89">
+		<Snapshot name="Numbers.jpg" guid="c9271b54-3c58-4ddc-b541-c4945a41c8c0">
+		</Snapshot>
+		<Script name="Side_Numbering_1.lsl" guid="d79b7d34-6c00-1014-b904-200204c60a89">
+		</Script>
+		<Snapshot name="Sides.jpg" guid="ba5b98a5-ebb4-4711-81dc-d7f32876dd57">
+		</Snapshot>
+	</Object>
+</Project>

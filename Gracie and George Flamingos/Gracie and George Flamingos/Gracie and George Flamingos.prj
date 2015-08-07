@@ -1,0 +1,14 @@
+<Project name="Gracie and George Flamingos" guid="c74f8bb1-20c9-4187-9dcb-d78bc0a10ff4">
+	<Object name="Object" guid="4dca2844-77fc-4009-81e8-730cb006c03d" active="true">
+		<Script name="flight script.lsl" guid="44188d46-b94a-4720-aee6-c113aab767a3">
+		</Script>
+		<Notecard name="Route" guid="9fa77a1d-d135-466b-8c68-4d9f57ca9759">
+		</Notecard>
+		<Script name="wing flap script.lsl" guid="68d94496-9468-4d73-8f53-e385fcc447a4">
+		</Script>
+	</Object>
+	<Object name="Wing" guid="3be06f0c-2e03-49d0-a2c2-1987c3c90452">
+		<Script name="flexi wing script.lsl" guid="8d342fbd-fdf0-4bbe-a8c8-199127586714">
+		</Script>
+	</Object>
+</Project>

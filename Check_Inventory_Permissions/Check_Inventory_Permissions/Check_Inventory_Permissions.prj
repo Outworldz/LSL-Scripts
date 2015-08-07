@@ -1,0 +1,6 @@
+<Project name="Check_Inventory_Permissions" guid="D8BEAF74-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8BEB05F-6C00-1014-B904-200204C60A89">
+		<Script name="Check_Inventory_Permissions_1.lsl" guid="D8BEF886-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

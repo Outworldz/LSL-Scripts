@@ -1,0 +1,10 @@
+<Project name="3_scripts_for_Fun_With_Dynamic_Came" guid="D7FDEAED-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7FDEBD3-6C00-1014-B904-200204C60A89">
+		<Script name="3_scripts_for_Fun_With_Dynamic_Came_1.lsl" guid="D7FE1BBB-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="3_scripts_for_Fun_With_Dynamic_Came_2.lsl" guid="D7FE479E-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="3_scripts_for_Fun_With_Dynamic_Came_3.lsl" guid="D7FE5F6C-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

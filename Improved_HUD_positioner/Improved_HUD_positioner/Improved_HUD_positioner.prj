@@ -1,0 +1,6 @@
+<Project name="Improved_HUD_positioner" guid="D84F9C5D-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D84F9D5C-6C00-1014-B904-200204C60A89">
+		<Script name="Improved_HUD_positioner_1.lsl" guid="D84FBF38-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

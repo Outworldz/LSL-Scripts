@@ -1,0 +1,8 @@
+<Project name="Simple Quiz" guid="99c1f1fd-0e5a-429a-bc4f-4335a2389a7c">
+	<Object name="Object" guid="f6599b41-b6cf-4e7c-a8b6-39002926eeae" active="true">
+		<Notecard name="Notecard.txt" guid="b08b1f1c-a33f-4775-b5e3-3d8e0e4a9023">
+		</Notecard>
+		<Script name="Simple Quiz.lsl" guid="5fa2bd4c-cd25-4e51-b521-6ecf4f767cda">
+		</Script>
+	</Object>
+</Project>

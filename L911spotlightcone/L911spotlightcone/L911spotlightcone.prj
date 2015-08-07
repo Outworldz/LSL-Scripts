@@ -1,0 +1,6 @@
+<Project name="L911spotlightcone" guid="D74D9D0E-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D74D9DF0-6C00-1014-B904-200204C60A89">
+		<Script name="L911spotlightcone_1.lsl" guid="D74DB856-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

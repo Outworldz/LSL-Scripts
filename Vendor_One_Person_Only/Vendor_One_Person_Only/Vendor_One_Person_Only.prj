@@ -1,0 +1,6 @@
+<Project name="Vendor_One_Person_Only" guid="D7CB14C0-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7CB1595-6C00-1014-B904-200204C60A89">
+		<Script name="Vendor_One_Person_Only_1.lsl" guid="D7CB2EE1-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

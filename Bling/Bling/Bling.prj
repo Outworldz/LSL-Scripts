@@ -1,0 +1,6 @@
+<Project name="Bling" guid="D6145CE8-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6145DBA-6C00-1014-B904-200204C60A89">
+		<Script name="Bling_1.lsl" guid="D6168070-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

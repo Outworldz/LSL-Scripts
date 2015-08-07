@@ -1,0 +1,6 @@
+<Project name="Welcome_Script" guid="D7D0A6FC-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7D0A7ED-6C00-1014-B904-200204C60A89">
+		<Script name="Welcome_Script_1.lsl" guid="D7D0C758-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

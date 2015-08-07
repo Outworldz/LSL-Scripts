@@ -1,0 +1,6 @@
+<Project name="Ground_Collision_Protector" guid="D80F35C4-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D80F36BB-6C00-1014-B904-200204C60A89">
+		<Script name="Ground_Collision_Protector_1.lsl" guid="D80F4EF2-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Cold_Breath" guid="D811720A-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8117301-6C00-1014-B904-200204C60A89">
+		<Script name="Cold_Breath_1.lsl" guid="D8118ED5-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="DIALOG_MENU_by_Kyrah_Abattoir" guid="D70902CC-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D70903DB-6C00-1014-B904-200204C60A89">
+		<Script name="DIALOG_MENU_by_Kyrah_Abattoir_1.lsl" guid="D7091EC1-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

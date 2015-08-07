@@ -1,0 +1,6 @@
+<Project name="Bling with Menu" guid="d28a833c-1985-4e36-b129-ab61c2e1bc35">
+	<Object name="Object" guid="f55c9f19-1e63-4e41-8171-c7c1fda5c215" active="true">
+		<Script name="Script.lsl" guid="08e2259c-b51c-4764-b762-621614251c97">
+		</Script>
+	</Object>
+</Project>

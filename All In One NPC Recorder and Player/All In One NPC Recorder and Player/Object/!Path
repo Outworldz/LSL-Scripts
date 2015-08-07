@@ -1,0 +1,86 @@
+// :SHOW:1
+// :CATEGORY:NPC
+// :NAME:All In One NPC Recorder and Player
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2014-05-25 09:23:40
+// :EDITED:2015-07-17  12:14:23
+// :ID:27
+// :NUM:1616
+// :REV:3
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Sample path notecard
+// :CODE:
+
+
+Blank lines are allowed in this notecard
+
+@spawn=A TestNPC|<5, 0, 1>
+
+You must send a link command @go to get past this next line:
+@say=Stopped, type @go or click a box to continue
+@stop
+
+Swap appearances to a new NPC - if card is missing, nothing happens
+@say=Change appearance test
+@appearance=!Appearance2
+@say=Walk test
+@walk=<5, 10, 0>
+@walk=<0,5,0>
+@say=say, walking is so tiresome...
+@fly=<0,35,10>
+@whisper=whisper, flying is also tiresome...
+@land=<5,0,1>
+@shout=shout, Back on land
+
+@say=pause 5 seconds
+@pause=5
+
+@say=Walk test - should walk, not fly
+@walk=<10,10,0>
+@walk=<5,0,0>
+
+@say=wander 2 times inside a 3 meter area
+@wander=2|3
+
+@goto=NEXT
+@say=i will never say this...
+NEXT
+
+Swap appearances to a new NPC - if card is missing, nothing happens
+@say=Change appearance test
+@appearance=!Appearance
+
+@say=play a sound
+@sound=somesound
+
+@say=play a dance for 5 seconds
+@animate=someanimation|5
+
+@say=rotate left, behind, right, left, front
+@rotate=90
+@pause=5
+@rotate=180
+@pause=5
+@rotate=270
+@pause=5
+@rotate=90
+@pause=1
+@rotate=0
+@pause=5
+
+@say=sit on prim named 'chair'
+@sit=chair
+@say=pause 5 seconds
+@pause=5
+@stand
+
+@say=rotate the door primt
+@cmd=100|OpenDoor
+
+@walk=<5,0,0>
+@animate=Stand|1
+@say=Uff, I'm done...
+@say=Repeat everything
+

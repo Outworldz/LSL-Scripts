@@ -1,0 +1,6 @@
+<Project name="Sequential_or_Random_Dance" guid="D7054EEE-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7054FBC-6C00-1014-B904-200204C60A89">
+		<Script name="Sequential_or_Random_Dance_1.lsl" guid="D7057821-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="slide_door" guid="D7AC39EA-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7AC3ACE-6C00-1014-B904-200204C60A89">
+		<Script name="slide_door_1.lsl" guid="D7AC6A28-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

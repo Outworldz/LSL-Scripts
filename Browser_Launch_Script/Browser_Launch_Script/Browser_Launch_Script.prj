@@ -1,0 +1,6 @@
+<Project name="Browser_Launch_Script" guid="D6ED6750-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6ED6969-6C00-1014-B904-200204C60A89">
+		<Script name="Browser_Launch_Script_1.lsl" guid="D6EDA09C-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

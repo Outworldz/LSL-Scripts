@@ -1,0 +1,12 @@
+<Project name="How_to_make_a_attachable_Demo" guid="D8EA9347-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8EA942C-6C00-1014-B904-200204C60A89">
+		<Script name="How_to_make_a_attachable_Demo_1.lsl" guid="D8EAB825-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="How_to_make_a_attachable_Demo_2.lsl" guid="D8EAD350-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="How_to_make_a_attachable_Demo_3.lsl" guid="D8EAE55A-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="How_to_make_a_attachable_Demo_4.lsl" guid="D8EAFFED-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

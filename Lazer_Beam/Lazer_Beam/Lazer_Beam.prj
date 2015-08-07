@@ -1,0 +1,6 @@
+<Project name="Lazer_Beam" guid="D751AADE-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D751ABCB-6C00-1014-B904-200204C60A89">
+		<Script name="Lazer_Beam_1.lsl" guid="D751C6B7-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

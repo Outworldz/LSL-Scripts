@@ -1,0 +1,18 @@
+<Project name="Opensim Tour Car" guid="d2a143ca-20c8-42d7-adf5-9955e4245417">
+	<Object name="Car" guid="6c87b986-eab3-4c79-926f-6a13458ff3b5" active="true">
+		<Script name="Multi-vehicle script.lsl" guid="fbaa311f-364f-4020-bb82-c2f11d59b28a">
+		</Script>
+		<Notecard name="Route" guid="faf88835-bcda-4c3c-b2d0-2ad5da4153e9">
+		</Notecard>
+		<Script name="Seats.lsl" guid="c282ed8a-5e0e-4315-b082-48c056421df8">
+		</Script>
+		<Script name="vehicle script.lsl" guid="9e2b76bc-1beb-4e2d-86dc-a9c469650994">
+		</Script>
+	</Object>
+	<Object name="Route Prim" guid="e0447094-4ea9-4165-8387-44e758fee79b">
+		<Script name="#10 prim.lsl" guid="25c4e2fe-1b94-408b-9d40-bd03649c2444">
+		</Script>
+		<Script name="Recorder.lsl" guid="098d27e1-b1ed-458c-b892-264fc02ce767">
+		</Script>
+	</Object>
+</Project>

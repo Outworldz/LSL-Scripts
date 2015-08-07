@@ -1,0 +1,6 @@
+<Project name="Donate" guid="D71112A9-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7111385-6C00-1014-B904-200204C60A89">
+		<Script name="Donate_1.lsl" guid="D711404A-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

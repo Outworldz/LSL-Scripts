@@ -1,0 +1,10 @@
+<Project name="Texture_server_for_XS_Pets" guid="D8D1E3B8-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8D1E4A3-6C00-1014-B904-200204C60A89">
+		<Script name="Texture_server_for_XS_Pets_1.lsl" guid="D8D233AB-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Texture_server_for_XS_Pets_2.lsl" guid="D8D26179-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Texture_server_for_XS_Pets_3.lsl" guid="D8D27E84-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

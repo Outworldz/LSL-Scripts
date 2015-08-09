@@ -1,0 +1,77 @@
+// :CATEGORY:Transmogrify
+// :NAME:Selkie
+// :AUTHOR:Ferd Frederix
+// :CREATED:2013-09-13 15:02:09
+// :EDITED:2013-09-18 15:39:02
+// :ID:737
+// :NUM:1502
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Ao for the Transmogrify config notecard
+// :CODE:
+[Walking]
+sealwalk
+
+
+[Standing]
+sealstand1
+sealstand2
+
+[Running]
+run
+
+[CrouchWalking]
+
+[Flying]
+fly1
+fly2
+
+[Jumping]
+jump
+
+[Hovering Up]
+hover
+
+[Hovering Down]
+hoverdown
+
+[Crouching]
+
+[Fly Down]
+
+[Hovering]
+hover
+
+[Sitting]
+sit1
+sit2
+sit3
+
+[Falling]
+
+[Landing]
+landing1
+
+[Standing Up]
+standup
+
+[Sitting on Ground]
+groundsit1
+groundsit2
+groundsit3
+
+[Floating]
+sealfloat1
+sealfloat2
+sealfloat3
+
+
+[Swimming Forward]
+sealswimfast
+sealswim
+
+[Swimming Up]
+fly1
+[Swimming Down]
+fly2

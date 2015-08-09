@@ -1,0 +1,6 @@
+<Project name="particleCOOL" guid="D76826CF-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D76827AD-6C00-1014-B904-200204C60A89">
+		<Script name="particleCOOL_1.lsl" guid="D7684D7F-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

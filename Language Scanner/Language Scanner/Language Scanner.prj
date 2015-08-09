@@ -1,0 +1,6 @@
+<Project name="Language Scanner" guid="f40df43b-7ae4-43b3-9312-233adc000fbd">
+	<Object name="Object" guid="5acfd9d4-1f7f-4868-8e9e-66f042423d19" active="true">
+		<Script name="Language Scanner.ls" guid="72a7e006-265f-4e91-b678-55a2258b627e">
+		</Script>
+	</Object>
+</Project>

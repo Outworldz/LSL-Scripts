@@ -1,0 +1,6 @@
+<Project name="Sound_Prim_Script__Loop" guid="D7B0F692-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7B0F780-6C00-1014-B904-200204C60A89">
+		<Script name="Sound_Prim_Script__Loop_1.lsl" guid="D7B10F53-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

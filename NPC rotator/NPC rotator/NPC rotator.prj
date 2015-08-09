@@ -1,0 +1,14 @@
+<Project name="NPC rotator" guid="e8500d57-4460-42b2-ba9c-95dec254131f">
+	<Object name="NPC Pose Ball" guid="4d0e1146-c200-4c3e-b412-c7052b88e200">
+		<Notecard name="My Dancer" guid="12110957-6ae9-47b4-a063-7c64be6d9679">
+		</Notecard>
+		<Script name="NPC controller.lsl" guid="27727a05-d2cd-466b-81bc-4ff5442d50a4">
+		</Script>
+		<Animation name="Some Animation" guid="ec559a04-c5c3-49d1-a85a-2663ec77f43f">
+		</Animation>
+	</Object>
+	<Object name="Object" guid="45c033fc-05ec-49b4-b2b1-a8d192eb8395" active="true">
+		<Script name="Rotate.lsl" guid="a97b1db1-e4cf-482c-8dcc-547f505a3500">
+		</Script>
+	</Object>
+</Project>

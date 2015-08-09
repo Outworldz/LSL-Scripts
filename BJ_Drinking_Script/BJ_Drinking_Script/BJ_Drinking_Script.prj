@@ -1,0 +1,6 @@
+<Project name="BJ_Drinking_Script" guid="D6E8B00B-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6E8B0F6-6C00-1014-B904-200204C60A89">
+		<Script name="BJ_Drinking_Script_1.lsl" guid="D6E8C735-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

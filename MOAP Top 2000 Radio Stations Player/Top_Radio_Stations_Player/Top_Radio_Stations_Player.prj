@@ -1,0 +1,10 @@
+<Project name="Top_Radio_Stations_Player" guid="d8d2be06-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d8d2bef0-6c00-1014-b904-200204c60a89">
+		<Script name="Top_Radio_Stations_Player_1.lsl" guid="d8d2f6ec-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+	<Object name="Tablet" guid="88a81ddb-e60d-427f-94ab-a432916ceb75" active="true">
+		<Script name="HTTPRadio.lsl" guid="9344d32a-61d5-4ee7-83d7-79f997276ecf">
+		</Script>
+	</Object>
+</Project>

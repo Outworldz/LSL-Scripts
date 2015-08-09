@@ -1,0 +1,12 @@
+<Project name="Object_to_Data_back_to_Object_v13" guid="D8A1D48C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8A1D586-6C00-1014-B904-200204C60A89">
+		<Script name="Object_to_Data_back_to_Object_v13_1.lsl" guid="D8A22B8D-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Object_to_Data_back_to_Object_v13_2.lsl" guid="D8A28B12-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Object_to_Data_back_to_Object_v13_3.lsl" guid="D8A2A179-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Object_to_Data_back_to_Object_v13_4.lsl" guid="D8A2D285-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,64 @@
+// :SHOW:1
+// :CATEGORY:Light
+// :NAME:Rene's Free Lighting System
+// :AUTHOR:Rene10957 Resident
+// :KEYWORDS: light
+// :CREATED:2015-06-11 14:41:40
+// :EDITED:2015-06-12  12:30:32
+// :ID:1079
+// :NUM:1781
+// :REV:2.1
+// :WORLD:Opensim
+// :DESCRIPTION:
+// Configuration notecard for Lighting System
+// :CODE:
+// :LICENSE: CC0 (Public Domain)
+
+// License: CC0 (Public Domain).
+// To the extent possible under law, Rene10957 has waived all copyright and related or neighboring rights.
+// For more information, see http://creativecommons.org/publicdomain/zero/1.0/.
+
+
+# Configuration notecard for Lighting System
+#
+# Date: 31-05-2015
+# Version: 2.1
+
+verbose = YES                  # show more/less info during startup
+switchAccess = PUBLIC          # access level for switch (PUBLIC, GROUP, OWNER, GROUP+OWNER)
+menuAccess = PUBLIC            # access level for menu (PUBLIC, GROUP, OWNER, GROUP+OWNER)
+menuPercent = 10               # increase/decrease percentage for +/- buttons
+changePrimColor = YES          # YES = prim color changes with light color
+changeParticleColor = YES      # YES = particle color changes with light color
+particleTexture =              # texture UUID for particle effect
+particleMenu = NO              # YES = "On/Off" replaced by "Particles" (particle menu)
+notecardMenu = NO              # YES = "On/Off" replaced by "Presets" (notecard menu)
+lightGroups = NO               # YES = use prim description for light groups, NO = ignore prim description
+faces = -1                     # color/glow/fullbright on all faces (-1), one face or comma-separated list
+baseIntensity = 100            # base percentage for light intensity
+
+# Menu defaults
+
+colorOn = < 100, 100, 100 >    # color percentage (red, green, blue) when ON
+colorOff = < 100, 100, 100 >   # color percentage (red, green, blue) when OFF
+alphaOn = 100                  # alpha percentage when ON
+alphaOff = 100                 # alpha percentage when OFF
+intensity = 100                # light intensity percentage
+radius = 50                    # light radius percentage
+falloff = 40                   # light falloff percentage
+glow = 0                       # glow percentage
+fullbright = YES               # fullbright when ON (YES or NO)
+particleSize = 20              # size percentage for particle effect
+
+# Link messages: in
+
+msgNumber = 10957              # number part of incoming link messages
+msgSwitch = switch             # string part of incoming link message: switch (on/off)
+msgOn = on                     # string part of incoming link message: switch on
+msgOff = off                   # string part of incoming link message: switch off
+msgMenu = menu                 # string part of incoming link message: show menu
+
+# Link messages: out
+
+extButton =                    # "On/Off" replaced by button text (sends link message)
+extNumber = 10958              # number part of outgoing link message

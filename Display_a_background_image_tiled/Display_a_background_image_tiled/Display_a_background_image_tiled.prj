@@ -1,0 +1,10 @@
+<Project name="Display_a_background_image_tiled" guid="D85DB985-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D85DBA73-6C00-1014-B904-200204C60A89">
+		<Script name="Display_a_background_image_tiled_1.lsl" guid="D85DD7AD-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Display_a_background_image_tiled_2.lsl" guid="D85DF090-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Display_a_background_image_tiled_3.lsl" guid="D85E0AAB-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

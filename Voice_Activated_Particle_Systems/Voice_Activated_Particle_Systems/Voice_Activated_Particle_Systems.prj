@@ -1,0 +1,6 @@
+<Project name="Voice_Activated_Particle_Systems" guid="D7CCBDCD-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7CCBEAD-6C00-1014-B904-200204C60A89">
+		<Script name="Voice_Activated_Particle_Systems_1.lsl" guid="D7CCDE83-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,10 @@
+// License for Rene's Free Lighting System
+//
+// Author: Rene10957 Resident
+// Date: 31-05-2015
+// Version: 2.1
+
+CC0 (Public Domain)
+
+To the extent possible under law, Rene10957 has waived all copyright and related or neighboring rights.
+For more information, see http://creativecommons.org/publicdomain/zero/1.0/.

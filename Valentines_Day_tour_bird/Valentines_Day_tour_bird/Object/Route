@@ -1,0 +1,32 @@
+// :CATEGORY:Tour Guide
+// :NAME:Valentines_Day_tour_bird
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2011-02-04 22:42:15.247
+// :EDITED:2014-03-11
+// :ID:946
+// :NUM:1358
+// :REV:1.0
+// :WORLD:Second Life
+// :DESCRIPTION:
+// You must also add a note card called "Route". It can be a blank note card to start with.  Later, you will add the coordinates to this notecard.// After you teach the tour guide how to move, you paste the coordinates into the notecard.  The syntax of the notecard is as follows.  A Pipe "|" is used as a delimiter.:// // Ignored text|PrimName|X|Y|X|text to chat|Sound UUID to play// 
+// Ignored text: everything up to the first | symbol is ignored.   This is usually the date and tijme and prim name of the recorder as copied from chat.
+// 
+// PrimName:   This will be the name of the prim to move to.  It starts at 10 and adds 10 for each prim you rez.   You can add more waypoints between the numbers,  up to 9 more.   
+// 
+// X,Y,Z: The X, Y and Z coordinates of a waypoint 
+// 
+// Text to chat:  The script will automatically fill in the Description of the waypoint prim.   You can also edit the niatecard and add your own text.  This text will be typed into chat when it heads for that waypoint.
+// 
+// Sound UUID : A UUID of a sound can be entered.   The sound will play when the waypoint is the next destination.
+// :CODE:
+// sample notecard. Get your data from the Recorder prim
+//[19:28]  Tour  recorder: 10|24.088040|48.962760|54.082320|
+//[19:28]  Tour  recorder: 20|18.274350|53.096180|56.138620|
+//[19:28]  Tour  recorder: 30|19.203230|77.231740|38.415370|
+//[19:28]  Tour  recorder: 40|18.877440|77.295090|39.746290|
+//[19:28]  Tour  recorder: 50|37.810330|78.505890|40.247760|
+//[19:28]  Tour  recorder: 60|49.180880|156.787400|20.250000|There be dragons! (free dragons)
+//[19:28]  Tour  recorder: Copy the above lines to the notecard in the tour guide and reset it
+
+

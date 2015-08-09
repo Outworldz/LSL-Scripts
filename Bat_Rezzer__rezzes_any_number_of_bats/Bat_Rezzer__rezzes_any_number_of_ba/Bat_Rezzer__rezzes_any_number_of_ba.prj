@@ -1,0 +1,6 @@
+<Project name="Bat_Rezzer__rezzes_any_number_of_ba" guid="D8159A21-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8159B15-6C00-1014-B904-200204C60A89">
+		<Script name="Bat_Rezzer__rezzes_any_number_of_ba_1.lsl" guid="D815D3C1-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

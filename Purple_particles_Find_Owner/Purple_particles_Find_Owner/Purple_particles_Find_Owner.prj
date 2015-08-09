@@ -1,0 +1,6 @@
+<Project name="Purple_particles_Find_Owner" guid="D774AD7D-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D774AE70-6C00-1014-B904-200204C60A89">
+		<Script name="Purple_particles_Find_Owner_1.lsl" guid="D774CE43-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

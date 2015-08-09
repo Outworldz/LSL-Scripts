@@ -1,0 +1,8 @@
+<Project name="Relational_Rezzer" guid="D876585C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8765940-6C00-1014-B904-200204C60A89">
+		<Script name="Relational_Rezzer_1.lsl" guid="D8767A97-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Relational_Rezzer_2.lsl" guid="D876958F-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

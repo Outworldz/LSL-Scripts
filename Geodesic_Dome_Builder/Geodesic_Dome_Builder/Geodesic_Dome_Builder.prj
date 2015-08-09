@@ -1,0 +1,10 @@
+<Project name="Geodesic_Dome_Builder" guid="D7E9560C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7E95702-6C00-1014-B904-200204C60A89">
+		<Script name="Geodesic_Dome_Builder_1.lsl" guid="D7E990B1-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Geodesic_Dome_Builder_2.lsl" guid="D7E9AAE6-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Geodesic_Dome_Builder_3.lsl" guid="D7E9C14C-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

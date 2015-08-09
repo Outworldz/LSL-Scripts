@@ -1,0 +1,12 @@
+<Project name="OpenSim NPC Fish" guid="57ef3b6a-b3a3-41d6-b8a4-410f77ccc966">
+	<Object name="Fish" guid="699463b9-6763-485a-b93d-79bc2deb5fd1" active="true">
+		<Notecard name="Appearance" guid="9c664310-e2ad-4a50-8793-ad35b17cde18">
+		</Notecard>
+		<Animation name="FishStand" guid="cc2881fa-bd4b-4bb2-896c-120cdf4fd4c6">
+		</Animation>
+		<Script name="Script.lsl" guid="16dcc838-6927-4422-ac7a-425c6d63e8ef">
+		</Script>
+		<Animation name="Walk" guid="c8af3d46-e0f0-429f-8bd8-a9451f726ee5">
+		</Animation>
+	</Object>
+</Project>

@@ -1,0 +1,20 @@
+<Project name="The_Terra_Combat_System_TCS" guid="D8524901-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D85249E1-6C00-1014-B904-200204C60A89">
+		<Script name="The_Terra_Combat_System_TCS_1.lsl" guid="D85291A0-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="The_Terra_Combat_System_TCS_2.lsl" guid="D852BFA1-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="The_Terra_Combat_System_TCS_3.lsl" guid="D852D97C-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="The_Terra_Combat_System_TCS_4.lsl" guid="D852EDC0-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="The_Terra_Combat_System_TCS_5.lsl" guid="D85306EC-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="The_Terra_Combat_System_TCS_6.lsl" guid="D8531CA4-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="The_Terra_Combat_System_TCS_7.lsl" guid="D8533601-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="The_Terra_Combat_System_TCS_8.lsl" guid="D8534A56-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

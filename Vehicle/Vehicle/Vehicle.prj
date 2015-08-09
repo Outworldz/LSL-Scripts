@@ -1,0 +1,8 @@
+<Project name="Vehicle" guid="99338ea3-d4c0-4417-9452-62444567ba53">
+	<Object name="Object" guid="6104a0ce-0bd6-482a-a34e-bcfe85367f25" active="true">
+		<Script name="sit.lsl" guid="adfb04d3-44f6-4e8a-bdb5-939b5ce057e8">
+		</Script>
+		<Script name="vehicle.lsl" guid="55f7eff5-1ba2-4a59-9ef9-db6f2665ce62">
+		</Script>
+	</Object>
+</Project>

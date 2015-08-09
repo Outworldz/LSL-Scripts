@@ -1,0 +1,6 @@
+<Project name="Blink_prim_2_colors" guid="D8F77701-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8F777F5-6C00-1014-B904-200204C60A89">
+		<Script name="Blink_prim_2_colors_1.lsl" guid="D8F79166-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

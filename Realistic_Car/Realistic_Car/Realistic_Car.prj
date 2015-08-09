@@ -1,0 +1,16 @@
+<Project name="Realistic_Car" guid="d7782f4b-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d7783041-6c00-1014-b904-200204c60a89">
+		<Script name="Realistic_Car_1.lsl" guid="d77853d4-6c00-1014-b904-200204c60a89">
+		</Script>
+		<Script name="Realistic_Car_Front_Wheel_1.lsl" guid="94bdb03b-dd99-4883-a874-9cc1e22063ea">
+		</Script>
+		<Script name="Realistic_Car_Instructions_1.lsl" guid="97f4e7ee-4f73-4fc1-9ccc-bab28de4feab">
+		</Script>
+		<Script name="Realistic_Car_Rear_Wheel_1.lsl" guid="c3baaff4-23c7-484d-a9d1-7fe8447d7c64">
+		</Script>
+		<Script name="Realistic_Car_Seat_1.lsl" guid="5f4c41c3-366f-4e30-b773-78e34fcf058d">
+		</Script>
+		<Script name="Realistic_Car_with_remote_mod_1.lsl" guid="50ea30b3-6228-4872-aea0-3c6e3f190c11">
+		</Script>
+	</Object>
+</Project>

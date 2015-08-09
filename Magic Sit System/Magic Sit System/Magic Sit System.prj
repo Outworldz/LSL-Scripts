@@ -1,0 +1,16 @@
+<Project name="Magic Sit System" guid="d44216b9-a3d1-4489-8b91-70feab4543bf">
+	<Object name="Magic Sit Cube" guid="ade790de-a92d-495e-9afc-d8fa3225e438" active="true">
+		<Notecard name="Readme.txt" guid="55f3aa84-d55b-4ecb-8da1-d84cc625c8d4">
+		</Notecard>
+		<Script name="Magic Sit Cube Script 1.2" guid="e736b38d-35ed-4b48-b354-7f7b1736508a">
+		</Script>
+	</Object>
+	<Object name="Seat" guid="4869d078-29b3-4c95-9357-c11d9aa1ca83">
+		<Animation name="Animation.ani" guid="984f6503-94cd-4f44-a5ea-93b98e135448">
+		</Animation>
+		<Script name="Magic Sit Script 1.2" guid="511b6d85-20dc-477c-85ae-575fabd13b67">
+		</Script>
+		<Script name="Add this simple sit script.lsl" guid="2aa9e8eb-ab2d-430d-a0e5-6f247601850e">
+		</Script>
+	</Object>
+</Project>

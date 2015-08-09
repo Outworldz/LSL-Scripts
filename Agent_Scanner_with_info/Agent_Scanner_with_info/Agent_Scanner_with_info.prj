@@ -1,0 +1,6 @@
+<Project name="Agent_Scanner_with_info" guid="D80945BF-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D80946C0-6C00-1014-B904-200204C60A89">
+		<Script name="Agent_Scanner_with_info_1.lsl" guid="D809636A-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

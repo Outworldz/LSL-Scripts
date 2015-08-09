@@ -1,0 +1,6 @@
+<Project name="No_Money_Rental_Script" guid="D8E72735-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8E72829-6C00-1014-B904-200204C60A89">
+		<Script name="No_Money_Rental_Script_1.lsl" guid="D8E797CA-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

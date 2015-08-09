@@ -1,0 +1,6 @@
+<Project name="Walkthrough Teleporter" guid="2a3038e4-ada3-4fe9-b467-3c516d9fe2e0">
+	<Object name="Object" guid="24701584-6f97-4cd7-b7c2-872b48bd0d6b" active="true">
+		<Script name="Script.lsl" guid="a6c60c48-26b7-4f8c-b536-39ecbe9ba4c7">
+		</Script>
+	</Object>
+</Project>

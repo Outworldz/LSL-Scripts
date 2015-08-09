@@ -1,0 +1,6 @@
+<Project name="Flexi_Skirt_Changer" guid="D854959F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D854969A-6C00-1014-B904-200204C60A89">
+		<Script name="Flexi_Skirt_Changer_1.lsl" guid="D854BD85-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Sensorless_Pet_follower_script" guid="D8A4A411-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8A4A502-6C00-1014-B904-200204C60A89">
+		<Script name="Sensorless_Pet_follower_script_1.lsl" guid="D8A4C21F-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="ASCII" guid="d6d12ca4-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d6d12da1-6c00-1014-b904-200204c60a89">
+		<Script name="ASCII_1.lsl" guid="d6d1502f-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+</Project>

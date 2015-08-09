@@ -1,0 +1,6 @@
+<Project name="llLookAt_any_axis" guid="D836D589-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D836D684-6C00-1014-B904-200204C60A89">
+		<Script name="llLookAt_any_axis_1.lsl" guid="D836F7E5-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

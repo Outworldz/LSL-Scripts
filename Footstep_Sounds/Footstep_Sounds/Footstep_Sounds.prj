@@ -1,0 +1,6 @@
+<Project name="Footstep_Sounds" guid="D8539361-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D853945B-6C00-1014-B904-200204C60A89">
+		<Script name="Footstep_Sounds_1.lsl" guid="D853AE7D-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

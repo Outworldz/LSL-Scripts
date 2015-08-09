@@ -1,0 +1,6 @@
+<Project name="Sword_Dueling" guid="D7BCED70-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7BCEE90-6C00-1014-B904-200204C60A89">
+		<Script name="Sword_Dueling_1.lsl" guid="D7BD1944-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

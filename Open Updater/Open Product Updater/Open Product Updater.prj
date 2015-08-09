@@ -1,0 +1,8 @@
+<Project name="Open Product Updater" guid="a313ad5e-a3b5-426f-81b5-6ab922f85987">
+	<Object name="Update Server" guid="da8d75c1-282d-4e04-b51a-561219a8cc82" active="true" description="9304f04d-8167-4edd-a1c2-9b1178e34b2c">
+		<Script name="Product Updater Client.lsl" guid="faefa55d-29e5-4d17-a559-6702cc9bab17">
+		</Script>
+		<Script name="Product Updater Server .lsl" guid="db0f211c-f2ac-448a-bf60-53b0636891a7">
+		</Script>
+	</Object>
+</Project>

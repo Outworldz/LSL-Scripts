@@ -1,0 +1,6 @@
+<Project name="Day-Of-Week" guid="cbbff81f-51a2-46a0-8f90-b4f9d4f5c56c">
+	<Object name="Object" guid="55594020-f4c5-498f-9cf1-c5bae352fe78" active="true">
+		<Script name="Script.lsl" guid="b3735049-d038-45b5-8edc-603706786320">
+		</Script>
+	</Object>
+</Project>

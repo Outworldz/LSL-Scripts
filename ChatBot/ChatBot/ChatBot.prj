@@ -1,0 +1,12 @@
+<Project name="ChatBot" guid="8dfe678f-d318-4880-a9b1-e3d77c5ccf12">
+	<Object name="Object" guid="b855d6f5-b63d-4621-9bd0-f22cd922816b" active="true">
+		<Animation name="avatar_type.bvh" guid="79a3eff5-e536-4ce7-843c-8d3d5d042871">
+		</Animation>
+		<Script name="chatbot.lsl" guid="03f8a05b-4d16-4e6c-aa8a-67d2d9e54262">
+		</Script>
+		<Script name="NPCchatbot.lsl" guid="c50946e0-20ad-46f6-a35e-7cf39598293f">
+		</Script>
+		<Script name="Script.lsl" guid="dd35c5fc-26c2-4acb-ac18-dd931faddf4c">
+		</Script>
+	</Object>
+</Project>

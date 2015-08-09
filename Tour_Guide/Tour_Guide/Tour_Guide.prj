@@ -1,0 +1,8 @@
+<Project name="Tour_Guide" guid="d6b32c7b-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d6b32d5c-6c00-1014-b904-200204c60a89">
+		<Notecard name="Initialise" guid="32c6d6e0-ea9e-4e17-86df-3569db52a1c5">
+		</Notecard>
+		<Script name="Tour_Guide Script.lsl" guid="d6b8556b-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+</Project>

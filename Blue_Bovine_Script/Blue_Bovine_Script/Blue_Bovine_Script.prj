@@ -1,0 +1,6 @@
+<Project name="Blue_Bovine_Script" guid="D7EBC965-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7EBCA3C-6C00-1014-B904-200204C60A89">
+		<Script name="Blue_Bovine_Script_1.lsl" guid="D7EBF9BD-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

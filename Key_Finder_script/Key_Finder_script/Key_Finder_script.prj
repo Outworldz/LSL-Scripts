@@ -1,0 +1,6 @@
+<Project name="Key_Finder_script" guid="D7361B30-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7361C14-6C00-1014-B904-200204C60A89">
+		<Script name="Key_Finder_script_1.lsl" guid="D736324A-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

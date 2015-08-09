@@ -1,0 +1,6 @@
+<Project name="Nonlooped_animation_looper" guid="D832D604-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D832D703-6C00-1014-B904-200204C60A89">
+		<Script name="Nonlooped_animation_looper_1.lsl" guid="D832FAE5-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

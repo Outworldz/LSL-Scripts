@@ -1,0 +1,8 @@
+<Project name="Make_it_Rain" guid="D87C54AF-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D87C55C3-6C00-1014-B904-200204C60A89">
+		<Script name="Make_it_Rain_1.lsl" guid="D87C9E06-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Make_it_Rain_2.lsl" guid="D87CDD9E-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,50 @@
+<Project name="RealFire by Rene" guid="038a999d-2556-487d-a85c-3779468f242b">
+	<Object name="_Main" guid="e71ef7c6-3fdd-4bee-b1ad-841f3668d5f8">
+		<Sound name="4211__dobroide__fire-crackling.wav" guid="9e6f7971-aeaf-41b8-a132-8fb098e9dbd8">
+		</Sound>
+		<Notecard name="config.txt" guid="6d343b53-5314-4ac5-b013-2b7ee0f0567f">
+		</Notecard>
+		<Script name="fire.lsl" guid="3bef9616-32a5-48d2-9e77-d55d1a7a2f63">
+		</Script>
+		<Script name="smoke.lsl" guid="264c1f8b-d310-4528-be21-f56a4fc8e763">
+		</Script>
+	</Object>
+	<Object name="controls" guid="0d36d831-e4a0-46d5-ae10-0d7593283021" active="true">
+		<Script name="link_control.lsl" guid="8dd34397-eced-40f1-9171-018355d1e8ad">
+		</Script>
+		<Script name="network_control.lsl" guid="7e07b0e6-0bf4-483a-8d91-06159540bf73">
+		</Script>
+		<Script name="network_control_region.lsl" guid="da1f21fb-e2d9-487b-a8bb-8c60f264a6ca">
+		</Script>
+		<Script name="network_receiver.lsl" guid="324d3bec-7005-4231-bc84-e3fc74d33e21">
+		</Script>
+		<Script name="network_receiver_region.lsl" guid="fd49f838-b07b-440f-962f-eb898349cf4d">
+		</Script>
+		<Script name="remote_control.lsl" guid="7aa8d959-1dab-42c1-88f5-7cf707da2b7f">
+		</Script>
+		<Script name="remote_receiver.lsl" guid="f350fc34-0ba5-438c-8512-a6bbc72d1c9e">
+		</Script>
+		<Script name="smoke_control.lsl" guid="22225d6b-c283-4e87-afc6-90989c257c39">
+		</Script>
+	</Object>
+	<Object name="plugins" guid="949db453-6535-46ae-bad1-7ca379521b43">
+		<Script name="nightfire.lsl" guid="edbcf56f-442c-435b-8122-7d1dfcaffec8">
+		</Script>
+		<Script name="proximity.lsl" guid="5e0219a9-e783-408a-a688-341c52974071">
+		</Script>
+	</Object>
+	<Object name="textures" guid="6bcbff9b-eca1-4f38-afb9-a4d265101972">
+		<Snapshot name="glow_large.png" guid="c07a8068-9f58-4e49-9cac-68efad1798a6">
+		</Snapshot>
+		<Snapshot name="glow_medium.png" guid="b1825793-38df-4783-a1b7-fbf69955a2d7">
+		</Snapshot>
+		<Snapshot name="pixie_large.png" guid="4e4312ca-d645-4101-87ba-35febd9fd201">
+		</Snapshot>
+		<Snapshot name="pixie_medium.png" guid="6934bfa8-5d38-4f62-b285-b2d33cf5b0a4">
+		</Snapshot>
+	</Object>
+	<Object name="tools" guid="e7e48a66-e083-40f8-8795-cadc17bddcbd">
+		<Script name="color_converter.lsl" guid="53a2d39a-1cc2-41e7-bd04-e90ee4c56556">
+		</Script>
+	</Object>
+</Project>

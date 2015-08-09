@@ -1,0 +1,314 @@
+// :CATEGORY:Prim Animator
+// :NAME:Archipelis scripts for prim animator
+// :AUTHOR:Ferd Frederix
+// :CREATED:2013-09-06
+// :EDITED:2013-09-18 15:38:48
+// :ID:52
+// :NUM:78
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Prim storage Script Should be named Store 0
+// :CODE:
+
+// prim store 
+// constants
+integer debug =0 ;
+// return codes
+
+integer countchannel= 2001; // echo the number iof prims loaded to the animator
+
+
+
+
+// Commands
+integer Clear = 99;     // erase local db
+integer Erase   = 100;  // erase  Server DB command 
+integer Add     = 101;  // add a coordinate
+integer Publish = 102;  // save to db
+integer Name    = 103;  // send Name to db
+integer Password = 104; // send Password to db
+integer Play    = 1;    // backwards compat
+
+// vars
+integer full  = FALSE;  // this script RAM is full
+integer myNum = 0;  // the number at the end of this script name 0, 1, 2....
+integer imax;       // total records in store
+integer datum;      // the load counter increments as we load anims from db
+string MyName;
+string MyPassword;
+
+
+// remote db reading
+key kHttpRequestID;
+
+// lists
+list names;     // a list of distnct animation names stored here
+list db;        // name, prin num, pos, rot, size 
+integer STRIDE = 5; // 4 items in the above list
+integer recordcount = 0;    // how many anims are stored
+
+
+vector vRootScale ;             // the initial size when the prims were recorded
+vector vScaleChange = <1,1,1>;  // The change percent if resized
+
+integer GetScale()
+{
+    //Debug ("Size:" + (string) orig_size);
+    vector newScale = llGetScale();
+
+    vScaleChange.x = newScale.x / vRootScale.x;
+    vScaleChange.y = newScale.y / vRootScale.y;
+    vScaleChange.z = newScale.z / vRootScale.z;
+    return (vScaleChange != <1,1,1>);
+
+}
+
+
+
+// Start saving records.  The first record is the prim size.
+
+StartPublishing ()
+{
+    imax = llGetListLength(db);
+    datum = 0;      // point to the first record, counts as we load records
+    integer howmany = imax / STRIDE ;
+    llOwnerSay((string) howmany + " movements recorded - now saving to server.");
+}
+
+EraseDB()
+{
+    string url;
+            
+    //Debug( "Saving Size:" + (string) llGetScale());
+    url = "http://secondlife.mitsi.com/cgi/animate.plx?Type=Erase";
+    url += "&Name=" + llEscapeURL(MyName) + "&Password=" + llEscapeURL(MyPassword);
+
+    Debug(url);
+    kHttpRequestID = llHTTPRequest(url, [], "");
+
+}
+
+Put()
+{
+    if (datum < imax)
+    {
+        string sAniName     = llList2String (db,    datum);
+        float fprimNum      = llList2Float  (db,    datum+1);
+        vector  vprimPos    = llList2Vector (db,    datum+2);
+        rotation rprimRot   = llList2Rot    (db,    datum+3) ;
+        vector  vprimSize   = llList2Vector (db,    datum+4);
+
+        string url = "http://secondlife.mitsi.com/cgi/animate.plx?Type=Save&Name=" + llEscapeURL(MyName) + "&Password=" + llEscapeURL(MyPassword);
+        url += "&aniName="  + (string) sAniName;
+        url += "&PrimNum="  + (string) fprimNum;
+        url += "&Pos="      + (string) vprimPos;
+        url += "&Rot="      + (string) rprimRot;
+        url += "&Size="     + (string) vprimSize;
+
+        Debug(url);
+        if ((datum/STRIDE) % 10 == 0 && datum)
+            llMessageLinked(LINK_THIS,countchannel,(string) (datum/STRIDE) ,"");
+
+
+        kHttpRequestID = llHTTPRequest(url, [], "");
+        llSleep(1);
+        datum += STRIDE;
+    } 
+    else
+    {
+        llMessageLinked(LINK_THIS,countchannel,(string) (datum/STRIDE),"");
+        llSleep(2.0);
+        llMessageLinked(LINK_THIS,countchannel,"","");
+    }
+    
+}
+
+
+Debug(string msg)
+{
+    if (debug)
+        llOwnerSay(llGetScriptName() + ":" + msg);
+}
+
+
+default
+{
+    state_entry()
+    {
+        list parts = llParseString2List( llGetScriptName(),[" "],[""]);
+        myNum = llList2Integer(parts,1);
+        
+        vRootScale = llGetScale();      // set a default of this size, the real size when recorded comes from the server
+        
+        Add     = Add   + (10 * myNum);
+        
+        Debug("DB " + (string) myNum + " is empty");
+    }
+    
+    link_message(integer sender_num, integer num, string msg, key id) 
+    {
+
+        //Debug("cmd:" + (string) num + ":" + msg);
+
+        // valid commands only.
+        if (num != Clear && num != Erase && num !=  Play && num != Add && num != Publish && num != Name && num!= Password)
+            return;
+        
+        Debug("cmd rcv :" + (string) num + ":" + msg);
+ 
+        if (num == Clear) 
+        {
+            db = [];        // zero the animations
+            names = [];     // zero names db
+            //Debug((string) myNum + " erased " );
+            full   = FALSE;
+            recordcount = 0;
+            return;
+        }
+        else if (num == Add)
+        {
+             if (full)
+             {
+                Debug((string) myNum + " pass Add on to " + (string) (num +10));
+                llMessageLinked(LINK_THIS,num +10,msg,id);
+                return;
+            }   
+
+            //Debug("Add");
+            list vecs = llParseString2List(msg,["|"],[""]);
+            
+           // Debug(llDumpList2String(vecs,"---"));
+            string name= llList2String(vecs,0);
+            if (llListFindList(names,[name]) == -1)
+                names += name;
+            
+            float  fNum         = (float) (llList2String(vecs,1));
+            vector  vPos         = (vector) (llList2String(vecs,2));
+            rotation  rRot         = (rotation) (llList2String(vecs,3));
+            vector  vprimSize    = (vector) (llList2String(vecs,4));
+
+            db += name;
+            db += fNum;
+            db += vPos;
+            db += rRot;
+            db += vprimSize;
+            
+            recordcount ++;
+            Debug("Mem:" + (string) llGetFreeMemory() );
+            if (llGetFreeMemory() < 2000)
+                full++;    
+        }
+        else if (num == Name)
+        {
+            MyName = msg;
+        }
+        else if (num == Password)
+        {
+            MyPassword = msg;
+        }
+        else if (num == Play)
+        {
+            if (llListFindList(names,[msg]) == -1)
+                return;
+            
+            integer currpos;
+            integer end = recordcount * STRIDE;
+            // play back all we find
+            for (currpos = 0; currpos < end; currpos+= STRIDE)
+            {           
+                if ( msg == llList2String(db,currpos) )
+                {
+                    float fPrim         = (float) llList2String(db,currpos+1);
+                    vector vPos         = (vector) llList2String(db,currpos+2);
+                    rotation rRot         = (rotation) llList2String (db,currpos+3);
+                    vector vprimSize     = (vector) llList2String(db,currpos+4);
+                    
+                    if (fPrim > 1 ) // skip root prim
+                    {
+                        
+                        // set the local pos and locat rot to the prims orientation and position
+                        if (llGetAttached())
+                            rRot =  rRot/llGetLocalRot();
+                        else
+                            rRot = rRot/llGetRootRotation();
+
+                        if (GetScale())
+                        {
+                            vPos.x *= vScaleChange.x;
+                            vprimSize.x *= vScaleChange.x;
+            
+                            vPos.y *= vScaleChange.y;
+                            vprimSize.y *= vScaleChange.y;
+            
+                            vPos.z *= vScaleChange.z;
+                            vprimSize.z *= vScaleChange.z;
+                        }
+                       // Debug("p=" + (string) fPrim
+                       //         + " l=" + (string) vPos 
+                       //         + " r=" + (string) rRot 
+                       //         + " s=" + (string) vprimSize);
+                                
+                        llSetLinkPrimitiveParamsFast((integer) fPrim,[PRIM_POSITION,vPos,PRIM_ROTATION,rRot,PRIM_SIZE,vprimSize]);
+                    }
+                    else  if (fPrim == 0)
+                    {
+                        vRootScale = (vector) msg;
+                        Debug("Set scale to " + (string) vRootScale);
+                    }  
+                    else if (fPrim < 0)
+                    {
+                        Debug("Sleep");
+                        llSleep( fPrim * -1);
+                    }
+                }
+            }
+        }       
+        else if (num == Publish)
+        {
+            if (myNum)
+                llSleep(5);  // time to delete the database and save the root prim 
+            StartPublishing();
+        }
+        else if (num == Erase)
+        {
+            EraseDB();
+        }
+        
+        else
+        {
+            Debug("Bad command");
+        } 
+    }
+            
+            
+    // use for publishing in parallel        
+    http_response(key queryid, integer status, list metadata, string data)
+    {
+        if (queryid == kHttpRequestID )
+        {
+            if (status == 200) // HTTP success status
+            {
+                Debug(data);
+                if (data == "ok")
+                {   
+                    Put();
+                    return;
+                }
+                else if (data == "deleted")
+                {   
+                    llOwnerSay("Remote database is empty");
+                    return;
+                }
+        
+            }
+            else
+            {
+                llOwnerSay("Server Error loading animations");
+            }
+        }
+    }
+
+    
+}
+ਊ

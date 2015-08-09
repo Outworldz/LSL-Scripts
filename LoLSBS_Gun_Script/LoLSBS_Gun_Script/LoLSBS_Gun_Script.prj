@@ -1,0 +1,6 @@
+<Project name="LoLSBS_Gun_Script" guid="D754737C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7547466-6C00-1014-B904-200204C60A89">
+		<Script name="LoLSBS_Gun_Script_1.lsl" guid="D7549F0C-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

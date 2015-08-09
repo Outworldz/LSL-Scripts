@@ -1,0 +1,6 @@
+<Project name="Survey_1" guid="D7B830B7-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7B8319C-6C00-1014-B904-200204C60A89">
+		<Script name="Survey_1_1.lsl" guid="D7B874A2-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

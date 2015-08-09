@@ -1,0 +1,6 @@
+<Project name="control" guid="D7029265-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7029358-6C00-1014-B904-200204C60A89">
+		<Script name="control_1.lsl" guid="D702B672-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

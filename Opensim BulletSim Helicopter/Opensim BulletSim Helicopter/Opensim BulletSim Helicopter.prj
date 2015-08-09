@@ -1,0 +1,6 @@
+<Project name="Opensim BulletSim Helicopter" guid="d6415c8d-ca25-445a-b1b3-61ad81a0b904">
+	<Object name="Object" guid="de30874c-5f19-4700-89fb-23d89e36321d" active="true">
+		<Script name="Script.lsl" guid="f5d11fc1-947b-4fc5-89e7-ff20a83cfb97">
+		</Script>
+	</Object>
+</Project>

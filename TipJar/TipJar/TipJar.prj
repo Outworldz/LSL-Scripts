@@ -1,0 +1,6 @@
+<Project name="TipJar" guid="d6a5c9a5-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d6a5ca88-6c00-1014-b904-200204c60a89">
+		<Script name="TipJar_1.lsl" guid="d6a62477-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Avatar_Magnet" guid="D6E3B13A-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6E3B213-6C00-1014-B904-200204C60A89">
+		<Script name="Avatar_Magnet_1.lsl" guid="D6E3E583-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

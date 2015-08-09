@@ -1,0 +1,18 @@
+<Project name="OpenSim Mirror" guid="abfac72e-052d-4ee3-9507-5a1d8bfb7296">
+	<Object name="Chair" guid="10693380-39ea-4be3-a668-a76d48bde279" active="true" description="12345000-0000-0000-0000-0000000000002">
+		<Animation name="avatar_jumpforjoy" guid="3b520137-75fe-4e10-a713-a14b9afbe8e3">
+		</Animation>
+		<Animation name="Animation2.bvh" guid="2ca43907-376e-4997-b148-da62fc3952e4">
+		</Animation>
+		<Animation name="Animation3.bvh" guid="be4f76ae-5633-405a-85f1-d262155bebc0">
+		</Animation>
+		<Animation name="Animation4.bvh" guid="82346d20-7306-41f6-bbf7-6e01b62433a6">
+		</Animation>
+		<Script name="OpenSim Mirror.lsl" guid="cd00cdce-24e4-4562-9e5e-4a3cd9f08daa">
+		</Script>
+	</Object>
+	<Object name="npcChair" guid="6968d932-f23c-4a9b-9b57-13190ff4779b">
+		<Script name="sit Pose.lsl" guid="94a2d8bd-f615-410a-9a0c-6df2b361042f">
+		</Script>
+	</Object>
+</Project>

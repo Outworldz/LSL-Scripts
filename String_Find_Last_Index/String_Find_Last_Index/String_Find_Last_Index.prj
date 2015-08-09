@@ -1,0 +1,6 @@
+<Project name="String_Find_Last_Index" guid="D8382C34-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8382D28-6C00-1014-B904-200204C60A89">
+		<Script name="String_Find_Last_Index_1.lsl" guid="D83846AD-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

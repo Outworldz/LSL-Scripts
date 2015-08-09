@@ -1,0 +1,8 @@
+<Project name="AntiAFK_HUD" guid="D871FD64-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D871FE4C-6C00-1014-B904-200204C60A89">
+		<Script name="AntiAFK_HUD_1.lsl" guid="D872218C-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="AntiAFK_HUD_2.lsl" guid="D87238C4-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

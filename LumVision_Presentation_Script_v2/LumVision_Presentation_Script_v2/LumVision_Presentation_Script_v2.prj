@@ -1,0 +1,6 @@
+<Project name="LumVision_Presentation_Script_v2" guid="D8A5064B-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8A5072F-6C00-1014-B904-200204C60A89">
+		<Script name="LumVision_Presentation_Script_v2_1.lsl" guid="D8A53FEC-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

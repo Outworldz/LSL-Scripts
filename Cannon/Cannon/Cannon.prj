@@ -1,0 +1,6 @@
+<Project name="Cannon" guid="D637AC28-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D637AD22-6C00-1014-B904-200204C60A89">
+		<Script name="Cannon_1.lsl" guid="D63AF3E9-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

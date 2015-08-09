@@ -1,0 +1,6 @@
+<Project name="Automatic_GIF_to_SL_script" guid="d8ae98d8-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d8ae99d6-6c00-1014-b904-200204c60a89">
+		<Script name="Automatic_GIF_to_SL_script_1.lsl" guid="d8aeb90f-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+</Project>

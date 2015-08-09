@@ -1,0 +1,6 @@
+<Project name="Random_Sound_player" guid="D7E2EF04-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7E2EFF8-6C00-1014-B904-200204C60A89">
+		<Script name="Random_Sound_player_1.lsl" guid="D7E33ACE-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

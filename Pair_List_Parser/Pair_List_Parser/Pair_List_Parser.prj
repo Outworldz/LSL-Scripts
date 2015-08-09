@@ -1,0 +1,8 @@
+<Project name="Pair_List_Parser" guid="D7E40C04-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7E40CE6-6C00-1014-B904-200204C60A89">
+		<Script name="Pair_List_Parser_1.lsl" guid="D7E430D2-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Pair_List_Parser_2.lsl" guid="D7E44330-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

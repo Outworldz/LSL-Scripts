@@ -1,0 +1,6 @@
+<Project name="Move up and down on touch" guid="14ef32b0-81a5-4fee-b54c-dbb2588fb8d6">
+	<Object name="Object" guid="947f0588-413a-4341-b5c7-869246e420d8" active="true">
+		<Script name="Up and down.lsl" guid="a41af64d-6e1d-42cb-b7fa-9b53dbe81ce8">
+		</Script>
+	</Object>
+</Project>

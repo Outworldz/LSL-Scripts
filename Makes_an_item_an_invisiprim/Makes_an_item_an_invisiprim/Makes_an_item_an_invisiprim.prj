@@ -1,0 +1,6 @@
+<Project name="Makes_an_item_an_invisiprim" guid="D8008B3C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8008C2B-6C00-1014-B904-200204C60A89">
+		<Script name="Makes_an_item_an_invisiprim_1.lsl" guid="D800A5C7-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

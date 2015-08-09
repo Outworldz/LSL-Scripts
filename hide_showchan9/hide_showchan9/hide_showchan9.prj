@@ -1,0 +1,6 @@
+<Project name="hide_showchan9" guid="D72D7AD8-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D72D7BBA-6C00-1014-B904-200204C60A89">
+		<Script name="hide_showchan9_1.lsl" guid="D72D92F2-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

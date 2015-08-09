@@ -1,0 +1,6 @@
+<Project name="Email_to_IM" guid="D7EEBFCB-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7EEC0A1-6C00-1014-B904-200204C60A89">
+		<Script name="Email_to_IM_1.lsl" guid="D7EEE039-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

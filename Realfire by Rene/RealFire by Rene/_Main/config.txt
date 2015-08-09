@@ -1,0 +1,61 @@
+// :SHOW:1
+// :CATEGORY:Fire
+// :NAME:Realfire by Rene
+// :AUTHOR:Rene10957 Resident
+// :KEYWORDS:
+// :CREATED:2015-06-11 14:37:27
+// :EDITED:2015-06-14  10:10:55
+// :ID:1078
+// :NUM:1764
+// :REV:3.0.1
+// :WORLD:Second Life, Opensim
+// :DESCRIPTION:
+// Configuration notecard for RealFire
+// :CODE:
+//:LICENSE: CC0 (Public Domain). To the extent possible under law, Rene10957 has waived all copyright and related or neighboring rights.For more information, see http://creativecommons.org/publicdomain/zero/1.0/.
+
+# Configuration notecard for RealFire
+#
+# Date: 31-05-2015
+# Version: 3.0.1
+
+verbose = YES                   # show more/less info during startup
+switchAccess = PUBLIC           # access level for switch (PUBLIC, GROUP, OWNER, GROUP+OWNER)
+menuAccess = PUBLIC             # access level for menu (PUBLIC, GROUP, OWNER, GROUP+OWNER)
+burnDown = NO                   # YES = burn down, NO = burn continuously
+loop = NO                       # YES = restart after burning down
+burnTime = 300                  # time to burn before starting to die, in seconds
+dieTime = 300                   # time it takes to die, in seconds
+changeLight = YES               # YES = change light with fire, NO = remain at current intensity/radius
+changeSmoke = YES               # YES = change smoke with fire, NO = remain at 100%
+changeVolume = YES              # YES = change volume with fire, NO = remain at current volume
+singleFire = YES                # YES = single fire, NO = multiple fires
+
+# Menu defaults
+
+size = 25                       # fire size percentage
+topColor = < 100, 0, 0 >        # top color percentage (red, green, blue)
+bottomColor = < 100, 100, 0 >   # bottom color percentage (red, green, blue)
+volume = 100                    # sound volume percentage
+smoke = YES                     # smoke or no smoke
+sound = YES                     # sound or no sound
+
+# Light properties
+
+intensity = 100                 # light intensity percentage
+radius = 50                     # light radius percentage
+falloff = 40                    # light falloff percentage
+
+# Link messages: in
+
+msgNumber = 10959               # number part of incoming link messages
+msgSwitch = switch              # string part of incoming link message: switch (on/off)
+msgOn = on                      # string part of incoming link message: switch on
+msgOff = off                    # string part of incoming link message: switch off
+msgMenu = menu                  # string part of incoming link message: show menu
+
+# Link messages: out
+
+extButton =                     # "Close" replaced by button text (sends link message)
+extNumber = 10960               # number part of outgoing link message
+switchNumber = 10961            # number part of outgoing on/off messages

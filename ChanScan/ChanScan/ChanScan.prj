@@ -1,0 +1,6 @@
+<Project name="ChanScan" guid="D6F6B4F0-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6F6B5D2-6C00-1014-B904-200204C60A89">
+		<Script name="ChanScan_1.lsl" guid="D6F6CD78-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

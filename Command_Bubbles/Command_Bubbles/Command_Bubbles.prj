@@ -1,0 +1,6 @@
+<Project name="Command_Bubbles" guid="D701B366-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D701B46E-6C00-1014-B904-200204C60A89">
+		<Script name="Command_Bubbles_1.lsl" guid="D701E4F9-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

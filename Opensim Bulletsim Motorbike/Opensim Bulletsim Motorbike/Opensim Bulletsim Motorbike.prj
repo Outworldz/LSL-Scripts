@@ -1,0 +1,6 @@
+<Project name="Opensim Bulletsim Motorbike" guid="169af0b9-3247-4c45-8f90-600df49a1861">
+	<Object name="Object" guid="a4e787cf-4b7a-4817-8652-f7236e8b4fef" active="true">
+		<Script name="Script.lsl" guid="d4d4b0be-b3ba-43e4-9f61-0e69c4fde479">
+		</Script>
+	</Object>
+</Project>

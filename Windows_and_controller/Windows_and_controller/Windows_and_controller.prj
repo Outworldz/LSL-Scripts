@@ -1,0 +1,10 @@
+<Project name="Windows_and_controller" guid="D7D5C871-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7D5C960-6C00-1014-B904-200204C60A89">
+		<Script name="Windows_and_controller_1.lsl" guid="D7D5F091-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Windows_and_controller_2.lsl" guid="D7D6056B-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Windows_and_controller_3.lsl" guid="D7D61D9E-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

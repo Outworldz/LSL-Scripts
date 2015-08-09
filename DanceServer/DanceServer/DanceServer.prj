@@ -1,0 +1,38 @@
+<Project name="DanceServer" guid="de9b3bac-7a04-4c58-be39-f8bec239a0ab">
+	<Object name="Object" guid="362aa50d-d11d-4d9f-9441-3759dbde8f4e" active="true">
+		<Script name="!Dancer.lsl" guid="7f0ccfcc-a89e-4572-88e4-32da3a9c6e07">
+		</Script>
+		<Script name="!Holy Server.lsl" guid="0bb0c180-334f-4389-8001-5c64bc40f23a">
+		</Script>
+		<Animation name="Animation.ani" guid="e6fdea07-7d18-4c84-9d71-529aadb13ad0">
+		</Animation>
+		<Animation name="Animation10.ani" guid="cbf69d9b-4931-4289-9d1f-581b16a05713">
+		</Animation>
+		<Animation name="Animation11.ani" guid="ad83eedf-42f4-4095-9164-81ed98e89e14">
+		</Animation>
+		<Animation name="Animation12.ani" guid="937121c9-84fc-42a3-a017-340adcc0d388">
+		</Animation>
+		<Animation name="Animation13.ani" guid="42a4a703-fd6c-47e9-89d8-117e51c9714e">
+		</Animation>
+		<Animation name="Animation14.ani" guid="7f1b0e68-6445-4549-ad5e-369c69024713">
+		</Animation>
+		<Animation name="Animation15.ani" guid="75b76976-c075-4e86-be4b-1c89396ea7b2">
+		</Animation>
+		<Animation name="Animation2.ani" guid="814c5686-4868-41dd-8628-00e5203bf573">
+		</Animation>
+		<Animation name="Animation3.ani" guid="f418c867-b358-4341-8a02-4b7369309c60">
+		</Animation>
+		<Animation name="Animation4.ani" guid="324d21b2-f569-450d-a00c-af21264b694d">
+		</Animation>
+		<Animation name="Animation5.ani" guid="0fbfdb4d-f10b-4624-8f46-043b7724d9dd">
+		</Animation>
+		<Animation name="Animation6.ani" guid="24d956a6-f124-4535-a34a-72540495e7a8">
+		</Animation>
+		<Animation name="Animation7.ani" guid="3c5a297e-d8c2-4a8c-93fc-f583e8a5ada3">
+		</Animation>
+		<Animation name="Animation8.ani" guid="7a150f50-9028-478c-9b48-b7e1bad9d4ec">
+		</Animation>
+		<Animation name="Animation9.ani" guid="f55c1c20-8fc9-4f13-86ea-0af88e404094">
+		</Animation>
+	</Object>
+</Project>

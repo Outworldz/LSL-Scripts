@@ -1,0 +1,6 @@
+<Project name="mortar_start_script" guid="D7589401-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D75894F0-6C00-1014-B904-200204C60A89">
+		<Script name="mortar_start_script_1.lsl" guid="D758ACA4-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

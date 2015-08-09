@@ -1,0 +1,6 @@
+<Project name="Advanced_Movement_Lock" guid="D8132F3F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8133041-6C00-1014-B904-200204C60A89">
+		<Script name="Advanced_Movement_Lock_1.lsl" guid="D8135364-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

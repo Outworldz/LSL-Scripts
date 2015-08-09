@@ -1,0 +1,22 @@
+<Project name="Blue Whale" guid="4c92de1c-ad71-4042-885b-fd21b030cb3c">
+	<Object name="Whale Prim" guid="d70e3219-732d-4cf4-aaed-7b7a9d04944d" active="true">
+		<Script name="Pose Ball.lsl" guid="d80055b5-b80d-4950-892c-6b2f1e35cfd7">
+		</Script>
+		<Notecard name="Movement.txt" guid="a1614ce6-1946-4e3c-9b9b-0687d4de6296">
+		</Notecard>
+		<Script name="prim position child script.lsl" guid="9ddd0c9c-9add-4487-a93b-287894153cf9">
+		</Script>
+		<Script name="Prim teaching script.lsl" guid="b412a595-d20c-4f94-a078-d992bdcf3a44">
+		</Script>
+		<Animation name="rooftop-crouch.ani" guid="b5af85b9-8b85-43ca-842a-f36a64d648a2">
+		</Animation>
+		<Script name="spout script.lsl" guid="ab87b4ff-f8ff-4bdf-afa2-f0b7edc58230">
+		</Script>
+		<Script name="water splash scriptt.lsl" guid="31e86039-37a1-44ec-b3c1-7b06acc3d24a">
+		</Script>
+		<Script name="Whale global movement script.lsl" guid="70564333-3952-40a6-8e15-ae3d63dc6db3">
+		</Script>
+		<Script name="Whale prim Movement script.lsl" guid="afa9c582-eb76-4500-af8a-fd42e62fbd73">
+		</Script>
+	</Object>
+</Project>

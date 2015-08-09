@@ -1,0 +1,12 @@
+<Project name="Scrollable_ImageHUD" guid="D8CF2361-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8CF246C-6C00-1014-B904-200204C60A89">
+		<Script name="Scrollable_ImageHUD_1.lsl" guid="D8CF59A5-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Scrollable_ImageHUD_2.lsl" guid="D8CF71EC-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Scrollable_ImageHUD_3.lsl" guid="D8CF8340-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Scrollable_ImageHUD_4.lsl" guid="D8CF8D7E-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

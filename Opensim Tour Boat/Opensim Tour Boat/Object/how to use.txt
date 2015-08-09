@@ -1,0 +1,171 @@
+// :SHOW:
+// :CATEGORY:Tour
+// :NAME:Opensim Tour Boat
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2015-02-25 22:53:18
+// :EDITED:2015-02-25  21:53:23
+// :ID:1068
+// :NUM:1717
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// An Opensim Compatible, non physical Tour system
+// :CODE:
+﻿http://www.endivatomic.eu/article/boat_engine
+
+=================================================================
+This program is free software; you can redistribute it and/or 
+modify it. Additional Licenes may apply that prevent you from 
+selling this code. You must leave any author credits and any 
+headers intact in any script you use or publish.
+
+=================================================================
+Author:      thailow (thailow.mi@gmail.com)
+created:     2014-02-02 
+last modify: 2014-02-20
+version:     1.00
+target sys:  OpenSim
+
+
+
+INSTRUCTIONS
+================================================== ===============
+This script allows you to move a boat along a route
+specified a series of coordinates stored in a notecard.
+
+Abbreviations used:
+-------------------------
+"BE" => indicates the object boat_engine
+ 
+Positioning & Link:
+----------------------
+Place the BE in your boat, the texture of the BE indicate the
+direction of the bow. We advise you to place the bottom BE
+vs. the boat, more or less in the center.
+CAUTION: When the BE is linked to the craft do it last so it the main prim (link number = 1).
+
+Entering parameters (notecard param.config):
+----------------------------------------------
+Lines starting with # are comments and are
+ignored during loading. Empty lines are
+excluded, however, to improve performance, 
+after setup, it would be better to remove all
+blank lines and comments. Keep in mind that for every read of each 
+single line it takes about 0.1 seconds. Eliminate
+comments and blank lines means improving the speed of
+loading the parameters.
+
+Optional parameters are present with the comment symbol
+before the name. To set a value other than
+default, remove the # sign at the left margin.
+
+The parameters are all in the format: name = value
+it does not matter iof there are spaces before or after the sign =
+Each line can contain only one parameter.
+Shift & / or lowercase letters in the name does not make a difference.
+
+-----------
+STARTPOS: initial position of the vessel, the same location where
+the boat will be sent at the end of the tour.
+Enter the coordinates of the position vector format <X, Y, Z>
+The Z can be left at 0, the loading will be set to
+sea ​​level.
+
+example:
+startpos = <92,162,20>
+-----------
+STARTROT: initial rotation of the vessel, the same rotation which
+the boat will be set at the end of the tour.
+The values ​​of the vector are the angles in degrees <X, Y, Z>.
+
+example: startRot = <0,0,0>
+
+-----------
+HOVERWATER: BE height of the water level expressed in
+meters. Warning: this is the height of the BE level
+sea ​​and not the center line of the vessel.
+
+example: hoverwater = 0.1
+         
+-----------
+SPEED: speed (or pressure) of the boat.
+
+example: speed = 2
+
+-----------
+PUSHTIME: how many seconds the boat gets a boost. Yup
+recommended to stay between 0.2 and 0.6 seconds
+
+example: pushtime = 0.3
+
+-----------
+DEBUG: enable / disable debug messages sent to
+owner of BE. Equal to 1 if the messages are active,
+set to 0 to disable the messages.
+
+example: debug = 1
+
+Note: once the positioning phase is recommended
+= 0. The set of debug messages tend to slow down
+the execution of events making the movement of the vessel
+jerky.
+ 
+-----------
+
+Insertion path (notecard route.config):
+----------------------------------------------
+The notecard route.config contains the sequence of positions that
+the vessel will have to go in his tour.
+Each line must contain a position vector <X, Y, Z>.
+The value of Z can be left at 0, will be set
+automatically height of the sea.
+
+WARNING !!!!: BE uses physical functions for the movement of
+vessel, this will NOT work across different SIMs.
+When setting your path be careful not to exceed
+the boundaries of the SIM, otherwise your boat will lose
+control and could move suddenly in undefined positions
+(Even under water or in the sky).
+
+example:
+We want to do a tour departing from <100,100,0>
+
+<100, 110, 0>
+<110, 110, 0>
+<110, 100, 0>
+<100, 100, 0>
+
+Various considerations:
+1) BE uses physics so if along the way encounters
+    obstacles, these can block or divert the tour.
+    Ensure that no prim of the boat touches the "backdrop"
+    on the way, could run aground.
+2) in the linear sections of your route there is no need to insert
+    intermediate coordinates. This lets you avoid unnecessary notecard lines.
+3) given the speed of turn is recommended to insert positions
+    facilitating softer turns.
+    
+OPERATION USER:
+================================================== ===============
+When a user touches the boat, after a few tenth of a second
+Wait, this part of the tour begins in physical mode.
+As the tour is ended (reached in the latest reported position
+route.config) the vessel becomes NOT physical and resumes
+the position and rotation set startpos and startRot.
+
+OPERATION OWNER:
+================================================== ===============
+When the owner of the boat touches a menu appears with
+the following functions:
+
+START: if the boat is at rest, start moving.
+
+STOP: if the boat is moving to the reset position
+            startpos, startRot and removes the physical flag.
+
+LOAD_PARAM: charging the parameters in param.config,
+            use it in case of change of the notecard.
+
+LOAD_ROUTE: charging the parameters in route.config,
+            use it in case of change of the notecard.

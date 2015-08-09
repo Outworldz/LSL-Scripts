@@ -1,0 +1,6 @@
+<Project name="Visitor_List_Maker" guid="D7CBBFE3-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7CBC0CE-6C00-1014-B904-200204C60A89">
+		<Script name="Visitor_List_Maker_1.lsl" guid="D7CBF4B9-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,52 @@
+<Project name="XS Quail" guid="c80df288-4384-4842-939a-f712ce463d26">
+	<Object name="Animal" guid="c6ba70f2-3dc7-43e9-b90a-cb9f2312570e">
+		<Script name="bird assembly.lsl" guid="4f58ac0e-6464-4d51-8d47-dd69742c44ad">
+		</Script>
+		<Sound name="bird_sound" guid="fa6f5499-12e0-4809-be6f-1aa78e197dab">
+		</Sound>
+		<Script name="Test pregnancy script.lsl" guid="b8ae0784-c83c-4f53-9516-b9cd66df5897">
+		</Script>
+		<Script name="xs_ager.lsl" guid="a2dbd871-7653-412a-912c-4c3cb6fb8bbf">
+		</Script>
+		<Script name="xs_brain.lsl" guid="72c9b464-97f3-40bc-80b1-c69a739d9ba0">
+		</Script>
+		<Script name="xs_breeding.lsl" guid="9662f464-cd1c-4e6d-8f65-b243559d9485">
+		</Script>
+		<Script name="xs_eater.lsl" guid="51e4673b-65f7-4066-a052-49eb111c0826">
+		</Script>
+		<Script name="xs_infomatic.lsl" guid="fa9bf3b5-431f-4d0b-b7f5-c558935bc747">
+		</Script>
+		<Script name="xs_movement.lsl" guid="2c370d67-c165-4c86-99ff-9a8a31c2e4c6">
+		</Script>
+		<Script name="xs_special.lsl" guid="02f78fdd-c8fe-4445-abb4-dab5f06d0a53">
+		</Script>
+	</Object>
+	<Object name="Debug" guid="54fd3d14-caae-4ac9-9f03-dc66d1db9047">
+		<Notecard name="Global constants and notes.txt" guid="3907a220-2070-48de-be96-10e0d1d2b8e1">
+		</Notecard>
+		<Script name="xs_Debug.lsl" guid="b8c922d3-141f-47b7-b503-373575ccf811">
+		</Script>
+	</Object>
+	<Object name="Egg" guid="fdfb89e6-e313-4c34-8745-91bd9fb73f53">
+		<Script name="xs_egg.lsl" guid="92835c07-c310-4d72-9ffe-0a17f39039f4">
+		</Script>
+	</Object>
+	<Object name="EggCup" guid="4bee461e-2216-45b3-89af-32ed3b9cc971">
+		<Script name="xs_eggcup.lsl" guid="8bf72019-4048-4d25-bf54-55b6fc55c08a">
+		</Script>
+	</Object>
+	<Object name="FoodBowl" guid="258afba7-0361-4019-9155-f8fb10d70a97" active="true">
+		<Script name="xs_foodbowl.lsl" guid="757b9c71-c891-432d-a3e3-794e7b9aeef4">
+		</Script>
+		<Script name="xs_foodbowl_anim.lsl" guid="8183504a-8f07-40dc-8858-bfc53a2a8323">
+		</Script>
+	</Object>
+	<Object name="Home" guid="8b5c7038-452d-40bb-a38e-be392010fa4e">
+		<Script name="xs_home.lsl" guid="31cba2e9-a207-4895-b609-2d615936e57c">
+		</Script>
+	</Object>
+	<Object name="TransportCrate" guid="f52aeb7c-96b3-4260-9e2c-ef0bef47f506">
+		<Script name="xs_cryocrate.lsl" guid="cd96a0a5-9a2e-48be-8be9-9e5017b798f5">
+		</Script>
+	</Object>
+</Project>

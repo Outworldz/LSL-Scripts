@@ -1,0 +1,6 @@
+<Project name="1337_Translator" guid="d80d1156-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d80d1238-6c00-1014-b904-200204c60a89">
+		<Script name="1337_Translator_1.lsl" guid="d80d32d6-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+</Project>

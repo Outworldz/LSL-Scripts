@@ -1,0 +1,6 @@
+<Project name="Group_Land_Finder" guid="D8062E1B-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8062F0C-6C00-1014-B904-200204C60A89">
+		<Script name="Group_Land_Finder_1.lsl" guid="D80648D4-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

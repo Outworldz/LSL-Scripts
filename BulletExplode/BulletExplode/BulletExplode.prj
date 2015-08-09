@@ -1,0 +1,6 @@
+<Project name="BulletExplode" guid="D624B7CB-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D624B8AC-6C00-1014-B904-200204C60A89">
+		<Script name="BulletExplode_1.lsl" guid="D6279709-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

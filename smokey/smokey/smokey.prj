@@ -1,0 +1,6 @@
+<Project name="smokey" guid="D7AEBF0F-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7AEBFDC-6C00-1014-B904-200204C60A89">
+		<Script name="smokey_1.lsl" guid="D7AEEB22-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,8 @@
+<Project name="A_flight_script_with_more_realistic" guid="D89D5281-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D89D5379-6C00-1014-B904-200204C60A89">
+		<Script name="A_flight_script_with_more_realistic_1.lsl" guid="D89DF857-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="A_flight_script_with_more_realistic_2.lsl" guid="D89E1CDA-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

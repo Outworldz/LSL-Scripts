@@ -1,0 +1,28 @@
+<Project name="HUD Music Player" guid="b7ccf3f2-98c4-478f-821b-82e78f28bac1">
+	<Object name="Sensor" guid="c2cc9806-16a3-49c2-9f1e-a9834a0241b7" active="true">
+		<Sound name="Making_of_a_Replicant 01.wav" guid="e45f8466-1c29-4146-b66e-b951e27a0b56">
+		</Sound>
+		<Sound name="Making_of_a_Replicant 02.wav" guid="14cea832-03c8-4a39-9eba-fab259fe594a">
+		</Sound>
+		<Sound name="Making_of_a_Replicant 03.wav" guid="49c8ecba-9858-4741-9e21-112cd87b8cae">
+		</Sound>
+		<Sound name="Making_of_a_Replicant 04.wav" guid="831416e9-8035-4fb2-8430-191174546c0a">
+		</Sound>
+		<Sound name="Making_of_a_Replicant 05.wav" guid="35634e6b-dea0-47bc-8217-f45649cef015">
+		</Sound>
+		<Sound name="Making_of_a_Replicant 06.wav" guid="4872050d-9ee1-45cd-8d78-3c6d2ea739a7">
+		</Sound>
+		<Sound name="Making_of_a_Replicant 07.wav" guid="1d2672f8-2c49-44ba-9e94-881127318373">
+		</Sound>
+		<Sound name="Making_of_a_Replicant 08.wav" guid="688cbc9f-e441-4ed8-89f1-23f78444adee">
+		</Sound>
+		<Sound name="Making_of_a_Replicant 09.wav" guid="3068065b-e96b-48f2-8235-7d5c40742f8f">
+		</Sound>
+		<Sound name="Making_of_a_Replicant 10.wav" guid="78a9da61-c15e-485c-9788-5c681265d5de">
+		</Sound>
+		<Script name="Music_Script for HUD.lsl" guid="180c1b32-10fc-462d-8c6c-6c05d2d1c827">
+		</Script>
+		<Script name="Sensor for HUD.lsl" guid="430218c3-8ec1-4b25-ae2c-aa4a773d4ad0">
+		</Script>
+	</Object>
+</Project>

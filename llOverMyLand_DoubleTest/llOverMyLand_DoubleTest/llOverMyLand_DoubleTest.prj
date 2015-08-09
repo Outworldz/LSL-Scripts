@@ -1,0 +1,6 @@
+<Project name="llOverMyLand_DoubleTest" guid="D8C3BAC2-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8C3BB9F-6C00-1014-B904-200204C60A89">
+		<Script name="llOverMyLand_DoubleTest_1.lsl" guid="D8C3D692-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

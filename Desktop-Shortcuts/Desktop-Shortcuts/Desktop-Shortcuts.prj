@@ -1,0 +1,10 @@
+<Project name="Desktop-Shortcuts" guid="64d45bfe-c16b-43c7-a9b1-20de2168e62f">
+	<Object name="Src" guid="17d49b46-9f27-4b21-8ef6-80fae11d4ee5" active="true">
+		<Script name="icon.tts.vbs" guid="8bf8c3f4-231f-41c0-9644-ed10b7990ece">
+		</Script>
+		<Script name="createshortcut.plx" guid="4cb0ee60-138f-438c-b2bc-8895b5687d40">
+		</Script>
+		<Script name="CreateSLIcon.vbs" guid="32110e1e-b039-486f-b21b-7d5325f99e91">
+		</Script>
+	</Object>
+</Project>

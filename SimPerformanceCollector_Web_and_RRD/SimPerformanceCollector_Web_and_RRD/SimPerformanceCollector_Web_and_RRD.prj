@@ -1,0 +1,12 @@
+<Project name="SimPerformanceCollector_Web_and_RRD" guid="D8A8E7C3-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8A8E8C2-6C00-1014-B904-200204C60A89">
+		<Script name="SimPerformanceCollector_Web_and_RRD_1.lsl" guid="D8A91491-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="SimPerformanceCollector_Web_and_RRD_2.lsl" guid="D8A92B70-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="SimPerformanceCollector_Web_and_RRD_3.lsl" guid="D8A93F53-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="SimPerformanceCollector_Web_and_RRD_4.lsl" guid="D8A9600E-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,8 @@
+<Project name="Configuration_Notecard_Reader" guid="D8A393AA-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8A39498-6C00-1014-B904-200204C60A89">
+		<Script name="Configuration_Notecard_Reader_1.lsl" guid="D8A3C8A2-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Configuration_Notecard_Reader_2.lsl" guid="D8A3DEAA-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

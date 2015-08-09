@@ -1,0 +1,6 @@
+<Project name="Teleport_Hud_v2" guid="D8C8D4C5-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8C8D734-6C00-1014-B904-200204C60A89">
+		<Script name="Teleport_Hud_v2_1.lsl" guid="D8C94911-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Multi-Pos Camera HUD" guid="712e8c44-d84c-4414-b5d5-525535570e4f">
+	<Object name="HUD" guid="ecc3c509-6785-4368-817b-fab30cbc8f8e" active="true">
+		<Script name="Multi-Pos Camera HUD.lsl" guid="19a7c016-0a5e-47d6-b261-e9879413cd2d">
+		</Script>
+	</Object>
+</Project>

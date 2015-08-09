@@ -1,0 +1,8 @@
+<Project name="Music Player" guid="b7ccf3f2-98c4-478f-821b-82e78f28bac1">
+	<Object name="Sensor" guid="c2cc9806-16a3-49c2-9f1e-a9834a0241b7" active="true">
+		<Script name="Music_Script.lsl" guid="180c1b32-10fc-462d-8c6c-6c05d2d1c827">
+		</Script>
+		<Script name="Sensor.lsl" guid="430218c3-8ec1-4b25-ae2c-aa4a773d4ad0">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,14 @@
+<Project name="Prim_Animation_Compiler" guid="d8e2c242-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d8e2c34e-6c00-1014-b904-200204c60a89">
+		<Script name="Alternating Up and Down example trigger.lsl" guid="71169092-28d6-41c5-a7e9-50e602a779a2">
+		</Script>
+		<Script name="Another way to alternate on touch example.lsl" guid="ed943fe2-4273-457f-95e1-9f0e8a6cdb6e">
+		</Script>
+		<Script name="Example listen script.lsl" guid="4b631d18-b841-45c9-aafb-47e61cbf5957">
+		</Script>
+		<Script name="Prim_Animation_Compiler.lsl" guid="d8e3644b-6c00-1014-b904-200204c60a89">
+		</Script>
+		<Script name="Prim_Animation_Recorder.lsl" guid="d8e33212-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+</Project>

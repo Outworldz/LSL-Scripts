@@ -1,0 +1,6 @@
+<Project name="Rotate Child Prim" guid="55f0b6f1-db5d-473a-86b7-6c7d260fb3b2">
+	<Object name="Object" guid="5d14b9ba-cecc-49d4-af62-c0b99cb1eb08" active="true">
+		<Script name="Script.lsl" guid="e38262a8-63e7-41fd-9b95-faabb0bad69b">
+		</Script>
+	</Object>
+</Project>

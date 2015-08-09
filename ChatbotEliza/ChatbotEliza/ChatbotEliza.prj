@@ -1,0 +1,6 @@
+<Project name="ChatbotEliza" guid="D6F7E55D-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6F7E63E-6C00-1014-B904-200204C60A89">
+		<Script name="ChatbotEliza_1.lsl" guid="D6F80930-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

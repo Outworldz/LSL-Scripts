@@ -1,0 +1,12 @@
+<Project name="HUD Color Picker" guid="0f14da20-a8a5-4a89-9016-41d146e99173">
+	<Object name="Colored Object" guid="56c3ceaf-6e39-49d2-a03b-dbf05e242685">
+		<Script name="Rainbow Listener Script.lsl" guid="4ca976a6-80c9-4013-a7f2-5445a249fc0f">
+		</Script>
+	</Object>
+	<Object name="HUD Prim" guid="b10817fc-416f-4400-89d3-dd0068238336" active="true">
+		<Snapshot name="RGB.png" guid="916fe251-8f3f-4502-8dea-eb4594827c27">
+		</Snapshot>
+		<Script name="HUD Script.lsl" guid="3f7016ef-191d-4953-b4e4-7dcdf725db54">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="NPC Attach" guid="a0877875-356d-4db1-be1d-7f5cbd0030e5">
+	<Object name="Object" guid="fca88d8c-421e-421e-a6b3-2d3846eea9e7" active="true">
+		<Script name="Script.lsl" guid="beba81a9-da4b-42af-bce7-e7764108743d">
+		</Script>
+	</Object>
+</Project>

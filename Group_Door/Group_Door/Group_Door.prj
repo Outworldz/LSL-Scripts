@@ -1,0 +1,6 @@
+<Project name="Group_Door" guid="D72BB68A-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D72BB776-6C00-1014-B904-200204C60A89">
+		<Script name="Group_Door_1.lsl" guid="D72BD11A-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

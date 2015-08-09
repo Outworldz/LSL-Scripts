@@ -1,0 +1,28 @@
+// :SHOW:
+// :CATEGORY:Tour
+// :NAME:Opensim Tour Boat
+// :AUTHOR:thailow
+// :KEYWORDS:
+// :CREATED:2015-02-25 22:55:17
+// :EDITED:2015-02-25  21:55:23
+// :ID:1068
+// :NUM:1720
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Tour boat for Opensim
+// :CODE:
+<96,140,0>
+<96,27,0>
+<102,18,0>
+<115,11,0>
+<216,11,0>
+<224,16,0>
+<224,110,0>
+<220,120,0>
+<202,135,0>
+<183,145,0>
+<164,154,0>
+<130,155,0>
+<104,155,0>
+<92,162.5,0>

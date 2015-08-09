@@ -1,0 +1,6 @@
+<Project name="Bling Particles with menu" guid="a7a239c5-bdf4-4dbf-b070-e9fed1a3e1b6">
+	<Object name="Object" guid="c5c35aca-f17e-43bd-b0e9-469bed3e078a" active="true">
+		<Script name="Script.lsl" guid="b474e6e4-3b9c-44f5-b4e6-8b990f4e6458">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Barometer" guid="D7DA28F7-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7DA29DB-6C00-1014-B904-200204C60A89">
+		<Script name="Barometer_1.lsl" guid="D7DA4AF7-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

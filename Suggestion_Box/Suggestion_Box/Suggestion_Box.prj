@@ -1,0 +1,6 @@
+<Project name="Suggestion_Box" guid="D8014DFB-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8014EE2-6C00-1014-B904-200204C60A89">
+		<Script name="Suggestion_Box_1.lsl" guid="D80179E0-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

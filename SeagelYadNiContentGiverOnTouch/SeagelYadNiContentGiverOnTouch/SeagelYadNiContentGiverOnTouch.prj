@@ -1,0 +1,6 @@
+<Project name="SeagelYadNiContentGiverOnTouch" guid="D791CE79-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D791CF74-6C00-1014-B904-200204C60A89">
+		<Script name="SeagelYadNiContentGiverOnTouch_1.lsl" guid="D791EFF8-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

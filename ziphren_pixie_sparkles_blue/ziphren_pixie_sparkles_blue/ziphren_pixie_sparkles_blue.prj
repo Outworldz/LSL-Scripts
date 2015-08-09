@@ -1,0 +1,6 @@
+<Project name="ziphren_pixie_sparkles_blue" guid="D7D41B6C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7D41C42-6C00-1014-B904-200204C60A89">
+		<Script name="ziphren_pixie_sparkles_blue_1.lsl" guid="D7D44163-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

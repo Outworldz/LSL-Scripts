@@ -1,0 +1,6 @@
+<Project name="LinkedPrim Look At" guid="2b45e37f-6edc-4f6f-be16-18905517f2cc">
+	<Object name="Object" guid="bac5795f-6bea-4b20-a839-7ede244d0d8d" active="true">
+		<Script name="Script.lsl" guid="f56003bf-a740-4f10-aa6d-e58a41aa982c">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Pose_Ball_camera_Control" guid="D8BFA660-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8BFA73B-6C00-1014-B904-200204C60A89">
+		<Script name="Pose_Ball_camera_Control_1.lsl" guid="D8BFE40D-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

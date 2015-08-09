@@ -1,0 +1,14 @@
+<Project name="Prim_Animator_using_one_script" guid="D86EE45B-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D86EE54C-6C00-1014-B904-200204C60A89">
+		<Script name="Prim_Animator_using_one_script_1.lsl" guid="D86F5B4A-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Prim_Animator_using_one_script_2.lsl" guid="D86F9713-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Prim_Animator_using_one_script_3.lsl" guid="D86FAC9E-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Prim_Animator_using_one_script_4.lsl" guid="D86FBFCE-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Prim_Animator_using_one_script_5.lsl" guid="D86FD58E-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

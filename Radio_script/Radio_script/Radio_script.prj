@@ -1,0 +1,6 @@
+<Project name="Radio_script" guid="D84A120C-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D84A1361-6C00-1014-B904-200204C60A89">
+		<Script name="Radio_script_1.lsl" guid="D84A6824-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

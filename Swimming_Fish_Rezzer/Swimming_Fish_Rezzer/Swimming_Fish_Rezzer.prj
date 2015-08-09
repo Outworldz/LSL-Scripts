@@ -1,0 +1,8 @@
+<Project name="Swimming_Fish_Rezzer" guid="D71CE6C8-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D71CE7AA-6C00-1014-B904-200204C60A89">
+		<Script name="Swimming_Fish_Rezzer_1.lsl" guid="D71D108E-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Swimming_Fish_Rezzer_2.lsl" guid="D71D279D-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

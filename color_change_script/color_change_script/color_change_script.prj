@@ -1,0 +1,6 @@
+<Project name="color_change_script" guid="D6FE1E95-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6FE1F80-6C00-1014-B904-200204C60A89">
+		<Script name="color_change_script_1.lsl" guid="D6FE4396-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

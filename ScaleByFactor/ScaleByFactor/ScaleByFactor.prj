@@ -1,0 +1,6 @@
+<Project name="ScaleByFactor" guid="10fcd18e-8fd1-44c8-b4cb-743f8fccf830">
+	<Object name="Object" guid="385c39fd-25aa-4ba6-86ea-eb100d42093d" active="true">
+		<Script name="Script.lsl" guid="24848c2d-0b7d-41e8-a085-b508bef9ca34">
+		</Script>
+	</Object>
+</Project>

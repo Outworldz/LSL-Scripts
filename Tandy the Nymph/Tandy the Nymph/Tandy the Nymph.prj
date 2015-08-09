@@ -1,0 +1,130 @@
+<Project name="Tandy the Nymph" guid="79f6cb0d-3bfd-464e-9d60-0207dba70f94">
+	<Object name="AO" guid="d9c7d84a-e565-4546-982a-0c775f5680ca">
+		<Animation name="ao-sweetness-stand1.bvh" guid="dd5d3e56-6fcb-4b74-8702-5579c25b5ce7">
+		</Animation>
+		<Animation name="ao-sweetness-stand2.bvh" guid="8d7d2c77-56a8-4450-823b-c6e5c1af0b88">
+		</Animation>
+		<Animation name="ao-sweetness-stand3.bvh" guid="7baf6615-198b-4372-9396-21a06ac5664d">
+		</Animation>
+		<Animation name="ao-sweetness-stand4.bvh" guid="f3efeaf8-8ac6-4977-b6eb-76234d56c3f4">
+		</Animation>
+		<Animation name="ao-sweetness-stand5.bvh" guid="7ff1baf2-69c2-4951-b5e5-d4e50b9fc833">
+		</Animation>
+		<Animation name="avatar_run_fast.bvh" guid="329f48c5-231f-45a2-aa1f-55beedff52ee">
+		</Animation>
+		<Animation name="avatar_type.bvh" guid="80d7f337-914b-48e3-b8f0-c9ba0a5b13c3">
+		</Animation>
+		<Animation name="avatar_walk_fast.bvh" guid="8c68d78d-d844-456d-9871-b63b74300ae1">
+		</Animation>
+		<Script name="HUD AO.lsl" guid="bb7b3e53-d136-4c89-a2e4-3b0dd0ef00e8">
+		</Script>
+		<Script name="HUD positioner.lsl" guid="b766d997-4c10-4582-aa0b-9f2860cc13b2">
+		</Script>
+		<Snapshot name="magic-wand.png" guid="8b8009cb-bc52-44f7-911b-bb66005b662b">
+		</Snapshot>
+		<Snapshot name="magic-wand2.png" guid="00d62c1c-0bb9-49d1-8033-355d277499ec">
+		</Snapshot>
+		<Animation name="sweetness-fly-1.bvh" guid="2fc992cb-d9a7-44d4-b0df-3e4719911095">
+		</Animation>
+		<Animation name="sweetness-fly-2.bvh" guid="42f6a040-f7ac-45aa-bb35-58c03856fec1">
+		</Animation>
+		<Notecard name="XAO" guid="6918d7b3-53e8-480b-b799-cf59d4336df4">
+		</Notecard>
+		<Notecard name="ZHAO-II" guid="635b2319-1cac-4e38-af3e-0ac6460ec9ed">
+		</Notecard>
+	</Object>
+	<Object name="Avatar" guid="28922f5d-85f8-4651-ac57-1f223f4f4c2d" active="true">
+		<Script name="!Fairy control Script.lsl" guid="e19c4cad-2900-4fab-8fe7-202046058907">
+		</Script>
+		<Script name="!Tantrum script for body.lsl" guid="9c2ac102-6359-4d85-a509-a558578fa334">
+		</Script>
+		<Script name="Anti no script script.lsl" guid="59ed7b65-769e-4822-a5a7-1d58a3b0bbfb">
+		</Script>
+		<Script name="AO-II.lsl" guid="e4fff814-752d-4460-bab7-d6589ce3c082">
+		</Script>
+		<Texture name="Makeup_face_skin.jpg" guid="dfb05505-cc47-407e-94d2-670e7b29de9b">
+		</Texture>
+		<Texture name="Makeup_lower_skin.jpg" guid="b1747ded-3fd6-407a-9def-90f13879b06e">
+		</Texture>
+		<Texture name="Makeup_upper_skin.jpg" guid="c2768e76-c75f-4ba5-a556-b412450eb340">
+		</Texture>
+		<Texture name="starlight_face_skin.jpg" guid="75866b2e-8611-4a5c-abfa-fd37d2e6e673">
+		</Texture>
+		<Texture name="starlight_lower_skin.jpg" guid="c0eda60f-6d9d-455f-b1c2-266920ce968d">
+		</Texture>
+		<Texture name="starlight_upper_skin.jpg" guid="36d642e9-f0c8-4f29-a478-3f8a1f6afdeb">
+		</Texture>
+		<Notecard name="XAO" guid="356bacce-087e-4da8-b571-fd5c276502f9">
+		</Notecard>
+	</Object>
+	<Object name="Fairy House" guid="c957decc-e4c5-42d9-8461-ce7d47c315dd">
+		<Script name="Animator.lsl" guid="986656fd-a6f5-420e-88eb-ba60b882dd07">
+		</Script>
+		<Script name="Door Script.lsl" guid="ed4c67a4-0f06-4afb-b438-52e7a6d16b52">
+		</Script>
+		<Script name="Light Script.lsl" guid="c46973ba-9a73-4e8f-bc71-5c2d95f9a549">
+		</Script>
+		<Script name="Smokestack.lsl" guid="a1f2add9-e3f6-4897-ae44-1c03bcc1ccba">
+		</Script>
+	</Object>
+	<Object name="Globe" guid="7c2ecdb3-9c97-4116-9c3f-03f9f317b1f2">
+		<Script name="Anti no script script.lsl" guid="d949509a-dd59-4a29-869b-36cdc0511f5d">
+		</Script>
+		<Script name="Globe Script.lsl" guid="34f2edbc-8b85-4836-8e32-8e88a096d902">
+		</Script>
+		<Texture name="spark1.png" guid="b9a2c167-fc23-40e9-b698-1d3df71b9d78">
+		</Texture>
+		<Texture name="spark10.png" guid="04362a87-e229-4edf-bdfd-6da290b1cf02">
+		</Texture>
+		<Texture name="spark2.png" guid="1f1d952c-962f-484e-85cf-08cfd156ef87">
+		</Texture>
+		<Texture name="spark3.png" guid="c441de15-50dc-43cc-abef-37d63337d581">
+		</Texture>
+		<Texture name="spark4.png" guid="8825618a-f9c4-4596-8864-09bc5f7c2748">
+		</Texture>
+		<Texture name="spark5.png" guid="3b04a6b7-4b8e-47d8-af0c-935b80402347">
+		</Texture>
+		<Texture name="spark6.png" guid="62645a06-bda0-4786-86ba-2b5ebdb30a5b">
+		</Texture>
+		<Texture name="spark7.png" guid="a55483b5-250e-4e4b-90fb-225ad12be618">
+		</Texture>
+		<Texture name="spark8.png" guid="28cbb36e-94cf-45d4-8e36-7f98306f14ac">
+		</Texture>
+		<Texture name="spark9.png" guid="099fa8ea-9f29-46f4-85fc-d8da7fae44eb">
+		</Texture>
+	</Object>
+	<Object name="Rat" guid="28b2ab78-45ee-4ba8-9114-80358e7b813e">
+		<Script name="tail script.lsl" guid="4e94b071-4a53-4193-a3a5-b687a6246b46">
+		</Script>
+	</Object>
+	<Object name="Skirt" guid="9c3696b6-5e98-43f5-ac36-53aaa98733bd">
+		<Script name="Anti no script script.lsl" guid="c7f470fc-bc71-44f9-b26f-7153257faf44">
+		</Script>
+		<Script name="resizer script .lsl" guid="3dfc009a-42fb-44c0-9ffb-a1b02c7b8972">
+		</Script>
+		<Script name="Skirt Script.lsl" guid="0b0b691c-2dad-4701-99c7-4837751d7e64">
+		</Script>
+	</Object>
+	<Object name="Wand" guid="d6fd5b65-d808-4426-b38b-674786af1fb7">
+		<Script name="Anti no script script.lsl" guid="06de6a46-1311-4737-859f-6752cdf85277">
+		</Script>
+		<Script name="bling script.lsl" guid="ec3595d6-68a3-424e-8bb2-1f7e1b675612">
+		</Script>
+		<Script name="Bouncing Object Script.lsl" guid="ae0dfe6b-5493-4cfc-8d4a-4236dbcfbb78">
+		</Script>
+		<Script name="Spell script.lsl" guid="fa343208-cc0c-4bd9-afe7-cd6c9c7726cd">
+		</Script>
+		<Script name="Wand script.lsl" guid="402dab38-062e-40c0-9902-c1d3a66c86ec">
+		</Script>
+	</Object>
+	<Object name="Wings" guid="5134138a-36a4-4282-af08-1bf8304e4008">
+		<Script name="Color control script.lsl" guid="82d6f5cf-13cb-420d-994d-6cb79991dda0">
+		</Script>
+		<Snapshot name="fairy wing.png" guid="b7ed7760-ee2b-48b3-9145-33e926d56a59">
+		</Snapshot>
+		<Script name="Flex Wing script.lsl" guid="4b5c1d8f-b1d0-4585-b745-4405d56ff690">
+		</Script>
+		<Script name="X-wing script.lsl" guid="d8db4e51-835f-49a0-b1a0-f0bb6e56b008">
+		</Script>
+	</Object>
+</Project>

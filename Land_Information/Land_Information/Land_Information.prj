@@ -1,0 +1,6 @@
+<Project name="Land_Information" guid="D8069374-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8069462-6C00-1014-B904-200204C60A89">
+		<Script name="Land_Information_1.lsl" guid="D806B678-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

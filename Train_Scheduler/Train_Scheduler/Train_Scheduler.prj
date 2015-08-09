@@ -1,0 +1,6 @@
+<Project name="Train_Scheduler" guid="D827F472-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D827F554-6C00-1014-B904-200204C60A89">
+		<Script name="Train_Scheduler_1.lsl" guid="D8281882-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

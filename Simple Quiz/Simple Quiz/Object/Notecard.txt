@@ -1,0 +1,39 @@
+// :CATEGORY:Simple Quix
+// :NAME:Simple Quiz
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2014-09-24 14:53:07
+// :EDITED:2014-09-24
+// :ID:1049
+// :NUM:1662
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// A simple quiz to ask questions, get answers and give out a notecard
+// :CODE:
+A notecard is given when the quiz is played and won.
+
+I gave you a choice for it to chat publicly so anyone can hear, or privately.   I set it to PRIVATE, IM chat. 
+Here is why:    Pairs of people play.  They collaborate.  And then there is the single player.  
+( There are always personalities that collaborate, and there are the quiet loners/lurkers).      Your system will be used to chat an answer (How many steps...").     
+You do not want to speak this out loud,  so I set the default to IM, or Private mode.  
+Then the pairs of people and onlookers either have to collaborate or figure it out for themselves.   This is good game design.
+
+There is another situation where I would use PUBLIC.  The entrance .   People wil be standing there, wondering what to do.  
+If someone walks into/touches the game start, they can see the chat, and will know what to do.  
+This works great for those loners that will not collaborate and are stuck.  And the collaborators will see that their friend figured it out, 
+and be happy for them!
+
+You didn't say how the prompt is triggered at the very start, so I gave some choices for you.  You can do nothing, touch, or collision to get it to prompt you.   
+Just set the variables COLLISION or TOUCH to FALSE or TRUE for the possible ways.    
+
+You can set the TOUCH and COLLISION to FALSE and they have to figure out where to type, and what, somehow else. 
+
+My experience is you need to tell them what to do.  Then tell them again.  So I gave you these setting to help in different places.   
+Remember that with TOUCH = TRUE, they will still need to know to touch it!   
+
+With COLLISION = TRUE, they can just bump into it,  and it will tell them what to do.   
+So I usually start my games with collision, tell them what to do then, and they will know to click things. 
+
+For COLLISION,  It works best as an invisible prim, and set COLLISION = TRUE. 
+Make a prim 100% alpha and put it in the pathway so someone will collide with it.  Whenever they walk thru it, it chats to them.

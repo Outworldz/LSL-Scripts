@@ -1,0 +1,8 @@
+<Project name="XML_Parser" guid="D7E38213-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7E382F2-6C00-1014-B904-200204C60A89">
+		<Script name="XML_Parser_1.lsl" guid="D7E3AC67-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="XML_Parser_2.lsl" guid="D7E3C07D-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

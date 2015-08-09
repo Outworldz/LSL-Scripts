@@ -1,0 +1,6 @@
+<Project name="Simple_Vehicle_1" guid="D79DFD06-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D79DFDE4-6C00-1014-B904-200204C60A89">
+		<Script name="Simple_Vehicle_1_1.lsl" guid="D79E400A-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

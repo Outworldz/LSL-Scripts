@@ -1,0 +1,6 @@
+<Project name="Random_Greeter" guid="D7E276C0-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7E2778E-6C00-1014-B904-200204C60A89">
+		<Script name="Random_Greeter_1.lsl" guid="D7E2A717-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

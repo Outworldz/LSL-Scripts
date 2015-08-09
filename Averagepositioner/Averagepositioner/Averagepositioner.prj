@@ -1,0 +1,6 @@
+<Project name="Averagepositioner" guid="D8048FD2-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D80490A1-6C00-1014-B904-200204C60A89">
+		<Script name="Averagepositioner_1.lsl" guid="D804A88D-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

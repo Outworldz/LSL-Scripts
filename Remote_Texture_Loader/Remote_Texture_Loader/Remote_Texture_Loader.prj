@@ -1,0 +1,14 @@
+<Project name="Remote_Texture_Loader" guid="D880AB38-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D880AC35-6C00-1014-B904-200204C60A89">
+		<Script name="Remote_Texture_Loader_1.lsl" guid="D88AD2C1-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Remote_Texture_Loader_2.lsl" guid="D88BF594-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Remote_Texture_Loader_3.lsl" guid="D88C1321-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Remote_Texture_Loader_4.lsl" guid="D88C4917-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Remote_Texture_Loader_5.lsl" guid="D88C5E74-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

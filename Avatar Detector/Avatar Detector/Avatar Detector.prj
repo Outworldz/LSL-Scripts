@@ -1,0 +1,6 @@
+<Project name="Avatar Detector" guid="6d1ac79f-7e16-42c7-9d9e-39e4293af054">
+	<Object name="Object" guid="43daacc4-5cfc-4ce7-8349-dba8c0d63d27" active="true">
+		<Script name="Script.lsl" guid="c068b735-1681-4721-a944-67a9c7ef0525">
+		</Script>
+	</Object>
+</Project>

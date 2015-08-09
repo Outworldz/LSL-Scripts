@@ -1,0 +1,8 @@
+<Project name="neon_light_script__touch_on_off_ful" guid="D761D4A4-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D761D585-6C00-1014-B904-200204C60A89">
+		<Script name="neon_light_script__touch_on_off_ful_1.lsl" guid="D761FC80-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="neon_light_script__touch_on_off_ful_2.lsl" guid="D762109B-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

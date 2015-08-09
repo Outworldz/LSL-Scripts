@@ -1,0 +1,6 @@
+<Project name="No_Lost_and_Found" guid="D763008A-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D763016A-6C00-1014-B904-200204C60A89">
+		<Script name="No_Lost_and_Found_1.lsl" guid="D7631897-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

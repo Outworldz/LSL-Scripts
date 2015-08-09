@@ -1,0 +1,6 @@
+<Project name="MOAP" guid="e7f16beb-9f59-4059-a1d9-ef56d4687dbf">
+	<Object name="Object" guid="c5a4c974-4ad0-4edc-9c7b-15b55a3ba047" active="true">
+		<Script name="MOAP.lsl" guid="69073ae1-dcae-445e-ae21-5e2f98787f72">
+		</Script>
+	</Object>
+</Project>

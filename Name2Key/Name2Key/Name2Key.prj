@@ -1,0 +1,12 @@
+<Project name="Name2Key" guid="D8BCC01D-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8BCC0F3-6C00-1014-B904-200204C60A89">
+		<Script name="Name2Key_1.lsl" guid="D8BCE2A2-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Name2Key_2.lsl" guid="D8BCF4AB-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Name2Key_3.lsl" guid="D8BD0CFC-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Name2Key_4.lsl" guid="D8BD1ACB-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

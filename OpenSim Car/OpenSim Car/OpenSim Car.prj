@@ -1,0 +1,6 @@
+<Project name="OpenSim Car" guid="42064d41-6f89-425d-a933-3e96c709ef4c">
+	<Object name="Object" guid="a09f5152-4169-4590-b867-3420f23f40a8" active="true">
+		<Script name="Script.lsl" guid="d4458f92-05da-4408-9491-0ea7ac058671">
+		</Script>
+	</Object>
+</Project>

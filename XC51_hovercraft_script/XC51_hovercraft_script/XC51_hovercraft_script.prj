@@ -1,0 +1,8 @@
+<Project name="XC51_hovercraft_script" guid="D7D33AE9-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7D33BCC-6C00-1014-B904-200204C60A89">
+		<Script name="XC51_hovercraft_script_1.lsl" guid="D7D372B7-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="XC51_hovercraft_script_2.lsl" guid="D7D3D8D5-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Mapmaker_2_media_version" guid="D87106EA-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D87107D0-6C00-1014-B904-200204C60A89">
+		<Script name="Mapmaker_2_media_version_1.lsl" guid="D8713DF4-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,6 @@
+<Project name="Simple_Group_Inviter" guid="D833EEC5-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D833EFB4-6C00-1014-B904-200204C60A89">
+		<Script name="Simple_Group_Inviter_1.lsl" guid="D8340E0C-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

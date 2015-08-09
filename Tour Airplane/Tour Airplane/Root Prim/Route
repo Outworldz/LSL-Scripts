@@ -1,0 +1,29 @@
+// :CATEGORY:Vehicle
+// :NAME:Tour Airplane
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2014-12-04 12:43:14
+// :EDITED:2014-12-04
+// :ID:1060
+// :NUM:1696
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Route notecard holds the coords for the tour
+// :CODE:
+notecard|<0,0,0>|cStart
+notecard|<0,0,0>|sEngineOn
+notecard|<100,100,100>|tWelcome
+notecard|<100,500,100>|tLanding
+notecard|<500,100,100>|sEngineOff
+notecard|<500,100,100>|sLand
+notecard|<250,250,100>|cShutdown
+notecard|<0,0,0>|cDoorOpen
+notecard|<0,0,0>|cPause
+notecard|<0,0,0>|cDoorClose
+notecard|<0,0,0>|sEngineStart
+notecard|<0,0,0>|sThrottleUp
+notecard|<250,100,100>|
+notecard|<100,100,101>|
+notecard|<0,0,0>|Die
+

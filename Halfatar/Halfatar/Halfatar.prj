@@ -1,0 +1,12 @@
+<Project name="Halfatar" guid="247a7a4c-3854-4542-bd3c-8a0421012680">
+	<Object name="Object" guid="62b798eb-4eea-40c4-8fac-9cec8b8a4566" active="true">
+		<Script name="OS controller.lsl" guid="0a5d0f4f-94c7-4ca6-8533-0d9bf1a42144">
+		</Script>
+		<Script name="eye ctrl.lsl" guid="548da7eb-577e-4701-99f5-9f25192a6fe6">
+		</Script>
+		<Script name="eyes.lsl" guid="e1d9e296-ac39-468c-b33c-c93b86c58f4a">
+		</Script>
+		<Script name="SL controller.lsl" guid="ee827edd-454d-4fb6-a2b6-febd8a172b73">
+		</Script>
+	</Object>
+</Project>

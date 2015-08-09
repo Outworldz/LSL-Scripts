@@ -1,0 +1,10 @@
+<Project name="Synced Pose balls" guid="c2feccdf-1f0e-4cf5-adfb-832e917d81d0">
+	<Object name="Poseball1" guid="6ea403c0-3678-43b6-9f73-c96eccbe6cda" active="true">
+		<Animation name="Animation.ani" guid="fb23999c-ea78-4011-9712-9cd225b7488b">
+		</Animation>
+		<Animation name="Animation2.ani" guid="2d4132a9-c6ac-497d-bafc-3f620746db17">
+		</Animation>
+		<Script name="Script.lsl" guid="6b443a7a-d27a-4773-82d8-010adca31758">
+		</Script>
+	</Object>
+</Project>

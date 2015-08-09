@@ -1,0 +1,10 @@
+<Project name="Two floor keyframe elevator with sit" guid="4d97c1fc-0a4a-4ce5-9d83-7d0896a45592">
+	<Object name="Object" guid="92794b1d-c6f9-4a7e-97ef-5c424f5df895" active="true">
+		<Script name="elevator.lsl" guid="22fef653-b0c8-4bed-89e8-5c7566279e06">
+		</Script>
+		<Script name="call button.lsl" guid="0d6e0280-4a27-49c1-a965-02a548453f8c">
+		</Script>
+		<Script name="door.lsl" guid="601140da-e961-440f-bd7b-08d39c0ea65a">
+		</Script>
+	</Object>
+</Project>

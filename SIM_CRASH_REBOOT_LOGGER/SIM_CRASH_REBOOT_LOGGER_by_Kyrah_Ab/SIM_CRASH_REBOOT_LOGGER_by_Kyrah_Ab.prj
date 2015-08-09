@@ -1,0 +1,6 @@
+<Project name="SIM_CRASH_REBOOT_LOGGER_by_Kyrah_Ab" guid="D79C1CD1-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D79C1DCD-6C00-1014-B904-200204C60A89">
+		<Script name="SIM_CRASH_REBOOT_LOGGER_by_Kyrah_Ab_1.lsl" guid="D79C3C8B-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

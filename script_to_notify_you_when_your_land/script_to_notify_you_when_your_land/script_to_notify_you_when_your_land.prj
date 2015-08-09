@@ -1,0 +1,6 @@
+<Project name="script_to_notify_you_when_your_land" guid="D79101D7-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D79102E0-6C00-1014-B904-200204C60A89">
+		<Script name="script_to_notify_you_when_your_land_1.lsl" guid="D7912489-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

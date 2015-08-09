@@ -1,0 +1,6 @@
+<Project name="MMR_PARTIAL_ENGINE" guid="D86CC3D4-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D86CC4BE-6C00-1014-B904-200204C60A89">
+		<Script name="MMR_PARTIAL_ENGINE_1.lsl" guid="D86D4731-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

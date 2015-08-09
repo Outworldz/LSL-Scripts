@@ -1,0 +1,10 @@
+<Project name="Mission_Spy" guid="D7E5FCF4-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7E5FDEB-6C00-1014-B904-200204C60A89">
+		<Script name="Mission_Spy_1.lsl" guid="D7E63E12-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Mission_Spy_2.lsl" guid="D7E65DE6-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Mission_Spy_3.lsl" guid="D7E66F88-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

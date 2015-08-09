@@ -1,0 +1,6 @@
+<Project name="Color_Vector_on_Color_Change" guid="D700ABBA-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D700AC90-6C00-1014-B904-200204C60A89">
+		<Script name="Color_Vector_on_Color_Change_1.lsl" guid="D700C46F-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,8 @@
+<Project name="Opensim version of Dispenser" guid="5924006b-191c-4440-b9d2-35a3d4bebf3c">
+	<Object name="Object" guid="74314104-eef1-4251-babc-7b4ae2fcc741" active="true">
+		<Script name="remote.lsl" guid="4feedd29-cc11-4fdb-ac5f-ea4f73724039">
+		</Script>
+		<Script name="server.lsl" guid="59c123bc-b477-451a-81ef-e60c05fc712f">
+		</Script>
+	</Object>
+</Project>

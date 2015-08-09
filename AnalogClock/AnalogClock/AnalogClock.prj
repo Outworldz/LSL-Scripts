@@ -1,0 +1,10 @@
+<Project name="AnalogClock" guid="D61027B9-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D6103831-6C00-1014-B904-200204C60A89">
+		<Script name="AnalogClock_1.lsl" guid="D6113DA3-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="AnalogClock_2.lsl" guid="D61155E0-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="AnalogClock_3.lsl" guid="D61169E3-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

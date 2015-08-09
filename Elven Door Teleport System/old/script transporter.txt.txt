@@ -1,0 +1,210 @@
+// Ferd Frederix
+
+
+integer debug = 0;
+
+float TIME = 6.0;
+integer channel;       // listener from other prim
+integer listener;               // channel handle 
+
+float oldDist;
+
+vector StartSeatedRotation = <0, 0, 0>;      // animation start rotation
+vector StopSeatedRotation = <0, 0, 180>;      // animation stop rotation 
+
+vector StartSeatedOffset = <0, 0, 0.5>;     // where we sit to start    
+vector StopSeatedOffset = <.5, 0, 0.2>;     // where we end up after teleport
+
+vector DestPosition;            // calculated offset to the other door
+rotation DestRotation;          // calculated rotation when we get there
+string animation ;              // calculated animation name
+
+key AvatarKey;                // key of who touched the door
+
+
+
+BootUp(integer newchannel)
+{
+    oldDist = 0;
+    channel = newchannel;
+    
+    if (debug) llOwnerSay("Channel=" + (string) channel);
+    listener = llListen(channel,"","","");
+    
+    rotation SeatedRotation = llEuler2Rot( StartSeatedRotation * DEG_TO_RAD) * llGetRot();
+    //llOwnerSay("bootup=" + (string) StartSeatedOffset+ "..." + (string) SeatedRotation);
+    llSitTarget(StartSeatedOffset, <0,0,0,1>);
+    
+    animation = llGetInventoryName(INVENTORY_ANIMATION,0);
+    llSetSitText("Enter");
+
+    llRegionSay(channel,"reset");  
+  
+    llSetTimerEvent(30);     // die when the door shuts
+        
+}
+
+
+MovePrim(float dir)
+{
+    
+    vector   vPosOffset     = <dir, 0.0, 0.0>; //-- creates an offset one tick  in the positive X direction.
+    integer i = 0;
+    for (i = 0; i < 20; i++)
+    {
+        vector   vPosRotOffset  = vPosOffset * llGetRot(); //-- rotate the offset to be relative to objects rotation
+        vector   vPosOffsetIsAt = llGetPos() + vPosRotOffset; //-- get the region position of the rotated offset
+        llSetPos(vPosOffsetIsAt);
+    }
+}
+
+
+ 
+Go()
+{   
+    if (debug) llOwnerSay("starting animation");
+    llStartAnimation(animation);
+    MovePrim(.1);
+
+    if (debug) llOwnerSay("starting movement to " + (string )DestPosition);
+    warpPos();
+    
+    MovePrim(.1);
+    if (debug) llOwnerSay("ending  animation");
+
+    llStopAnimation(animation);
+    llUnSit(AvatarKey);
+     
+    if (! debug)
+        llDie();
+
+}
+
+ warpPos() 
+ {   //R&D by Keknehv Psaltery, 05/25/2006
+     //with a little poking by Strife, and a bit more
+     //some more munging by Talarus Luan
+     //Final cleanup by Keknehv Psaltery
+     //Changed jump value to 411 (4096 ceiling) by Jesse Barnett
+     // Compute the number of jumps necessary
+     // rotated by Ferd Frederix
+     //llSitTarget(destpos, ROT);//Set the sit target
+     integer jumps = (integer)(llVecDist(DestPosition, llGetPos()) / 10.0) + 1;
+     // Try and avoid stack/heap collisions
+     if (jumps > 411)
+         jumps = 411;
+     list rules = [ PRIM_POSITION, DestPosition ];  //The start for the rules list
+     integer count = 1;
+     while ( ( count = count << 1 ) < jumps)
+         rules = (rules=[]) + rules + rules;   //should tighten memory use.
+     llSetPrimitiveParams( rules + llList2List( rules, (count - jumps) << 1, count) );
+     if ( llVecDist( llGetPos(), DestPosition ) > .001 ) //Failsafe
+         while ( --jumps ) 
+             llSetPos( DestPosition );
+             
+             
+     DestRotation = llEuler2Rot( StopSeatedRotation * DEG_TO_RAD) * DestRotation  ;    // maybe rotate
+     //DestRotation = llGetRot()  * DestRotation  ;    // maybe rotate
+                     
+     llSetRot(DestRotation);          // set dest rotation
+
+     llWhisper(channel,"open");
+     llSleep(1.0);
+    
+ }
+
+
+
+default
+{
+    state_entry()
+    {
+        BootUp((integer) llGetObjectDesc());
+    }
+    
+    changed (integer what)
+    {
+        if (what & CHANGED_LINK)
+        {
+            if (debug) llOwnerSay("changed");
+            AvatarKey = llAvatarOnSitTarget();
+            if (AvatarKey != NULL_KEY) 
+            { 
+                if (DestPosition != <0,0,0>)
+                {
+                    if (debug) llOwnerSay("request perms");
+                    llRequestPermissions(AvatarKey,PERMISSION_TRIGGER_ANIMATION );
+                }
+                else
+                {
+                    llOwnerSay("Did not locate a second door by the same number!");
+                    llUnSit(AvatarKey);
+                }
+            }
+            
+        }
+        else
+        {
+            animation = llGetInventoryName(INVENTORY_ANIMATION,0);
+        }
+           
+    }
+
+    
+
+    run_time_permissions(integer perm)
+    {
+        if(PERMISSION_TRIGGER_ANIMATION & perm)
+        {
+            if (debug) llOwnerSay("perms granted");
+            Go();
+        }
+    }
+    
+    on_rez(integer p)
+    {
+        BootUp(p);  
+    }
+
+    timer()
+    {
+        llSetTimerEvent(0);
+        if (! debug)
+            llDie();
+        
+        
+    }
+    
+    listen(integer channel,string name, key id, string message)
+    {
+        if(debug) llOwnerSay("Heard:" + message);
+        if (id == llGetKey())
+            return;
+        if (message == "reset")
+            return;
+        if (message == "open")
+            return;
+        
+        list params = llParseString2List(message,["|"],[""]);
+        vector DestPositionproto = (vector) llList2String(params,0);
+        
+        rotation DestRotationproto = (rotation) llList2String(params,1);
+        
+        // remember the furthest prim that responds
+        float dist = llVecDist(DestPositionproto,llGetPos());
+        if (dist  > oldDist)
+        {
+            DestRotation = DestRotationproto;;
+            DestPosition = DestPositionproto;
+            oldDist = dist;
+        }
+        if (debug) llOwnerSay("Located:" + (string) DestPosition + " rot:" + (string) DestRotation);
+        
+        vector   vPosRotOffset  = StopSeatedOffset * DestRotation; //-- rotate the offset to be relative to objects rotation
+        DestPosition = DestPosition + vPosRotOffset; //-- get the region position of the rotated offset
+        
+        
+        if (debug) llOwnerSay("Set Pos:" + (string) DestPosition + " rot:" + (string) DestRotation);
+   
+    }
+}

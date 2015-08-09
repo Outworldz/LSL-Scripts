@@ -1,0 +1,14 @@
+<Project name="Script Updater" guid="78720377-50c0-4ed4-9862-65b41d18c013">
+	<Object name="ObjectNeedingUpdate" guid="957cda1e-7a95-417d-a7ef-22ce48c8d733">
+		<Script name="UpdaterClient.lsl" guid="99a1a83a-d6c8-4efc-a88b-46800bd004d3">
+		</Script>
+		<Script name="AScript.lsl" guid="3d4d7cee-2f4d-4f83-b542-13fb46c54380">
+		</Script>
+	</Object>
+	<Object name="ScriptUpdater" guid="f1b43231-c9fb-4c8b-a820-accdd7a0daa3" active="true">
+		<Script name="AScript.lsl" guid="809390f4-fde8-45c9-bb7b-046468b51267">
+		</Script>
+		<Script name="UpdaterServer.lsl" guid="e2cdbf7a-4a7f-4a78-b53e-32fe50ffa0e0">
+		</Script>
+	</Object>
+</Project>

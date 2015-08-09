@@ -1,0 +1,6 @@
+<Project name="Ghost of Castle Blue" guid="2e8475d4-f7ea-4d61-ab7f-6ae11a117de8">
+	<Object name="Object" guid="8fe7e226-abdf-4d56-b722-d422c75e31c0" active="true">
+		<Script name="Script.lsl" guid="11435afe-ca25-4e0f-a09c-cfb1ada2aace">
+		</Script>
+	</Object>
+</Project>

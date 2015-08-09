@@ -1,0 +1,6 @@
+<Project name="AO_Overriding_Pose_Ball" guid="D7D47808-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7D478ED-6C00-1014-B904-200204C60A89">
+		<Script name="AO_Overriding_Pose_Ball_1.lsl" guid="D7D4A08D-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

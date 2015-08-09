@@ -1,0 +1,10 @@
+<Project name="Bee_and_Beehive" guid="D8C026E4-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8C027CA-6C00-1014-B904-200204C60A89">
+		<Script name="Bee_and_Beehive_1.lsl" guid="D8C0486A-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Bee_and_Beehive_2.lsl" guid="D8C0584D-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Bee_and_Beehive_3.lsl" guid="D8C068C6-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

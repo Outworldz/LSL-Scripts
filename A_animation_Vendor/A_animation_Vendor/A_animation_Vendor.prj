@@ -1,0 +1,6 @@
+<Project name="A_animation_Vendor" guid="D7FCEB86-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D7FCEC5D-6C00-1014-B904-200204C60A89">
+		<Script name="A_animation_Vendor_1.lsl" guid="D7FD1C86-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

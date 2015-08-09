@@ -1,0 +1,14 @@
+<Project name="Dialog_Based_sounds_vendor_by_Kenny" guid="d708828e-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d7088371-6c00-1014-b904-200204c60a89">
+		<Script name="Dialog_Based_sounds_vendor_by_Kenny_1.lsl" guid="d708ba8f-6c00-1014-b904-200204c60a89">
+		</Script>
+		<Gesture name="Gesture.ges" guid="8d2cc0e7-6c90-41d6-88bd-dac592676722">
+		</Gesture>
+		<Gesture name="Gesture2.ges" guid="7c89b361-0508-4da8-b629-edd37e36b622">
+		</Gesture>
+		<Sound name="Sound.snd" guid="f303d4c4-1f29-4c89-a452-ab78b1b0c137">
+		</Sound>
+		<Sound name="Sound2.snd" guid="1154b703-7fce-49af-a37f-2471d59477ac">
+		</Sound>
+	</Object>
+</Project>

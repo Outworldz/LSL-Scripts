@@ -1,0 +1,155 @@
+// :CATEGORY:XS Pets
+// :NAME:XS Pet Robot
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS: Pet,XS,breed,breedable,companion,Ozimal,Meeroo,Amaretto,critter,Fennux,Pets
+// :CREATED:2013-09-06
+// :EDITED:2014-01-30 12:24:20
+// :ID:988
+// :NUM:1517
+// :REV:0.50
+// :WORLD:Second Life, OpenSim
+// :DESCRIPTION:
+// XS Pet Instructions 
+// :CODE:
+
+Current rev is 0.50 due to addition of a updater prim.
+
+//////////// NEW UPDATE PROCEDURE ***** USE AT YOUR OWN RISK /////////////////
+
+Put a RESET male and female pet and a RESET egg inside a new prim
+Add the Updater.lsl script.
+Place the prim within 100 meters of any living pet and touch the prim.
+All pets within that radius should update to the new pet.
+
+!!! Test this at your own risk!!!!!
+!!  if your new pet fails to live, all the pets in that area will die !!!
+
+//////////////////////////////////////////////////////////////////////////
+
+Revision  history is stored in REVISIONS.txt.  
+Individual files have revs that show the last thing done to them.
+
+Global Tunable numbers are located in /Debug/Global Constants.txt.
+The global file MUST be modifed and copied and pasted into all scripts in the places indicated when you modify an animal.
+
+To recreate a new XS pet or to modify the scripts inside a pet,  you must do them in a certain sequence:
+
+     Rez  the  Homing Object (Flag), Egg (Nut and Bolt), egg cup, (Toolbox), and crate (Transport UFO).  DO NOT rez a Robot.
+     Click the create and unpack a Robot
+     Reset the scripts in the Robot.
+     Delete the "Nut and Bolt" and "Troubot" in the "XS CryoCrate" aka "Transport UFO", and toolbox and any eggs or robots inside "Troubot"
+
+	The pet Troubot should have ONLY a Homing Object (the flag) and the scripts.
+
+     Modify any scripts you wish to modify.
+     The pet must have certain scripts running or it will die and delete the scripts. There is a new switch thaty turns off this behavious, but it happens with old scripts.
+     If it dies, replace the scripts and reset the xs_brain script.
+
+     Take a copy of the "Nut and Bolt" Egg
+     Put the copy inside the Spaceship and and the Transport UFO. Do not put one in your pet Troubot!   It will get a copy of itself and an egg from the UFO or Toolbox or Egg.
+
+     Take a copy of the FRESHLY RESET  Robot. This will not work with a living one, so reset the Robot and take a copy.
+     Put the copy inside the crate and the egg cup
+     Put the copy inside the Spaceship and and the Transport UFO
+
+     Rez the copied Nut and Bolt.  It should change color.
+     Click the Nut and Bolt and package it.  The Toolbox will rename itself "Toolbox: S:0 G:0% <0.00,1.00,0.00>/<0.00,1.00,0.00>"
+     You may store the Toolbox in your inventory
+     The Nut and Bolt egg inside the Toolbox  is ready to be hatched.
+
+	  Make sure you have the Home Object (Flag) rezzed and nearby.
+     It MUST have a number in the description that is the distance the pet will wnder within.
+
+     Click the toolbox and unpack it. A Nut and Bolt will re-appear
+     Click the Nut and Bolt and hatch it. A Robot will appear.
+     It should move.  If it does not move, check your Home Flag!
+
+     Touch the Robot for a menu
+     Click the Package Option
+     The Spaceship will change to the pet colors and the Robot will disappear.
+     The Spaceship will rename itself to "Transport UFO: Troubot"
+
+    You may store the crate in your inventory
+
+    Click the "Transport UFO" Spaceship
+    Click Unpack and your Robot will live again
+
+
+
+
+//////////// GENERIC UPDATE PROCEDURE /////////////////
+
+    Package up a living pet in the xs_cryocrate
+    Take a copy of the xs_cryocrate to inventory.
+    Unpack the pet.  
+    Change whatever script or prims are needed in the pet.
+    Reset all scripts in the pet
+    Take copy of the pet to inventory.  This is the new, reset  pet that goes in the xs_cryocrate and xs_eggcup.
+    Stop all scripts in pet
+    Take copy of stopped pet to inventory. I use this to work on future pets as it can be rezzed without whining. Just start the scripts up.
+    Rez the saved xs_cryocrate again.
+    Replace the pet with the reset pet from your inventory
+    Shift-Copy this package
+    Reset the scripts in this xs_cryocrate.
+    Take this reset xs_cryocrate to inventory.  This is the "update" for people to update their pet.
+    Unpack the pet from the remaining xs_cryocrate. it should should grow to the correct size for it's age.
+    Rez the xs_eggcup
+    Reset the script in the xs_eggcup
+    Put a copy of the new, reset pet in the xs_eggcup and take to inventory as the new xs_eggcup
+
+
+/////////////////////// NOTES ////////////////////
+
+Breeding:
+    A male will be capable of breeding at 7 days age. maxAge variable
+    A male will look for a female to breed with every 3 hours
+    A female will be capable of breeding at 7 days age.
+    Breeding begins when the timer in the xs_breeding script times out 7 days after birth, plus every 3 hours.
+    The male bird will chat that he has a gleam in his eye
+    The male timer broadcasts a LINK_SEEK_FEMALE
+    The male xs_brain hears this and send a chat message of MALE_BREED_CALL
+    A female that hears this will trigger a LINK_MALE_BREED_CALL
+    The link message will cause her to "blushes then bobs her head up and down"
+    This triggers a LINK_SIGNAL_ELIGIBLE
+    The female chats back a FEMALE_ELIGIBLE
+    A male that hears this checks to see if they share the same Home location
+    The male then triggers a LINK_FEMALE_ELIGIBLE
+    The male remembers the mothers ID, then sends a LINK_CALL_MALE
+    The male says a MALE_ON_THE_WAY to the female
+    The female checks that the makle is heading to her
+    The female then sends the link message LINK_MALE_ON_THE_WAY
+    The female then sends the chat message FEMALE_LOC with her coordinates
+    The female then sets a timeout of 20 minutes for the male to get to her
+    The female then stops moving for 15 minutes
+    If the male fails to mate within that time, the female sends a LINK_BREED_FAIL
+    The female then broadcasts a BREEDING_FAIL and the breeding has ended
+    If the male hears the FEMALE_LOC, it triggers a LINK_FEMALE_LOCATION
+    The male then remembers the location and sets sex_dest
+    When the male reaches that position, he sends a LINK_RQST_BREED
+    If another male has not yet impregnated her, she sends a LINK_CALL_MALE_INFO
+    The male responds with MALE_INFO with his breeding characteristics
+    This triggers two actions: a chatted MALE_INFO and a LINK_MALE_INFO
+    The female remembers the male info and becomes pregnant
+
+    A female will be pregnant for 48 hours (2 days), then lay an egg
+    A female can get pregnant again in 5,000 seconds, or 1.39 hours
+
+
+Eating:
+    Animals scan for a food bowl every 30 minutes, +/- 30 seconds, controlled by FOOD_BOWL_SCAN_INTERVAL in xs_brain
+    Animals get hungry in 4 hours
+    if hungry, they eat every hour
+
+
+Specials:
+   Xs_special script is for adding text to an animal to make it a special.   You change in the xs_egg script the string :
+
+      string SPECIAL = "Normal";
+
+   to come other string.  This string is saved in the egg cup and pet crate.
+   The string will be sent to xs_special.  What you do with it is up to you.
+
+
+
+
+

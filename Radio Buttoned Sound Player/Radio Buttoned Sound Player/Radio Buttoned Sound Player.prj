@@ -1,0 +1,18 @@
+<Project name="Radio Buttoned Sound Player" guid="7114b6cb-cddc-4a21-a885-c5a4a2c4a296">
+	<Object name="Button 2" guid="f2591b57-16ab-4459-9ea1-5102cdfb6e6d">
+		<Script name="Master.lsl" guid="aceb7120-52c2-4f4d-acee-243275514d32">
+		</Script>
+	</Object>
+	<Object name="Button1" guid="ca012130-a957-4caf-a0d3-baf09d4c0ca9" active="true">
+		<Script name="Master.lsl" guid="3615a86f-6dc8-40a6-8509-90e1094b50ca">
+		</Script>
+	</Object>
+	<Object name="Slave prim" guid="325a9fc3-ab3c-4066-b3f2-be0627d9751a">
+		<Script name="Slave Script.lsl" guid="6b286920-505d-42c5-98e7-22fcacfb7b4b">
+		</Script>
+	</Object>
+	<Object name="Stop Button" guid="64f13357-597c-459c-93ec-322bb7ed052b">
+		<Script name="stop button.lsl" guid="42e4d06a-a5a2-4522-8318-0ced267e4a6d">
+		</Script>
+	</Object>
+</Project>

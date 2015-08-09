@@ -1,0 +1,6 @@
+<Project name="Offsim_pose_ball" guid="D8BF4E28-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8BF4F12-6C00-1014-B904-200204C60A89">
+		<Script name="Offsim_pose_ball_1.lsl" guid="D8BF6C52-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

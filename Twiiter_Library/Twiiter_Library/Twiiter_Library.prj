@@ -1,0 +1,8 @@
+<Project name="Twiiter_Library" guid="D89E67B3-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D89E68A3-6C00-1014-B904-200204C60A89">
+		<Script name="Twiiter_Library_1.lsl" guid="D89E9B43-6C00-1014-B904-200204C60A89">
+		</Script>
+		<Script name="Twiiter_Library_2.lsl" guid="D89EE81A-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

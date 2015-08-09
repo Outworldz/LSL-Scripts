@@ -1,0 +1,8 @@
+<Project name="Product_Updater" guid="d8af62eb-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d8af63ce-6c00-1014-b904-200204c60a89">
+		<Script name="Product_Updater_Server.lsl" guid="d8af8c23-6c00-1014-b904-200204c60a89">
+		</Script>
+		<Script name="Product_Updater_Client.lsl" guid="d8afa4c8-6c00-1014-b904-200204c60a89">
+		</Script>
+	</Object>
+</Project>

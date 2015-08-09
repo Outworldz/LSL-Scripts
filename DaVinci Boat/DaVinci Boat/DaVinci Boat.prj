@@ -1,0 +1,26 @@
+<Project name="DaVinci Boat" guid="54e1e5cb-d24b-4e14-b3d0-ace6dfe26e47">
+	<Object name="Boat" guid="7ee175b1-fc79-46ba-afe4-34a9922bec29" active="true">
+		<Script name="double gear.lsl" guid="37a77c2d-f664-4811-b3ed-dc8a711622da">
+		</Script>
+		<Script name="flames.lsl" guid="ae78d6c9-8b08-4ac9-8141-0d9dfb0bd510">
+		</Script>
+		<Script name="front seat.lsl" guid="a90d8ebb-eb15-4074-aaa7-8184caa8a1df">
+		</Script>
+		<Script name="Gauge.lsl" guid="7cda7827-59db-4465-9e02-96793cd93315">
+		</Script>
+		<Script name="large_gear.lsl" guid="4603dee3-18dc-4a90-8107-221091011685">
+		</Script>
+		<Script name="Paddlewheel.lsl" guid="084cc6bc-af1f-4d54-b372-7402d61ab4af">
+		</Script>
+		<Script name="rear seat.lsl" guid="261e8685-b368-4a33-a316-1fe75628f5ba">
+		</Script>
+		<Script name="SL boat script.lsl" guid="29cca7d6-b6e9-4443-aad9-41b76495dad4">
+		</Script>
+		<Script name="small_gear.lsl" guid="5da98bd8-7f52-4768-9e34-c437f1b2ab15">
+		</Script>
+		<Script name="smoke.lsl" guid="1341730b-4f68-4469-8257-eee0b2b5ae80">
+		</Script>
+		<Script name="test rotation.lsl" guid="e329bb54-bf81-47ec-8052-c12ffc12ecc5">
+		</Script>
+	</Object>
+</Project>

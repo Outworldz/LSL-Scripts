@@ -1,0 +1,6 @@
+<Project name="NPC_Pupetteer" guid="D8F499E5-6C00-1014-B904-200204C60A89">
+	<Object name="Object" guid="D8F49ACC-6C00-1014-B904-200204C60A89">
+		<Script name="NPC_Pupetteer_1.lsl" guid="D8F51E51-6C00-1014-B904-200204C60A89">
+		</Script>
+	</Object>
+</Project>

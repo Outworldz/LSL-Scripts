@@ -127,6 +127,12 @@ osSetSpeed(key NPC, float speed) {
 }
 
 osNpcTouch(key NPC, key thing, integer where) {;}
+
+osForceAttachToOtherAvatarFromInventory(key npc, string inventory, integer point) {
+    llSay(0,"attach " + inventory  + " to " + (string) point);
+}
+
+
 // END commented code for OpenSim vs Editor environments
 //*******************************************************************//
 // comment this out, is only here for testing in LSLEditor.

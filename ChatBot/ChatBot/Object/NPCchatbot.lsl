@@ -1,23 +1,27 @@
+// :SHOW:
 // :CATEGORY:ChatBot
 // :NAME:ChatBot
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:
 // :CREATED:2014-08-11 17:28:45
-// :EDITED:2014-08-11
+// :EDITED:2015-08-28  22:27:06
 // :ID:1038
 // :NUM:1621
-// :REV:1.0
-// :WORLD:Second Life, OpenSim
+// :REV:1.1
+// :WORLD:OpenSim
 // :DESCRIPTION:
 // This chatbot is for OpenSim Only. It only works on NPC's.
+
+// Rev 1.1 08-27-2015 made API use first name as the Hypergid names were too long
 
 // Chatbot for PersonalityForge. Get a free  account at http://www.personalityforge.com.
 // 5,000 chats are free.
 // :CODE:
+
 // fiorst, get a free  account at http://www.personalityforge.com.
 // Get an API ID, and add it to the apiKey :
 
-string apiKey = "jkeU6Hv3tbk318wn1";    // your supplied apiKey from your Chat Bot API subscription
+string apiKey = "jkeU6Hv3tbssk318wn1";    // your supplied apiKey from your Chat Bot API subscription
 
 // Add the domain *.secondlife.com or your OpenSim server IP to the list of authorized domains at http://www.personalityforge.com/botland/myapi.php
 // Add a checkmark to the "Enable Simple API" in tyour account.
@@ -25,6 +29,8 @@ string apiKey = "jkeU6Hv3tbk318wn1";    // your supplied apiKey from your Chat B
 // for example, Countess Elvira is 99232.  Put that in chatBot ID below.
 // Sex Bot Ciran is 100387.  Type menu for choices
 // 754 is Liddora a sexy tart
+
+// look at http://www.personalityforge.com/bookofapi.php for more public chat bots
 
 string chatBotID = "754";    // the ID of the chat bot you're talking to
 integer greeting = TRUE;     // if TRUE, say hello when anyone comes up.
@@ -42,7 +48,7 @@ integer debug = TRUE;  // Set this TRUE to see the gory details
 
 // various  tuneable code bits
 float range = 15; // haw far awy an avatar is before we greet them/. No point in making this more than 20, that cannot hear us after that
-float  wpm = 33; // 33 wpm = 2.75 cps @ 5 chars per word for a typical avatar to type with.
+float  wpm = 50; // 33 wpm = 2.75 cps @ 5 chars per word for a typical avatar to type with.
 //  Larger numbers make your NPC answer quicker.
 float cps;
 integer emotionchannel = 199; // a secret channel that the chatbot sends emotion strings on.
@@ -147,7 +153,7 @@ default
             + "?apiKey="         + llEscapeURL(apiKey)
             + "&message="        + llEscapeURL(message)
             + "&chatBotID="      + llEscapeURL(chatBotID)
-            + "&externalID="     + llEscapeURL(name)
+            + "&externalID="     + llEscapeURL(firstname)
             + "&firstName="      + llEscapeURL(firstname)
             + "&lastName="       + llEscapeURL(lastname)
             ,[HTTP_METHOD,"GET"],"");

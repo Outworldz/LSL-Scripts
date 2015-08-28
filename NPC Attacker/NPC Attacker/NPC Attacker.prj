@@ -1,0 +1,6 @@
+<Project name="NPC Attacker" guid="a2038eaa-43f5-4b75-8516-f38f779cf5da">
+	<Object name="Object" guid="25daea0b-1e1a-4b70-a61a-7717a5e94735" active="true">
+		<Script name="Script.lsl" guid="a5797ac9-ea9c-4316-96d6-ec2fe9b2a439">
+		</Script>
+	</Object>
+</Project>

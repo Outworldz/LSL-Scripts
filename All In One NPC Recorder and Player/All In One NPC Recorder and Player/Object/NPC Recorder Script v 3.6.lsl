@@ -1,13 +1,13 @@
-// :SHOW:1
+// :SHOW:0
 // :CATEGORY:NPC
 // :NAME:All In One NPC Recorder and Player
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:NPC, Puppeteer
 // :CREATED:2013-09-08 18:27:47
-// :EDITED:2015-08-05  08:54:13
+// :EDITED:2015-09-04  19:33:59
 // :ID:27
-// :NUM:1815
-// :REV:3.5
+// :NUM:1822
+// :REV:3.6
 // :WORLD:OpenSim
 // :DESCRIPTION:
 // All in one NPC recorder player.
@@ -17,7 +17,10 @@
 // Should be worn as a HUD to record.
 // Put it on the ground and click Sensor or Start NPC when done.
 // :CODE:
-// This is Rev 3.3  07/19/2015
+
+FOR  DEBUG PURPOSES - DO NOT USE - USE LATER VERSIONS ONLY!!!
+
+// This is Rev 3.6  08/11/2015
   
 // Revision History
 // Rev 1.1 10-2-2014 @Sit did not work.  Minor tweaks to casting for lslEditor
@@ -43,7 +46,10 @@
 // Rev 3.4 animation timer cannot be zero or it shuts off timer tweaked
 //         solves the NPC starting up when no sensor is set.
 // Rev 3.5 fixes saving in !Path  notecard
-//*******************************************************************//
+// Rev 3.6 @delete acts like @stop. TYjhe NPC now rezzes after an @go back in where it was deleted 
+
+ //*******************************************************************//
+
 
 // Instructions on how to use this is at http://www.outworldz.com/opensim/posts/NPC/
 // This is an OpenSim-only script.
@@ -143,7 +149,7 @@ integer   WANDERRAND = TRUE;   // set to TRUE and they will pause during wanders
 float     WANDERTIME = 3.0;    // how long they stand after each @wander,if WANDERRAND is FALSE. If WANDERRAND is  TRUE, this is the max time
 integer   WAIT = 30;           // wait for this number of seconds for the NPC to reach a destination (for safety). If it fails to reach a target, it will move on after this time.
 float     RANGE = 50;        // 1 to N meters  - anyone this close to the controller will start NPCS if Sensor button is clicked
-float     REZTIME = 5.0;      // wait this long for NPC to rez in, then start the process
+float     REZTIME = 2.0;      // wait this long for NPC to rez in, then start the process
 string    STAND = "Stand";     // the name of the default Stand animation
 string    WALK = "Walk";       // the name of the default Walk animation
 string    FLY = "Fly";        // the name of the default Fly animation
@@ -223,7 +229,7 @@ integer avatarPresent;   // Sensor sets this flag when people are within Range.
 vector vInitialPos ; // Vector that will be filled by the script with the initial starting position in region coordinates.
 vector vDestPos = ZERO_VECTOR; // Storage for destination position.
 string relAbs = "Relative";    // absolute vs relative positioning
-
+vector lastKnownPos; // last known NPC position when we deleted it
 
 // STATES
 integer MENU ;             // processing a dialog box state, may be concurrent with STATE
@@ -289,12 +295,15 @@ DoSpawn() {
     
     list name = llParseString2List(sNPCName, [" "], []);
    // notecard is stored as offsets from this box with relative addressing.  Convert to absolute
+   vector tvInitialPos = lastKnownPos;
+   DEBUG("lastPos:"+ (string) lastKnownPos);
+   
     if (relAbs == "Relative"){
-        vInitialPos += llGetPos();
+        tvInitialPos += llGetPos();
     }
 
-    DEBUG("Rez NPC:" + (string) vInitialPos);
-    key aKey = osNpcCreate(llList2String(name, 0), llList2String(name, 1), vInitialPos, Appearance, NPCOptions);
+    DEBUG("Rez NPC:" + (string) tvInitialPos);
+    key aKey = osNpcCreate(llList2String(name, 0), llList2String(name, 1), tvInitialPos, Appearance, NPCOptions);
 
     SaveKey(aKey ); // save in desceription and global, too
     
@@ -417,15 +426,23 @@ DoStop() {
     TimerEvent(0);
 }
     
-
 // @delete removes the NPC forever. Next command starts it up again at the beginning
 DoDelete() {
     DEBUG("state delete");
-
+     
+    vector v= osNpcGetPos(NPCKey());
+    if (v != ZERO_VECTOR) 
+        lastKnownPos = v; 
+    else
+        lastKnownPos = llGetPos();
+        
+    if (relAbs == "Relative"){
+        lastKnownPos -= llGetPos();  
+    }
     osNpcRemove(NPCKey());
     SaveKey(NULL_KEY);
-    lNPCScript = []; // next command starts the NPC into action at the beginning
-
+    Stopped = TRUE; // Link controlled - we mnust have a @go to continue with notecards
+    TimerEvent(0);
 }
 
 // change the appearance of the NPC
@@ -489,6 +506,8 @@ DoProcessNPCLine() {
 
 } 
 
+
+
 ProcessCmd(string cmd) {
 
     DEBUG("ProcessCmd:" + cmd);
@@ -514,7 +533,7 @@ ProcessCmd(string cmd) {
         DEBUG("No avatar nearby");
         return;
     } else {
-        if (llStringLength(sNPCName)) {
+        if ( NPCKey() == NULL_KEY) {
             DoSpawn();
         }
     }
@@ -528,6 +547,7 @@ ProcessCmd(string cmd) {
         vInitialPos.x = llList2Float(spawnDest, 0);
         vInitialPos.y = llList2Float(spawnDest, 1);
         vInitialPos.z = llList2Float(spawnDest, 2);
+        lastKnownPos = vInitialPos ;
         DoSpawn();
         
         return;

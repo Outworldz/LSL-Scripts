@@ -1,10 +1,10 @@
-// :SHOW:1
+// :SHOW:0
 // :CATEGORY:NPC
 // :NAME:All In One NPC Recorder and Player
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:NPC, Puppeteer
 // :CREATED:2015-08-28 23:27:03
-// :EDITED:2015-08-28  22:27:03
+// :EDITED:2015-09-04  19:34:01
 // :ID:27
 // :NUM:1824
 // :REV:3.9.1
@@ -17,6 +17,9 @@
 // Should be worn as a HUD to record.
 // Put it on the ground and click Sensor or Start NPC when done.
 // :CODE:
+
+FOR  DEBUG PURPOSES - SENSORS DO NOT WORK  --- DO NOT USE SENSOR MODE   ALL OTHER FUNCTIONS WORK
+
 // This is Rev 3.9  08/27/2015
 
 // Revision History

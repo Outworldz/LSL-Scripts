@@ -1,38 +1,44 @@
-<Project name="All In One NPC Recorder and Player" guid="d3dec827-ef5a-4d9b-af98-c80cf31b7eb7">
-	<Object name="Object" guid="dcc0f525-dc9f-41c9-afbf-1769629e09a6" active="true" description="key=00000000-0000-0000-0000-000000000000">
-		<Notecard name="!Appearance" guid="bcec7dca-aee3-4d54-a0af-e1f451b44c8a">
+<Project name="All In One NPC Recorder and Player" guid="4f083be4-b9ae-4962-a3aa-e9d1c7e09e56">
+	<Object name="Object" guid="d971c37c-79d7-4705-82bf-f4312af560e8" active="true">
+		<Notecard name="!Appearance.txt" guid="b3be600d-c3d5-43dd-9fbb-e95c441f4c33">
 		</Notecard>
-		<Notecard name="!Appearance2" guid="56d7e740-7f85-4a7c-ae2a-f9a8f8118e17">
+		<Notecard name="!Appearance2.txt" guid="cb7435a2-5194-495a-852f-d977ae709d33">
 		</Notecard>
-		<Notecard name="!Path" guid="cda30247-7c92-4867-b096-974c3cc08901">
+		<Notecard name="!Path.txt" guid="f883c0a1-3c6e-44f5-8165-8e42b682d620">
 		</Notecard>
-		<Script name="LSLEditor fake NPC commands.lsl" guid="ea635a92-6627-4d83-9371-a38c2698023c">
+		<Script name="LSLEditor fake NPC commands.lsl" guid="2802a38d-396b-4d51-a123-637ab5dc2058">
 		</Script>
-		<Notecard name="Notecard.txt" guid="29db291e-182f-487b-8592-789b7c7f6e0c">
+		<Notecard name="Notecard.txt" guid="964bdeeb-15bf-4163-89f4-d523766e364d">
 		</Notecard>
-		<Script name="NPC Puppeteer Recorder Script v 3.2.lsl" guid="b01a40c3-bb4a-4745-a0cd-2e79fcb21b44">
+		<Script name="NPC Recorder Script v 2.3.lsl" guid="f33d8a0e-fbb4-4d7e-90ed-1b5f99496e2f">
 		</Script>
-		<Script name="NPC Puppeteer Recorder Script v 3.4.lsl" guid="b4b4fbe5-3c63-4afe-9122-010836bb22a0">
+		<Script name="NPC Recorder Script v 3.2.lsl" guid="a60d95ba-7bdd-4978-bda8-cede9a791ade">
 		</Script>
-		<Script name="NPC Puppeteer Recorder Script v 3.6.lsl" guid="835f8412-ec91-473b-9e64-3f09651b8490">
+		<Script name="NPC Recorder Script v 3.3.lsl" guid="d13b2241-2abc-48a1-b7b1-00a0de3dd26b">
 		</Script>
-		<Script name="NPC Puppeteer Recorder Script v 3.8.lsl" guid="38cd026c-f41d-4350-b9ad-43010c018319">
+		<Script name="NPC Recorder Script v 3.4.lsl" guid="b013dcaa-dacc-47e5-b6d3-cf4a91ecfc95">
 		</Script>
-		<Script name="NPC Puppeteer Recorder Script v 3.9.lsl" guid="8824d14e-4f6f-4b57-83dc-11a9a4b6afc9">
+		<Script name="NPC Recorder Script v 3.5.lsl" guid="27fe97d5-21c0-4b1a-b162-f7a50b19dbd5">
 		</Script>
-		<Script name="NPC Puppeteer Recorder Script v2.3.lsl" guid="958535ef-f974-4409-a898-a11aa5d6b2e2">
+		<Script name="NPC Recorder Script v 3.6.lsl" guid="5e5266e1-6685-4eb9-a4e5-3899ff7e70df">
+		</Script>
+		<Script name="NPC Recorder Script v 3.8.lsl" guid="d5252a17-a10d-4eac-92bf-a8f778dc6b20">
+		</Script>
+		<Script name="NPC Recorder Script v 3.9.lsl" guid="a692b5bf-9d8f-454f-8afa-082c512966e5">
+		</Script>
+		<Script name="NPC Recorder Script v 4.0.lsl" guid="83d1368e-2074-4b14-ac62-e2d6f3823c69">
 		</Script>
 	</Object>
-	<Object name="Test Object" guid="d1b532da-cdc1-4047-bde4-dc0efb10165a">
-		<Script name="Chat commands.lsl" guid="78942d95-f52a-45f6-ad5e-e0b6f2053f99">
+	<Object name="Test Object" guid="add040bc-55a8-42bb-a41a-d7cde2b0ae86">
+		<Script name="Chat commands.lsl" guid="7b7ecdbf-dd55-4e2c-be27-e7047ed30aee">
 		</Script>
-		<Script name="Collision test.lsl" guid="d4cc6aed-ab47-41d3-a2b5-93f0510cdc76">
+		<Script name="Collision test.lsl" guid="9a7e990c-7f43-400f-b2a7-2e0311162d5a">
 		</Script>
-		<Script name="Stop Processing.lsl" guid="205f6f60-90e3-470b-af61-2b240d5ea2ef">
+		<Script name="Stop Processing.lsl" guid="1a220cc3-3120-4997-9d06-01f721ccda97">
 		</Script>
-		<Script name="Touch to Go.lsl" guid="f2bb1d56-b852-4c4c-8744-b51491f40970">
+		<Script name="Touch to Go.lsl" guid="1f188bfb-241f-410b-b29c-e81b8df22358">
 		</Script>
-		<Script name="Touch Trigger NPC.lsl" guid="3a681fb8-b569-4272-a62a-2da5b9dd49b3">
+		<Script name="Touch Trigger NPC.lsl" guid="b7561c0c-f9a1-4392-9882-53f3c66eae0e">
 		</Script>
 	</Object>
 </Project>

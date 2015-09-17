@@ -1,13 +1,13 @@
-// :SHOW:1
+// :SHOW:0
 // :CATEGORY:NPC
 // :NAME:All In One NPC Recorder and Player
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:NPC, Puppeteer
 // :CREATED:2013-09-08 18:27:47
-// :EDITED:2015-08-03  01:27:18
+// :EDITED:2015-09-04  19:34:00
 // :ID:27
-// :NUM:1814
-// :REV:3.4
+// :NUM:1823
+// :REV:3.8
 // :WORLD:OpenSim
 // :DESCRIPTION:
 // All in one NPC recorder player.
@@ -17,8 +17,9 @@
 // Should be worn as a HUD to record.
 // Put it on the ground and click Sensor or Start NPC when done.
 // :CODE:
-// This is Rev 3.3  07/19/2015
-  
+
+FOR  DEBUG PURPOSES - DO NOT USE - USE LATER VERSIONS ONLY!!!
+   
 // Revision History
 // Rev 1.1 10-2-2014 @Sit did not work.  Minor tweaks to casting for lslEditor
 // Rev 1.2 10-14-2014 @ sit had wrong type.
@@ -42,6 +43,10 @@
 //         Added Menu 3 for notecard and appearance commands
 // Rev 3.4 animation timer cannot be zero or it shuts off timer tweaked
 //         solves the NPC starting up when no sensor is set.
+// Rev 3.5 fixes saving to !Path  notecard
+// Rev 3.6 08-11-2015 @delete acts like @stop. The NPC now rezzes after an @go back in where it was deleted 
+// Rev 3.7 08-11-2015 @attach command added to load an attachment from the inventory to the NPC
+// Rev 3.8 08-17-2015 process queued commands one at a time without calling ProcessNPCLine on link message
 //*******************************************************************//
 
 // Instructions on how to use this is at http://www.outworldz.com/opensim/posts/NPC/
@@ -119,6 +124,50 @@
 //@go         NaN                         NaN                     Continues on next notecard line, for use in link messages
 //@speed      speed (float)               NaN                     from 0 to N, where 1.0 ius a normal speed of an avatar.  0.2 is a turtle.
 //@notecard   notename (string)           NaN                     load a new Path notecard
+//@attach     InventoryName               attachmentPoint         load an attachment from the inventory to the NPC onto point
+
+// Constant            attachmentPoint Comment
+// ATTACH_CHEST            1    chest/sternum
+// ATTACH_HEAD            2    head
+// ATTACH_LSHOULDER        3    left shoulder
+// ATTACH_RSHOULDER        4    right shoulder
+// ATTACH_LHAND            5    left hand
+// ATTACH_RHAND            6    right hand
+// ATTACH_LFOOT            7    left foot
+// ATTACH_RFOOT            8    right foot
+// ATTACH_BACK            9      back
+// ATTACH_PELVIS        10    pelvis
+// ATTACH_MOUTH            11    mouth
+// ATTACH_CHIN          12    chin
+// ATTACH_LEAR            13    left ear
+// ATTACH_REAR            14    right ear
+// ATTACH_LEYE            15    left eye
+// ATTACH_REYE            16    right eye
+// ATTACH_NOSE            17    nose
+// ATTACH_RUARM            18    right upper arm
+// ATTACH_RLARM            19    right lower arm
+// ATTACH_LUARM            20    left upper arm
+// ATTACH_LLARM            21    left lower arm
+// ATTACH_RHIP            22    right hip
+// ATTACH_RULEG            23    right upper leg
+// ATTACH_RLLEG            24    right lower leg
+// ATTACH_LHIP            25    left hip
+// ATTACH_LULEG            26    left upper leg
+// ATTACH_LLLEG            27    left lower leg
+// ATTACH_BELLY            28    belly/stomach/tummy
+// ATTACH_LEFT_PEC        29    left pectoral
+// ATTACH_RIGHT_PEC        30    right pectoral
+// ATTACH_HUD_CENTER_2    31    HUD Center 2
+// ATTACH_HUD_TOP_RIGHT    32    HUD Top Right
+// ATTACH_HUD_TOP_CENTER33    HUD Top
+// ATTACH_HUD_TOP_LEFT    34    HUD Top Left
+// ATTACH_HUD_CENTER_1    35    HUD Center
+// ATTACH_HUD_BOTTOM_LEFT    36    HUD Bottom Left
+// ATTACH_HUD_BOTTOM    37    HUD Bottom
+// ATTACH_HUD_BOTTOM_RIGHT    38    HUD Bottom Right
+// ATTACH_NECK            39    neck
+// ATTACH_AVATAR_CENTER 40    avatar center/root
+
 
   
 //////////////////////////////////////////////////////////
@@ -127,13 +176,13 @@
 integer debug = FALSE;         // set to TRUE or FALSE for debug chat on various actions
 integer Editor = FALSE;        // set to to TRUE to working in  LSLEditor, FALSE for in-world.
                               // you must also include the NPC commands found in the other script since LSLEditor does not support OpenSim
-integer iTitleText = TRUE;    // set to TRUE to see debug info in text above the controller
+integer iTitleText = FALSE;    // set to TRUE to see debug info in text above the controller
  
 //////////////////////////////////////////////////////////
 //                  TUNABLE CONFIGURATION               //
 //////////////////////////////////////////////////////////
-float     TIMER = 0.5;         // how often the system checks the distance traveled.  Fastest you can go is 0.5 seconds
-float     QUICK = 0.020;        // when we need to move to the next state, we use a QUICK timer
+float     TIMER = 2;         // how often the system checks the distance traveled.  Fastest you can go is 0.5 seconds
+float     QUICK = 1;        // when we need to move to the next state, we use a QUICK timer
 string    Appearance = "!Appearance";  // The name of the recorded Appearance notecard
 string    Notecard = "!Path"; // The name of the recorded routes
 integer   allowUsers = FALSE;  // If true, any user can get a Start NPC and Stop NPC menu.  Only groups and owners can get all commands if TRUE, or FALSE
@@ -142,14 +191,14 @@ integer   WANDERRAND = TRUE;   // set to TRUE and they will pause during wanders
 float     WANDERTIME = 3.0;    // how long they stand after each @wander,if WANDERRAND is FALSE. If WANDERRAND is  TRUE, this is the max time
 integer   WAIT = 30;           // wait for this number of seconds for the NPC to reach a destination (for safety). If it fails to reach a target, it will move on after this time.
 float     RANGE = 50;        // 1 to N meters  - anyone this close to the controller will start NPCS if Sensor button is clicked
-float     REZTIME = 5.0;      // wait this long for NPC to rez in, then start the process
+float     REZTIME = 2.0;      // wait this long for NPC to rez in, then start the process
 string    STAND = "Stand";     // the name of the default Stand animation
 string    WALK = "Walk";       // the name of the default Walk animation
 string    FLY = "Fly";        // the name of the default Fly animation
 string    RUN = "Run";        // the name of the default Run animation
 string    LAND = "Land";      // the name of the default land animation ( for birds only)
 float     OffsetZ = 0.5;      // appear 0.5 meter above ground, this is added to all destinations to keep them from sinking in.  
-float    SPEEDMULT =1.0;     // 1.0 = regular avatar speed. Smaller numbers slow down walks. Large numbers speed them up.
+float    SPEEDMULT =0.5;     // 1.0 = regular avatar speed. Smaller numbers slow down walks. Large numbers speed them up.
 integer  FLIGHT = 299;        // For controlling wings.  A channel that is shouted at when flight starts and ends. "flying" or "landing" 
 
 // DESCRIPTIONS FIELDS HAVE TO SURVIVE A RESET
@@ -199,7 +248,7 @@ string mSensor="Sense is Off";    // Sensor or "No Sensor"
 
 list lAtButtons = ["Menu","-",   ">>",         "@run",    "@walk",   "@fly",  "@land", "@wander",    "@sit",   "@stand","@animate","@rotate"];
 list lMenu2 = ["<<", "@comment", ">>>",        "@stop",      "@say",    "@whisper","@shout","@sound","@randsound","@cmd",  "@pause",  "@delete"];
-list lMenu3 = ["<<<","@notecard","@appearance", "@touch", "@speed",       "-",     "-","-", "-", "-", "-", "-" ];
+list lMenu3 = ["<<<","@notecard","@appearance", "@touch", "@speed",       "@attach",     "-","-", "-", "-", "-", "-" ];
 
 string sCommand;  // place to store a command for two-prompted ones
 string sParam2;   // place to store a prompt for two-prompted ones
@@ -222,7 +271,7 @@ integer avatarPresent;   // Sensor sets this flag when people are within Range.
 vector vInitialPos ; // Vector that will be filled by the script with the initial starting position in region coordinates.
 vector vDestPos = ZERO_VECTOR; // Storage for destination position.
 string relAbs = "Relative";    // absolute vs relative positioning
-
+vector lastKnownPos; // last known NPC position when we deleted it
 
 // STATES
 integer MENU ;             // processing a dialog box state, may be concurrent with STATE
@@ -246,7 +295,7 @@ integer SensorFunc = 0;    // define which function shall be triggered inside th
 //                              FUNCTIONS                                //
 ///////////////////////////////////////////////////////////////////////////
 
-// Do* functions are much like states from the old scripts.
+// Do* functions are much like states from the old V2 scripts.
     
 // Save a Path notecard
 DoSave()
@@ -287,12 +336,12 @@ DoSpawn() {
     STATE = Spawning;
     
     list name = llParseString2List(sNPCName, [" "], []);
-   // notecard is stored as offsets from this box with relative addressing.  Convert to absolute
+   
     if (relAbs == "Relative"){
         vInitialPos += llGetPos();
     }
 
-    DEBUG("Rez NPC:" + (string) vInitialPos);
+    DEBUG("Rezzing the  NPC:" + (string) vInitialPos);
     key aKey = osNpcCreate(llList2String(name, 0), llList2String(name, 1), vInitialPos, Appearance, NPCOptions);
 
     SaveKey(aKey ); // save in desceription and global, too
@@ -303,7 +352,7 @@ DoSpawn() {
 }
  
 DoRotate() {
-    DEBUG("state rotate");
+    DEBUG("@rotate=" + (string) RAMrot); 
     osNpcSetRot(NPCKey(), llEuler2Rot(<0,0,RAMrot> * DEG_TO_RAD));
 }  
 
@@ -320,7 +369,6 @@ DoTouch() {
 }
  
 DoStand() {
-    
     DEBUG("state stand");
     osNpcStand(NPCKey());
 }
@@ -400,11 +448,9 @@ DoWanderhold() {
 
 // @pause=10 will do nothing for 10 seconds
 DoPause() {
-    
-    DEBUG("state pause");
     if (RAMPause < 0.1)
         RAMPause = 0.1;
-        
+    DEBUG("@pause=" + (string)RAMPause);
     TimerEvent(RAMPause);
 }
 
@@ -414,17 +460,18 @@ DoStop() {
     DEBUG("NPC is Stopped");
     Stopped = TRUE; // Link controlled - we mnust have a @go to continue with notecards
     TimerEvent(0);
+    Stack = []; // v3.8
 }
     
-
 // @delete removes the NPC forever. Next command starts it up again at the beginning
 DoDelete() {
     DEBUG("state delete");
-
+     
     osNpcRemove(NPCKey());
     SaveKey(NULL_KEY);
-    lNPCScript = []; // next command starts the NPC into action at the beginning
-
+    Stopped = TRUE; // Link controlled - we mnust have a @go to continue with notecards
+    TimerEvent(0);
+    Stack = []; // v3.8
 }
 
 // change the appearance of the NPC
@@ -447,7 +494,20 @@ DoNewNote (string card) {
     NPCReadNoteCard(card);
     Stopped = FALSE;
 }
+DoAttach(string params) {
     
+    list Data = llParseString2List(params, ["|"], []);
+    string itemName = llList2String(Data, 0);
+    integer attachmentPoint  = (integer) llList2String(Data, 1);
+    if (attachmentPoint > 0
+        && attachmentPoint < 40
+        && llGetInventoryType(itemName) == INVENTORY_OBJECT
+       )
+    {
+        osForceAttachToOtherAvatarFromInventory(NPCKey(),itemName,attachmentPoint);
+    }
+}
+
 // This loops over the notecard, processing each command
 DoProcessNPCLine() {
     DEBUG("ProcessNPCLine");
@@ -488,6 +548,8 @@ DoProcessNPCLine() {
 
 } 
 
+
+
 ProcessCmd(string cmd) {
 
     DEBUG("ProcessCmd:" + cmd);
@@ -508,15 +570,7 @@ ProcessCmd(string cmd) {
     @commands;
 
     ProcessSensor();
-    if (! avatarPresent){
-        DoNobodyHome();
-        DEBUG("No avatar nearby");
-        return;
-    } else {
-        if (llStringLength(sNPCName)) {
-            DoSpawn();
-        }
-    }
+   
     
     if(npcAction == "@spawn") {
         DEBUG("@spawn");
@@ -527,12 +581,23 @@ ProcessCmd(string cmd) {
         vInitialPos.x = llList2Float(spawnDest, 0);
         vInitialPos.y = llList2Float(spawnDest, 1);
         vInitialPos.z = llList2Float(spawnDest, 2);
-        DoSpawn();
         
+        DEBUG("Coords for NPC at " + (string) vInitialPos);
+        DoSpawn();
         return;
     }
-    else if(npcAction == "@stop") {
-        DEBUG("@stop");
+    
+     if (! avatarPresent){
+        DoNobodyHome();
+        DEBUG("No avatar nearby");
+        return;
+    } else {
+        if ( NPCKey() == NULL_KEY) {
+            DoSpawn();
+        }
+    }
+    
+    if(npcAction == "@stop") {
         DoStop();
         return;
     }
@@ -623,69 +688,60 @@ ProcessCmd(string cmd) {
     }
     // stop everything
     else if(npcAction == "@pause") {
-        DEBUG("@pause");
         RAMPause = (float) npcParams;
         DoPause();
         return;
     }
     else if(npcAction == "@wander") {
-        DEBUG("@wander");
         list wanderData = llParseString2List(npcParams, ["|"], []);
         RAMwd = (float) llList2String(wanderData, 0);
         RAMwc = (integer) llList2String(wanderData, 1);
-
         vDestPos = osNpcGetPos(NPCKey());        // set the wander start
         DEBUG("Starting at " + (string) vDestPos);
         DoWander();
         return;
     }
     else if(npcAction == "@rotate") {
-        DEBUG("@rotate");
         RAMrot = (float) npcParams;
         DoRotate();
     }
     else if(npcAction == "@sit") {
-        DEBUG("@sit");
         RAMsit= npcParams;
         DoSit();
         return;
     }
     else if(npcAction == "@touch") {
-        DEBUG("@touch");
         RAMtouch= npcParams;
         DoTouch();
         return;
     }
     else  if(npcAction == "@stand") {
-        DEBUG("@stand");
         DoStand();
     }
     else if(npcAction == "@delete") {
-        DEBUG("@delete");
         DoDelete();
         return;
     }
     else if(npcAction == "@animate") {
-        DEBUG("@animate");
         list animateData = llParseString2List(npcParams, ["|"], []);
         RAManimationName = llList2String(animateData, 0);
         RAManimationTime = (float) llList2String(animateData, 1);
         DoAnimate();
         return;
     }
-    else if(npcAction == "@appearance" )
-    {
-        DEBUG("@appearance");
+    else if(npcAction == "@appearance" ){
         DoAppearance(npcParams);
     }
     else if (npcAction =="@speed") {
-        DEBUG("@speed");
         DoSpeed(npcParams);
     }
-    else if (npcAction =="@notecard") {
-        DEBUG("@notecard");
+    else if (npcAction =="@notecard") {      
         DoNewNote(npcParams);
         Notecard = npcParams;
+    }
+    else if (npcAction == "@attach")
+    {
+        DoAttach(npcParams);
     }
 
     STATE = DoProcess;
@@ -934,6 +990,11 @@ ProcessSensor()
         else
             avatarPresent = FALSE;   
     }
+    
+    //  start up from when when no one is near
+    if (avatarPresent && STATE == NobodyHome)
+        STATE = 0;
+    
     //DEBUG("Avatar Present: " + (string) avatarPresent);
 }
 
@@ -1328,21 +1389,13 @@ default
         else if (message == "@animate"){
             Text("@animate=","Enter animation name to play","Enter time to play the animation");
         }
+        else if (message == "@attach"){
+            Text("@animate=","Enter inventory name to attach","Enter number of the attachment point (1-40)");
+        }
          else if (message == "@speed"){
             Text("@speed=","Enter a speed for the NPC, 1=100% normal speed, 0.5=50% speed","");
         }
-        else  if (! llStringLength(sParam2)) {
-            lCommands +=  sCommand + message + "\n";
-            llOwnerSay("Recorded");
-            makeMenu(lAtButtons);
-        }
-        else if (llStringLength(sParam2)){
-            sCommand = sCommand + message + "|";
-            llOwnerSay("Recorded");
-            makeText(sParam2);
-            sParam2 = "";
-        }
-       
+               
 
         // Save NPC name
         else if (MakeNotecard == STATE) {
@@ -1390,15 +1443,29 @@ default
             }
             llRemoveInventory(Notecard);        // delete the old notecard
             osMakeNotecard(Notecard,sNotecard); // Makes the notecard.
+            llSay(0,sNotecard);
             llOwnerSay("Commands notecard has been written");
             STATE = 0;
         } // MakeNotecard
+
+        else  if (! llStringLength(sParam2)) {
+            lCommands +=  sCommand + message + "\n";
+            llOwnerSay("Recorded");
+            makeMenu(lAtButtons);
+        }
+        else if (llStringLength(sParam2)){
+            sCommand = sCommand + message + "|";
+            llOwnerSay("Recorded");
+            makeText(sParam2);
+            sParam2 = "";
+        }
+
     }
 
 
 
     timer(){
-        DEBUG("tick");
+       // DEBUG("tick");
         
         // if llDialog is up, kill the listener for the dialog box.
         if (iHandle) {
@@ -1409,10 +1476,8 @@ default
         }
         // if NoBodyHome, we are sensing for an avatar
         else if (NobodyHome == STATE) {
-            if (! llGetRegionAgentCount()) {
-                DoNobodyHome();
-                return; // ^^^^^^^^^^^^^^^^^^^^^^^
-            }
+            ProcessSensor();
+            return;
         }
         // if we are spawning, we need time to rez the NPC, then start processing NPC Commands.
         else if (Spawning == STATE) {
@@ -1432,6 +1497,8 @@ default
                 }
             }
 
+            DEBUG("At Destination: " + (string) newDest);
+            
             // walk, fly, run, land
             if (walkstate == 1) {
                 NPCAnimate(STAND);
@@ -1478,6 +1545,9 @@ default
         else if (DoProcess == STATE) {
             TimerEvent(QUICK);
         }
+
+        if (Stopped) 
+            return;
        
         STATE = 0;
 
@@ -1514,18 +1584,15 @@ default
             DEBUG("@go approved, calling DoProcessNPCLine");
             DoProcessNPCLine();
         } else {
-            if (Stopped)
-            {
-                Stack += [str];    // take anything, the controller will filter away non @ stuff
-                DoProcessNPCLine();
-            } else {
-                Stack += [str];    // take anything, the controller will filter away non @ stuff
-                TimerEvent(TIMER);
-            }
+            Stack += [str];    // take anything, the controller will filter away non @ stuff
+            TimerEvent(QUICK);
         }
     }
     
 }
+
+
+
 
 
 

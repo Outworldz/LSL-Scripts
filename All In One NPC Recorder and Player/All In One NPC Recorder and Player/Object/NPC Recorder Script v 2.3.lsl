@@ -1,4 +1,4 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:NPC
 // :NAME:All In One NPC Recorder and Player
 // :AUTHOR:Ferd Frederix

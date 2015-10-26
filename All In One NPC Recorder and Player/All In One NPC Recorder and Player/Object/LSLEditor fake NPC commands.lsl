@@ -4,10 +4,10 @@
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:
 // :CREATED:2013-09-08 18:27:47
-// :EDITED:2015-08-02  21:09:13
+// :EDITED:2015-09-24  13:25:15
 // :ID:27
 // :NUM:1603
-// :REV:1.3
+// :REV:1.4
 // :WORLD:OpenSim
 // :DESCRIPTION:
 // All in one NPC recorder player set of debug functions. Add these ONLY if you are compileing in LSLEditor.
@@ -79,7 +79,7 @@ osNpcRemove (key  target) {
     llSay(0,"NPC removed");
 }
 list osGetAvatarList () {
-    list lStuff = [(key) "12345000-0000-0000-0000-0000000000002", vDestPos, "Digit Gorilla"];
+    list lStuff = [(key) "12345000-0000-0000-0000-0000000000002", <1,2,3>, "Digit Gorilla"];
     return lStuff;
 }
 osMakeNotecard(string notecardName, string contents) {
@@ -132,8 +132,9 @@ osForceAttachToOtherAvatarFromInventory(key npc, string inventory, integer point
     llSay(0,"attach " + inventory  + " to " + (string) point);
 }
 
+osTeleportAgent( key avi, string name, vector dest, vector lookat) {;}
 
 // END commented code for OpenSim vs Editor environments
 //*******************************************************************//
 // comment this out, is only here for testing in LSLEditor.
-// default {}
+ default {}

@@ -1,5 +1,5 @@
 <Project name="All In One NPC Recorder and Player" guid="4f083be4-b9ae-4962-a3aa-e9d1c7e09e56">
-	<Object name="Object" guid="d971c37c-79d7-4705-82bf-f4312af560e8" active="true">
+	<Object name="Object" guid="d971c37c-79d7-4705-82bf-f4312af560e8" active="true" description="key=00000000-0000-0000-0000-000000000000">
 		<Notecard name="!Appearance.txt" guid="b3be600d-c3d5-43dd-9fbb-e95c441f4c33">
 		</Notecard>
 		<Notecard name="!Appearance2.txt" guid="cb7435a2-5194-495a-852f-d977ae709d33">
@@ -27,6 +27,18 @@
 		<Script name="NPC Recorder Script v 3.9.lsl" guid="a692b5bf-9d8f-454f-8afa-082c512966e5">
 		</Script>
 		<Script name="NPC Recorder Script v 4.0.lsl" guid="83d1368e-2074-4b14-ac62-e2d6f3823c69">
+		</Script>
+		<Script name="NPC Recorder Script v 4.1.lsl" guid="f8bb755f-1411-4d43-aded-39aeb0031546">
+		</Script>
+		<Script name="NPC Recorder Script v 4.2.lsl" guid="247429f3-3a16-4775-ade5-98fce4d5eb47">
+		</Script>
+		<Script name="NPC Recorder Script v 4.3.lsl" guid="4270a4c6-ff41-4c4b-a44b-be773fabb190">
+		</Script>
+		<Script name="NPC Recorder Script v 4.4.lsl" guid="4db0dc60-da65-4375-b78f-99a1dcdf766a">
+		</Script>
+		<Script name="NPC Recorder Script v 4.5.lsl" guid="9f75ecf5-880f-4514-bdd8-62406fa3d138">
+		</Script>
+		<Script name="NPC Recorder Script v 4.6.lsl" guid="e5924259-8d43-4144-85f6-4f5dea58c5c2">
 		</Script>
 	</Object>
 	<Object name="Test Object" guid="add040bc-55a8-42bb-a41a-d7cde2b0ae86">

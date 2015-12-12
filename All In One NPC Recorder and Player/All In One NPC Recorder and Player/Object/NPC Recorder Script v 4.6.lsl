@@ -4,7 +4,7 @@
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:NPC, Puppeteer
 // :CREATED:2015-10-12 18:07:40
-// :EDITED:2015-10-12  17:07:40
+// :EDITED:2015-12-05  19:25:52
 // :ID:27
 // :NUM:1832
 // :REV:4.6
@@ -17,7 +17,7 @@
 // Should be worn as a HUD to record.
 // Put it on the ground and click Sensor or Start NPC when done.
 // :CODE:
-// This is Rev 4.5  09/26/2015
+// This is Rev 4.6  12/04/2015
 
 // Revision History
 // Rev 1.1 10-2-2014 @Sit did not work.  Minor tweaks to casting for lslEditor
@@ -54,6 +54,7 @@
 //                    @teleport works for relative and absolute modes
 // Rev 4.4 09-26-2015 if it could not find the (deleted) NPC, it could not restart
 // Rev 4.5 09-29-2015 remove wait for STATE == 0
+// Rev 4.6  12-4-2015 fixed wanderhold  did not wander correctly.
 //*******************************************************************//
 
 // Instructions on how to use this are at http://www.outworldz.com/opensim/posts/NPC/
@@ -181,10 +182,10 @@
 //////////////////////////////////////////////////////////
 //                  DEBUG                               //
 //////////////////////////////////////////////////////////
-integer debug = FALSE;         // set to TRUE or FALSE for debug chat on various actions
+integer debug = TRUE;         // set to TRUE or FALSE for debug chat on various actions
 integer LSLEditor = FALSE;        // set to to TRUE to working in  LSLEditor, FALSE for in-world.
                               // you must also include the NPC commands found in the other script since LSLEditor does not support OpenSim
-integer iTitleText = TRUE;    // set to TRUE to see debug info in text above the controller
+integer iTitleText = FALSE;    // set to TRUE to see debug info in text above the controller
  
 //////////////////////////////////////////////////////////
 //                  TUNABLE CONFIGURATION               //
@@ -192,7 +193,7 @@ integer iTitleText = TRUE;    // set to TRUE to see debug info in text above the
 integer keyNum = -1;    // (namaka) special number for link message to broadcast the NPC key
 integer   allowListener = TRUE; // set to TRUE to anable a command listener. Usually, this is setto FALSE
 integer   link_Channel =   4223; // some random number you want to talk to this gadget on. Best if large and negative
-float     TIMER = 2;         // faster = less jerky stopping.  How often the system checks the distance traveled.  Fastest you can go is 0.5 seconds
+float     TIMER = 1;         // faster = less jerky stopping.  How often the system checks the distance traveled.  Fastest you can go is 0.5 seconds
 float     QUICK = 1;        // when we need to move to the next state, we use a QUICK timer
 string    Appearance = "!Appearance";  // The name of the recorded Appearance notecard
 string    Notecard = "!Path"; // The name of the recorded routes
@@ -1644,6 +1645,7 @@ default
         // Wandering requires us to re-wander when we reach a destination
         else if (WanderHold == STATE) {
             StateWander();
+            return;
         }
         else if (DoProcess == STATE) {
             TimerEvent(QUICK);

@@ -1,0 +1,17 @@
+// :SHOW:1
+// :CATEGORY:Gaming
+// :NAME:Sample Path notecard for the Rockfall prims 
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:Game
+// :REV:1.0
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// :CODE:
+
+@spawn=Wise Tree|<100.15351, 112.22149, 39.33461>
+
+@walk=<100.15351, 112.22149, 39.33461>
+@wander=5|1
+@pause=3
+@wander=5|1
+@pause=3

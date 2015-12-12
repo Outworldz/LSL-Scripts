@@ -1,0 +1,10 @@
+<Project name="RockFall" guid="715fdfa8-4e71-4216-b512-b8dbc38ab35c">
+	<Object name="Rock Prim" guid="07c7bf84-84b6-405e-a810-7a1dbce286e1">
+		<Notecard name="Notecard.txt" guid="d31a3aae-4f8f-4a7c-9152-d431b05cc49b">
+		</Notecard>
+	</Object>
+	<Object name="Rockfall Controller" guid="92619ae6-498c-4a14-bed9-7d20f959d770">
+		<Script name="rock controller.lsl" guid="f126adc0-0662-4cbe-8dc1-78c07c4a7ecb">
+		</Script>
+	</Object>
+</Project>

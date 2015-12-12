@@ -1,0 +1,18 @@
+<Project name="EndGame" guid="454a9e2f-f46e-4462-b24f-5cc537611cfd">
+	<Object name="Mortar and Pestel" guid="89597588-b0d6-41ca-856a-35d4c8867759">
+		<Snapshot name="End Game Photo.png" guid="2e9e63f6-07e5-4b86-b56b-4c85e481f871">
+		</Snapshot>
+		<Script name="Game prim script 5.5.lsl" guid="eedd3191-bd6e-4a0b-89f8-8c8b8205ec80">
+		</Script>
+		<Script name="Modified Hypergate to level four.lsl" guid="791a02a2-3fb5-4180-b893-da2dcbccdd86">
+		</Script>
+		<Notecard name="readme.txt" guid="ddb97516-2a50-4b4a-aa1e-669a9ff1235c">
+		</Notecard>
+	</Object>
+	<Object name="Sensor" guid="d0e17e2e-59b5-44c4-9fcc-0b230465397a">
+		<Script name="NotASensor.lsl" guid="333df8bc-125e-4888-b136-96fa15584848">
+		</Script>
+		<Script name="Sensor.lsl" guid="3e8611e2-ddff-46f1-9b13-78f55981a5bb">
+		</Script>
+	</Object>
+</Project>

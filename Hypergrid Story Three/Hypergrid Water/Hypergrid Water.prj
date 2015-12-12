@@ -1,0 +1,6 @@
+<Project name="Hypergrid Water" guid="fed98eae-4106-4308-b55d-31156a6f5a7a">
+	<Object name="Water prim" guid="5d5b9433-44fb-4788-8155-011ef141023b">
+		<Script name="HG water.lsl" guid="dc716fab-7e33-4533-a833-db8f1dc119a6">
+		</Script>
+	</Object>
+</Project>

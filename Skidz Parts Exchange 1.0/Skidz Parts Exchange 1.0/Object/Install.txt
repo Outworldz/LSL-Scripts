@@ -1,0 +1,117 @@
+// :SHOW:
+// :CATEGORY:Money
+// :NAME:Skidz Parts Exchange 1.0
+// :AUTHOR:Skidz Parts
+// :KEYWORDS:
+// :CREATED:2015-11-24 20:39:05
+// :EDITED:2015-11-24  19:39:05
+// :ID:1097
+// :NUM:1881
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Skidz Partz - Exchange: Content Management System
+// :CODE:
+
+
+
+Skidz Partz - Exchange: Content Management System
+=================================
+
+PLEASE READ CAREFULLY THE FOLLOWING INSTRUCTIONS. IF YOU DO THIS,
+YOU WILL HAVE YOUR SITE UP AND RUNNING IN JUST A FEW MINUTES.
+
+Base Requirements
+-----------------
+
+In order to setup Skidz Partz - Exchange the folowing requirements are necessary.
+
+- A Computer with Linux, Windows, Mac OS X or any UNIX flavor installed and working properly.
+- Apache Web Server (http://www.apache.org)
+- PHP version 4.2.x or better (mod_php) Apache module (http://www.php.net)
+- MySQL or any other supported SQL database server
+
+NOTE: Skidz Partz - Exchange supports MySQL, SQLite, mSQL, PostgreSQL, PostgreSQL_local, ODBC, ODBC_Adabas, Sybase
+and Interbase servers.
+
+The official test and development system is an Apple iMac computer running Mac OS X 10.5.2 with
+the package MAMP (MySQL, Apache and PHP).
+
+Setup of these required packages is beyond the scope of this document
+and if you are unsure you should check with each of the appropriate web
+sites for further details.
+
+
+Installing the Package
+----------------------
+
+Unzip the package into the directory you want to use on you web server, if you're unsure where
+that is, ask you system administrator.
+
+Point your browser to your site.
+
+The system will show you an error message with a link to the web based installer utility, follow
+the very easy steps and you're done.
+
+
+First Run
+---------
+
+    After installing the system you should have a Super User account.
+    Go to the administration system and click on "Preferences" and change whatever you want to fit your
+site info. All the options you need to change are in the Preferences menu.
+
+
+Security Tips
+-------------
+
+1) It's a good choice to put your config.php file outside the Web Server path, then
+you can create a new config.php with the line:
+
+<?php include("../config.php"); ?>
+
+2) Remember to immediately rename the file "admin.php" to something else and set the new filename
+in the config.php file.
+
+3) Even if it can't hurt, delete the "install" folder
+
+
+Final Notes
+-----------    
+
+    That's it! You're done with Skidz Partz - Exchange. Just navigate around, play with it, 
+abuse it and if you like Skidz Partz - Exchange, use it. Spend some time getting used to the 
+administration interface.
+
+    To change your site's logo, go to the themes directory and make a custom
+logo for each individual theme. Just navigate around all themes and change
+the graphics you want.
+
+    A note for the Skidz Partz - Exchange site's administrators: Only admins (authors) can
+view the following data in the site:
+
+    - Administration Menu
+    - Number of New Submissions
+    - Edit button for each link in Web Links
+    - Edit and Delete options for each Article
+    - Delete option for each comment
+    - IP/Host address of the comment poster
+    - Moderation option and button (if set for admin only)
+    - and MANY more...
+
+    If you plan to give something in change for Skidz Partz - Exchange as a contribution,
+please read the file SUPPORT included in this package to have some ideas.
+
+
+
+*** Special Thanks to all the people who help sending bugs reports, fixes, new
+modules, requests new features, etc... I really appreciate you all! ***
+
+*********************************
+* Skidz Partz - Exchange URL: http://code.google.com/p/skidz-partz/ *
+* Skidz Partz Group: http://groups.google.ca/group/skidz-partz
+*********************************
+
+Enjoy!
+
+-- Revolution Perenti

@@ -1,0 +1,211 @@
+// :SHOW:
+// :CATEGORY:NPC
+// :NAME:PMAC
+// :AUTHOR:Aine Caoimhe
+// :KEYWORDS:
+// :CREATED:2015-11-24 20:38:40
+// :EDITED:2015-11-24  19:38:40
+// :ID:1095
+// :NUM:1873
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// PARAMOUR MULTI-ANIMATION CONTROLLER (PMAC) v1.02 (OSSL)
+// :CODE:
+
+// Provided under Creative Commons Attribution-Non-Commercial-ShareAlike 4.0 International license.
+// Please be sure you read and adhere to the terms of this license: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+PARAMOUR MULTI-ANIMATION CONTROLLER (PMAC) v1.0 (OSSL)
+by Aine Caoimhe January 2015
+
+USER INSTRUCTIONS
+
+
+**** OVERVIEW *****
+
+PMAC is designed with the intent that it be highly intuitive and easy to use
+with absolutely no instruction at all. 
+Hopefully this will be the case for most situations, although there is one menu
+that only the owner can access -- 
+the Edit menu -- that does require detailed instructions for safe use.
+
+**** GENERAL USE -- ANIMATIONS AND GROUPS ****
+
+To use a PMAC object it's as simple as "sit"....that's it!
+
+Just sit on the object and PMAC will position you and play the current
+animation. If it's in auto mode it will change 
+animations every so often, cycling through the ones that are available based on
+the currently loaded "animation group". 
+If it isn't in auto mode, or if you want to select animations manually, you'll
+need to touch the object after you sit 
+on it to get the main controller menu. The first person who touches it will
+automatically become the "controller".
+
+Only one person can be in control of the menus and they must be seated on the
+object. If someone else is seated and 
+touches the object, they'll be asked if they want to "take control" away from
+whoever has it (unless the owner has 
+set it not to allow this). If you take control away from someone else you'll be
+in charge and the other person will 
+then be along for the ride. Since nobody likes a control war, it's usually a
+good idea to speak to the current 
+controller before simply grabbing it away from them.
+
+
+If you've any other multi-avatar system of this type (like MLP) things will look
+very familiar to you even though 
+it works in a rather dramatically different way at the script level. An
+"animation" in PMAC's list is actually a 
+set of animations that are in inventory and get played together for the users
+that are seated (typically a couple, 
+but PMAC can be set to handle up to 9 concurrent sitters). when you select an
+animation, PMAC handles which animation
+ is played for each user and where to position them and does so based on
+information stored in a notecard.
+
+Usually animations are supplied in "groups" of animations -- perhaps one group
+for sitting, one group for lying, 
+another group for cuddling, and so on -- each of which has a number of
+appropriate animations assigned to it. You 
+pick a group, then pick the animation you want to play from that group.
+
+When you first use PMAC it will already have a default group selected and you'll
+see the list of animations for that group.  PMAC shows up to 6 animation names,
+and if there are more than that you can use the PREV and NEXT buttons to scroll
+through additional pages of them (only the 6 animation names at the top change,
+the rest of the menu stays the same).
+
+When you pick a new animation the region has to send that to everyone's viewer
+and some can take longer to arrive than others, so animations that are intended
+to "fit" together can easily get out of synch the first time you use them. Even
+if they look fine in your viewer, they might be out of synch for someone else.
+Pressing the "SYNCH" button tells all of the viewers to restart the current
+animation from the beginning and should fix that for everyone.
+
+The QUIT button does *almost* what you think it does. QUIT makes *everyone*
+stand up and stop using the object, not just you. If you want to stop using it
+but want to leave everyone else seated, simply "stand" using your viewer. Once
+you do so, PMAC will ignore any button you click on the still-open dialog box so
+you can either close it or just click any button. The next person who is still
+seated and touches the object will take control (automatically).
+
+If you want to change to a different group of animations, press the GROUPS
+button to get a list of the groups you can access. Just like the animation menu,
+you may need to scroll through pages of them using the PREV and NEXT buttons to
+find the one you want. When you pick one, you'll be taken back to the animation
+menu with a list of the animations in the group you selected.
+
+If you accidentally close the dialog menu, just touch the object to have it
+re-displayed.
+
+
+**** THE OPTIONS MENU ****
+
+You can enter the options menu by clicking the OPTIONS button on either
+animation or groups menu pages and what you see will depend a little on who you
+are and what is currently happening (and how the item has been configured). The
+buttons on the very top row (EDIT ON and MENUS LOCK/UNLOCK) are only ever
+visible to the owner. The others can be available to any user. Here's a quick
+look at each:
+
+QUIT does exactly the same thing as it does in all menus -- everyone is forced
+to stand.
+
+SYNCH also does exactly the same thing.
+
+BACK  will usually take you back to the animations page unless you're in auto
+mode in which case it will take you to the groups menu instead.
+
+SWAP let's you move to another position unless the currently playing animtion is
+only set up for a single user. If the animation is set up for two users you'll
+immediately swap places (even if there's nobody currently occupying the other
+spot). If the animation is for any more than two users you'll be asked what
+position you want to move to and who (if anyone) is currently sitting there. You
+can't directly make two other people swap places but you could either let one of
+them take control for a moment, do the swap, then take control back; or you can
+swap with one, then the other, then again with the first person again and you'll
+achieve the same thing (it's a little inconvenient, granted, but much simpler on
+the "behind the scenes" script level to do it that way).
+
+UNSIT allows you to force someone else to stand. Obviously that might not be a
+very polite thing to do but there are a couple cases where it's useful:
+- if the other person has gone AFK for a long time and you simply don't want
+them standing there
+- if one of the other users is an NPC, when you make the NPC stand it will be
+removed instead, freeing up the spot for someone else to occupy
+- if you want to load an animation group that is for a smaller number of users
+than are currently seated you can make someone stand to free up the spot and
+allow you to load the new group (be nice about it though...)
+If there are only 2 users (yourself and one other) clicking UNSIT will
+immediately unsit the other user. If there are more, you'll be asked which user
+you want to force to stand.
+
+ADD NPC allows you to have a vacant position filled by an NPC. The button won't
+be available if there aren't any empty positions. When you press it you'll be
+given a list of the NPCs you can load (it's a multi-page list if there are many
+possible options). Select one and wait a moment for the NPC to rez and join you.
+To later remove the NPC you can either UNSIT them, or QUIT (which removes all
+NPCs) or have all "real" users stand -- if there are no avatars still seated all
+remaining NPCs are removed and the script treats it like a QUIT.
+
+[Slight technical note:
+After adding an NPC to the last available vacant position the "ADD NPC" button
+will often still be shown until you leave the options menu and then return to
+it, even though there isn't an available position for the NPC to occupy. If you
+try to add another one you'll be informed that there's no room and the button
+will update correctly too. This is due to a slight delay in the time it takes an
+NPC to sit down and be "registered" as a user which is almost always longer than
+the time it takes to redisplay the options menu. While the script could be
+changed to "fix" this, it would also mean the menu wouldn't reappear for up to
+an additional few seconds (and it is already delayed a little by the need to
+wait for the region to register the NPC) which becomes considerably more
+annoying than the "phantom" button so I chose to leave this minor "sort-of-bug"
+instead.]
+
+AUTO takes you to a menu where you can start or stop PMAC's auto mode. AUTO OFF
+stops it. AUTO ON turns it on using whatever the last selected (or default) time
+is. Selecting one of the time buttons will turn on auto mode if it isn't
+already, and use that selected time.
+
+SPECIALS is a button that is only visible if you are using an PMAC add-on that
+needs to offer you a menu button. If you have one that does, you'll find that
+button in the list of buttons displayed in the SPECIALS menu. If you have a lot
+of add-ons the buttons are sorted alphabetically by name and there could be
+multple pages of them. You'll need to consult your add-on's instructions to find
+out what their buttons do and sometimes this will temporarily transfer you to a
+separate menu system controlled directly by the add-on. Once finished, you
+should be automatically returned to the PMAC menu.
+
+For the curious, there is one additional empty button beside SPECIALS that will
+always show "-" and be ignored. That's in case there's a need for another button
+to do something in a future version of PMAC.
+
+
+**** OWNER-ONLY OPTIONS ****
+
+The very top row of the options menu is only ever displayed for the owner and
+also contains an empty "-" button that doesn't do anything and is for possible
+future use. The other two buttons are:
+
+MENUS LOCK/UNLOCK. toggles between allowing other users being allowed to take
+control and access the menus. If you LOCK menus then only you can ever take
+control and use them. If you UNLOCK them, anyone who is seated can take control.
+Be a little cautious with locking menus since PMAC remembers this setting even
+after you quit. If the user settings don't cause the script to reset on quit,
+you could accidentally leave everyone locked out of being able to use the
+controls until you return and unlock if for them. Of course being able to
+*intentionally* do this is the whole point of having the button there in the
+first place. Just use with care. :)
+
+EDIT ON is probably the most important button on the entire menu for an owner,
+but also requires considerably more detailed instructions which aren't suitable
+for this basic user instructions notecard. Briefly, though, this switches you
+into edit mode, allowing you to then adjust the positions of each animation and
+either temporarily or permanently store those changes without ever touching the
+notecards or doing any copy-pasting. You cannot enter edit mode unless all
+available positions are occupied -- by avatars or NPCs -- and once in edit mode,
+you will want to ensure that nobody stands until you've finished and stored your
+changes. For all the sordid details, see the Basic Building instructions
+notecard.

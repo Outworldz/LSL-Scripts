@@ -1,0 +1,16 @@
+<Project name="Tree Greeter" guid="55094840-805e-49fc-8ef8-c4a0124d447a">
+	<Object name="Collider" guid="ad5cb94b-83fd-4d8c-b092-54caddd0fb2e">
+		<Script name="Tree Collider.lsl" guid="4fab9bac-1a7e-494a-bbd3-5abcd023fe68">
+		</Script>
+	</Object>
+	<Object name="Root" guid="48644bb0-56c7-4ae5-8751-25d6fbf99b80">
+		<Notecard name="!Appearance" guid="e8015925-dded-4628-9a20-ec4365c6a58a">
+		</Notecard>
+		<Notecard name="!Path" guid="e3a9df23-6d76-442a-998e-13a7cfd80770">
+		</Notecard>
+		<Notecard name="Hello" guid="00a20375-636b-4c92-8f1f-ec12d2c4e13b">
+		</Notecard>
+		<Script name="NPC Controller - All In One Rev 4.6.lsl" guid="818557cb-081c-40b3-a354-1d72895aa93b">
+		</Script>
+	</Object>
+</Project>

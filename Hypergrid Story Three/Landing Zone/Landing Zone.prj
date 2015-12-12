@@ -1,0 +1,32 @@
+<Project name="Landing Zone" guid="8d988283-5a2a-4bf8-8695-74576bcf26b1">
+	<Object name="1. Start of Game" guid="afd18458-21b2-4a2d-86bd-fa4c7dc4880a" active="true">
+		<Script name="Sequence.lsl" guid="913939ab-c4db-44b8-99cf-7323908bb987">
+		</Script>
+	</Object>
+	<Object name="2. Advance Racoon to Tree" guid="19c6753d-7d10-447a-b045-98648dbd911a">
+		<Script name="Advance to tree .lsl" guid="dc7afd5e-98e9-43a7-ac8b-fcafebe894aa">
+		</Script>
+	</Object>
+	<Object name="3. Advance to Edge" guid="5dc915b1-2989-41dd-a847-5c7b76bcdfff">
+		<Script name="Advance to Edge.lsl" guid="406bf410-8ff7-4013-b82f-8504f747a9da">
+		</Script>
+	</Object>
+	<Object name="4. Edge of CLiff" guid="d186f14c-e305-406f-a927-fc5225367166">
+		<Script name="Fall of edge of cliff.lsl" guid="c0f80ea1-f8fb-4b1e-8496-2f5311a25a72">
+		</Script>
+	</Object>
+	<Object name="5. NPC Poseball 1,2,3 etc" guid="3981f3e9-5ad9-4836-bc47-aa4d52cd8d4d">
+		<Script name="NPC Rev 3.9.lsl" guid="8c7ebbf5-a3e2-4a52-a230-27bea37bfec9">
+		</Script>
+	</Object>
+	<Object name="6. Edge Warning" guid="fa54b57b-fe74-49ec-8e7d-f0a6774b4883">
+		<Script name="Collision.lsl" guid="6d7aaabc-0112-4bdf-8d9b-05757edf3875">
+		</Script>
+	</Object>
+	<Object name="7. Racoon at Bottom" guid="1ae2ed2c-c96e-4552-a902-f9e249d33d1f">
+		<Script name="Collider.lsl" guid="4b2b9e6a-3336-47a4-8701-d2b52abc21a7">
+		</Script>
+		<Notecard name="!Path" guid="2df46473-c9c0-4482-8e80-cc517b484095">
+		</Notecard>
+	</Object>
+</Project>

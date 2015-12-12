@@ -1,0 +1,32 @@
+// :SHOW:1
+// :CATEGORY:Gaming
+// :NAME:Noatcard for Rock Fall NPCS
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:Game, Sensor
+// :REV:1.0
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// Controls the path of the rockfall NPC. Requires a All in One NPC controller.
+// :CODE:
+
+@spawn=Rhyolite|<75.82667, 53.47481, 31.85062>
+@walk=<78.04362, 53.50777, 21.30894>
+@stop
+@pause=1
+@walk=<83.01588, 57.14717, 21.30894>
+
+@animate=avatar_blowkiss|2
+
+
+//////////// SECOND EXAMPLER NOTECARD
+
+Notecards for each rock differ slightly
+@spawn=Vitric Tuff|<85.04330, 49.56506, 31.85062>
+@walk=<84.35471, 52.02113, 21.30894>
+@stop
+@pause=1
+@walk=<84.35471, 52.02113, 21.30894>
+@animate=avatar_jumpforjoy|2
+
+
+

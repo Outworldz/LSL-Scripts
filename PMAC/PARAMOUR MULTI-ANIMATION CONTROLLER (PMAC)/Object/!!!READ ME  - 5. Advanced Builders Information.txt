@@ -1,0 +1,303 @@
+// :SHOW:
+// :CATEGORY:NPC
+// :NAME:PMAC
+// :AUTHOR:Aine Caoimhe
+// :KEYWORDS:
+// :CREATED:2015-11-24 20:38:40
+// :EDITED:2015-11-24  19:38:40
+// :ID:1095
+// :NUM:1875
+// :REV:1
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// PARAMOUR MULTI-ANIMATION CONTROLLER (PMAC) v1.02 (OSSL)
+// :CODE:
+
+PARAMOUR MULTI-ANIMATION CONTROLLER (PMAC) v1.0 (OSSL)
+by Aine Caoimhe January 2015
+
+ADVANCED BUILDERS INFORMATION
+
+
+**** OVERVIEW *****
+
+This final notecard is more in the form of information rather than instructions and is intended as a resource for those with reasonably strong scripting skills. Before reading, you will probably wish to familiarize yourself with the contents of the Basic Tweaking Instructions notecard (particularly the final sections which talk about the notecard naming formats and the animation group card's animation line format) and take at least a cursory look through the PMAC core script.
+
+This card is primarily for people who wish to either
+
+(1) build an object using PMAC as its animation handler (requires only modest scripting knowledge), or 
+
+(2) script add-on utilities or other specialized customizations for the PMAC system (requires a higher level of scripting skill).
+
+It is assumed that all of the terms and discussion points will be familiar to the reader or else fairly easily grasped.
+
+
+**** BUILDING/CREATING A PMAC OBJECT ****
+
+Building a new system is fairly simple, although quite time-consuming. The basic steps are:
+
+1. Create the physical object (prim, sculpt, mesh, or linket combination thereof)
+2. Add the 5 core READ ME notecards that should be included with all systems
+3. Add the ~~~positioner object
+4. Add the base priority 1 animation
+5. Add any add-on scripts you intend to include in the setup as well as their supporting user documentation
+6. Add one or more NPC notecards
+7. Add one or more animation group notecards (see below for how to prepare these)
+8. And then finally add the PMAC core script
+9. Sit, load a group card, add some NPCs (or friends) to fill up the available positions
+10. Enter edit mode, adjust the position of each as required, and save
+11. Update any add-on command data that changes based on positions (I expect that many won't require it)
+12. Repeat for each group card until they're all done and you have a finished product
+
+While the final few steps are time-consuming, the built-in editor should greatly facilitate this process so the only really "hard" step here is #7 -- preparing the initial animation group notecards. I can offer a couple of suggestions to help with this:
+
+- organize your animations -- if they're all in separate folders that correspond to (roughly) the groups you'd normally want to include in an object, it's a lot easier to build cards later
+- take the time to rename most of your animations so matching sets have identical main names and then one or two (or more if absolutely necessary) standardized prefix or suffixes (like having matching pairs use the same name and then end them with _1 and _2 or _m and _f or something like that).
+- doing the above lets you drop them into a box and then write a script to quickly build your blank notecard automatically
+- once you have a card like that, save a copy of it in the same folder as the animations so you can simply reuse it in future objects...PMAC's design lends itself to this approach because each group has its own notecard. You might have 50 different group folders in your own inventory so simply decide which ones you want to include and drop them in
+- don't worry about positioning when doing this unless you can easily set their positions relative to one another...positioning is very easy to do "live" in those final steps using PMAC's editor and ability to directly save to card
+- depending on what add-ons you want to include, you can probably automate the generation of that data -- or at least starting points -- as well
+- I will often write a script to read the PMAC notecard, parse it, automatically insert or manipulate the data as needed, then resave it
+- on occasion it's easier to copy-paste the data to csv and manipulate it in something like Excel...just be careful not to introduce formating or spaces that will make the card unloadable after you bring it back in-world
+- if you're familiar with other programming languages, you may find it just as easy to copy the notecard data to a csv or txt file and then manipulate it that way
+- you will need to consult your add-on documentation for the internal structure they require for their commands
+
+
+**** GENERAL NOTES ABOUT PMAC ****
+
+Before I go into the command and add-on system I want to indicate the primary design goals I had when creating the PMAC system. I wanted PMAC to adhere to the following:
+
+(1) PMAC should have an extremely low footprint on sim resources, bordering on non-existent when not in use.
+
+The script has zero active elements until a user sits, and as soon as the last user stands once more it becomes dormant again. During use, it has a single open handler (dialog menu) and nothing else. When auto mode is engaged, it uses a llSensorRepeat() call with parameters that cannot return a successful result, and the no_sensor event acts as the "timer" handler. The timer itself is only used when in edit mode with a 0.2 sec repeat to trigger repositioning of the avatars to "chase" the handles. All avatar movement uses llSetLinkPrimitiveParamsFast() and no functions with built-in sleeps are ever called.
+
+The only two occasions where a thread-locking function is ever employed by PMAC are two calls to llSleep: once when an avatar first sits (0.2 sec) in order to give enough time for the default LSL sit to engage; and then when doing a card save that "overwrites" a notecard that is already in inventory because it is necessary to give enough time (0.25 sec) for the old card to be deleted from inventory before storing its replacement with the same name.
+
+In edit mode, there is no communication at all between the handles and the core script. Only upon leaving edit mode is there a single osMessageObject to each which raises a dataserver event to instruct it to llDie().
+
+Unlike LSL-based systems, HMAC leverages OSSL notecard functions to drastically reduce the memory requirements during use as well. Rather than having to parse large menu systems and hold huge amounts of animation data in memory, PMAC relegates this to on-the-fly card-reading and no-error-check parsing. Only a single group is ever loaded into memory at any one time, and the core script simply maintains a list of possible groups it can load. By keeping the total number of animations per group to a sane number (I'd suggest 32 or less since 6 pages of animations in a group is more than most users would want to scroll through anyway) this memory consumption can be kept extremely low.
+
+All communication with add-ons is done using llMessageLinked() and all add-ons must be in the same root prim as the core script, keeping that additional traffic to a minimum.
+
+(2) PMAC core should offer all key features of other such systems, including the ability to handle a very large number of simultaneous users (up to 9), yet be confined to a single script.
+
+This necessitated some rather painful decisions about what could and couldn't be made part of core. In the end, the two features I simply didn't have room for but would have liked to include (because both have some "fans") are triggering expressions for each avatar on a per-animation basis, and the ability to rez additional objects from inventory. Extended conversations with regular users led me to believe that both could be omitted from core provided a mechanism existed to allow adding back via add-ons. PMAC's integrated command system not only allows this, but is also considerably more powerful in conjunction with a creative scripter (see "Command System" below).
+
+In the end, PMAC's entire core feature set runs on only ~1100 LOC and for many users no add-ons will be needed at all.
+
+(3) PMAC for should maximize the speed of use, both in the initialization time and then also during regular use, and be as intuitive as possible for the average user.
+
+An animation system like this shouldn't be something the user has to think about or wait for. The user wants to enjoy the product, not mess around with the script. users don't want to spend their time and energy focussing on button-clicking, they want to interact with their fellow users. Ideally nothing should ever be more than 3 clicks away and for the most part PMAC achieves this.
+
+As was mentioned above, PMAC holds very little in memory and does a lot of its work on the fly using OSSL's capability to rapidly read an entire notecard in a single pull. As a result, initialization of the core system typically takes under 2 seconds even for a very extensive system, and a more general-use object is often ready in less than 1 second from reset. The only operations required are reading the animation group and NPC notecard names from memory and storing them to their respective lists.
+
+Whenever a user selects a group, PMAC loads it from inventory in a single osGetNotecard(0 string pull, then parses it with a single parse command (and no error checking!). Even for a large notecard this takes a fraction of a second after which the dialog is ready to be displayed.
+
+The only time the user ever has to wait for a dialog is immediately after rezzing a new NPC because the script pauses until the region is able to supply the new NPC's UUID -- typically 0.25-0.5 seconds though this can take a little longer depending on the simulator and the NPC's attachments.
+
+(4) PMAC should impose no limits that aren't absolutely necessary.
+
+PMAC's limits are very few:
+- The number of animations in a single card is almost unlimited (though in practice I would keep it to 32 or fewer)
+- The number of animation group notecards is almost unlimited (though a user isn't going to bother scrolling through too many so I'd keep this to under 32 too)
+- The number of different NPC notecards is almost unlimited (though again, a user is unlikely to want to scroll through page after page of them)
+- The number of simultaneous users is set to 9 for three reasons: (1) almost nobody is going to have any need to set up a system even for this number...in SL even 4-person systems are extremely few and far between; and (2) it keeps the notecard line sizes and in-script memory requirements to reasonable levels; and (3) keeping the number a single digit means it only needs one digit in the notecard name.
+- The number of add-ons that could be active is not limited (though having too many will begin to defeat the design goal of minimizing the system's sim footprint.
+- The core script must be in the root prim -- this is to reduce the total number of calculations needed when doing positioning -- particularly in edit mode. The math to do it from a child prim is simple, but adds to the memory footprint and increases the necessary calculations by about 20% for no good reason. Almost all systems would have placed the script and animations in the root anyway.
+
+Beyond these design goals there are a couple other things worth mentioning:
+
+The Options menu currently (v1.0) contains two unused buttons -- one on the top owner-only line and the other on the line below it -- which I've left for possible future development. If you have a specific use for them you can script them in a modified version of core but those additions will need to be small to fit within the total size limit of a script. Just be aware that in a future version I might use one (or bothy) of those buttons for something else...unless your addition is one that you can convince me ought to find a permanent home there and become part of core. I'm certainly open to suggestions as long as they're "general use" rather than highly case-specific ones.
+
+My hope for PMAC was to create a new system that would be highly appealing to users by achieving all of the above design goals, and would interest serious builders due to its flexibility. I released it as a no-charge CC licensed product to help spur its adoption as well as to be another of my contributions to the community at large. I urge add-on writers and builders to give serious consideration to follow suit.
+
+
+**** COMMANDS FOR BUILDERS ****
+
+This section is for people using add-ons made by other people (but people interested in scripting their own add-ons need to be familiar with this as well).
+
+As I indicated in the basic tweaking notecard, each animation is defined on a line in a group notecard as follows:
+    name|COMMANDS|POS1_name|POS1_rel_pos|POS1_rel_rot|...
+The "COMMMANDS" part of this is the heart of the command and add-on system and is essentially a concatenated list of commands particular to any add-ons you're using assembled into what I call a "command block".
+
+If you don't want to use any add-ons for an animation, use "NO_COM" for the command block (there must be *something* suppled). Otherwise, assemble the command block based on the requirements of each add-on you want the animation to incorporate. Command block syntax has a required structure:
+    COMMANDS=COMMAND_NAME{args}COMMAND_NAME{args}....
+Each of your add-ons will have documentation to indicate the correct COMMAND_NAME to use and provide instructions as to what arguments it takes. It doesn't matter what order you place them in...each add-on will look for the ones it understands and ignore ones it doesn't.
+
+DO NOT insert any extra spaces before or after command names or curly braces! That can break things.
+
+
+**** COMMANDS FOR ADD-ON WRITERS ****
+
+Any time a new animation is called PMAC sends the commands associated with it using:
+    llMessageLinked(LINK_THIS,0,"GLOBAL_NEXT_AN|"+llList2String(currentAn,2),llDumpList2String(positions,"|"));   (llList2String(currentAn,2) is the entire command block)
+    
+Your add-on will use the link_message event as the trigger and then parse the string part of the message to find out which commands (if any) are being called. Keep in mind that you may still need to do something when a new animation is called even if it doesn't contain your add-on's specific command -- you might need to stop something your add-on is doing for the previous animation.
+
+With only a two exceptions the key part of every link_message is the pipe-separated list of the UUID of each position's occupant, in order. If a position is empty it will contain NULL_KEY (the 32-digit key constant value, not the text string). Otherwise it will contain the UUID of the avatar (or NPC) seated there. The exceptions are when the PMAC Core script is reset or when the last user stands and it is no longer in use at which time it sends a single NULL_KEY value (the constant, not the string) for this field.
+
+Rules for command names and arguments:
+- the pipe symbol "|" is reserved as the field separator for animation data and all of PMAC's link message communications so it *cannot* be part of a command name or argument syntax
+- the two curly braces symbols "{" and "}" are the command block separators so they are also reserved
+- a COMMAND_NAME cannot be one of the reserved global commands (see below)
+That's it...no other rules. You can structure the syntax and naming of your commands and arguments any way you want; however be at least a little careful when laying out your command name syntax since other add-ons will hear it as well. It needs to be unique enough for your add-on to know that it needs to do something without also tricking a different add-on into acting on it as well (unless you write multiple add-ons that should both respond to the same message).
+
+I would strongly suggest not beginning your command name with GLOBAL or MAIN. To keep the likelihood of incompatibility with other add-ons to a minimum I would suggest that your add-on prefix each command name with a unique identifier (like MY_ADDON_NAME_xxxxx). Any that I write will begin with PAO_ (for Paramour Add-On).
+
+
+***** LINK MESSAGE STRUCTURE AND LIST OF GLOBAL COMMANDS *****
+
+When developing an add-on, please keep the above-stated design goals in mind. Ideally your add-on shouldn't drastically impact the performance of the sim, the core script, or impede the user's enjoyment of *using* the system. PMAC does all dialog communication with the user via a listener on channel=0x80000000|(integer)("0x"+(string)llGetKey()) so DO NOT EVER have your add-on send anything on that channel (though you can eaves-drop on it if you need to).
+
+PMAC does all of its communication with add-ons using llMessageLinked(LINK_THIS,0,str,id) so all add-ons must be in the same prim as the PMAC Core script (and PMAC Core *must* be in the root prim of a linkset).
+
+PMAC Core ignores any message where the (integer) num!=-1 (allowing it to rapidly ignore any messages not specifically intended for it)
+
+For the most part this is a one-way communication -- PMAC Core only listens to three inbound link_message inputs -- and the only fields that are used to convey information are the (string) str and (key) id fields. In your add-on the triggers will (presumably) always be link_message event:
+    link_message(integer sender_num ,integer num, string str, key id)
+Where:
+- because PMAC must be in root, sender_num will usually be 1 (although it's possible it could have the value 0)
+- PMAC always sends num = 0
+- PMAC only pays attention to messages where num = -1
+- str is the primary part of the message that you'll need to examine and parse
+- as stated above, id will almost always be a pipe-separated list of the UUID of each position occupant.
+- most add-ons will want to parse the str field into a list using parsed=llParseStringToList(str,["|"],[]) 
+- if you do this, parsed(0) will be the initial string that indicates what type of message this is and any addition data will be in subsequent fields
+- similarly, parsing the id field will give you a list of the UUIDs of the currently seated avatars by using positionOccupants=llParseStringToList(id,["|"],[])
+
+PMAC sends other "global" notifier messages at various times that all add-ons are likely to an interest in listening to. It's very important to keep in mind Opensim has asynchronous handling so your add-on should anticipate the likelihood of receiving messages in the incorrect order.
+
+If your add-on needs to communicate with other scripts, be sure to make the messages unique enough that other add-on won't accidentally respond to them. I suggest using a num value greater than 0 for these as well so scripts can ignore anything where num!=0.
+
+A full list of global commands that PMAC sends using link messages is as follows:
+
+>>> GLOBAL COMMANDS
+
+At the very end of state_entry when all other initialization steps are complete:
+    llMessageLinked(LINK_THIS,0,"GLOBAL_SYSTEM_RESET",NULL_KEY);
+    >> this is one of only two times PMAC sends NULL_KEY in the final message field
+    >> keep in mind that a single NULL_KEY for that field can also be sent when the current animation group is for a single user and there is nobody seated
+
+When there are no more users and PMAC switches back to its dormant (READY) state:
+    llMessageLinked(LINK_THIS,0,"GLOBAL_SYSTEM_GOING_DORMANT",NULL_KEY);
+    >> this is the only other time NULL_KEY is the final field
+
+When the system has been dormant (no users) and the first user sits down:
+    llMessageLinked(LINK_THIS,0,"GLOBAL_START_USING",llDumpList2String(positions,"|"));
+    >> this will be followed immediately with a new animation being played
+    >> due to asynchronous handling in Opensim, the new animation message *could* be received by an add-on before this message, although this should be fairly rare
+
+When a new animation is called:
+    llMessageLinked(LINK_THIS,0,"GLOBAL_NEXT_AN|"+llList2String(currentAn,2),llDumpList2String(positions,"|"));
+   >> where llList2String(currentAn,2) is the entire command block for that animation
+   >> to quickly split this into a list of its individual commands use list commands=llParseString2List(commandBlock,["{","}"],[]);
+   >> keep in mind that a newly called animation might not include a command for your addon but you might still need to act on it (stop whatever your add-on was doing for the previous animation)
+   >> in some cases a new animation could be re-calling the animation that was already playing (most commonly this happens in edit mode)
+
+When the system is already active and a new user sits down:
+    >> no message is sent because this will immediately also trigger playAnimation() of the animation that was already playing
+    >> if an add-on needs to know who sat it will need to maintain its own ongoing list of users and compare that to the key field data
+
+When someone stands
+    llMessageLinked(LINK_THIS,0,"GLOBAL_USER_STOOD|"+(string)i+"|"+(string)who,llDumpList2String(positions,"|"));
+    >> "i" is the position number they previously occupied
+    >> "who" is the UUID of the user who stood
+    >> this would also be sent when a user disconnects or teleports (in or out of region)
+    >> it is also be sent when a NPC is removed
+    >> this message is sent because an add-on may need to know the UUID of whoever stood
+
+When the user presses the SYNCH button on any menu:
+    llMessageLinked(LINK_THIS,0,"GLOBAL_ANIMATION_SYNCH_CALLED",llDumpList2String(positions,"|"));
+    >> the commands are not resent so an add-on may need to store the most recently-sent command
+
+When a new user takes control of the PMAC dialog menu system:
+    llMessageLinked(LINK_THIS,0,"GLOBAL_NEW_USER_ASSUMED_CONTROL|"+(string)user,llDumpList2String(positions,"|"));
+    >> where "user" is the UUID of the new person in control
+    >> keep in mind that PMAC still works perfectly even if nobody has yet touched it to take control
+
+When the owner first enters edit mode (by pressing EDIT ON in the options menu):
+    llMessageLinked(LINK_THIS,0,"GLOBAL_NOTICE_ENTERING_EDIT_MODE",llDumpList2String(positions,"|"));
+
+When in edit mode any time new position data is persisted to script memory:
+    llMessageLinked(LINK_THIS,0,"GLOBAL_EDIT_PERSIST_CHANGES",llDumpList2String(positions,"|"));
+    >> most of the time this will be followed immediately with a new call to playAnimation()
+    >> it could also be immediately followed by a new call to store a notecard
+
+When in edit mode and the "STORE ADDON" button is pressed:
+    llMessageLinked(LINK_THIS,0,"GLOBAL_STORE_ADDON_NOTICE",llDumpList2String(positions,"|"));
+    >> that is the only action taken when that button is pressed...there is no synch or persist in PMAC Core itself
+
+When in edit mode and a notecard is being stored (either overwriting an existing notecard or creating a new one) this is sent immediately *after* osMakeNotecard() is executed (so the newly stored data will be in the notecard and an add-on could potentially now make additional changes to it):
+    llMessageLinked(LINK_THIS,0,"GLOBAL_EDIT_STORE_TO_CARD|"+cardName,llDumpList2String(positions,"|"));
+    >> where "cardName" is the full string name of the notecard (including the .menuxxxx part)
+    >> it should always have been preceded by a persist changes message but it's possible asynch handling could cause this to arrive first
+
+Any time PMAC leaves edit mode:
+    llMessageLinked(LINK_THIS,0,"GLOBAL_NOTICE_LEAVING_EDIT_MODE",llDumpList2String(positions,"|"));
+    >> this could be a result of a user standing/disconnecting during edit, or could be the owner intentionally leaving edit mode
+>>> END OF GLOBAL COMMANDS
+
+***** THE SPECIALS MENU *****
+
+An add-on that needs to add a menu button to the user's dialog options may do so by registering the button and associated command string with the PMAC Core script. The button will then be added to the list of buttons to display in the SPECIALS menu. If there are no registered buttons the SPECIALS button will not be available in the options menu. When the user clicks a button, the command string associated with that button is sent and dialog control is passed to the addonto allow it to do whatever it needs to do (including additional dialog with the user). The add-on MUST then tell PMAC Core when to resume its own dialog (even if the add-on does something instantly without dialog).
+
+Any time control changes to a new user the current SPECIALS button list is erased (in case a special menu button should only be displayed to specific users) so your add-on will need to re-register the button any time it receives the global message GLOBAL_NEW_USER_ASSUMED_CONTROL. The message string is followed by the pipe symbol and then the new controller's UUID.
+
+To register a menu button your add-on script needs to send this message to the PMAC Core script:
+    llMessageLinked(LINK_THIS,-1,"MAIN_REGISTER_MENU_BUTTON|"+buttonName,commandString);
+
+When the user selects the menu button in the specials menu the command string sent by PMAC Core is the command string along with the user key and PMAC always then transfers dialog control to the add-on (even if it doesn't use dialogs!)
+    llMessageLinked(LINK_THIS,0,commandString+"|"+user,llDumpList2String(positions,"|"));
+
+To return to the main controller's dialog menu (which will redisplay the options menu) the add-on must send the command:
+    llMessageLinked(LINK_THIS,-1,"MAIN_RESUME_MAIN_DIALOG",NULL_KEY);
+
+To unregister a button use:
+    llMessageLinked(LINK_THIS,-1,"MAIN_UNREGISTER_MENU_BUTTON|"+buttonName,commandString);
+
+When registering a button please be aware that:
+- when PMAC receives the registration command it checks to see if buttonName is already in its list of buttons for the specials menu
+- it makes no check on the commandString
+- if buttonName doesn't exist in the list, it (and its associated command) is added and the list is resorted in alphabetical order
+- if buttonName already exists in the specials menu list it will replace it (allowing you to update the command string to send on pressing the button)
+- the check is a simple search so make sure your buttonName is unique enough that it won't match another add-on's button
+- buttonName can be up to 25 characters but should be kept short if possible (the full buttonName is displayed in the dialopg box's text)
+- commandString has no character or length restrictions
+- make sure your commandString is unique enough that only your own add-on will respond to it
+- keep in mind that on button press a pipe symbol and the user's UUID is appended to the commandString
+
+When unregistering a button please be aware that:
+- both buttonName and commandString must exactly match the existing values
+- if match isn't found it fails silently
+
+CANNOT POSSIBLY STRESS STRONGLY ENOUGH:
+PMAC ignores all message that have a num value other than -1
+DO NOT FORGET that any time a button is pressed PMAC Core will suspend its own dialog and MUST be told when to resume by sending MAIN_RESUME_MAIN_DIALOG. If you forget to do so (or send the message with a num field value other than -1) the main dialog will never reappear and the user will probably think the system is broken.
+
+OTHER CONSIDERATIONS:
+Add-on scripts using buttons will need to account for the possibility of a variety of possibilities including:
+- PMAC may be in auto mode so new animations could be called while dialog control is still with the add-on (you'll know this has happened via its link messages)
+- the current controller might touch the object which will also bring back the core script's dialog - for many viewers this means your dialog box will be removed
+- another user could touch the object and take control away from the current user at any time (you'll know this has happened via the global notifier)
+- the current controller could stand and should then have all dialogs revoked (you'll know this has happened via the global notifier)
+- the current controller could tp out of the region or disconnect
+- a new user might sit down which will trigger an animation call but no other message (so compare user UUID lists if this is imporant)
+- another user might stand, tp out of the region, or disconnect (you'll receive a global notifier of this)
+- in Opensim a lot of things can unexpectedly happen asynchronously do don't bank on a strict order of events
+- other possibilities I haven't thought of...but you should :p
+
+
+**** A FINAL WORD ABOUT COMMANDS ****
+
+In addition to needing to account for the possibility all of the above "OTHER CONSIDERATIONS" it's worth remembering that there are a variety of cases where the playAnimation() UDF in PMAC Core will replay the same animation that is already playing. This will frequently happen in edit mode, or when additional users sit, so your add-on will need to keep track of users to avoid de/re-rezzing objects or executing lengthy code when unnecessary.
+
+
+**** AND A COUPLE FINAL REQUESTS ***
+
+While not mandatory, I would ask that add-on creators give their scripts a name that begins with "..addon " (two dots, then addon then a space) followed by your addon name. That way all addons should generally appear near the top of the prim's inventory list, immediately below the PMAC core script. This will make it far easier for builders and users to tell at a glance which add-ons are included
+
+Please include documentation with your add-ons! I know it sucks writing documentation (heck, I've just done 5 notecards worth of it!!!) but there really *are* people out there who read them. (I would also prefer not to be flooded with IMs from builders who want me to figure out how someone else's addon works!) If it requires minimal explanation you could have it as comments in the script, but in general a notecard would be preferred with the name "!!READ ME: " then the addon name (for the same reason as above).
+
+Please keep the "chattiness" of your add-ons to a minimum or include a user-setting to control how much feedback is given. Most users want to enjoy using a product, not be flooded with text. Unless it's absolutely necessary to use general chat, please use llRegionSayTo() to communicate with users (it's the absolutely lowest resource user). DO NOT EVER USE llInstantMessage() unless it's absolutely necessary (it's a resource-hogging thread locking function).
+
+If you write what you think is a really great add-on and would like it include as part of a standard PMAC core package please send it to me along with a *working* setup to test. I'd be only too happy to add it if it seems bug free and adheres to the overall design goals for the system.

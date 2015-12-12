@@ -1,0 +1,50 @@
+<Project name="Nine" guid="6ea39920-3832-4f36-89e9-7f366d7af710">
+	<Object name="Collider" guid="dfdcdbf3-fd7d-461e-937e-43b91ec487a5" active="true">
+		<Script name="Collider.lsl" guid="caee2bdc-f277-4ea1-902e-dcca67edfa54">
+		</Script>
+	</Object>
+	<Object name="Dancer Ball" guid="1b551ab0-ee50-4f3f-b5e4-b990a888f8ed">
+		<Script name="NPC 9.3.lsl" guid="625f3fa2-d5b7-485f-82de-71dfd8925dca">
+		</Script>
+		<Script name="Effect.lsl" guid="701f0a90-4723-4478-9783-b33dbd466325">
+		</Script>
+	</Object>
+	<Object name="Dylan" guid="2e49a070-13d7-4714-943f-a6432ebde059">
+		<Script name="NPC Custom for Dylan.lsl" guid="5a78854a-91cf-45cc-a873-202e1f4ba667">
+		</Script>
+	</Object>
+	<Object name="Event Horizon Controller" guid="13053ade-18dc-434c-8282-284f9c6a482a">
+		<Sound name="back-in-time.wav" guid="f06411a4-5b8c-4bb3-bf3e-9bbb5df3e9d7">
+		</Sound>
+		<Sound name="coins_bag_2_3.wav" guid="57721f3a-a654-4f0a-b462-9566a8307cac">
+		</Sound>
+		<Script name="Controller.lsl" guid="13b713c7-c975-472c-99a9-16dac5b92289">
+		</Script>
+		<Script name="Direction button.lsl" guid="684d2e2b-9f86-4dd4-91cd-c3de7c26af81">
+		</Script>
+		<Script name="Doorway.lsl" guid="4b7c8656-fdbc-42d9-9e56-52b366baaf48">
+		</Script>
+		<Sound name="footstepmuffled.wav" guid="96c5413c-8924-45cf-8b00-9319d7429c8b">
+		</Sound>
+		<Script name="Go.lsl" guid="9d5c5537-7954-408a-99e7-7c95d8a3efca">
+		</Script>
+		<Sound name="magic-string-spell-2.wav" guid="bab747f5-97b6-4770-9c4d-3e916c22c53d">
+		</Sound>
+		<Script name="Light effect Bar.lsl" guid="24dc96ee-bfd3-42ed-a60a-4da3b8a0d365">
+		</Script>
+	</Object>
+	<Object name="Helmet" guid="0e621c2d-d0ef-433a-9749-d3f8affe8658">
+		<Script name="Script.lsl" guid="a098c895-5b17-4db0-9396-c94d48bf919c">
+		</Script>
+	</Object>
+	<Object name="Namaka" guid="5cfb272d-7cd7-4b01-9707-91f6bf8cc774">
+		<Script name="NPC Custom for Namaka.lsl" guid="40a5b685-f067-45b4-bb67-df76a0b8cf3c">
+		</Script>
+	</Object>
+	<Object name="Timer" guid="8ff01a27-18ad-46f0-b856-6520a1d4a565">
+		<Script name="Shins Script.lsl" guid="3c84f143-8bc6-40c0-8d88-1bc16b182e51">
+		</Script>
+		<Script name="Timer.lsl" guid="507c6de9-e77c-456d-98c8-f088641071e0">
+		</Script>
+	</Object>
+</Project>

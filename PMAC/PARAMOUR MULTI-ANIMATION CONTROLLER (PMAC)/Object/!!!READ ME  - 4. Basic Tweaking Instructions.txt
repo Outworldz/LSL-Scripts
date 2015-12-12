@@ -1,0 +1,210 @@
+// :SHOW:
+// :CATEGORY:NPC
+// :NAME:PMAC
+// :AUTHOR:Aine Caoimhe
+// :KEYWORDS:
+// :CREATED:2015-11-24 20:38:40
+// :EDITED:2015-11-24  19:38:40
+// :ID:1095
+// :NUM:1874
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// PARAMOUR MULTI-ANIMATION CONTROLLER (PMAC) v1.2 (OSSL)
+// :CODE:
+
+// Provided under Creative Commons Attribution-Non-Commercial-ShareAlike 4.0 International license.
+// Please be sure you read and adhere to the terms of this license: https://creativecommons.org/licenses/by-nc-sa/4.0/
+by Aine Caoimhe January 2015
+
+BASIC TWEAKING INSTRUCTIONS
+
+
+**** OVERVIEW *****
+
+Under the hood, PMAC is an extremely complex scripted system that allows advanced scripters to unleash the full potential of a highly flexible command system. The vast majority of owners will neither have the skills nor inclination to do this, though, so PMAC also include a set of integrated "basic" tweaking tools that are easy for almost anyone to use.
+
+As an owner, and using these basic tools, you can tweak or customize positions for each of the animations in your PMAC object, either temporarily or permanently. With very little additional effort you can add new NPCs and -- if you're even more adventurous -- you can even set up whole new animation groups. It's mostly a case of your comfort level, patience and willingness to devote time to doing it.
+
+If you haven't run away in terror yet, read on...
+
+
+**** VERY BASIC TWEAKING ****
+
+Almost any owner will want to do some basic tweaking of positions at some point, and PMAC is designed to make this extremely easy. You'll make these adjustments using PMAC's built-in edit mode which you can access from the top row of the options menu by clicking the EDIT ON button.
+
+You can't enter edit mode until you pick an animation group and then select an animation. If you later pick a different animation group but haven't yet selected an animtion from it, you won't be able to enter edit mode yet (there are technical reasons for this that I won't bore you with). Also, all available positions for that group have to be occupied, so unless the group is for only one person you'll need a friend or two...or just ask some extremely patient NPCs to join you instead. Once all positions are filled you'll be able to switch to edit mode and you'll see a new menu: the EDIT menu.
+
+Once you do, you'll see PMAC rez a "positioning handle" at the location of each user. The handles are labelled and colour-coded to help easily distinguish them from one another (there are no "boy" or "girl" handles so it doesn't matter who is occupying a given position as long is it's set up the way you want it). Switch to edit in your viewer and you can then grab the handles and move them around just like any prim.
+
+As soon as you let go of your mouse button, the avatar associated with that handle will move to this new location. If you rotate a handle, the avatar will also rotate to match this rotation as soon as you release your mouse. It takes a little bit of getting used to the "move after release" approach to positioning but this is common (and necessary) for a no-poseball system -- it's because until you release the mouse button the region doesn't know you've moved the handle so it can't move the avatar to match it.
+
+If you need to re-synch your users, the edit menu's SYNCH button does exactly the same thing it does in all other menus.
+
+WARNING!!! The PREV and NEXT buttons don't!!!
+
+Before going any further, it's important to understand a tiny bit about how PMAC handles animation data. When you select an animation group the data for all animations in that group is loaded into the script's active memory. While you're editing positions, this doesn't change that stored script memory until you intentionally ask it to. Once you do, the existing data in memory is overwritten with the new positions and rotations and the old values can't be retrieved without leaving edit mode, then reloading the old values into memory from the notecard (you will need to switch to a different group first, then switch back again). However none of these stored changes in memory affect the permanent data stored in the animation group's notecard until you specifically tell PMAC to do so.
+
+While you're using the handles to position your users for the current animation, you can press the REVERT THIS button to have them moved back to the currently stored position and rotation for each. If you press STORE THIS it will update the script's memory with their current positions and rotations. Once you've done this, the REVERT THIS button would revert to that newly stored position, not your previous one still stored on the notecard.
+
+If you leave edit mode for any reason (using EDIT OFF or if someone stands) it also stores the current position and rotation for the animation to script memory before removing the handles so if you don't want this updated you'll need to REVERT THIS first. More on that in a moment.
+
+While in edit mode, the NEXT and PREV buttons will first store the current position and rotation
+ for the current animation to script memory, then change to either the next or previous animation
+ in the group. If you don't want the current one to change, be sure to REVERT before you use either button.
+
+Further complicating matters, a few PMAC add-ons may need to store special information as well and
+ the exact method they use could vary a little from one to another. If you're using add-ons you'll
+ need to double-check what their instructions require. For more complex ones there could be some 
+data that needs to be cut and pasted from chat and later inserted into a notecard (there's no way
+ to avoid this, unfortunately). A few could need you to press the "STORE ADDON" button before you 
+change to a different animation but in most cases you won't need to use this button (the button is
+ provided as a "just in case" thing for add-on scripters).
+
+None of these changes are permanent stored yet. If you leave edit mode PMAC will remember them only
+ while the current animation group remains loaded. As soon as you select a different animation group 
+-- even if you never pick an animation from it -- those changes are lost. If you want to keep them
+ for use later, you will need to tell PMAC to do so before you leave edit mode (or you can go back 
+into edit mode as long as you haven't yet changed animation group). You have two options:
+
+SAVE CARD will first update the current animation's position and save it to script memory. Then, after
+ a short delay, it will *overwrite" your current animation group's notecard with the new data. After
+ that, the new data will always load from that card but of course any old data will be lost.
+
+SAVE NEW will do almost the same thing, except instead of overwriting your existing notecard it will 
+save the data to a copy of the card with a number appended to the end of the name. In effect this 
+creates a new animation group so you'll see both your old group and your new one available in the 
+list of animation groups you can load. When you "save new" PMAC also switches to this new group 
+in memory so any additional edits you make will be applied to this copy, not your original group. 
+If you "save card" again, it will overwrite the data in your card copy, not the original. If you 
+"save new" again, it would create a third group with another number appended to it.
+
+
+This allows you to keep one copy of a card for general use, and then a customized version for use with
+ a specific partner, and load whichever one is appropriate for the moment.
+
+Once you're done, use EDIT OFF to remove the positioning handles (they're actually rezzed and destroyed 
+as needed, not just hidden/unhidden). If for some reason you reset the PMAC script without having 
+first removed the positioning handles the script will no longer be able to remove them. You can 
+either delete them manually, or if they're still present when the region next restarts they'll be
+ automatically deleted by their own tiny script(that's all their internal script is used for...
+
+NOTE: Any PMAC add-ons that also need to store permanent object position changes will likely need you to
+ subsequently update your saved notecard with data they supply. Please consult their instructions 
+for specific details.
+
+
+**** ABOUT ANIMATION GROUP NOTECARDS ****
+
+Other than possibly needing to edit a notecard's contents manually to add necessary data for add-ons, it
+ should never be necessary to edit a PMAC animation group notecard manually unless you are making 
+a major change such as adding a new animation to it or deleting an existing animation from it. 
+Details on that are in the Advanced Builders Instructions notecard.
+
+If you're doing custom set-ups, though, you will likely want to tweak the notecard *names* though so it's
+ important to know how an animation group notecard's name must be formatted. An animation group 
+notecard name is as follows:
+
+        .menu[ss][p][r] [unique button name]
+
+Where:
+- it must always begin with .menu  (note the period at the start)
+- then two numbers or letter (or a mix) that are used only for sorting...groups appear in the
+ same order in your menu as they do in inventory
+- then one number between 1 and 9 (inclusive) that indicates how many positions are used by 
+*all* animations in this group
+- then either the letter A, G, or O
+.....A means anyone is allowed to have it in their groups list and load it
+.....G means only people with the same *active* group as the PMAC object can see and load it
+.....O means only the owner can see and load it
+.....the owner can also always see and load group ones, even if the group isn't active
+- then there must be a single space
+- then everything after that is the name that will be used for the group and the group's button
+.....a group name must be unique from any other group name in inventory, even if the .manusspr part is diffent
+.....a group name can be no more than 25 characters long but it's best to keep it as short as possible to fit on a button
+
+An example of a correctly formatted name would be:  .menu012A Sofa Sits
+- it will be "early" in the group menu list by virtue of the 01 sort number
+- the 2 indicates that all animations in it are for 2 positions
+- the A indicates that anyone can see and load it
+- the group name you'll see on the button is "Sofa Sits" and no other notecard is allowed to 
+have that exact name, even if it was called .menu123G Sofa Sits
+
+Names are case-sensitive, though, so you could have one another one called "Sofa sits" and yet
+ another one called "sofa sits" and still another called "SOFA SITS" and they would all be treated as different names from one another (but you might later not be able to remember which one is which so it's a good idea not to).
+
+
+**** ABOUT NPC NOTECARDS ****
+
+You can easily add new NPCs to your PMAC object at any time (or delete ones you don't use). 
+Simply use any utility you like to create an appearance notecard, then place it into the 
+PMAC object's inventory and rename it to use the correct NPC naming format which is very 
+similar to the animation group format
+
+        .NPC[ss][r] [Firstname] [Lastname]
+        
+Where:
+- it must begin with .NPC (note the period at the start)
+- then two numbers or letters used for sorting
+- then either the letter A, G or O which indicate the same viewing and loading permission restrictions as they 
+do for animation groups
+- then a space
+- then the first name to use for the NPC -- it *must* be a single word with no space
+- then a space
+- then a the last name to use for the NPC -- again it must be a single word with no space
+....if you don't supply a last name a tilde symbol (~) will be added instead so the NPC would be named Firstname ~
+- the total of length of Firstname plus Lastname cannot exceed 24 characters (which becomes 25 character because of 
+the space between them)
+.....and it's a good idea to try to keep the combined length shorter if at all possible since in most cases only the
+ first name and a bit of the last name will fit on a button
+
+Again, the name of the NPC must be unique from any other NPC even if the first part is different.
+
+An example of a correctly formatted NPC name would be:   .NPC88A Cutie Pie
+- it will appear fairly late in NPC list due to the 88 for its sort order
+- the "A" means anyone can see and load it
+- The NPC's name on the button (and when rezzed) will be "Cutie Pie"
+
+Your newly added NPC won't appear in the list until the PMAC Core script is reset. Similarly, if you delete a NPC 
+notecard you will need to reset the PMAC core script to have it removed from the list of available NPCs.
+
+
+**** MORE DRASTIC EDITS OF ANIMATION GROUP NOTECARDS ****
+
+If you wish to, you can delete an entire animation from a notecard by opening it, finding the appropriate line for 
+the animation, then deleting the entire line. Be very careful when doing this, ensuring that you delete all of it 
+and without leaving a blank line or even a single extra space, either of which can cause a 
+failure to subsequently load the card and extract its data. It's safest to work with a *copy* 
+of your notecard, make the changes, then test to ensure that copy loads correctly. Only then 
+should you consider deleting your backup copy.
+
+Similarly, you can add a new animation to the card by supplying all of the necessary information. Unless you already
+ know the correct *relative* positions and rotations, it's best to supply generic starting points and then use PMAC's 
+tweaking tool to position and store the optimized final positions.
+
+A full line contains a pile-separated (|) list of the following (in order and with NO ADDITIONAL SPACES):
+- animation button name (must be unique from any other animation name used in the same notecard and cannot contain 
+the pipe (|) symbol)
+- any commands (see the Advanced Building Information notecard for details) or NO_COM for none
+- for each position you then need to supply
+.....the exact name of the animation in inventory
+.....followed by a relative position (use something like <0.0,0.0,0.0> or slightly offset from that if you don't know it)
+.....followed by a relative rotation (use something like <0.0, 0.0, 0.0, 0.0> if you don't know it)
+
+IMPORTANT: YOU MUST USE NUMERICAL VALUES FOR THE VECTORS AND QUATERNIONS, YOU CANNOT USE THE LSL CONSTANT NAMES
+
+JUST AS IMPORTANT: All animations in a single animation group notecard must use the exact same number of positions.
+ You can't supply a mixture.
+
+Here is an example for an animation line in a 2-position animation group notecard assuming that the names for the 
+animations we place in the inventory are "sofa_cuddle_m" and "sofa_cuddle_f" which we want to call "Sofa Cuddle" 
+and that we're adding no special add-on commands. Because we don't know a suitable relative offset 
+we'll displace each by a small amount on the local y-axis and then later load the group, enter edit
+ mode, and position them correctly relative to one another and the main PMAC object:
+
+Sofa Cuddle|NO_COM|sofa_cuddle_m|<0.0,0.1,0.0>|<0.0,0.0,0.0,0.0>|sofa_cuddle_f|<0.0,-0.1,0.0>|<0.0,0.0,0.0,0.0>
+
+
+For more detailed, technical instructions geared for advanced scripters and builders, please see the final notecard
+ in this series.
+

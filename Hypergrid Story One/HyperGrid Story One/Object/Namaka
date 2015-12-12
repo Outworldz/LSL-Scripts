@@ -1,0 +1,129 @@
+// :SHOW:1
+// :CATEGORY:NPC
+// :NAME:Hypergrid Story One
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:Game, Collider
+// :CREATED:2015-11-24 20:36:34
+// :EDITED:2015-11-24  19:36:34
+// :ID:1089
+// :NUM:1854
+// :REV:3.0
+// :WORLD:Opensim
+// :DESCRIPTION:
+// Sample NPC Card
+// :CODE:
+
+<llsd>
+  <map>
+    <key>serial</key>
+    <integer>0</integer>
+    <key>height</key>
+    <real>1.7412686347961426</real>
+    <key>wearables</key>
+    <array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>44fc1681-6782-4053-87d8-435ebf69aca9</uuid>
+          <key>asset</key>
+          <uuid>1e6cec92-51dd-f06e-a96e-6e54fe7e38f5</uuid>
+        </map>
+      </array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>90a7592b-c5a4-4e85-9bd5-f1243d9b7fd2</uuid>
+          <key>asset</key>
+          <uuid>a87582b6-ad37-0a21-ac7b-2ffa5e75df77</uuid>
+        </map>
+      </array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>726b9feb-15ea-4016-adf5-1de384c90529</uuid>
+          <key>asset</key>
+          <uuid>597937e4-c9a2-1cb6-a7aa-5875cc636ef9</uuid>
+        </map>
+      </array>
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>f72f2605-631c-4fed-8bba-060690dac8ee</uuid>
+          <key>asset</key>
+          <uuid>c7f3d2f2-8c72-9491-b9a5-541fc40f537c</uuid>
+        </map>
+      </array>
+      <array />
+      <array />
+      <array />
+      <array />
+      <array />
+      <array />
+      <array />
+      <array />
+      <array />
+      <array>
+        <map>
+          <key>item</key>
+          <uuid>a46584db-c771-4753-9727-baa9106c6a38</uuid>
+          <key>asset</key>
+          <uuid>85d86e68-d863-2855-5a93-8159ea32f17a</uuid>
+        </map>
+      </array>
+      <array />
+    </array>
+    <key>textures</key>
+    <array>
+      <uuid>46697265-7374-6f72-6d00-000000000000</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>3a367d1c-bef1-6d43-7595-e88c1e3aadb3</uuid>
+      <uuid>3a367d1c-bef1-6d43-7595-e88c1e3aadb3</uuid>
+      <uuid>3a367d1c-bef1-6d43-7595-e88c1e3aadb3</uuid>
+      <uuid>3a367d1c-bef1-6d43-7595-e88c1e3aadb3</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>c228d1cf-4b5d-4ba8-84f4-899a0796aa97</uuid>
+      <uuid>3a367d1c-bef1-6d43-7595-e88c1e3aadb3</uuid>
+    </array>
+    <key>visualparams</key>
+    <binary encoding="base64">PzXWfzFEET1eRBG7cAAApXo6ZwAAfV6cP/8APYRWIwDL/wCRAAB/AAB/AAAAf3J/Yz9/jH9/AAAAvwAACgAAAAAAAAAAkdiFADoA2GgAAI5Rd1V/fwwZAGTY1szMzDMZWUzMAFQAAJ5OT9F/PQB/Qn9/f3A7LkJ/f2FRT14KWT8AAAAAf38AAAAAfwCfAACyfzNVg166SXp9AABMAIJmANbMxgAARCZo4v/G////////////zAD//////////////wD//////wB/Qv8ZZP////9UAAAAMwD///8AABkAGRczABkXMwAAGQAZFzMAABkAGRczABkXMwAZFzMAfw==</binary>
+    <key>attachments</key>
+    <array>
+      <map>
+        <key>point</key>
+        <integer>9</integer>
+        <key>item</key>
+        <uuid>7ff842f2-0ef7-4805-bb04-ec3a61152205</uuid>
+        <key>asset</key>
+        <uuid>3ef0463a-248c-43d8-bdc4-83bcf16e3edf</uuid>
+      </map>
+      <map>
+        <key>point</key>
+        <integer>9</integer>
+        <key>item</key>
+        <uuid>b497f9c0-b3ba-41a3-9c3c-f943bf6c5f08</uuid>
+        <key>asset</key>
+        <uuid>62c1f804-57e4-4af8-a43f-7b46bd442c75</uuid>
+      </map>
+      <map>
+        <key>point</key>
+        <integer>30</integer>
+        <key>item</key>
+        <uuid>4ebc9791-d7e4-4acf-8b1c-34ae471428a1</uuid>
+        <key>asset</key>
+        <uuid>8a6a4219-db7d-4171-a335-7c7bbd084af1</uuid>
+      </map>
+    </array>
+  </map>
+</llsd>

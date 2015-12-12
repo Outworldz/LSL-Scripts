@@ -1,0 +1,16 @@
+<Project name="Fairy Helpers" guid="1953b14c-75bb-4963-a1fe-aecfeb81446a">
+	<Object name="Collision Prim" guid="0bab4179-159a-4f25-8bd0-5fe2a9d0321a">
+		<Script name="Collider.lsl" guid="b093265e-0760-43ff-996a-245e3e1b6911">
+		</Script>
+	</Object>
+	<Object name="NPC Root Prim" guid="edf69c84-938d-404e-a0eb-e25d2bbb2bd9">
+		<Notecard name="!Appearance" guid="26033da8-a66f-4f12-88d5-223b55f603e9">
+		</Notecard>
+		<Notecard name="!Path" guid="3f6bbb56-fb52-4335-8a06-10c987a2b11a">
+		</Notecard>
+		<Notecard name="Greet" guid="d13b481a-5ed2-4271-aa65-a4fe4db4ccb4">
+		</Notecard>
+		<Script name="NPC Controller - All In One Rev 4.0.lsl" guid="e78372c7-2d18-40d7-86b5-6da0c3871970">
+		</Script>
+	</Object>
+</Project>

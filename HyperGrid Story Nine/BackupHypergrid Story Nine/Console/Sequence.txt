@@ -1,0 +1,10 @@
+    
+dylan|1|@animate=SwayInBreeze|2
+dylan|2|@animate=avatar_type|2
+dylan|8|@say=I think this is the place where we can transform back to our original selves
+
+namaka|2|@animate=avatar_type|3
+namaka|1|@say=you spoke too soon, my love, there is no exit from this area.
+    
+dylan|1|@animate=avatar_type|10
+dylan|2|@say=We must ask you again to help us.  Perhaps pressing that button will do something.

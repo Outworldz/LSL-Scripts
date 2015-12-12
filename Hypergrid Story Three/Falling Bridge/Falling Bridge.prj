@@ -1,0 +1,6 @@
+<Project name="Falling Bridge" guid="d5790790-da56-4a65-9c8c-1e6d8c83a148">
+	<Object name="Falling Part" guid="6797a35d-aac4-4cbc-bf0b-472521684204">
+		<Script name="FallingWalkway.lsl" guid="36917aac-1110-4501-991a-45772f649ef6">
+		</Script>
+	</Object>
+</Project>

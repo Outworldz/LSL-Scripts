@@ -1,0 +1,24 @@
+// :SHOW:1
+// :CATEGORY:Gaming
+// :NAME:Path notecard
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:Game, conteoller
+// :REV:1.0
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// Sample path notecard.  The controller switches to this when bumped.
+// :CODE:
+
+
+@say=Hello
+@walk=<104.10423, 107.79723, 39.33461>
+@walk=<105.77486, 109.27833, 39.33461>
+
+@animate=avatar_typing|3
+@say=You are aware this is a swamp? That animals cannot be trusted?
+@pause=3
+@animate=avatar_typing|2
+@say=Your friends will be safe. This is a magical land, and the trees and fairies will protect them and you.  Try not to fall in the water.  
+@animate=avatar_jumpforjoy|1
+@notecard=!Path
+

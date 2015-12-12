@@ -1,0 +1,56 @@
+// :SHOW:
+// :CATEGORY:Building
+// :NAME:Paramour Builder's Buddy
+// :AUTHOR:Aine Caoimhe
+// :KEYWORDS:
+// :CREATED:2015-11-24 20:37:09
+// :EDITED:2015-11-24  19:37:09
+// :ID:1092
+// :NUM:1866
+// :REV:1
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// Paramour Builder's Buddy v1.0
+// :CODE:
+
+PARAMOUR BUILDER'S BUDDY v1.0
+
+The Paramour Builder's Buddy is provided under Creative Commons Attribution-Non-Commercial-ShareAlike 4.0 International license. (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+INSTRUCTIONS
+
+
+This is a simple HUD tool that I find handy for working with prims where it's difficult to select their individual faces, although there are other possible applications for it. It isn't fancy but it's useful at times.
+
+REQUIRES OSSL
+This tool requires access to the following OSSL functions:
+- osIsUUID()                      used to confirm that a supplied UUID for a target is valid
+- osGetPrimitiveParams()    used to retrieve current texture data
+- osSetPrimitiveParams()    used to set new texture data
+
+How to use it:
+
+1. Wear the HUD
+2. In edit more in your viewer, select the in-world object (your "target") that you want to texture and copy its UUID (copy keys button)
+3. Touch the HUD's "Set Target" button...a text box dialog will pop up
+4. Paste the key into the text box...you can only supply 1 key at a time
+5. (Optional) If you want to retrieve the current texture data from that object, click the "Get Textures" button on the  HUD
+6. At the bottom of the HUD are 8 boxes, one for each possible face of the target (face 0,1,2,3 on the upper row, and 4,5,6,7 on the lower). A red X indicates the target doesn't have this face due to its shape
+7. In edit mode on your viewer, switch into "select face" mode (the exact name of this varies depending on which viewer you use)
+8. Change the texture on the corresponding face of the 8 HUD boxes. The settings it can transfer are:
+    - Texture
+    - Texture tiling
+    - Texture offset
+    - Texture rotation
+    - Colour
+    - Alpha
+    - Shiny setting (only "high", "medium", "low" or "none"...Opensim doesn't support setting advanced materials via script)
+    - Bump setting (again, only the old SL ones...Opensim doesn't support setting advanced materials via script)
+    - fullbright (unfortunately HUDs always display as fullbright but you can change the setting here and it will transfer it)
+    - glow (HUDs cannot display glow but it will transfer any value you set)
+9. Click the "Set Textures" button to have them applied to your target
+
+At any time you can "Get Textures" again or set a new target
+The "Reset" button clears the current target from memory and resets the HUD's textures just in case you have an accident and forget to switch to face select mode before doing texturing.
+There are two textures in the HUD's inventory that are used for its display. Don't delete them :)
+

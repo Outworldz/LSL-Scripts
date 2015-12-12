@@ -1,0 +1,6 @@
+<Project name="NPC Manager" guid="d98a60bd-61ed-4643-8ab7-8527658ef751">
+	<Object name="Paramour NPC Manager" guid="1a77af4d-c330-459c-a5d2-956f807981e3" active="true">
+		<Script name="Paramour NPC Manager.lsl" guid="e479526f-9f96-4d45-a446-5f3d323139ad">
+		</Script>
+	</Object>
+</Project>

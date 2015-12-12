@@ -1,0 +1,6 @@
+<Project name="Pendulum" guid="18e51989-29a1-4272-9fd4-7a39157fd500">
+	<Object name="Object" guid="db545686-2b7f-45f4-88d9-4db21b0bd58f" active="true">
+		<Script name="Pendulum script.lsl" guid="62298e5f-1cad-4abc-9171-3fbda0005765">
+		</Script>
+	</Object>
+</Project>

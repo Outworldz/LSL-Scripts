@@ -1,0 +1,26 @@
+<Project name="PARAMOUR MULTI-ANIMATION CONTROLLER (PMAC)" guid="60a6e314-97e4-4848-9e9b-94a73e241670">
+	<Object name="Object" guid="edc6c187-1623-4e01-a1f3-e2c284adb4c6" active="true">
+		<Notecard name="!!!READ ME  - 1. Overview, Feature List, Change Log, License.txt" guid="3dd4edd2-08b7-4658-a733-2df7b23ceae0">
+		</Notecard>
+		<Notecard name="!!!READ ME  - 2. Owner Initial Setup Instructions.txt" guid="2fd3e067-edfc-4175-a88e-ae2b4da0c323">
+		</Notecard>
+		<Notecard name="!!!READ ME  - 3. User Instructions.txt" guid="dc6cf9fa-9b72-4745-850d-d824f3b7b109">
+		</Notecard>
+		<Notecard name="!!!READ ME  - 4. Basic Tweaking Instructions.txt" guid="6c8d73fe-b9bd-4807-99bc-2c028a73fa0e">
+		</Notecard>
+		<Notecard name="!!!READ ME  - 5. Advanced Builders Information.txt" guid="c304a6a0-9832-4e44-8196-f0b5f7dc2c16">
+		</Notecard>
+		<Notecard name=".menu002A Dance.txt" guid="3d25899c-a677-45dc-9b4f-5f1b28c7e8ad">
+		</Notecard>
+		<Animation name="Animation.ani" guid="213ff725-acb3-4a9e-b3dc-481fac9ac719">
+		</Animation>
+		<Animation name="Animation2.ani" guid="de458918-b1e8-49fe-8dc7-2ec24ad144cc">
+		</Animation>
+		<Script name="PMAC Core v1.02.lsl" guid="83100fb9-d237-4d4d-aca6-3fa57a5642ff">
+		</Script>
+		<Script name="~~~positioner.lsl" guid="f40bf543-4820-46fc-8b68-18ea0e53032e">
+		</Script>
+		<Script name="Presentation Add On.lsl" guid="131c8bb3-ff1d-4371-900f-f191328431c4">
+		</Script>
+	</Object>
+</Project>

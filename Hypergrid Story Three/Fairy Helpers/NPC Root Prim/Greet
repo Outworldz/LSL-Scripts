@@ -1,0 +1,20 @@
+// :SHOW:1
+// :CATEGORY:Gaming
+// :NAME:Greet Notecard
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:Game, conteoller
+// :REV:1.0
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// A greeter notecard
+// :CODE:
+
+This notecard plays in an endless loop when someone is sent back by falling into the water, or by walking down the path. 
+The collider issues a @notecard=Greet each bump
+
+@walk=<218.33400, 84.96158, 21.94824>
+@animate=avatar_type|4
+@say=Hello!    Need some help?  Watch for the rat.   They are smarter than most of the  people who go past me. 
+@pause=3
+@walk=<204.20844, 84.20403, 26.89724>
+@stop

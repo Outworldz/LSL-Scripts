@@ -1,0 +1,8 @@
+<Project name="Paramour Multi-Purpose NPC Rez & Pose" guid="bc2de160-6609-4a4c-b2e4-decb986a41f7">
+	<Object name="Object" guid="402646be-1e00-4dea-999c-73d71211b459" active="true">
+		<Notecard name="Readme.txt" guid="5b3c08b8-065a-43ad-9287-45a9fd64bb81">
+		</Notecard>
+		<Script name="Script.lsl" guid="afc4b186-c827-4854-81e9-e380d6b6a48f">
+		</Script>
+	</Object>
+</Project>

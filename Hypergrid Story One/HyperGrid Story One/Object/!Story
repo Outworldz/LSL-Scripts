@@ -1,0 +1,23 @@
+// :SHOW:1
+// :CATEGORY:NPC
+// :NAME:Hypergrid Story One
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:Game, Collider
+// :CREATED:2015-11-24 20:36:34
+// :EDITED:2015-11-24  19:36:34
+// :ID:1089
+// :NUM:1852
+// :REV:3.0
+// :WORLD:Opensim
+// :DESCRIPTION:
+// Sample NPC Card
+// :CODE:
+
+1,1,"@spawn=Namaka ♥|<127, 126, 23>|Namaka"
+2,1,"@spawn=Dylan ♥|<127, 129, 23>|Dylan"
+1,1,"@sit=dancerock"
+2,2,"@sit=dancerock"
+1,1,"@say=Hi, I am Namaka"
+2,5,"@say=I am Dylan!... and now we leave"
+1,1,"@delete"
+2,1,"@delete"

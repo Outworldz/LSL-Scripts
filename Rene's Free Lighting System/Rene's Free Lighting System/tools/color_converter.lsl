@@ -4,7 +4,7 @@
 // :AUTHOR:Rene10957 Resident
 // :KEYWORDS: light,lamp,lighting light
 // :CREATED:2015-06-11 14:41:52
-// :EDITED:2015-06-12  12:30:32
+// :EDITED:2015-06-12  16:41:14
 // :ID:1079
 // :NUM:1786
 // :REV:1

@@ -1,0 +1,12 @@
+<Project name="Paramour Builder's Buddy" guid="2f6e8b0f-af74-4034-a60e-7fca4f1a4300">
+	<Object name="Paramour Builder's Buddy HUD" guid="31695b0d-593f-428e-99e1-665b2b6a3652" active="true">
+		<Snapshot name="buddy.png" guid="6482a232-fccd-42e0-a8e5-78f1ea28221f">
+		</Snapshot>
+		<Snapshot name="buddy_no_tex.png" guid="444cbd4e-d699-4b4b-8aa7-3297e4565be8">
+		</Snapshot>
+		<Notecard name="Paramour Builder's Buddy Instructions.txt" guid="088a385c-d33a-45c5-a1f1-9ad92776f5a6">
+		</Notecard>
+		<Script name="Paramour Builders Buddy.lsl" guid="b9faf88c-b15a-4006-bbe3-d533be167f59">
+		</Script>
+	</Object>
+</Project>

@@ -1,0 +1,24 @@
+// :SHOW:
+// :CATEGORY:NPC
+// :NAME:Hypergrid Story Three
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2015-11-24 20:37:06
+// :EDITED:2015-11-24  19:37:06
+// :ID:1090
+// :NUM:1864
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Notecard for sample NPC Sequence
+// :CODE:
+@spawn="Trusty" Racoon|<82.40501, 60.73487, 21.49010>
+@stop
+@pause=10
+@walk=<82.40501, 47.29763, 21.49010>
+@walk=<82.40501, 49.19700, 21.49010>
+@pause=30
+@say=Follow me. I see a shack that could have the magic potions you need for your friends.
+@walk=<79.46262, 39.34087, 21.64303>
+@stop
+ 

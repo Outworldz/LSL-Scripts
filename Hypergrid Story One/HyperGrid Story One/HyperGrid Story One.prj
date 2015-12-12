@@ -1,0 +1,14 @@
+<Project name="HyperGrid Story One" guid="38ccddb1-2f3d-4bfb-845c-27bb53d8d9c1">
+	<Object name="Object" guid="e60a43cc-2f18-4711-830e-621d6370682b" active="true">
+		<Notecard name="!Story" guid="45a5c0b0-46e9-4189-beed-f49c8e742db8">
+		</Notecard>
+		<Notecard name="Dylan" guid="34af076a-751a-4725-88b3-b9e464755fbd">
+		</Notecard>
+		<Notecard name="Namaka" guid="c5ba88e6-e7b9-4e55-9a4c-7f5f5084d8bf">
+		</Notecard>
+		<Notecard name="NPC00A Ruth Enpeace" guid="3794e81c-503b-43b7-8ee0-2d36ac2d34f3">
+		</Notecard>
+		<Script name="Sequencer.lsl" guid="ac603208-fa45-4a6b-a95e-ca944714f0b9">
+		</Script>
+	</Object>
+</Project>

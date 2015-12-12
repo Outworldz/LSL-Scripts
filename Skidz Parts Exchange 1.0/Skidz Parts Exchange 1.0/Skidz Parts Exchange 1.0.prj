@@ -1,0 +1,8 @@
+<Project name="Skidz Parts Exchange 1.0" guid="59651061-a7ff-4e96-9ed6-6fcd76a50c7f">
+	<Object name="Object" guid="8a9d2a30-abae-495d-8709-783a7c37480b" active="true">
+		<Notecard name="Install.txt" guid="0b6268bc-2bf2-4ebf-8e25-0532bbe86edb">
+		</Notecard>
+		<Notecard name="License.txt" guid="1a33b312-d665-418d-ac8d-e29f857b58e1">
+		</Notecard>
+	</Object>
+</Project>

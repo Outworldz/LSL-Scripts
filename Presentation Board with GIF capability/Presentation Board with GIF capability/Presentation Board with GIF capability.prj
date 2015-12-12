@@ -1,0 +1,6 @@
+<Project name="Presentation Board with GIF capability" guid="5ea5b9a1-84a1-4384-969a-c299a3a026eb">
+	<Object name="Object" guid="4462ebab-081d-45bd-8061-6d3a1c0ffff0" active="true">
+		<Script name="Script for Board.lsl" guid="9a0225d0-037f-4bab-a1bf-16b1eb9d66ac">
+		</Script>
+	</Object>
+</Project>

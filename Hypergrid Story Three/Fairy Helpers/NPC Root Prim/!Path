@@ -1,0 +1,15 @@
+// :SHOW:1
+// :CATEGORY:Gaming
+// :NAME:A fairy notecard
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:Game, conteoller
+// :REV:1.0
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// A notecard to hold fairy info.   They rez in, stop and await more commands
+// :CODE:
+
+
+@spawn=Dune Twinkleflash|<204.20844, 84.20403, 26.89724>
+@pause=1
+@stop

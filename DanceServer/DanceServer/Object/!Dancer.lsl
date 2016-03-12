@@ -86,7 +86,7 @@ menu( list button_list )//le menu
 	{
 		button = "-" + button;
 	}
-	button = "Cancel" + button;
+	button = "Stop" + button;
 	if ( gAvKey == llGetOwner() )   button = "Reset" + button;
 	if ( gIndex > 0 )
 	{

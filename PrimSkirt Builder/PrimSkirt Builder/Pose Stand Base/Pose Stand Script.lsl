@@ -121,11 +121,7 @@ make_init_string()
 
 reposition_all()
 {
-    integer i;
     make_init_string();
-    //for(i=0; i<numObjects; i++) {
-    //    llSay(commChannelBase + 1 + i, "bulk:" + init_string);
-    //}
     llSay(commChannelBase - 1, "bulk:" + init_string);
 }
 
@@ -360,8 +356,6 @@ default
     
     listen(integer channel, string name, key id, string message) 
     {
-        integer i;
-        
         if (script_state == 0) {
             if (channel == CHANNEL) {
                 check_dialog_replies(message);
@@ -410,8 +404,6 @@ default
                         }
                         
                         if (current_rez_prim_num == PRIM_GEOMETRY) {
-                            string cmds = "";
-                            integer i;
                             // set shape
                             unicast(PRIM_GEOMETRY, "gc_prim_params:9:0:0:<0.000000, 1.000000, 0.000000>:0.000000:<0.000000, 0.000000, 0.000000>:<1.000000, 1.000000, 0.000000>:<0.000000, 0.000000, 0.000000>");
                             // reset flex 

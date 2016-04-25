@@ -1,0 +1,10 @@
+<Project name="Skirt Builder" guid="e1420411-ee49-4971-bdaf-87971210a275">
+	<Object name="Skirt Builder" guid="11f9ff06-5c39-439c-ad43-7080f72703a1" active="true">
+		<Script name="pose stand script.lsl" guid="0dadf090-e425-4655-952b-33468142eed3">
+		</Script>
+	</Object>
+	<Object name="Skirt Plate" guid="9629fec3-67fe-4023-b959-cf56c0e763eb">
+		<Script name="positioning control.lsl" guid="4e13ce3e-3b4f-4a5a-8ad7-01be0f6f63ca">
+		</Script>
+	</Object>
+</Project>

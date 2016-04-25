@@ -1,0 +1,6 @@
+<Project name="Waypoint Recorder and Display" guid="24647e82-d3f8-4ab7-b92b-68e7bb9b5dab">
+	<Object name="Object" guid="7d160c28-7390-439f-98bf-985e3c5c8281" active="true">
+		<Script name="Waypoint Script.lsl" guid="9166095e-5eb3-4554-9056-63fd640b3a5f">
+		</Script>
+	</Object>
+</Project>

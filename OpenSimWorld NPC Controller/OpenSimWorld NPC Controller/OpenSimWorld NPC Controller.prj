@@ -1,0 +1,8 @@
+<Project name="OpenSimWorld NPC Controller" guid="af36ca79-ea7c-4075-8a58-2231475c97f0">
+	<Object name="Object" guid="78125dea-ce69-46e9-8d9a-644f5e49f845" active="true">
+		<Notecard name="LICENCE.txt" guid="ebc1c1f7-5a48-4ece-a4fe-e54f98926526">
+		</Notecard>
+		<Notecard name="README.txt" guid="5e5055ff-1475-416b-8cf7-c0b54a46a914">
+		</Notecard>
+	</Object>
+</Project>

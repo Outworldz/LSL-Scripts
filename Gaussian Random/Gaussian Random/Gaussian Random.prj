@@ -1,0 +1,6 @@
+<Project name="Gaussian Random" guid="b613c17a-c51b-4304-b83d-2c009b8122f8">
+	<Object name="Object" guid="6918e882-945d-4c26-8890-62550ebf859a" active="true">
+		<Script name="Test Script.lsl" guid="f2c9d033-f6f7-4ac2-9dfe-ce9b2d216ab4">
+		</Script>
+	</Object>
+</Project>

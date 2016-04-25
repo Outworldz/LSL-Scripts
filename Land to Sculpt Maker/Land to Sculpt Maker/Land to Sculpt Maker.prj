@@ -1,0 +1,6 @@
+<Project name="Land to Sculpt Maker" guid="38175098-ad11-49f6-9f55-af1234eec940">
+	<Object name="Object" guid="de7e5b5a-8554-49c5-b4b1-74015788fc9c" active="true">
+		<Script name="Script.lsl" guid="888194c6-6a58-4216-8a27-874e0482d472">
+		</Script>
+	</Object>
+</Project>

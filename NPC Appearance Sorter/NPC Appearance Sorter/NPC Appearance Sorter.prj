@@ -1,0 +1,6 @@
+<Project name="NPC Appearance Sorter" guid="2ee6c97e-dec3-40b5-b714-02b07d785c37">
+	<Object name="Object" guid="345b288b-5f35-44d6-8046-991b963be7af" active="true">
+		<Script name="Script.lsl" guid="734ed6e9-4eb5-4c03-bbed-f8c1897483b8">
+		</Script>
+	</Object>
+</Project>

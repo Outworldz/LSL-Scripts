@@ -1,10 +1,10 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:Building
-// :NAME:Paramour Builder's Buddy
+// :NAME:Paramour Builders Buddy
 // :AUTHOR:Aine Caoimhe
 // :KEYWORDS:
 // :CREATED:2015-11-24 20:37:09
-// :EDITED:2015-11-24  19:37:09
+// :EDITED:2016-05-03  09:06:38
 // :ID:1092
 // :NUM:1866
 // :REV:1

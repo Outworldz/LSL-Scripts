@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:tipjar
+// :NAME:Phaze TipJar
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2016-05-02 12:59:52
+// :EDITED:2016-05-02  11:59:52
+// :ID:1103
+// :NUM:1889
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// A tipjar made with two spheres.  The top will pop when touched
+// :CODE:
 //Keknehv Psaltery Updated Version of DONATION BOX By jean cook, ama omega, and nada epoch Debugged by YadNi Monde.
 // changed into a butterfly dispenser by Ferd Frederix
 // (LoL) Yea, that s a Bunch O Peeps =)

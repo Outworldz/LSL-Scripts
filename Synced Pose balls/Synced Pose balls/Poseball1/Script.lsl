@@ -1,6 +1,17 @@
-//:AUTHOR: Ferd Frederix
-//:DESCRIPTION: Two Or more people sit on two or more pose balls.  The pose balls play a series of animation in sync
-//:CODE:
+// :SHOW:
+// :CATEGORY:Pose Ball
+// :NAME:Synced Pose balls
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2016-05-02 13:04:04
+// :EDITED:2016-05-02  12:04:04
+// :ID:1105
+// :NUM:1893
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Two Or more people sit on two or more pose balls.  The pose balls play a series of animation in sync
+// :CODE:
 // To use this, just put several dances in a prim and add this script.
 // Shift-copy the prim.  Anyone who touches it will dance in sync with anyone else who touches it.
 

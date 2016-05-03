@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:tipjar
+// :NAME:Phaze TipJar
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2016-05-02 13:00:35
+// :EDITED:2016-05-02  12:00:35
+// :ID:1103
+// :NUM:1890
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// This paricle script released butterflies from my tipjar when it was tipped.
+// :CODE:
 // Particle Script 0.4j
 // Created by Ama Omega 3-7-2004
 // Updated by Jopsy Pendragon 5-11-2004

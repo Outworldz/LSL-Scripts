@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:Building
+// :NAME:Skirt Builder
+// :AUTHOR:Dalien
+// :KEYWORDS:
+// :CREATED:2016-05-02 13:03:26
+// :EDITED:2016-05-02  12:03:26
+// :ID:1104
+// :NUM:1892
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// A nice skirt maker
+// :CODE:
 //
 // Copyright (c) 2007 Dalien Talbot and few other folks thanks to whom this exists:
 //

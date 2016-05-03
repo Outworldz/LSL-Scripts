@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:Chart
+// :NAME:ThingSpeak Chart
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2016-05-02 13:04:51
+// :EDITED:2016-05-02  12:04:51
+// :ID:1106
+// :NUM:1894
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// An attempt at making Thingspeak charts in SL
+// :CODE:
 
 integer osIsNpc(key UUID) { return 0; }
 

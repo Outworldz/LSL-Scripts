@@ -3,10 +3,9 @@
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:
 // :CREATED:2014-02-20 14:27:38
-// :EDITED:2014-02-20
 // :ID:1027
 // :NUM:1598
-// :REV:1
+// :REV:2
 // :WORLD:Opensim, SecondLife
 // :DESCRIPTION:
 // Makes a Money Tree. This is the Tree  Prim
@@ -43,7 +42,7 @@ default
     {
         vector myPos = llGetPos();   // this giver is HERE
         myPos.x = llFrand(DIST*2) - DIST + myPos.x;  // Make it +/- DIST away
-        myPos.y = llFrand(DIST*2) - DIST + myPos.z;
+        myPos.y = llFrand(DIST*2) - DIST + myPos.y;
 
         // And rez it with a start parameter 
         llRezObject(llGetInventoryName(INVENTORY_OBJECT,0),myPos,ZERO_VECTOR, ZERO_ROTATION,rezTime);

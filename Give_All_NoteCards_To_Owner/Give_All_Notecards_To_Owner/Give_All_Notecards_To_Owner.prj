@@ -1,0 +1,14 @@
+<Project name="Give_All_Notecards_To_Owner" guid="9cd97cd5-4deb-4db1-8196-f12f65ddb12e">
+	<Object name="Object" guid="3637e8e8-416f-4458-945b-1f4ef279584c" active="true">
+		<Script name="Give_To_Individuals.lsl" guid="59d38b2b-bef6-45d9-ae5e-6da8e9466832">
+		</Script>
+		<Script name="Give_to_Owner_Only.lsl" guid="02191536-6a39-4c6b-9ddc-05e21ae10af5">
+		</Script>
+		<Notecard name="Ferd Resident" guid="ff85c794-3078-4425-8adc-2418e1acbb6d">
+		</Notecard>
+		<Notecard name="Ferd Resident1" guid="f2b50d04-eafe-4729-a7df-b16fea800138">
+		</Notecard>
+		<Notecard name="Somebody Else" guid="d213266d-51de-45a0-9bda-4761acd341ad">
+		</Notecard>
+	</Object>
+</Project>

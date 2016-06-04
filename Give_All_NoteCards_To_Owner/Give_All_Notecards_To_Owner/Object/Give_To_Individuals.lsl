@@ -32,9 +32,9 @@ default
             //      name is the legacy name, i.e. "John Doe" or if lastname Resident "John Resident"
             string avatarName= llDetectedName(0);
 
-            if (debug)
-                avatarName = "Ferd Resident";
-
+            if (debug)avatarName = "Ferd Resident";
+            if (debug) llSay(0,avatarName);
+            
             //  Returns an integer that is the index of the first instance of pattern in source.
             // Function: integer llSubStringIndex( string source, string pattern );
             // src (or notecard) = Ferd.Fredrix03, pattern = Ferd.Frederix, if it matches == 0

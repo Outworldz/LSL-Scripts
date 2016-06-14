@@ -3,11 +3,10 @@
 // :NAME:All In One NPC Recorder and Player
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:NPC, Puppeteer
-// :CREATED:2015-08-28 23:27:03
-// :EDITED:2015-09-24  13:25:15
+// :CREATED:2015-10-12 18:07:40
+
 // :ID:27
-// :NUM:1828
-// :REV:4.2
+// :REV:4.7
 // :WORLD:OpenSim
 // :DESCRIPTION:
 // All in one NPC recorder player.
@@ -17,7 +16,7 @@
 // Should be worn as a HUD to record.
 // Put it on the ground and click Sensor or Start NPC when done.
 // :CODE:
-// This is Rev 4.2  09/24/2015
+// This is Rev 47 2016-06-10
 
 // Revision History
 // Rev 1.1 10-2-2014 @Sit did not work.  Minor tweaks to casting for lslEditor
@@ -50,6 +49,13 @@
 // Rev 4.0 09-15-2015 Fixes for Sensor functions which continually rezzed a NPC when no one was around.
 // Rev 4.1 09-20-2015 Added a Listener so link messages are not needed
 // Rev 4.2 09-23-2015 Added @teleport=<vector>
+// Rev 4.3 09-24-2015 Added @reset to restart the NPC at the very start of the !Path notecard
+//                    @teleport works for relative and absolute modes
+// Rev 4.4 09-26-2015 if it could not find the (deleted) NPC, it could not restart
+// Rev 4.5 09-29-2015 remove wait for STATE == 0
+// Rev 4.6 12-4-2015 fixed wanderhold  did not wander correctly.
+// Rev 4.7 2016-06-10 Sensor mode was continually rezzing NPC's
+
 //*******************************************************************//
 
 // Instructions on how to use this are at http://www.outworldz.com/opensim/posts/NPC/
@@ -74,9 +80,7 @@
 // Added WAIT global to tune this
 // Exposed many tunable variables and ported the code 
 // Added floating point to times in notecard.
-
 // Added @sound, @randsound, @whisper, @shout, and @cmd controls.
-//
 // notecards integers are not floats for better control
 // 
 // Link Messages may be used to perform external control by injecting @commands into the stream of actions
@@ -96,7 +100,7 @@
 //    Enabled = true
 //
 // and then the server has to be restarted.
-
+// please note that there are better ways to enable NPC in the latest Opensim.  
 
 // Commands: All commands begin with an @ sign.  All other lines are ignored
 // @commands may have optional parameters.  The syntax is always:
@@ -130,7 +134,7 @@
 //@notecard   notename (string)           NaN                     load a new Path notecard
 //@attach     InventoryName               attachmentPoint         load an attachment from the inventory to the NPC onto point
 //@teleport   destination (vector)        NaN                     Makes the NPC teleport to destination in the same sim.  They cannot tp to another sim or across the HG
-
+//@reset      NaN                         NaN                     Deletes the NPC, starts the !Path notecard over.
  
 // Constant            attachmentPoint Comment
 // ATTACH_CHEST            1    chest/sternum
@@ -179,17 +183,19 @@
 //////////////////////////////////////////////////////////
 //                  DEBUG                               //
 //////////////////////////////////////////////////////////
-integer debug = TRUE;         // set to TRUE or FALSE for debug chat on various actions
-integer LSLEditor = TRUE;        // set to to TRUE to working in  LSLEditor, FALSE for in-world.
+integer debug = FALSE;
+         // set to TRUE or FALSE for debug chat on various actions
+integer LSLEditor = FALSE;        // set to to TRUE to working in  LSLEditor, FALSE for in-world.
                               // you must also include the NPC commands found in the other script since LSLEditor does not support OpenSim
 integer iTitleText = FALSE;    // set to TRUE to see debug info in text above the controller
  
 //////////////////////////////////////////////////////////
 //                  TUNABLE CONFIGURATION               //
 //////////////////////////////////////////////////////////
+integer keyNum = -1;    // (namaka) special number for link message to broadcast the NPC key
 integer   allowListener = TRUE; // set to TRUE to anable a command listener. Usually, this is setto FALSE
 integer   link_Channel =   4223; // some random number you want to talk to this gadget on. Best if large and negative
-float     TIMER = 2;         // faster = less jerky stopping.  How often the system checks the distance traveled.  Fastest you can go is 0.5 seconds
+float     TIMER = 1;         // faster = less jerky stopping.  How often the system checks the distance traveled.  Fastest you can go is 0.5 seconds
 float     QUICK = 1;        // when we need to move to the next state, we use a QUICK timer
 string    Appearance = "!Appearance";  // The name of the recorded Appearance notecard
 string    Notecard = "!Path"; // The name of the recorded routes
@@ -198,7 +204,7 @@ float     MAXDIST = 2.0;       // how close a NPC has to get to a dest pos to co
 integer   WANDERRAND = TRUE;   // set to TRUE and they will pause during wanders a random number of seconds
 float     WANDERTIME = 3.0;    // how long they stand after each @wander,if WANDERRAND is FALSE. If WANDERRAND is  TRUE, this is the max time
 integer   WAIT = 30;           // wait for this number of seconds for the NPC to reach a destination (for safety). If it fails to reach a target, it will move on after this time.
-float     RANGE = 50;        // 1 to N meters  - anyone this close to the controller will start NPCS if Sensor button is clicked
+float     RANGE = 150;        // 1 to N meters  - anyone this close to the controller will start NPCS if Sensor button is clicked
 float     REZTIME = 2.0;      // wait this long for NPC to rez in, then start the process
 string    STAND = "Stand";     // the name of the default Stand animation
 string    WALK = "Walk";       // the name of the default Walk animation
@@ -206,7 +212,7 @@ string    FLY = "Fly";        // the name of the default Fly animation
 string    RUN = "Run";        // the name of the default Run animation
 string    LAND = "Land";      // the name of the default land animation ( for birds only)
 float     OffsetZ = 0.5;      // appear 0.5 meter above ground, this is added to all destinations to keep them from sinking in.  
-float    SPEEDMULT =0.5;     // 1.0 = regular avatar speed. Smaller numbers slow down walks. Large numbers speed them up.
+float    SPEEDMULT =0.8;     // 1.0 = regular avatar speed. Smaller numbers slow down walks. Large numbers speed them up.
 integer  FLIGHT = 299;        // For controlling wings.  A channel that is shouted at when flight starts and ends. "flying" or "landing" 
 
 // DESCRIPTIONS FIELDS HAVE TO SURVIVE A RESET
@@ -284,6 +290,7 @@ string relAbs = "Relative";    // absolute vs relative positioning
 // STATES
 integer MENU ;             // processing a dialog box state, may be concurrent with STATE
 integer STATE;             // state storage
+integer NULL = 0;          // the null state
 integer MakeNotecard = 1;  // displaying a text box for NPC name
 integer RecordPath = 2;    // displaying a path notecard menu
 integer NobodyHome = 3;    // looking for an avatar
@@ -300,8 +307,6 @@ integer Paused = 12;       // Timer is busy pausing
 key gNpcKey = NULL_KEY;   // global key storage for the one NPC, to save CPU cycles
 list Stack ;              // a command stack from link message input
 
-integer SensorFunc = 0;    // define which function shall be triggered inside the sensor function
-                           // 0 means none, 1 sit, 2 touch
 ///////////////////////////////////////////////////////////////////////////
 //                              FUNCTIONS                                //
 ///////////////////////////////////////////////////////////////////////////
@@ -325,12 +330,8 @@ ParseMsg(string str) {
         DoProcessNPCLine();
     } else {
         Stack += [str];    // take anything, the controller will filter away non @ stuff
-        if (STATE == 0) {
-            DEBUG("calling DoNPC");
-            DoProcessNPCLine();
-        } else{
-            DEBUG("Queued");
-        }
+        if (STATE == NULL)
+            DoProcessNPCLine(); // v 4.5 remove wait for STATE == 0
     }
 }
 
@@ -367,12 +368,14 @@ DoNobodyHome()
     TimerEvent(5);  // keep ticking to sense avatars   
 }
 
+
+///////////////////////  STATELIKE BEHAVIOUR  /////////////
+// these StateXX functions need to wait on a timer to fire. 
+
 // Create a NPC
 StateSpawn() {
-    DEBUG("state spawn");
-    STATE = Spawning;
-
- 
+    DEBUG("state spawn " + sNPCName);
+     
     NPCEnabled = TRUE; //  in world
     // see if there is already one out there.
     if (NPCKey() != NULL_KEY) {
@@ -380,40 +383,36 @@ StateSpawn() {
         return;
     }
     
-        
+    STATE = Spawning;        
     list name = llParseString2List(sNPCName, [" "], []);
    
-     vector vRezPos = vInitialPos;
+    vector vRezPos = vInitialPos;
     if (relAbs == "Relative"){
         vRezPos += llGetPos();
     }
 
-    DEBUG("Rezzing the  NPC:" + (string) vRezPos);
+   // llSay(0,llDumpList2String(name,",")); 
+
+    DEBUG("Rezzing NPC name " +llList2String(name, 0)+ llList2String(name, 1) + " at "+ (string) vRezPos);
     key aKey = osNpcCreate(llList2String(name, 0), llList2String(name, 1), vRezPos, Appearance, NPCOptions);
 
-    SaveKey(aKey); // save in desceription and global, too
+    llMessageLinked(LINK_SET,keyNum,"",aKey);    // bboradcast the key on num = -1
+    SaveKey(aKey); // save in description and global, too
     
     osSetSpeed(aKey,SPEEDMULT);   // 1.9 speed multiplier
     TimerEvent(REZTIME);
     NPCAnimate(STAND);
 }
- 
-DoRotate() {
-    DEBUG("@rotate=" + (string) RAMrot); 
-    osNpcSetRot(NPCKey(), llEuler2Rot(<0,0,RAMrot> * DEG_TO_RAD));
-}  
 
 StateSit() {
     DEBUG ("state sit - looking for " + RAMsit);
     STATE=Sit;
-    SensorFunc = 1; //triggers osNpcSit
     llSensor(RAMsit, "", PASSIVE|ACTIVE|SCRIPTED,  96, PI);
 }
 
 StateTouch() {
     DEBUG ("state touch - looking for " + RAMtouch);
     STATE = Touch;
-    SensorFunc = 2; //triggers osNpcTouch
     llSensor(RAMtouch, "", PASSIVE|ACTIVE|SCRIPTED,  96, PI);
 }
  
@@ -435,7 +434,8 @@ StateAnimate() {
     
 StateWalk() {
 
-    DEBUG("NPCWalkOption = " + (string) NPCWalkOption);
+    DEBUG("Start Walk");
+    //DEBUG("NPCWalkOption = " + (string) NPCWalkOption);
     STATE = Walking;
             
     // walk, fly, run, land
@@ -495,9 +495,18 @@ StateWanderhold() {
     TimerEvent(fTimerVal);
 }
 
+
+ 
+DoRotate() {
+    DEBUG("@rotate=" + (string) RAMrot); 
+    osNpcSetRot(NPCKey(), llEuler2Rot(<0,0,RAMrot> * DEG_TO_RAD));
+}  
+
+
+
 // @pause=10 will do nothing for 10 seconds
 DoPause() {
-    STATE =Paused;
+    STATE = Paused;
     if (RAMPause < 0.1)
         RAMPause = 0.1;
     DEBUG("@pause=" + (string)RAMPause);
@@ -508,7 +517,7 @@ DoPause() {
 // @stop makes the NPC stop moving in whatever state it is in.  You have to linkmessage to get moving again
 DoStop() {    
     DEBUG("NPC is Stopped");
-    STATE = 0;    // accept commands
+    STATE   = 0;    // accept commands
     SetStop(TRUE); // Link controlled - we mnust have a @go to continue with notecards
     TimerEvent(0);
     Stack = []; // v3.8
@@ -517,12 +526,11 @@ DoStop() {
 // @delete removes the NPC forever. Next command starts it up again at the beginning
 DoDelete() {
     DEBUG("state delete");
-    STATE = 0;    // accept commands
     osNpcRemove(NPCKey());
     SaveKey(NULL_KEY);
-    
     TimerEvent(0);
     Stack = []; // v3.8
+    STATE = NULL;    // accept commands
 }
 
 // change the appearance of the NPC
@@ -532,6 +540,7 @@ DoAppearance(string notecard) {
         DEBUG("Load appearance " + notecard);
         osNpcLoadAppearance(NPCKey(),notecard);
     }
+    STATE = NULL;    // accept commands
 }
 
 // Change the avatar speed
@@ -540,16 +549,23 @@ DoSpeed(string speed) {
     if (newspeed > 0.1 && newspeed < 5.0) {// sanity check
         osSetSpeed(NPCKey(),newspeed);
     }
+    STATE = NULL;    // accept commands
 }
 
 DoTeleport(string params) {
     list Data = llParseString2List(params, ["|"], []);
     string itemName = llList2String(Data, 0);
     vector Dest = (vector) itemName;
-    if (Dest !=ZERO_VECTOR) {
+    if (Dest != ZERO_VECTOR) {
+        if (relAbs == "Relative"){
+            Dest += llGetPos();
+        }
         osTeleportAgent( NPCKey(), llGetRegionName(), Dest, ZERO_VECTOR );
+        
+    } else {
+        llSay(DEBUG_CHANNEL,"Attempt to teleport to <0,0,0> probably not what you intended: @teleport=<vector>");
     }
-    
+    STATE = NULL;    // accept commands
 }
 
 
@@ -558,6 +574,7 @@ DoNewNote (string card) {
     DEBUG("Load Notecard " + card);    
     NPCReadNoteCard(card);
     SetStop(FALSE);
+    STATE = NULL;    // accept commands
 }
 DoAttach(string params) {
     
@@ -571,22 +588,23 @@ DoAttach(string params) {
     {
         osForceAttachToOtherAvatarFromInventory(NPCKey(),itemName,attachmentPoint);
     }
+    STATE = NULL;    // accept commands
 }
 
 // This loops over the notecard, processing each command
 DoProcessNPCLine() {
     DEBUG("ProcessNPCLine, stopped = " + (string) Stopped);
+    
     STATE = DoProcess;
-
+    
         // auto load a notecard
     if (! llGetListLength(lNpcCommandList)) {
         DEBUG("Read Notecard");
         NPCReadNoteCard(Notecard);
-        SetStop(FALSE);
     }
 
     // look for link messages on the stack
-    string next = llList2String(Stack,0);    // lets see if there is anithing from a link message
+    string next = llList2String(Stack,0);    // lets see if there is anything from a link message
     if (llStringLength(next))
     {
         Stack = llDeleteSubList(Stack,0,0);
@@ -598,7 +616,7 @@ DoProcessNPCLine() {
     if (Stopped) {
         TimerEvent(0);
         DEBUG("Stopped, waiting for input");
-        STATE = 0;
+        STATE = NULL;
         return;
     }
 
@@ -610,7 +628,7 @@ DoProcessNPCLine() {
     if (llGetListLength(lNpcCommandList) == 0) {
         DEBUG("EOF");
     }
-    ProcessCmd(next); 
+    ProcessCmd(next);
 } 
 
 
@@ -619,10 +637,11 @@ ProcessCmd(string cmd) {
 
     DEBUG("ProcessCmd:" + cmd);
 
+    llMessageLinked(LINK_SET,keyNum,"",NPCKey());    // bboradcast the key on num = -1
     if (llGetSubString(cmd, 0, 0) != "@") {
         DEBUG("ignoring");
         TimerEvent(QUICK);  // this is so we do not recurse the stack
-        STATE = 0;
+        STATE = NULL;
         return;
     }
 
@@ -636,39 +655,28 @@ ProcessCmd(string cmd) {
     @commands;
 
     ProcessSensor();
+     if (! avatarPresent){
+        DoNobodyHome();
+        DEBUG("No avatar nearby");
+        STATE = NULL;
+        return;
+    }
     
-    if(npcAction == "@spawn" && avatarPresent) {
-        DEBUG("@spawn");
+    if(npcAction == "@spawn") {
+        DEBUG("@spawn npcParams ");
         list spawnData = llParseString2List(npcParams, ["|"], []);
         sNPCName =llList2String(spawnData, 0);    // V 1.6 name in RAM
 
-        list spawnDest = llParseString2List(llList2String(spawnData, 1), ["<", ",", ">"], []);
-        vInitialPos.x = llList2Float(spawnDest, 0);
-        vInitialPos.y = llList2Float(spawnDest, 1);
-        vInitialPos.z = llList2Float(spawnDest, 2);
-        
+        vInitialPos = (vector) llList2String(spawnData, 1);        
         DEBUG("Coords for NPC at " + (string) vInitialPos);
         StateSpawn();
         return;
     }
     
-     if (! avatarPresent){
-        DoNobodyHome();
-        DEBUG("No avatar nearby");
-        STATE = 0;
-        return;
-    } else {
-        if ( NPCKey() == NULL_KEY) {
-            StateSpawn();
-        }
-    }
-
-    
-    
     
     if(npcAction == "@stop") {
         DoStop();
-        STATE = 0;
+        STATE = NULL;
         return;
     }
     else if(npcAction == "@goto") {
@@ -818,8 +826,13 @@ ProcessCmd(string cmd) {
     {
         DoTeleport(npcParams);
     }
+    else if (npcAction == "@reset")
+    {
+        DoDelete();
+        SetStop(FALSE); // a @resst will restart the original !Path after deleting the notecard.
+    }
 
-    STATE = 0;
+    STATE = NULL;
     TimerEvent(QUICK);  // yeah I know, not possible this fast, we just go as fast as we can go - this is so we do not recurse the stack 
 }
  
@@ -837,7 +850,7 @@ DEBUG(string str) {
         llSetText(str,<1.0,1.0,1.0>,1.0);    // show hovertext
     
     }
-}
+} 
 
 GetDest(string npcParams) {
     list dest = llParseString2List(npcParams, ["<", ",", ">"], []);
@@ -940,13 +953,14 @@ Kill(string param)
             vector v = llList2Vector(avatars,i+1);
             key target = llList2Key(avatars,i);    // get the UUID of the avatar
             osNpcRemove(target);
-            SaveKey(NULL_KEY );  
+            
             llOwnerSay("Removed " + param+ " at  location " + (string) v);
             count++;
         }
     }
     
     NPCEnabled = FALSE; // not in world
+    SaveKey(NULL_KEY );    // Rev 4.4
     
     if (count)
         llOwnerSay("Removed " + (string) count + " NPC's");
@@ -1034,7 +1048,7 @@ Text(string cmd, string p1, string p2)
     makeText(p1);
 } 
 
-// Set the Avatar Present flag - if sensors are off and we are forece run, there will be one present.
+// Set the Avatar Present flag - if sensors are off and we are force run, there will be one present.
 ProcessSensor()
 {
     integer SensorOn;
@@ -1054,7 +1068,8 @@ ProcessSensor()
     else if (SensorOn && !n)
         avatarPresent = FALSE;  // someone is not here and we need to tell the system to stop
     else {       // sensor is off, lete see if there is a NPC. If so, we are ON 
-        DEBUG("NPCEnabled:" + (string) NPCEnabled);
+       // DEBUG("NPCEnabled:" + (string) NPCEnabled);
+       
         if (NPCEnabled)
             avatarPresent = TRUE;  
         else
@@ -1063,7 +1078,7 @@ ProcessSensor()
     
     //  start up from when when no one is near
     if (avatarPresent && STATE == NobodyHome)
-        STATE = 0;
+        STATE = NULL;
     
     DEBUG("Avatar Present: " + (string) avatarPresent);
 }
@@ -1279,7 +1294,6 @@ default
             NPCEnabled = FALSE;
             if (NPCKey() != NULL_KEY){
                 Kill(sNPCName);
-                sNPCName = "";
             } else {
                 bNPC_STOP = TRUE;
                 makeText("Enter name of an NPC to stop");
@@ -1328,7 +1342,7 @@ default
             llOwnerSay(mSensor);
             KeyValueSet("se", "on");
             
-            NPCEnabled = FALSE;
+            NPCEnabled = TRUE;
             
             integer count = checkNoteCards();
             if (count >= 2)  {
@@ -1532,7 +1546,7 @@ default
             osMakeNotecard(Notecard,sNotecard); // Makes the notecard.
             llSay(0,sNotecard);
             llOwnerSay("Commands notecard has been written");
-            STATE = 0;
+            STATE = NULL;
         } // MakeNotecard
 
         else  if (! llStringLength(sParam2)) {
@@ -1568,7 +1582,7 @@ default
         }
         // if we are spawning, we need time to rez the NPC, then start processing NPC Commands.
         else if (Spawning == STATE) {
-            STATE = 0;
+            STATE = NULL;
             TimerEvent(TIMER);
         }
         // We end aniamtions with a timer
@@ -1579,6 +1593,7 @@ default
         
         else if (Walking == STATE) {
             if (--iWaitCounter) {
+                DEBUG("still walking...");
                 if (llVecDist(osNpcGetPos(NPCKey()), newDest) > MAXDIST)  {
                     return;
                 }
@@ -1612,8 +1627,7 @@ default
             if(RAMwc == 0) {
                 NPCAnimate(STAND);
                 DEBUG("Wander ended, calling DoProcessNPCLine");
-                STATE = 0;
-                DoProcessNPCLine();
+                STATE = NULL;
                 return;
             }
             // one less time to wander around
@@ -1626,15 +1640,13 @@ default
         // Wandering requires us to re-wander when we reach a destination
         else if (WanderHold == STATE) {
             StateWander();
-            TimerEvent(TIMER);
             return;
         }
         else if (DoProcess == STATE) {
             TimerEvent(QUICK);
         }
 
-       
-        STATE = 0;
+        STATE = NULL;
 
         // We always process a NPC line at end of timer.
         DEBUG("Tick end, calling DoProcessNPCLine");
@@ -1642,33 +1654,35 @@ default
     }
 
     // sensors are used for sitting on prims
-    // Neo Cortex: added different SensorFunc states to trigger sit or touch
+    // Neo Cortex: added different states to trigger sit or touch
     sensor(integer num) {
-        if (SensorFunc == 1) {
+        if (Sit == STATE ) {
             osNpcSit(NPCKey(), llDetectedKey(0), OS_NPC_SIT_NOW);
             DEBUG("Seated, calling DoProcessNPCLine");
-            SensorFunc = 0;
-        } else if (SensorFunc == 2) {
+            
+            STATE = 0;
+        } else if (Touch == STATE) {
             osNpcTouch(NPCKey(), llDetectedKey(0), LINK_THIS);
             DEBUG("Touched, calling DoProcessNPCLine");
-            SensorFunc = 0;
+            STATE = 0;
         }
         DoProcessNPCLine();
     }
     no_sensor(){
         DEBUG ("no target prim located, calling DoProcessNPCLine");
-        SensorFunc = 0;
         DoProcessNPCLine();
+        STATE = NULL;
     }
 
     
     link_message(integer sender, integer num, string str, key id){
-        ParseMsg(str);
+        if (num == 0)
+            ParseMsg(str);
     }
         
 }
 
-
+// __ END__
 
 
 

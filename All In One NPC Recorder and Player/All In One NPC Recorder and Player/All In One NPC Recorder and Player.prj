@@ -14,7 +14,9 @@
 		</Script>
 		<Script name="NPC Recorder Script V 4.7.lsl" guid="c5eceefb-c6ce-4a53-8b0a-5be29d814dfa">
 		</Script>
-		<Script name="NPC Rev 4.5.lsl" guid="23ebf345-a3d1-466a-9620-ed58fc6cfdd1">
+		<Script name="NPC Recorder Script V4.8.lsl" guid="cd35d650-6c2e-4611-88bd-6509672d32fc">
+		</Script>
+		<Script name="NPC Recorder Script V4.9.lsl" guid="b2216590-ff37-4c47-949e-9b3e6ace0381">
 		</Script>
 	</Object>
 	<Object name="Test Object" guid="add040bc-55a8-42bb-a41a-d7cde2b0ae86">

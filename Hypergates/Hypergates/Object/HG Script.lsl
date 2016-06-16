@@ -3,13 +3,13 @@
 // :AUTHOR:Maria Korolov
 // :KEYWORDS:
 // :CREATED:2015-01-15 20:52:03
-// :EDITED:2015-01-15
 // :ID:1065
 // :NUM:1708
 // :REV:1
 // :WORLD:OpenSim
 // :DESCRIPTION:
-Hypergate script for Opensim// :REVISION: 4
+// Hypergate script for Opensim
+// :REVISION: 4
 // :LICENSE: CC-0
 // Maria Korolov's Hypergate script
 

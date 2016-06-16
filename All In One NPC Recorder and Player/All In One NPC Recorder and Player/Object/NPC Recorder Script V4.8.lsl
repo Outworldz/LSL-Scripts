@@ -4,8 +4,9 @@
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:NPC, Puppeteer
 // :CREATED:2015-10-12 18:07:40
-
+// :EDITED:2016-06-16  11:49:51
 // :ID:27
+// :NUM:1901
 // :REV:4.8
 // :WORLD:OpenSim
 // :DESCRIPTION:
@@ -16,6 +17,7 @@
 // Should be worn as a HUD to record.
 // Put it on the ground and click Sensor or Start NPC when done.
 // :CODE:
+
 // This is Rev 47 2016-06-10
 
 // Revision History

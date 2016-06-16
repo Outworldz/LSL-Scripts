@@ -7,7 +7,7 @@
 // :EDITED:2015-03-08  22:52:12
 // :ID:1070
 // :NUM:1726
-// :REV:1
+// :REV:5.1
 // :WORLD:OpenSim
 // :DESCRIPTION:
 // Excellent Hypergate Script with Detection of destination and ossL command sets

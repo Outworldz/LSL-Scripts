@@ -1,16 +1,19 @@
+// :SHOW:1
 // :CATEGORY:Hypergate
 // :NAME:Hypergates
 // :AUTHOR:Maria Korolov
 // :KEYWORDS:
 // :CREATED:2015-01-15 20:52:03
+// :EDITED:2016-06-16  11:55:26
 // :ID:1065
 // :NUM:1708
-// :REV:2
+// :REV:4
 // :WORLD:OpenSim
 // :DESCRIPTION:
 // Hypergate script for Opensim
 // :LICENSE: CC-0
 // Maria Korolov's Hypergate script
+// :CODE:
 
 integer Rev = 4;
 

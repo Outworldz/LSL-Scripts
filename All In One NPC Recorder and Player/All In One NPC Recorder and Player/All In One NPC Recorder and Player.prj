@@ -26,6 +26,8 @@
 		</Script>
 		<Script name="Collision test.lsl" guid="9a7e990c-7f43-400f-b2a7-2e0311162d5a">
 		</Script>
+		<Script name="Listener for things that appear and disappear.lsl" guid="4ec868f0-b792-4fb1-bb0c-ef5747d20327">
+		</Script>
 		<Script name="Stop Processing.lsl" guid="1a220cc3-3120-4997-9d06-01f721ccda97">
 		</Script>
 		<Script name="Touch to Go.lsl" guid="1f188bfb-241f-410b-b29c-e81b8df22358">

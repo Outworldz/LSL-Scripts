@@ -178,7 +178,7 @@ getCategories()
 {
     type = 1;
     busy = TRUE;
-    string url = "http://www.free-lsl-scripts.com/cgi/shoutcast.plx?search=1";
+    string url = "http://www.outworldz.com/cgi/shoutcast.plx?search=1";
     http_request_id = llHTTPRequest(url, [], "");
 }
 
@@ -186,7 +186,7 @@ getCategory()
 {
     type = 2;
     busy = TRUE;
-    string url = "http://www.free-lsl-scripts.com/cgi/shoutcast.plx?genre=" + llEscapeURL(genre);
+    string url = "http://www.outworldz.com/cgi/shoutcast.plx?genre=" + llEscapeURL(genre);
 
     //    llOwnerSay(url);
 
@@ -197,7 +197,7 @@ getURL()
 {
     type = 3;
     busy = TRUE;
-    string url = "http://www.free-lsl-scripts.com/cgi/shoutcast.plx?genre=" + llEscapeURL(genre) + "&station=" + llEscapeURL(station);
+    string url = "http://www.outworldz.com/cgi/shoutcast.plx?genre=" + llEscapeURL(genre) + "&station=" + llEscapeURL(station);
 
     http_request_id = llHTTPRequest(url, [], "");
 }
@@ -328,10 +328,11 @@ listen(integer channel, string name, key id, string message)
     }
 
     http_response(key request_id, integer status, list metadata, string body)
-    {
+    {   
         if (request_id == http_request_id)
         {
             busy = FALSE;
+
             if (type == 1)
             {
                 lCategories = llParseString2List(body,["|"],[]);

@@ -1,0 +1,19 @@
+// :SHOW:
+// :CATEGORY:ChatBot
+// :NAME:NPC Chatbot for Opensim
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2016-07-27 16:14:00
+// :EDITED:2016-07-27  15:14:00
+// :ID:1108
+// :NUM:1908
+// :REV:1.0
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// Sample Path notecard
+// :CODE:
+@spawn=Tinker@www.outworldz.com|<0.000000,0.000000,0.500000>
+@walk=<0,-8,0.5>
+@sit=LayDown
+@animate=Sit|100000
+@stop

@@ -1,0 +1,46 @@
+<Project name="NPC Chatbot for Opensim" guid="4759d131-120d-481c-a2eb-cbea5ef10269">
+	<Object name="Object" guid="9baa206f-8e8f-49c5-9bdb-68f814087aa8" active="true">
+		<Notecard name="Appearance" guid="a83f9bbd-073d-4153-a42f-204454c5f5dc">
+		</Notecard>
+		<Animation name="avatar_type.bvh" guid="e32738bc-af83-41ff-b8d4-b0de28167f76">
+		</Animation>
+		<Script name="Chatbot Controller.lsl" guid="67003fef-115a-4643-a1b3-9997c6f8699a">
+		</Script>
+		<Snapshot name="Contents.png" guid="d58af53d-6de0-419e-9e69-dbbc53f0ece9">
+		</Snapshot>
+		<Animation name="express_anger.bvh" guid="890adf1b-d955-452f-8fdf-73c4ab35c213">
+		</Animation>
+		<Animation name="express_bored.bvh" guid="e5a7e747-99ca-42fa-bc38-21954b6fe040">
+		</Animation>
+		<Animation name="express_cry.bvh" guid="b01a0603-4b87-4bc0-b799-40514cb5971b">
+		</Animation>
+		<Animation name="express_embarrased.bvh" guid="f3718351-8f05-463d-899a-ac98340c139d">
+		</Animation>
+		<Animation name="express_laugh.bvh" guid="6bdb518f-2d62-4de1-b4b8-a5926a284f45">
+		</Animation>
+		<Animation name="express_repulsed.bvh" guid="e1067566-9d11-44c8-9a50-fe8dd0d1e4cf">
+		</Animation>
+		<Animation name="express_sad.bvh" guid="125f58fa-f68c-48e4-bc51-ca93fca3fe17">
+		</Animation>
+		<Animation name="express_shrug.bvh" guid="f0b7623e-d54e-439f-85ce-f92c35c23565">
+		</Animation>
+		<Animation name="express_surprise.bvh" guid="4daff0ba-d8b1-42c0-ba4c-e51803cfd3bc">
+		</Animation>
+		<Animation name="express_wink.bvh" guid="4ac174ee-6c0b-4ce4-a169-2d78f9f1ea0a">
+		</Animation>
+		<Animation name="express_worry.bvh" guid="fdd53f1b-02c5-483a-bdb4-3aeb26e7de8f">
+		</Animation>
+		<Script name="NPC Control Script.lsl" guid="53d8301f-24d0-4ee9-8e2f-e360d7e189d4">
+		</Script>
+		<Notecard name="Path" guid="dee10dda-f71d-4466-9a43-b16e7dad21cb">
+		</Notecard>
+		<Notecard name="README.txt" guid="345ed00a-fdc2-40a0-8ba1-b6a6bd202d44">
+		</Notecard>
+		<Animation name="Sit.bvh" guid="6ecd8304-9f1b-413c-b1af-1ebcfb82cdc9">
+		</Animation>
+		<Animation name="Stand.bvh" guid="7510d1bd-d168-4454-8076-e602e32e8160">
+		</Animation>
+		<Animation name="Walk.bvh" guid="918f026b-e3a6-41bf-8d9b-50ec90d18f7b">
+		</Animation>
+	</Object>
+</Project>

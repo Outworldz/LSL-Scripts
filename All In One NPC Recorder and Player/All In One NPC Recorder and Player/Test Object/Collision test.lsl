@@ -4,7 +4,10 @@
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:
 // :CREATED:2015-07-17 13:15:49
+<<<<<<< HEAD
 // :EDITED:2016-07-10  09:24:25
+=======
+>>>>>>> f0df6f03553fbf82e10f35590fcf71af838ab4be
 // :ID:27
 // :NUM:1808
 // :REV:3

@@ -45,9 +45,9 @@ rotation sitRot=ZERO_ROTATION;      //  Sit Kit to determine the best position a
 // Uncomment one of the following five lines to choose your animation method:
 string animMethod="SEQUENCE_TIMED"; // each animation will be played in sequence, cycling back to the first upon reaching the end
 // string animMethod="RANDOM_TIMED";   // as above, except the order of animations is randomly shuffled
-// string animMethod="SEQUENCE_TOUCH"; // each animation will be played in sequence, but only advances when the seated person touches the object
+ //string animMethod="SEQUENCE_TOUCH"; // each animation will be played in sequence, but only advances when the seated person touches the object
 // string animMethod="RANDOM_TOUCH";   // as above, in random order
-// string animMethod="DIALOG_SELECT"; // upon sitting the avatar will be asked to pick the animation they wish to play. Once seated, touching
+//string animMethod="DIALOG_SELECT"; // upon sitting the avatar will be asked to pick the animation they wish to play. Once seated, touching
                                     // the object will display the dialog again, allowing you to pick a different animation. Maximum of 12 animations.
 float animTimer=45.0;               // if using either of the two TIMED methods, how long (in seconds) to wait before advancing to the next animation
                                     // this is ignored if you are using one of the other 3 methods
@@ -108,8 +108,10 @@ nextAnim()
         if (llSubStringIndex(animMethod,"RANDOM")>-1) anList=llListRandomize(anList,1);
     }
     string nextAnim=llList2String(anList,curInd);
+    
     if (nextAnim!=currentAnim)
     {
+        
         llStartAnimation(nextAnim);
         llStopAnimation(currentAnim);
     }
@@ -179,7 +181,7 @@ default
     {
         if (mySitter==NULL_KEY) return; // ignore if no sitter
         if (llDetectedKey(0)!=mySitter) return; // ignore if not current sitter
-        if (llSubStringIndex(animMethod,"TIMED")>-1) return; // ignore if using timed method
+        if (llSubStringIndex(animMethod,"//TIMED")>-1) return; // ignore if using timed method
         if (animMethod=="DIALOG_SELECT") getAnim();
         else nextAnim();
     }

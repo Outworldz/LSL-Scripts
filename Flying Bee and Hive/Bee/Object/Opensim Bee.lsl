@@ -4,7 +4,10 @@
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:
 // :CREATED:2013-09-08 12:59:45
+<<<<<<< HEAD
 // :EDITED:2016-07-10  09:24:29
+=======
+>>>>>>> f0df6f03553fbf82e10f35590fcf71af838ab4be
 // :ID:995
 // :NUM:1725
 // :REV:5
@@ -187,4 +190,8 @@ default
             llResetScript();
     }
 }
+<<<<<<< HEAD
 // end of code
+=======
+// end of code
+>>>>>>> f0df6f03553fbf82e10f35590fcf71af838ab4be

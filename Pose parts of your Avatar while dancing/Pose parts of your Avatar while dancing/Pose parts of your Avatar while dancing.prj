@@ -1,0 +1,6 @@
+<Project name="Pose parts of your Avatar while dancing" guid="96635761-d6b9-4d9e-a7c6-cc1e37d8e5fc">
+	<Object name="Attach this" guid="da814ba9-50d3-4e21-b4f3-e793df10ab39" active="true">
+		<Script name="Heartfelts Script.lsl" guid="5786b30b-abf0-47ff-b4eb-95b30fa19f8c">
+		</Script>
+	</Object>
+</Project>

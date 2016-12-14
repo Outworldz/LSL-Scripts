@@ -4,10 +4,9 @@
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:
 // :CREATED:2015-08-05 09:54:56
-// :EDITED:2015-08-05  10:12:51
 // :ID:1084
 // :NUM:1816
-// :REV:1
+// :REV:2
 // :WORLD:OpenSim
 // :DESCRIPTION:
 // Sit on this prim, it will move you to a destination and unseat you, optionally repeat forever.
@@ -17,9 +16,11 @@
 
 
 integer _debug = FALSE; // print in chats what i s happening.
+float RANGE = 96; // range it looks for people - if detected, will allow it to move
+float TINTERVAL = 10;  // how often it looks - keep this large and the RANGE small
 integer Endless = TRUE;
-vector  OFFSET = <0,0,0>; // if you want the tour to ride hiogher or lower or to one side...
-
+vector  OFFSET = <0,0,0>; // if you want the tour to ride higher or lower or to one side...
+integer running = FALSE;
 float SPEED = 1.0; // speed of vehicle  in meters per second
 
 // Sit for the NPC
@@ -198,6 +199,19 @@ state moving
             
         Goto(SPEED);
         llSetTimerEvent(INTERVAL);
+        llSensorRepeat("","",AGENT,RANGE,PI,TINTERVAL);
+    }
+    
+    sensor(integer n)
+    {
+        if (! running++)
+             llSetTimerEvent(INTERVAL);
+    }
+    
+    no_sensor()
+    {
+        llSetTimerEvent(0);
+        running = FALSE;
     }
     
     changed(integer change)

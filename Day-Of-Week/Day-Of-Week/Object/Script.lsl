@@ -1,14 +1,16 @@
+// :SHOW:
 // :CATEGORY:CLock
 // :NAME:Day-Of-Week
-// :AUTHOR:Anonymous
+// :AUTHOR:DoteDote Edison
+// :KEYWORDS:
 // :CREATED:2013-09-06
-// :EDITED:2013-09-18 15:38:51
+// :EDITED:2016-11-09  08:46:32
 // :ID:222
 // :NUM:308
-// :REV:1
+// :REV:1.1
 // :WORLD:Second Life
 // :DESCRIPTION:
-// Day-of-the-week.lsl
+// Day-of-the-week Function
 // :CODE:
 
 string getDay(integer offset)
@@ -28,5 +30,5 @@ default
         llSay(0, "Today is " + getDay(offset) + ".");
     }
 }  // end 
-// CREATOR:
+
 

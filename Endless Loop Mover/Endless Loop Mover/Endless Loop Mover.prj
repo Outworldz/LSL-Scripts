@@ -4,10 +4,10 @@
 		</Script>
 		<Notecard name="ReadMe.txt" guid="3c69d0ee-e12f-4df2-b23f-304b689060ed">
 		</Notecard>
-		<Notecard name="Route" guid="87ac3acd-2d6f-4aa4-ad84-c9ba7d113bba">
-		</Notecard>
 		<Script name="recorder.lsl" guid="c8892685-1da9-411e-bb6e-4a02a8afc430">
 		</Script>
+		<Notecard name="Route" guid="87ac3acd-2d6f-4aa4-ad84-c9ba7d113bba">
+		</Notecard>
 		<Script name="walker.lsl" guid="0ba1bd86-3e77-428e-96f4-4b2d84d3a855">
 		</Script>
 	</Object>

@@ -10,17 +10,20 @@
 // :DESCRIPTION:
 // And a function version:
 // :CODE:
-string getDay(integer offset) { 
-    list weekdays = ["Thursday", "Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"]; 
-    integer hours = llGetUnixTime()/3600; 
-    integer days = (hours + offset)/24; 
-    integer day_of_week = days%7; 
-    return llList2String(weekdays, day_of_week); 
-}
-
-default { 
-    touch_start(integer total_number) {
-        integer offset = -4; // offset from UTC
-        llSay(0, "Today is " + getDay(offset) + "."); 
-    } 
+
+// Copyright © 2016 Linden Research, Inc. Licensed under Creative Commons Attribution-Share Alike 3.0
+
+string getDay(integer offset) { 
+    list weekdays = ["Thursday", "Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"]; 
+    integer hours = llGetUnixTime()/3600; 
+    integer days = (hours + offset)/24; 
+    integer day_of_week = days%7; 
+    return llList2String(weekdays, day_of_week); 
+}
+
+default { 
+    touch_start(integer total_number) {
+        integer offset = -4; // offset from UTC
+        llSay(0, "Today is " + getDay(offset) + "."); 
+    } 
 }

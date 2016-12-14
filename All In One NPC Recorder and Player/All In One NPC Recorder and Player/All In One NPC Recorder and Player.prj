@@ -20,6 +20,8 @@
 		</Script>
 		<Script name="NPC Recorder Script V5.0.lsl" guid="c9cfffea-e324-48c4-8711-997f5eb0610a">
 		</Script>
+		<Script name="NPC Recorder Script V5.1.lsl" guid="37e2d56e-8580-4c9f-872c-fdd77588f651">
+		</Script>
 	</Object>
 	<Object name="Test Object" guid="add040bc-55a8-42bb-a41a-d7cde2b0ae86">
 		<Script name="Chat commands.lsl" guid="7b7ecdbf-dd55-4e2c-be27-e7047ed30aee">

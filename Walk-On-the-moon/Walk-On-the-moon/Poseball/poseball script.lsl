@@ -1,19 +1,33 @@
-// :CATEGORY:World
-// :NAME:Walk-On-the-moon
+// :CATEGORY:Sphere World
+// :NAME:Walk-On-The-Moon
 // :AUTHOR:Ferd Frederix
 // :CREATED:2013-11-19 16:49:29
-// :EDITED:2013-11-19 16:49:29
 // :ID:1003
 // :NUM:1544
-// :REV:1.1
-// :WORLD:Second Life
+// :REV:2
+// :WORLD:Second Life, Opensim
 // :DESCRIPTION:
-// Walk on the moon pose ball script
+// Controlled Walk Pose ball - put this in  a small sphere and set it at ground level.
+// Add a walk animation named "avatar_walk"  to the prim, and an animation named "avatar_stand".
+// You can change these to your preferred walk, and rename them in the script. 
+// When you click it, it will let you walk on your sphere world
+
+
 // :CODE:
 
+string Text = "Live on Mars";           // the hovertext when no one is stting
+string WALK = "avatar_walk";
+string STAND = "avatar_stand";
 
-string WALK = "Walk: Power Slow";        // requires two animations. one for walkoing, one for standing
-string STAND = "avatar_stand_1";
+// Requires there to be one walk animation in the inventory of the pose ball.
+
+integer debug = FALSE;
+DEBUG(string msg)
+{
+    if (debug)
+        llSay(0,llGetScriptName() + ":" + msg);
+        
+}
 
 // global listeners
 
@@ -22,14 +36,14 @@ integer To_Planet_CHANNEL = 6583586;
 
 //  walk on a sphere
 
-string Text = "Walk on the Moon";           // the hovertext when no one is stting
+
 string ANIMATION ;  // change to a walk animation
+
+
 vector gSphereLocation;   // location of the walkable sphere
 vector Home;            // pose ball home
 rotation gOrient;
-
 rotation sphereRot;
-
 key avatarKey;
 float x ;
 float y ;
@@ -49,11 +63,35 @@ stopSpin()
     llTargetOmega(<0.0,0.0,0.0>*llGetRot(),0.1,0.01);    // start spin
 }
 
+
+//uSteppedLookAt( vector vPosTarget, float vFltRate ){
+//    rotation vRotTarget = llRotBetween( <1.0, 0.0, 0.0>,  vPosTarget );
+//    if ((integer)(vFltRate =      llAcos(
+//                                         (vPosTarget = llVecNorm( vPosTarget )) *
+//                                       (<1.0, 0.0, 0.0> * llGetLocalRot())
+//                                         ) / (vFltRate / 5.0)
+//                                         
+                                         
+//                                         )){
+//        rotation vRotStep = llAxisAngle2Rot( llRot2Axis( vRotTarget / llGetLocalRot() ),
+//                            (1.0 / vFltRate) * llRot2Angle( vRotTarget / llGetLocalRot() ) );
+//        vFltRate = (integer)vFltRate;
+//        do{
+//            llSetLocalRot( vRotStep * llGetLocalRot() );
+//        }while( --vFltRate );
+//    }
+//    llSetLocalRot( vRotTarget );
+//} //-- for fi
+
+
 uSteppedLookAt( vector vPosTarget, float vFltRate ){
+    
     rotation vRotTarget = llRotBetween( <1.0, 0.0, 0.0>,  vPosTarget );
-    if ((integer)(vFltRate = llAcos( (vPosTarget = llVecNorm( vPosTarget )) *
-                                     (<1.0, 0.0, 0.0> * llGetLocalRot()) ) / (vFltRate / 5.0))){
-        rotation vRotStep = llAxisAngle2Rot( llRot2Axis( vRotTarget / llGetLocalRot() ),
+  
+    vFltRate = llAcos((vPosTarget = llVecNorm( vPosTarget )) *(<1.0, 0.0, 0.0> * llGetLocalRot())) / (vFltRate / 5.0);
+                                     
+        if ((integer) vFltRate) {
+            rotation vRotStep = llAxisAngle2Rot( llRot2Axis( vRotTarget / llGetLocalRot() ),
                             (1.0 / vFltRate) * llRot2Angle( vRotTarget / llGetLocalRot() ) );
         vFltRate = (integer)vFltRate;
         do{
@@ -66,12 +104,6 @@ uSteppedLookAt( vector vPosTarget, float vFltRate ){
 
 face_target(vector lookat) {
     
-    
-   // rotation rot = llGetRot() * llRotBetween(<1.0 ,0.0 ,0.0 > * llGetRot(), lookat - llGetPos()); 
-
-   // llSetRot(rot);
-   // llSleep(.1);
-    
     rotation rot = llGetRot() * llRotBetween(<0.0 ,0.0 ,1.0 > * llGetRot(), gSphereLocation - llGetPos());
     llSetRot(rot);   
 }
@@ -80,15 +112,18 @@ key avatar;
 
 
  warpPos( vector destpos ) 
- {   
+ {  
+    llOwnerSay("tp to: " + (string) destpos);
+ 
      llSetRegionPos(destpos);
+ 
  }
 
 Fetch(key id, string message)
 {
     if (llGetOwnerKey(id) == llGetOwner()) 
     {
-        //llOwnerSay("walk script Heard " + message);
+        DEBUG("walk script Heard " + message);
     
         list data = llParseString2List(message, ["^"], []);
         
@@ -99,7 +134,6 @@ Fetch(key id, string message)
             gRADIUS = dia/2;
             llOwnerSay("Sphere located at " + (string)  gSphereLocation); 
             Home = llGetPos();   
-                                                                 
         }
     }
 }
@@ -145,8 +179,9 @@ default
 
     listen(integer channel, string name, key id, string message)
     {
+        DEBUG("Heard:" + message);
         Fetch(id,message);
-        state running;     
+        state running;                                                          
     }
 
 
@@ -174,14 +209,14 @@ state running
             if(avatar != NULL_KEY){
                 
                 if (gSphereLocation == <0,0,0>) {
-                    llOwnerSay("World not located yet, please click the sphere world");
+                    llOwnerSay("World not located yet, please click the sphere world and make sure it is within 100 meters");
                     return;
                 }
                 
                 //SOMEONE SAT DOWN
                 avatarKey = avatar;
                 llRequestPermissions(avatar,PERMISSION_TRIGGER_ANIMATION |PERMISSION_TAKE_CONTROLS);
-                return;
+
             }else{
                 //SOMEONE STOOD UP
                 if (llGetPermissionsKey() != NULL_KEY)
@@ -203,10 +238,11 @@ state running
     {
         if(perm & PERMISSION_TRIGGER_ANIMATION) 
         {
+            
             vector height = llGetAgentSize(avatarKey);
             aRADIUS = gRADIUS  + height.z * 0.50 ;         // adjust for the agent size
             
-            vector unitpos = llRot2Fwd( gOrient );
+             vector unitpos = llRot2Fwd( gOrient );
             vector pos = gSphereLocation + unitpos * aRADIUS;
             
             warpPos(pos);
@@ -249,7 +285,19 @@ state running
 
         vector unitpos = llRot2Fwd( gOrient );
         vector pos = gSphereLocation + unitpos * aRADIUS;
-
+    
+        //llOwnerSay((string) llVecDist(gSphereLocation,llGetPos()));
+        
+      // face_target(pos);
+        
+        //llLookAt( pos, 1.0, 0.1);
+        
+       // if (pos != priorpos)
+       // {
+       //     llOwnerSay("rotating");
+       //     uSteppedLookAt(pos,2.0);
+       //     priorpos = pos;
+       // }
         llSetRot(gOrient);
         
         //llRezObject("Pointer",pos,<0,0,0>,gOrient,1);
@@ -297,7 +345,11 @@ state running
         {
            z = -bump;
            controls = "R";
-        }        
+        }
+        
+
+
+        
     }
 
     on_rez(integer p)

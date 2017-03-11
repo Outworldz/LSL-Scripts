@@ -1,9 +1,17 @@
 <Project name="Walk-On-the-moon" guid="b1c62664-f860-40a1-a5ef-14505051745f">
 	<Object name="Moon" guid="ca9ae77f-fe37-40d7-b244-125ee026428d">
+		<Script name="Moon Home.lsl" guid="03a49ff4-c7b2-4daa-a7c5-f5c2c5fcbb87">
+		</Script>
 		<Script name="moon script.lsl" guid="9cbba95a-443d-474e-ab48-e05a6d322507">
+		</Script>
+		<Script name="Slow rotation.lsl" guid="980d10a4-abb8-4857-a14d-9a8df3bbc273">
 		</Script>
 	</Object>
 	<Object name="Poseball" guid="8764946f-8af6-40f2-9519-382d7ed79694" active="true">
+		<Animation name="avatar_stand.bvh" guid="3ccb4924-23e2-4979-bdd7-3988f079bc02">
+		</Animation>
+		<Animation name="avatar_walk.bvh" guid="2406c730-bad4-403c-a016-bafcbd4fba96">
+		</Animation>
 		<Script name="poseball script.lsl" guid="e5f4abe4-c6a1-44a5-b8f2-07bc352f40f1">
 		</Script>
 	</Object>

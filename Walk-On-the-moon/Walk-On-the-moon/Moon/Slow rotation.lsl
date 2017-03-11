@@ -1,8 +1,12 @@
+// :SHOW:
 // :CATEGORY:World
-// :NAME:Walk-On-the-moon rotate
+// :NAME:Walk-On-the-moon
 // :AUTHOR:Ferd Frederix
+// :KEYWORDS:
 // :CREATED:2013-11-19 16:49:18
+// :EDITED:2017-03-11  11:22:42
 // :ID:1003
+// :NUM:1912
 // :REV:2
 // :WORLD:Second Life, Opensim
 // :DESCRIPTION:

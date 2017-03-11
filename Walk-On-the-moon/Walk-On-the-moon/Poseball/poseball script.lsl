@@ -1,7 +1,10 @@
+// :SHOW:
 // :CATEGORY:Sphere World
-// :NAME:Walk-On-The-Moon
+// :NAME:Walk-On-the-moon
 // :AUTHOR:Ferd Frederix
+// :KEYWORDS:
 // :CREATED:2013-11-19 16:49:29
+// :EDITED:2017-03-11  11:22:42
 // :ID:1003
 // :NUM:1544
 // :REV:2

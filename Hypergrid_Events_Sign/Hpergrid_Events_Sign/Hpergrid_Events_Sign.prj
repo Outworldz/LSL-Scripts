@@ -1,0 +1,6 @@
+<Project name="Hpergrid_Events_Sign" guid="1b37d5a3-7fed-4b31-b225-1e294f1f2506">
+	<Object name="SignPrim" guid="42557a60-b189-4be4-82f4-c079054aeac8" active="true">
+		<Script name="Script.lsl" guid="7aac30a3-5ee2-4f3b-a116-3ddb7971e05a">
+		</Script>
+	</Object>
+</Project>

@@ -1,6 +1,6 @@
-<Project name="NotecardGiver" guid="D66611D8-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D66612B6-6C00-1014-B904-200204C60A89">
-		<Script name="NotecardGiver_1.lsl" guid="D66B1FB3-6C00-1014-B904-200204C60A89">
+<Project name="NotecardGiver" guid="d66611d8-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d66612b6-6c00-1014-b904-200204c60a89">
+		<Script name="NotecardGiver_1.lsl" guid="d66b1fb3-6c00-1014-b904-200204c60a89">
 		</Script>
 	</Object>
 </Project>

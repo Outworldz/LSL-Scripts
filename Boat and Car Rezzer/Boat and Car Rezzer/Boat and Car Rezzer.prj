@@ -1,0 +1,6 @@
+<Project name="Boat and Car Rezzer" guid="f2e1b627-471d-44ce-8915-ac81d703c151">
+	<Object name="Object" guid="6cb33d72-678f-4bb0-a2ba-38ed0b869536" active="true">
+		<Script name="Rezzer script.lsl" guid="667fd5e2-2334-4149-9012-d30412001372">
+		</Script>
+	</Object>
+</Project>

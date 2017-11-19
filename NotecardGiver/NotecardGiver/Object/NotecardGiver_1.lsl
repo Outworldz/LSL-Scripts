@@ -1,7 +1,10 @@
+// :SHOW:
 // :CATEGORY:Inventory Giver
-// :NAME:NotecardGiver with web link
+// :NAME:NotecardGiver
 // :AUTHOR:Encog Dod
+// :KEYWORDS:
 // :CREATED:2010-01-10 05:20:56.000
+// :EDITED:2017-11-19  20:55:11
 // :ID:565
 // :NUM:769
 // :REV:2.0

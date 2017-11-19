@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:Sign
+// :NAME:Hypergrid_Events_Sign
+// :AUTHOR:Anonymous
+// :KEYWORDS:
+// :CREATED:2017-11-19 21:55:09
+// :EDITED:2017-11-19  20:55:09
+// :ID:1111
+// :NUM:1914
+// :REV:1
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// DESCRIPTION: []::Hypergrid_Events_Sign pulls events from a datbase for display in world
+// :CODE:
 //
 // HYPEvents in-world teleporter board script
 //

@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:REZZER
+// :NAME:Boat and Car Rezzer
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2017-11-19 21:49:02
+// :EDITED:2017-11-19  20:49:02
+// :ID:1110
+// :NUM:1913
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// DESCRIPTION: []::Used to rez boats, cars, and airplanes when the prior rezzed vehicle is moved out of range
+// :CODE:
 //:AUTHOR: Ferd Frederix
 
 // Used to rez boats, cars, and airplanes when the prior rezzed vehicle is moved out of range

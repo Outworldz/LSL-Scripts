@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:Sign
+// :NAME:SignChanger
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2017-11-19 21:56:00
+// :EDITED:2017-11-19  20:56:00
+// :ID:1112
+// :NUM:1915
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Timer-based Sign
+// :CODE:
 integer count ;
 integer current = 0;
 

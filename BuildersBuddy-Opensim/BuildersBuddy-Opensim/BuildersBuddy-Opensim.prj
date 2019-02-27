@@ -1,0 +1,12 @@
+<Project name="BuildersBuddy-Opensim" guid="b6ca8a22-fe88-4009-9338-8d84eb9fb676">
+	<Object name="Base" guid="7d8637cb-4585-4ed4-9746-839c08acb8f5" active="true">
+		<Script name="Builders+Buddy+Base+(opensim).lsl" guid="bdd45611-f9c5-4a35-9ee4-7fdccd62bec9">
+		</Script>
+		<Notecard name="Readme.txt" guid="1886be92-5fdb-4ee8-9cf3-7fd244d232f4">
+		</Notecard>
+	</Object>
+	<Object name="SomeObject" guid="f01fb6bd-9e47-40bd-8b0a-252d8e1c7228">
+		<Script name="Builders+Buddy+Component+with+NC+(VAR).lsl" guid="fef24cdd-5a9a-4bca-8121-521e9300fc91">
+		</Script>
+	</Object>
+</Project>

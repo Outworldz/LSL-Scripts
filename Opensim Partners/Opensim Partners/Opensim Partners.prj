@@ -1,0 +1,6 @@
+<Project name="Opensim Partners" guid="e3e639d1-12b9-4b05-9525-64bd0716a3a1">
+	<Object name="Object" guid="e78727f2-0459-49e7-9fc3-8de80d602402" active="true">
+		<Script name="Opensim Partners.lsl" guid="4a900aa6-a6ce-4033-8f5d-4356836cc2c1">
+		</Script>
+	</Object>
+</Project>

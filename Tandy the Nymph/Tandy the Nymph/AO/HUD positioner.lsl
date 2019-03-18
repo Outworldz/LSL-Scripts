@@ -1,6 +1,6 @@
 // :CATEGORY:Tandy
 // :NAME:Tandy the Nymph
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:06
 // :ID:867
@@ -11,7 +11,7 @@
 // Tandy
 // :CODE:
 
-// author Ferd Frederix
+// author Fred Beckhusen (Ferd Frederix)
 //
 
 integer  lasttarget;

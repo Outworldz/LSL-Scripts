@@ -1,6 +1,6 @@
 // :CATEGORY:Tour Guide
 // :NAME:Valentines_Day_tour_bird
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2011-02-04 22:42:15.247
 // :EDITED:2014-03-11
@@ -12,7 +12,7 @@
 // Poseball script.   Put this into as many pose balls as you need. 
 // :CODE:
 // Poseball script for both pose balls
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 
 
 vector TARGET = <-.5,0,-0.1>;		// 1/2 meter up, back a tenth.

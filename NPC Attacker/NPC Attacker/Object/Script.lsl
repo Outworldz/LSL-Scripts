@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:OpenSim NPC
 // :NAME:NPC Attacker
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-08-28 23:27:14
 // :EDITED:2015-08-28  22:27:14

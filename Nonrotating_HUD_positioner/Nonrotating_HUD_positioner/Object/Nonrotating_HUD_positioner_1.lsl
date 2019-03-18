@@ -1,6 +1,6 @@
 // :CATEGORY:HUD
 // :NAME:Nonrotating_HUD_positioner
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-07-08 17:41:08.030
 // :EDITED:2013-09-18 15:38:58
 // :ID:562

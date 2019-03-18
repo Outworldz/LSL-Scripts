@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:NPC
 // :NAME:All-In one example Sequencer
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 /// :REV:1
 // :WORLD:Opensim
 // :DESCRIPTION:

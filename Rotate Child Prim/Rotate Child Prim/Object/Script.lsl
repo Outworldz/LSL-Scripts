@@ -1,6 +1,6 @@
 // :CATEGORY:Rotation
 // :NAME:Rotate Child Prim
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-12-17 18:09:54
 // :EDITED:2014-12-17

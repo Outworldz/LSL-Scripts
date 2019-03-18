@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Telepad
 // :NAME:Endless Loop Mover
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-08-05 09:54:56
 // :EDITED:2017-03-11  11:22:29

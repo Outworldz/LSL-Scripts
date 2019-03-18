@@ -1,6 +1,6 @@
 // :CATEGORY:Animal
 // :NAME:Low_lag_Follower_script_for_animals
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-08-04 16:17:15.970
 // :EDITED:2013-09-18 15:38:56
 // :ID:496
@@ -13,7 +13,7 @@ See http://phazedemesnes.blogspot.com/2011/02/herding-behaviour-in-animals-in-se
 // 
 // This is the Follower script. It goes in multiple birds or other animal
 // :CODE:
-// Author Ferd Frederix
+// Author Fred Beckhusen (Ferd Frederix)
 // Low lag Follower script for birds, horse and other things that flock
 // see http://phazedemesnes.blogspot.com/2011/02/herding-behaviour-in-animals-in-second.html
 // for  this works on herds of horses.

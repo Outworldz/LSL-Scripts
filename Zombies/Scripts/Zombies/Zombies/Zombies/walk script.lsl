@@ -1,5 +1,5 @@
     // Animated wandering animal script.
-    // by Ferd Frederix
+    // by Fred Beckhusen (Ferd Frederix)
     //  Sets Home point where rezzed.
     //  Will drive around like a vehicle so it works on most surfaces.
     

@@ -1,6 +1,6 @@
 // :CATEGORY:Building
 // :NAME:Falling_Prims_Script
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-08-27 15:38:13.600
 // :EDITED:2013-09-18 15:38:52
 // :ID:297

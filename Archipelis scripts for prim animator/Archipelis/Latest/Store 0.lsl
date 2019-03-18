@@ -1,6 +1,6 @@
 // :CATEGORY:Prim Animator
 // :NAME:Archipelis scripts for prim animator
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:48
 // :ID:52
@@ -15,7 +15,7 @@
 
 ﻿// Prim Animator DB 
 // 06/20/2011
-// Author Ferd Frederix
+// Author Fred Beckhusen (Ferd Frederix)
 
 // Prim Storage script.
 // Copyright 2011 Fred Beckhusen - all rights reserved

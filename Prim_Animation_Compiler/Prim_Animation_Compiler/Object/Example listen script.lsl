@@ -1,6 +1,6 @@
 // :CATEGORY:Prim
 // :NAME:Prim_Animation_Compiler
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-07-15 10:23:29
 // :EDITED:2014-07-15

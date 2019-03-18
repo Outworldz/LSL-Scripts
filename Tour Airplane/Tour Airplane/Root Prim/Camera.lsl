@@ -1,6 +1,6 @@
 // :CATEGORY:Vehicle
 // :NAME:Tour Airplane
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-12-04 12:40:12
 // :EDITED:2014-12-04

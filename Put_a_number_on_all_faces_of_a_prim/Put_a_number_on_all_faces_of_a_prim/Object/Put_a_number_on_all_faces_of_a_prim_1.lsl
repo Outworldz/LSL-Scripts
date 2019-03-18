@@ -1,6 +1,6 @@
 // :CATEGORY:Prim Face Numbers
 // :NAME:Put_a_number_on_all_faces_of_a_prim
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-05-01 09:55:26.000
 // :EDITED:2013-09-18 15:39:00
 // :ID:668

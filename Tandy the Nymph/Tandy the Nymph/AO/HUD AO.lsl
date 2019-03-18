@@ -1,6 +1,6 @@
 // :CATEGORY:Tandy
 // :NAME:Tandy the Nymph
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:06
 // :ID:867
@@ -17,7 +17,7 @@
 // for legal details, rights of fair usage and          //
 // the disclaimer and warranty conditions.              //
 //////////////////////////////////////////////////////////
-// Mods for hovering flight by Ferd Frederix
+// Mods for hovering flight by Fred Beckhusen (Ferd Frederix)
 // Link messages and reduction in complexity by eliminating tons of redundant states
 // Uses notecard XAO from Tandy the Fairy project
 

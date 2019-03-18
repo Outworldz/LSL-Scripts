@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Sphere World
 // :NAME:Walk-On-the-moon
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2013-11-19 16:49:29
 // :EDITED:2017-03-11  11:22:42

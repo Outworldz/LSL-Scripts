@@ -1,6 +1,6 @@
 // :CATEGORY:Speach
 // :NAME:Tell
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:06
 // :ID:875

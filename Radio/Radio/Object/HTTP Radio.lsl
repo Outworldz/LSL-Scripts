@@ -1,6 +1,6 @@
 // :CATEGORY:Radio
 // :NAME:Radio
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:00
 // :ID:673
@@ -12,7 +12,7 @@
 // :CODE:
 
 
-// Copyright 2010 Ferd Frederix
+// Copyright 2010 Fred Beckhusen (Ferd Frederix)
 // License:
 // Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 // http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US

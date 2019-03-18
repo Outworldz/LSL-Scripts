@@ -1,6 +1,6 @@
 // :CATEGORY:Updater
 // :NAME:Hypergates
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Update, updater
 // :CREATED:2014-01-30 12:16:43
 // :EDITED:2015-01-21

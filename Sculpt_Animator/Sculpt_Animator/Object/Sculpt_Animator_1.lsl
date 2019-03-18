@@ -1,6 +1,6 @@
 // :CATEGORY:Sculpt
 // :NAME:Sculpt_Animator
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-09-09 14:59:20.333
 // :EDITED:2013-09-18 15:39:01
 // :ID:726

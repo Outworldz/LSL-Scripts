@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Drink
 // :NAME:Beer Drinking
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-05-29 12:25:47
 // :EDITED:2015-05-29  11:25:47

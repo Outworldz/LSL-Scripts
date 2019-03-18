@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Gaming
 // :NAME:Falling walkway script
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Game, Bridge
 // :REV:2.0
 // :WORLD:OpenSim

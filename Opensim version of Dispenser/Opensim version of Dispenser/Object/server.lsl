@@ -1,6 +1,6 @@
 // :CATEGORY:Dispenser
 // :NAME:Opensim version of Dispenser
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:59
 // :ID:595

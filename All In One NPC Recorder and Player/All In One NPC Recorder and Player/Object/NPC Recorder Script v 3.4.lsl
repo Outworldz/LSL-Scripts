@@ -1,7 +1,7 @@
 // :SHOW:0
 // :CATEGORY:NPC
 // :NAME:All In One NPC Recorder and Player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:NPC, Puppeteer
 // :CREATED:2013-09-08 18:27:47
 // :EDITED:2015-09-04  19:33:58
@@ -49,7 +49,7 @@ FOR  DEBUG PURPOSES - DO NOT USE - USE LATER VERSIONS ONLY!!!
 
 // Instructions on how to use this is at http://www.outworldz.com/opensim/posts/NPC/
 // This is an OpenSim-only script.
-// Author: Ferd Frederix aka Fred Beckhusen - fred@mitsi.com
+// Author: Fred Beckhusen (Ferd Frederix) aka Fred Beckhusen - fred@mitsi.com
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 //    Original code was Copyright (C) 2013 Wizardry and Steamworks - License: GNU GPLv3    //
@@ -58,7 +58,7 @@ FOR  DEBUG PURPOSES - DO NOT USE - USE LATER VERSIONS ONLY!!!
 //  rights of fair usage, the disclaimer and warranty conditions.                        //
 ///////////////////////////////////////////////////////////////////////////////////////////
 // The original NPC controller was from http://was.fm/opensim:npc
-// Extensive additions and bug fixes by Fred Beckhusem, aka Ferd Frederix, fred@mitsi.com
+// Extensive additions and bug fixes by Fred Beckhusem, aka Fred Beckhusen (Ferd Frederix), fred@mitsi.com
 // llSensor had two params swapped
 // @Wander would wander where it had rezzed, not where it was.
 // There was no 'no_sensor' event in sit, so if a @sit failed, the NPC got stuck

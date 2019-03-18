@@ -1,6 +1,6 @@
 // :CATEGORY:XS Pet
 // :NAME:XS Pet Robot
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS: Pet,XS,breed,breedable,companion,Ozimal,Meeroo,Amaretto,critter,Fennux,Pets
 // :CREATED:2013-09-06
 // :EDITED:2014-01-30 12:24:21
@@ -38,7 +38,7 @@ float VOLUME = 1.0; // how loud are the sounds
 // Noncommercial -- You may not use this work for commercial purposes, i.e., you cannot sell this script in any form, including derivatives.
 // If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
 // This means that you cannot sell this or derivative code by itself, but you may share and use this code in any object or virtual world.
-// You must attribute authorship in the original scripts to Ferd Frederix and Xundra Snowpaw, and leave this notice intact.
+// You must attribute authorship in the original scripts to Fred Beckhusen (Ferd Frederix) and Xundra Snowpaw, and leave this notice intact.
 // You do not have to give back to the community any changes you make, however, code changes would be greatly appreciated!
 //
 // Exception: I am allowing this script to be used in an original build and sold with the build.
@@ -199,7 +199,7 @@ integer LINK_SLEEP = 7999;              // disable sleep by parameter
 integer LINK_TIMER = 8000;              // scan for food bowl about every 1800 seconds
 integer LINK_DIE = 9999;                // death
 
-string Copyright = " (c)2014 by Ferd Frederix";    // You cannot change this line, but you can change the code that prints it!
+string Copyright = " (c)2014 by Fred Beckhusen (Ferd Frederix)";    // You cannot change this line, but you can change the code that prints it!
 // See License agreements above.
 //  Attribution is required, as these files are copyrighted. 
 

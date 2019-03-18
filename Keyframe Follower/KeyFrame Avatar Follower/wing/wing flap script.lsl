@@ -1,6 +1,6 @@
 // :CATEGORY:Follower
 // :NAME:Keyframe Follower
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-12-04 12:15:10
 // :EDITED:2014-12-04

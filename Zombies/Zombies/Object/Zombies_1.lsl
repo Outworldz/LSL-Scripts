@@ -1,6 +1,6 @@
 // :CATEGORY:Animal
 // :NAME:Zombies
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-03-06 15:24:19.483
 // :EDITED:2013-09-18 15:39:11
 // :ID:993
@@ -11,7 +11,7 @@
 // See the article on <a href="http://www.outworldz.com/secondlife/posts/zombie">Zombies</a> to make this walking zombie
 // :CODE:
 // Animated wandering rideable zombie script.
-// by Ferd Frederix
+// by Fred Beckhusen (Ferd Frederix)
 //  Sets Home point where rezzed.
 //  Will drive around like a vehicle so it works on most surfaces.
 

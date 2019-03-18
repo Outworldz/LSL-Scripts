@@ -1,6 +1,6 @@
 // :CATEGORY:AO
 // :NAME:Auto_attach_when_dropped_on_ground
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-06-06 14:17:56.600
 // :EDITED:2013-09-18 15:38:48
 // :ID:62

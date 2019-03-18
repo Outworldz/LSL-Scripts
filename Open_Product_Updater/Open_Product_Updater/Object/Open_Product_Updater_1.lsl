@@ -1,6 +1,6 @@
 // :CATEGORY:Updater
 // :NAME:Open_Product_Updater
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-05-24 13:20:21.143
 // :EDITED:2013-09-17 21:48:39
 // :ID:589
@@ -10,7 +10,7 @@
 // :DESCRIPTION:
 // Server Script.  Please remember to configure the UUID in both the server and the client,it is simple, and free.  This prim needs to be in-world at all times.   Add any new gadgets to this prim and give them a name such as "Name-V2", where the number  is higher that what is already out there.
 // :CODE:
-// Script by Ferd Frederix
+// Script by Fred Beckhusen (Ferd Frederix)
 // fred@mitsi.com
 // License: CC-BY-NC
 // This means you must leave the headers in this script intact, and it is not to be sold by itself, not even for a Linden

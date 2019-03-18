@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Music
 // :NAME:42_minute_Music_Box
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2012-10-09 15:37:27.430
 // :EDITED:2015-04-27  12:31:53
@@ -14,7 +14,7 @@
 // :CODE:
 // general purpose avatar sensor for the music playert
 // When someone gets in range, this starts the music sequence if a HUD or if the player is in the same prim
-// 10-09-2012 by Ferd Frederix
+// 10-09-2012 by Fred Beckhusen (Ferd Frederix)
 // Rev 1.3 - made it send the Play and Stop only once and not use a sensor.
 
 // This work is licensed under a Creative Commons Attribution 3.0 Unported License.

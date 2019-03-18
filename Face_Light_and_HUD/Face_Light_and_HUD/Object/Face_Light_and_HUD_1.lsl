@@ -1,6 +1,6 @@
 // :CATEGORY:Face Light
 // :NAME:Face_Light_and_HUD
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-03-29 22:56:31.820
 // :EDITED:2013-09-18 15:38:52
 // :ID:294

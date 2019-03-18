@@ -29,7 +29,7 @@
 //  now im's user on expire
 //  able to split money with other people
 // :CODE:
-// several compil errors andsyntax repairs, re-formatted by Ferd Frederix
+// several compil errors andsyntax repairs, re-formatted by Fred Beckhusen (Ferd Frederix)
 
 list splitwith;
 list splitname;

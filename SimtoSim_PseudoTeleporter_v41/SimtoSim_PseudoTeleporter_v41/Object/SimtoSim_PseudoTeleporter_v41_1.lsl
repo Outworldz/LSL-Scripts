@@ -13,7 +13,7 @@
 //    combined placeNames, simNames and locationVectors  into a two strided list called places
 // :CODE:
 
-// Modified to use SLURs by Ferd Frederix 6-7-2013
+// Modified to use SLURs by Fred Beckhusen (Ferd Frederix) 6-7-2013
 // modified by: Donjr Spiegelblatt  (May 17, 2012)
 //add support for:
 //   multi-users of the menu system at the same time
@@ -44,7 +44,7 @@ new features:
    combined placeNames, simNames and locationVectors  into a two strided list called places
 ********************************** */
 
-// Modded by Ferd Frederix on 5-30-2013 to run in OpenSim
+// Modded by Fred Beckhusen (Ferd Frederix) on 5-30-2013 to run in OpenSim
 
 
 // ******** OPTIONAL SETTINGS **********

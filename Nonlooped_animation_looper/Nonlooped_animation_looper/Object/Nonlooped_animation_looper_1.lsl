@@ -1,6 +1,6 @@
 // :CATEGORY:Animation Timer
 // :NAME:Nonlooped_animation_looper
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-01-10 05:20:56.000
 // :EDITED:2013-09-18 15:38:58
 // :ID:561

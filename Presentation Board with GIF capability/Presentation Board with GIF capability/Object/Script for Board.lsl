@@ -12,7 +12,7 @@
 // :DESCRIPTION:
 // LumVision-Presentation Script v 0.2
 // :CODE:
-// Mods by Ferd Frederix to support GIFS
+// Mods by Fred Beckhusen (Ferd Frederix) to support GIFS
 //
 // LumVision-Presentation Script v 0.2
 //

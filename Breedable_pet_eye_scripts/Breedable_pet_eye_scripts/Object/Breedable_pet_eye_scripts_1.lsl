@@ -1,6 +1,6 @@
 // :CATEGORY:XS Pet
 // :NAME:Breedable_pet_eye_scripts
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-08-16 10:21:14.630
 // :EDITED:2013-09-17 21:48:30
 // :ID:116
@@ -27,7 +27,7 @@
 //
 // Exception: I am allowing this script to be sold inside an original build.
 // You are not selling the script, you are selling the build.
-// Ferd Frederix
+// Fred Beckhusen (Ferd Frederix)
 
 
 // Put any texture converted by gif_2_SL_animation_v0.6.exe into a prim with this script to get it to play back automatically as a movie

@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Chart
 // :NAME:ThingSpeak Chart
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2016-05-02 13:04:51
 // :EDITED:2016-05-02  12:04:51
@@ -23,7 +23,7 @@ string fieldID = "field1";
 
 list exclude = [];
 // You can add a list of name of people to exclude, such as your name.
-// list exclude = ["Nara Malone","Ferd Frederix"];
+// list exclude = ["Nara Malone","Fred Beckhusen (Ferd Frederix)"];
 
 integer debug = FALSE;
 integer hovertext = TRUE;    // shows visitor count, or not

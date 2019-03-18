@@ -12,7 +12,7 @@
 // Dialog Based sounds vendor by Kenny Jackson.lsl
 // :CODE:
 
-// Mods by Ferd Frederix
+// Mods by Fred Beckhusen (Ferd Frederix)
 // 02-23-2014
 // removeed useless code.
 // made functions out of repeated items.

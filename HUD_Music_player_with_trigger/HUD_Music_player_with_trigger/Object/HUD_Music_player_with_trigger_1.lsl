@@ -1,6 +1,6 @@
 // :CATEGORY:Music
 // :NAME:HUD_Music_player_with_trigger
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-10-09 15:42:19.730
 // :EDITED:2013-09-18 15:38:55
 // :ID:394
@@ -15,7 +15,7 @@
 // if used in HUD mode, only the avatar wearing the HUD and also in range of some location can hear the sounds/music.
 // When used in PRIM mode, anyone standing near will trigger the sound.
 
-// 10-09-2012 by Ferd Frederix
+// 10-09-2012 by Fred Beckhusen (Ferd Frederix)
 
 // This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.
 // http://creativecommons.org/licenses/by-nc/3.0/deed.en_US

@@ -1,6 +1,6 @@
 // :CATEGORY:Butterflies
 // :NAME:Butterflies
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:49
 // :ID:133
@@ -16,7 +16,7 @@
 ////////////////////////////////////////////
 // Follow Me Script segment
 //
-// Written by Ferd Frederix
+// Written by Fred Beckhusen (Ferd Frederix)
 ///////////////////////////////////////// ///
 float RADIUS = 2.0;
 

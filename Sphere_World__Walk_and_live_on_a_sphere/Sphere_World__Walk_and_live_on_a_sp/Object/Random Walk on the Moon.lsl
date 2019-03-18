@@ -1,6 +1,6 @@
 // :CATEGORY:Sphere World
 // :NAME:Sphere_World__Walk_and_live_on_a_sphere
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-09-19 19:01:45.217
 // :EDITED:2013-12-13 14:01:06
 // :ID:824
@@ -32,7 +32,7 @@ DEBUG(string msg)
 integer To_Pose_CHANNEL = 98798771;
 integer To_Planet_CHANNEL = 65835861;
 
-string Copyright = " (c) 2012 by Ferd Frederix";    // You cannot change this line. See License agreements above. Attribution is required, and these files are copyrighted. 
+string Copyright = " (c) 2012 by Fred Beckhusen (Ferd Frederix)";    // You cannot change this line. See License agreements above. Attribution is required, and these files are copyrighted. 
 
 vector home_location;
 vector destination;

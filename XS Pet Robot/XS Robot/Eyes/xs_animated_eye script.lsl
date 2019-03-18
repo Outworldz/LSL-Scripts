@@ -1,6 +1,6 @@
 // :CATEGORY:XS Pet
 // :NAME:XS Pet Robot
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS: Pet,XS,breed,breedable,companion,Ozimal,Meeroo,Amaretto,critter,Fennux,Pets
 // :CREATED:2013-09-06
 // :EDITED:2014-01-30 12:24:20
@@ -27,7 +27,7 @@
 //
 // Exception: I am allowing this script to be sold inside an original build.
 // You are not selling the script, you are selling the build.
-// Ferd Frederix
+// Fred Beckhusen (Ferd Frederix)
 
 
 // Put any texture converted by gif_2_SL_animation_v0.6.exe into a prim with this script to get it to play back automatically as a movie

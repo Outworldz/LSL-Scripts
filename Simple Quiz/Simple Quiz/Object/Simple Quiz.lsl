@@ -1,6 +1,6 @@
 // :CATEGORY:Quiz
 // :NAME:Simple Quiz
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-09-24 14:53:12
 // :EDITED:2014-09-24

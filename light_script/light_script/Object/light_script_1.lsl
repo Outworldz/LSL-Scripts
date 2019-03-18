@@ -1,6 +1,6 @@
 // :CATEGORY:Light
 // :NAME:light_script
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2010-01-10 05:20:56.000
 // :EDITED:2014-09-07

@@ -1,6 +1,6 @@
 // :CATEGORY:Tandy
 // :NAME:Tandy the Nymph
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:06
 // :ID:867
@@ -15,7 +15,7 @@
 // 12-10-2012
 
 // License:
-// Copyright (c) 2009, Ferd Frederix
+// Copyright (c) 2009, Fred Beckhusen (Ferd Frederix)
 
 // Permission is hereby granted, free of charge, to any person
 // obtaining a copy of this software and associated documentation

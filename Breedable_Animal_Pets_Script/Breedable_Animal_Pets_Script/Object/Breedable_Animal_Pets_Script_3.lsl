@@ -13,7 +13,7 @@
 // Version .25  3-25-2013
 
 // script by Xundra Snowpaw
-// mods by Ferd Frederix
+// mods by Fred Beckhusen (Ferd Frederix)
 //
 // New BSD License: http://www.opensource.org/licenses/bsd-license.php
 // Copyright (c) 2010, Xundra Snowpaw

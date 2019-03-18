@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:NPC
 // :NAME:HyperGrid Story Nine
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-11-24 20:25:33
 // :EDITED:2015-11-24  19:25:33

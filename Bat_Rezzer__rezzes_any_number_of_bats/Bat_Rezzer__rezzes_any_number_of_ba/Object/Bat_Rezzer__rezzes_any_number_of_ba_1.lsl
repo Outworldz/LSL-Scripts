@@ -1,6 +1,6 @@
 // :CATEGORY:Bat Rezzer
 // :NAME:Bat_Rezzer__rezzes_any_number_of_bats
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-01-10 05:20:56.000
 // :EDITED:2013-09-18 15:38:48
 // :ID:85
@@ -27,7 +27,7 @@
 // GNU General Public License for more details.
 
 /// Just drag any number of textures in it, and click it.
-// Author Ferd Frederix..  
+// Author Fred Beckhusen (Ferd Frederix)..  
 
 float COUNT = 2.0;
 float scale = 0.5;

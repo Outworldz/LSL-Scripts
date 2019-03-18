@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:REZZER
 // :NAME:Boat and Car Rezzer
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2017-11-19 21:49:02
 // :EDITED:2017-11-19  20:49:02
@@ -12,7 +12,7 @@
 // :DESCRIPTION:
 // DESCRIPTION: []::Used to rez boats, cars, and airplanes when the prior rezzed vehicle is moved out of range
 // :CODE:
-//:AUTHOR: Ferd Frederix
+//:AUTHOR: Fred Beckhusen (Ferd Frederix)
 
 // Used to rez boats, cars, and airplanes when the prior rezzed vehicle is moved out of range
 // First add a llDie() to the rezzed objects 'unsit' section.   HWen your visitor unsits, the vehicle will poof.

@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Flying NPC's
 // :NAME:Opensim Ridable NPC
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-03-17 10:27:57
 // :EDITED:2015-03-17  09:27:57
@@ -17,7 +17,7 @@
 
 // Instructions on how to use this is at http://www.outworldz.com/opensim/posts/NPC/
 // This is an OpenSim-only script.
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 
   
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -28,7 +28,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////
 // The original NPC controller was from http://was.fm/opensim:npc
 
-// Extensive additions and bug fixes by Fred Beckhusem, aka Ferd Frederix, fred@mitsi.com
+// Extensive additions and bug fixes by Fred Beckhusem, aka Fred Beckhusen (Ferd Frederix), fred@mitsi.com
 // llSensor had two params swapped
 // @Wander would wander where it had rezzed, not where it was.
 // There was no 'no_sensor' event in sit, so if a @sit failed, the NPC got stuck

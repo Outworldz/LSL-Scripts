@@ -1,6 +1,6 @@
 // :CATEGORY:Avatar
 // :NAME:Halfatar
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-10-04 11:11:08
 // :EDITED:2013-10-04 11:11:08
 // :ID:999
@@ -13,7 +13,7 @@
 // script to control the eyes randomly
 // requires the texture be in the eye
 // Use in half-atars
-// :Author: Ferd Frederix
+// :Author: Fred Beckhusen (Ferd Frederix)
 
 
 default

@@ -1,6 +1,6 @@
 // :CATEGORY:Defense
 // :NAME:How_to_make_a_attachable_Demo
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-05-02 21:33:38.517
 // :EDITED:2013-09-18 15:38:55
 // :ID:389

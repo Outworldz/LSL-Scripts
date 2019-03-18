@@ -1,6 +1,6 @@
 // :CATEGORY:Chat
 // :NAME:Emoter
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-01-22 23:31:21.263
 // :EDITED:2013-09-18 15:38:52
 // :ID:284

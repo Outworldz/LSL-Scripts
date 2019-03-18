@@ -1,6 +1,6 @@
 // :CATEGORY:Bee
 // :NAME:Bee_and_Beehive
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-03-11 14:39:20.483
 // :EDITED:2013-09-18 15:38:48
 // :ID:86

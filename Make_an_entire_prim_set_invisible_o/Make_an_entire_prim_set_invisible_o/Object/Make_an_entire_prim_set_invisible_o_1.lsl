@@ -1,6 +1,6 @@
 // :CATEGORY:Invisibility
 // :NAME:Make_an_entire_prim_set_invisible_o
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-07-28 09:43:31.640
 // :EDITED:2013-09-18 15:38:57
 // :ID:500

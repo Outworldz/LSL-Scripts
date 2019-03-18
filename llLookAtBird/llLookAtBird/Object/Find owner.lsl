@@ -13,7 +13,7 @@
 // A simple Bird follower script using llLookAt and llMoveToTarget to find anyone in a sim
 // :CODE:
 // llLookAt code original by Dahlia Trimble  02/8/2015
-// mods by Ferd Frederix 02-24-2015
+// mods by Fred Beckhusen (Ferd Frederix) 02-24-2015
 
 
 vector gOffset = <-2.0, 0.0, 0>;  //behind the owner

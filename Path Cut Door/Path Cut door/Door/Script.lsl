@@ -1,6 +1,6 @@
 // :CATEGORY:Door
 // :NAME:Path Cut Door
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-04-19 15:57:26
 // :EDITED:2014-04-19

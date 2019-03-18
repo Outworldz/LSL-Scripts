@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Hypergate
 // :NAME:Hypergate when you fall in 
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Game, conteoller
 // :REV:5.5
 // :WORLD:OpenSim, Second life
@@ -11,7 +11,7 @@
 
 //hop://www.outworldz.com:9000/Hypergrid Story Five/191/160/22
 
-// Hypergate script by Ferd Frederix
+// Hypergate script by Fred Beckhusen (Ferd Frederix)
 
 vector LandingPoint ; // from the desscription
 string DestName = "Hypergrid Story Five";     // Where you want the Avatar to arrive at

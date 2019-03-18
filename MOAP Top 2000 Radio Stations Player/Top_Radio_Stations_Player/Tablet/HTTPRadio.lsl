@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Fire
 // :NAME:MOAP Top 2000 Radio Stations Player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-06-11 14:36:40
 // :EDITED:2015-06-11  13:36:40
@@ -13,7 +13,7 @@
 // Media-On-A-Prim Radio station with several thousand stations.
 // You must deed this to a group if you are on group-owned Land.
 // :CODE:
-// :License: CC-BY-NC-SA - Not to be sold in any form, Copyright 2015 Ferd Frederix
+// :License: CC-BY-NC-SA - Not to be sold in any form, Copyright 2015 Fred Beckhusen (Ferd Frederix)
 // :Worlds: Opensim, Second Life
 
 // Please do not change the timeouts or URLS - this script is server dependent. 

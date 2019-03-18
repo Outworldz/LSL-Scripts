@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Pose Ball
 // :NAME:Synced Pose balls
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2016-05-02 13:04:04
 // :EDITED:2016-05-02  12:04:04

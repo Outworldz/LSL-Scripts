@@ -36,7 +36,7 @@
 // 12. Dance!
 
 //           !Holy Server
-// mods by DonJr SpeigelBlatt and Ferd Frederix
+// mods by DonJr SpeigelBlatt and Fred Beckhusen (Ferd Frederix)
 //Created Oct 2010 by Holy Gavenkrantz
 //This work uses content from the Second Life® LSL Script library. 
 //Copyright © 2007-2009 Linden Research, Inc. Licensed under the 

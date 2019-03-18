@@ -1,6 +1,6 @@
 // :CATEGORY:Prim
 // :NAME:Prim_Animator_using_one_script
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-10-23 21:23:45.047
 // :EDITED:2013-09-18 15:39:00
 // :ID:649
@@ -14,7 +14,7 @@
 // ( rev1.1) add llTextBox 
 // Free and Open Source - not for sale but for free use in any build.
 
-// Original Script by: Ferd Frederix
+// Original Script by: Fred Beckhusen (Ferd Frederix)
 
 integer runtime = FALSE; // set to TRUE after making the notecard
  

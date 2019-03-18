@@ -1,6 +1,6 @@
 // :CATEGORY:Lag Meter
 // :NAME:Sim_Neighbor_finder_database_update
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-01-21 11:24:34.590
 // :EDITED:2013-09-18 15:39:02
 // :ID:755

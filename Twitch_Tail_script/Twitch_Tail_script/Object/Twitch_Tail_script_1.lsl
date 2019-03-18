@@ -1,6 +1,6 @@
 // :CATEGORY:Avatar
 // :NAME:Twitch_Tail_script
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-03-03 20:58:49.650
 // :EDITED:2013-09-18 15:39:08
 // :ID:928
@@ -10,7 +10,7 @@
 // :DESCRIPTION:
 // Twitch_Tail_script
 // :CODE:
-// twitchy tail script by Ferd Frederix
+// twitchy tail script by Fred Beckhusen (Ferd Frederix)
 // Open Source provided this header is intact and credit is given.
 
 float on = 0.0;

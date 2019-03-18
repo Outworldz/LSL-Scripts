@@ -1,6 +1,6 @@
 // :CATEGORY:Radio
 // :NAME:Top2000_Radio_Stations_Player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-12-14 13:33:32
 // :EDITED:2013-12-17 10:49:30
 // :ID:902
@@ -18,7 +18,7 @@
 
 //
 //If your land is owned by a group, you will need to deed the prim to the group. Just edit the prim that the script is in, set 'Group:' to the same group as the land, and click 'Share with Group'.  Then click the prim and select the Cartegory and radio station and enjoy free music!
-// Copyright 2010 Ferd Frederix
+// Copyright 2010 Fred Beckhusen (Ferd Frederix)
 // License:
 // Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 // http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US

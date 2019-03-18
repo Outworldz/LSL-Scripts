@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Special Effects
 // :NAME:Automatic_GIF_to_SL_script
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2011-06-21 20:30:18.273
 // :EDITED:2015-06-11  13:36:18

@@ -1,6 +1,6 @@
 // :CATEGORY:NPC
 // :NAME:NPC rotator
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-09-24 14:52:44
 // :EDITED:2014-09-24

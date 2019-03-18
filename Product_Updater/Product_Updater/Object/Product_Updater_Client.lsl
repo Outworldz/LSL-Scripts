@@ -12,7 +12,7 @@
 // Client: Check for update when rezzed. 
 // :CODE:
 
-// mods by Ferd Frederix to make it work.
+// mods by Fred Beckhusen (Ferd Frederix) to make it work.
 // wrong params passed by caller, did not match server
 // version should be a <, not a != and be floats, not strings
 

@@ -8,7 +8,7 @@
 // :REV:1.0
 // :WORLD:Second Life
 // :DESCRIPTION:
-// This script requires the Super Prim Animator http://www.outworldz.com/cgi/freescripts.plx?ID=1519 by Ferd Frederix.  Just set up your animations as per the animator's instructions, Save it to a notecard put this script and the notecard into any prim and when you touch the prim it will print a new script into local chat. Copy everything between and including the lines /*---------- and ----------*/  anything that is not part of the script is automatically converted to comments.  When the script is run it will cycle through all the animations and print a llSetMemoryLimit() command to local chat.  Replace everything in the default state_entry function with that command and your script is ready to run.  with a very optimized memory limit.
+// This script requires the Super Prim Animator http://www.outworldz.com/cgi/freescripts.plx?ID=1519 by Fred Beckhusen (Ferd Frederix).  Just set up your animations as per the animator's instructions, Save it to a notecard put this script and the notecard into any prim and when you touch the prim it will print a new script into local chat. Copy everything between and including the lines /*---------- and ----------*/  anything that is not part of the script is automatically converted to comments.  When the script is run it will cycle through all the animations and print a llSetMemoryLimit() command to local chat.  Replace everything in the default state_entry function with that command and your script is ready to run.  with a very optimized memory limit.
 // :CODE:
 key notecardQueryId;
 

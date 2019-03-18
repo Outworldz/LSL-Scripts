@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:ChatBot
 // :NAME:NPC Chatbot for Opensim
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2016-07-27 16:14:00
 // :EDITED:2016-07-27  15:14:00
@@ -18,7 +18,7 @@
 //*******************************************************************//
 // Instructions on how to use this is at http://www.free-lsl-scripts.com/opensim/posts/NPC/
 // This is an OpenSim-only script.
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
    
   
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -28,7 +28,7 @@
 //  rights of fair usage, the disclaimer and warranty conditions.                        //
 ///////////////////////////////////////////////////////////////////////////////////////////
 // The original NPC controller was from http://was.fm/opensim:npc
-// Extensive additions and bug fixes by Fred Beckhusem, aka Ferd Frederix, fred@mitsi.com
+// Extensive additions and bug fixes by Fred Beckhusem, aka Fred Beckhusen (Ferd Frederix), fred@mitsi.com
 // llSensor had two params swapped
 // @Wander would wander where it had rezzed, not where it was.
 // There was no 'no_sensor' event in sit, so if a @sit failed, the NPC got stuck

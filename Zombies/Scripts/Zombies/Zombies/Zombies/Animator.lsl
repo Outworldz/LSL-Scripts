@@ -1,7 +1,7 @@
 // One Script Prim Animation
 // Playback Script
 
-// Original Script by: Ferd Frederix
+// Original Script by: Fred Beckhusen (Ferd Frederix)
 // No Spam version by: Gino Rascon
 
 integer runtime = TRUE;

@@ -1,6 +1,6 @@
 // :CATEGORY:Tour Guide
 // :NAME:Tour Airplane
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-12-04 12:44:16
 // :EDITED:2014-12-04

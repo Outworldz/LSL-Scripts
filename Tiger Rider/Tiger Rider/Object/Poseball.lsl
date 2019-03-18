@@ -1,6 +1,6 @@
 // :CATEGORY:Rider
 // :NAME:Tiger Rider
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-13 13:20:22
 // :EDITED:2013-09-25 14:05:55
 // :ID:996

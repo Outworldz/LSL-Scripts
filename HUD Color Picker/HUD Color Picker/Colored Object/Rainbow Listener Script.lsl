@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:HUD
 // :NAME:HUD Color Picker
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-07-15 10:04:20
 // :EDITED:2015-07-15  09:04:20
@@ -16,7 +16,7 @@
 // Second component of Rainbow Palette 
 // Add this script to the object to be colorized.
 
-// Modified by Ferd Frederix 2015.07.14 to have intensity control and be non-UUID specific (Opensim compatible).
+// Modified by Fred Beckhusen (Ferd Frederix) 2015.07.14 to have intensity control and be non-UUID specific (Opensim compatible).
 
 // Available under the Creative Commons Attribution-ShareAlike 3.0 license
 // http://creativecommons.org/licenses/by-sa/3.0/

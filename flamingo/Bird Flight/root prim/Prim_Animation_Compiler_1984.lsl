@@ -1,6 +1,6 @@
 // :CATEGORY:Bird
 // :NAME:flamingo
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:53
 // :ID:314
@@ -17,7 +17,7 @@
 // Rev B, added a missing } at the end of multiple recordings.
 
 
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 // Based on an excellent script by Allen Firethorn
 // This is free software, it is not for sale at any price
 
@@ -114,7 +114,7 @@ default {
 
             vector scale = llGetScale();
             SayCode("// Prim animation compiler //\n"
-                + "// Ferd Frederix - http://www.outworldz.com\n"
+                + "// Fred Beckhusen (Ferd Frederix) - http://www.outworldz.com\n"
                 + "integer playbackchannel = 1; // The default llMessageLinked number\n"
                 + "rotation calcChildRot(rotation rdeltaRot){\n"
                 + "\tif (llGetAttached())\n"

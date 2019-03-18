@@ -1,6 +1,6 @@
 // :CATEGORY:Teleport
 // :NAME:Elven Door Teleport System
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-12-04 12:10:54
 // :EDITED:2014-12-04

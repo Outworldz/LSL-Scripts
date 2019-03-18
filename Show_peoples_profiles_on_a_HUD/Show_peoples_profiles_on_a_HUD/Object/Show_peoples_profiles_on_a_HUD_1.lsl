@@ -18,7 +18,7 @@
 
 // GNU General Public License for more details.
 
-// Repairs on Aug 2010 Ferd Frederix - Lindens changed the web site
+// Repairs on Aug 2010 Fred Beckhusen (Ferd Frederix) - Lindens changed the web site
 // ~ PROFILE PROJECTOR v5.4.3 by Debbie Trilling ~
 // - Modified for HUD use by Ariane Brodie
  

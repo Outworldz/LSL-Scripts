@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Mailbox
 // :NAME:Give_All_NoteCards_To_Owner
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2016-06-01 10:19:38
 // :EDITED:2016-06-01  09:23:07
@@ -10,7 +10,7 @@
 // :REV:1
 // :WORLD:Second Life
 // :DESCRIPTION:
-// Gives one or more notcards to whoever touches it, by name. Notecards have to be in Legacy name format such as 'Ferd Frederix', or 'Ferd Frederix1', 'Ferd Frederix2'.  Not the 'Ferd.Frederix' style.
+// Gives one or more notcards to whoever touches it, by name. Notecards have to be in Legacy name format such as 'Fred Beckhusen (Ferd Frederix)', or 'Fred Beckhusen (Ferd Frederix)1', 'Fred Beckhusen (Ferd Frederix)2'.  Not the 'Ferd.Frederix' style.
 // :CODE:
 
 // give notecard by Legacy name

@@ -13,7 +13,7 @@
 
 
 
-// mods by DonJr SpeigelBlatt and Ferd Frederix
+// mods by DonJr SpeigelBlatt and Fred Beckhusen (Ferd Frederix)
 //This work uses content from the Second LifeÂ® LSL Script library. Copyright  2007-2009 Linden Research, Inc. Licensed under the Creative Commons Attribution-Share Alike 3.0 License
 /*      !Dancer
 

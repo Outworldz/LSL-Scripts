@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Collision
 // :NAME:Reliable llVolumeDetect
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-10-21 20:08:23
 // :EDITED:2015-05-29  11:26:03

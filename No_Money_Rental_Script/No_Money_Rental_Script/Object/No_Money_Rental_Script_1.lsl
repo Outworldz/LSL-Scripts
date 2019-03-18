@@ -1,6 +1,6 @@
 // :CATEGORY:Rental
 // :NAME:No_Money_Rental_Script
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-04-03 13:53:53.560
 // :EDITED:2013-09-18 15:38:58
 // :ID:557

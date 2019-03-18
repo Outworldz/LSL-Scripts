@@ -1,6 +1,6 @@
 // :CATEGORY:Animal
 // :NAME:mooFerd
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:57
 // :ID:520
@@ -20,7 +20,7 @@
 //
 // fred@mitsi.com
 //
-// author Ferd Frederix Copyright 2009
+// author Fred Beckhusen (Ferd Frederix) Copyright 2009
 //
 //
 float difficulty = 7.0;  // higher = more difficult
@@ -35,7 +35,7 @@ string q4;
 //
 // Written by Xylor Baysklef
 // Adapted and added by Garth Fairlight
-// More mods by Ferd Frederix
+// More mods by Fred Beckhusen (Ferd Frederix)
 ////////////////////////////////////////////
 
 /////////////// CONSTANTS ///////////////////

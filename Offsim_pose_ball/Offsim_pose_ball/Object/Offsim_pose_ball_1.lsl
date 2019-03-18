@@ -1,6 +1,6 @@
 // :CATEGORY:Pose Balls
 // :NAME:Offsim_pose_ball
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-03-10 23:37:13.950
 // :EDITED:2013-09-18 15:38:58
 // :ID:581
@@ -10,7 +10,7 @@
 // :DESCRIPTION:
 // Offsim_pose_ball
 // :CODE:
-// off sim sit by Ferd Frederix
+// off sim sit by Fred Beckhusen (Ferd Frederix)
 
 // position to sit on the ball e.g <0.0, 0.0, 0.43>
 // sit  0.5 meter above the ball

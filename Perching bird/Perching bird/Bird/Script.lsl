@@ -1,6 +1,6 @@
 // :CATEGORY:Bird
 // :NAME:Perching bird
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-11-19 16:49:08
 // :EDITED:2013-11-19 16:49:08
 // :ID:1002
@@ -439,7 +439,7 @@ state moving
             atimer = 3600;
         
         else if (msg =="Ferd")
-            llLoadURL(llGetOwner(),"More Info about Ferd Frederix","http://secondlife.mitsi.com");
+            llLoadURL(llGetOwner(),"More Info about Fred Beckhusen (Ferd Frederix)","http://secondlife.mitsi.com");
 
         llOwnerSay("Flight range is " + (string) roam_range + " meters. ");
         if (atimer)

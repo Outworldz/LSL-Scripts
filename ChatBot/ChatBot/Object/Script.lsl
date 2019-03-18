@@ -1,6 +1,6 @@
 // :CATEGORY:Chatbot
 // :NAME:ChatBot
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-08-11 17:29:33
 // :EDITED:2014-08-11

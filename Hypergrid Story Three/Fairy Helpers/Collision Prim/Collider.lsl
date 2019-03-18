@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Gaming
 // :NAME:Collider for All in One NPC Controller
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Game, Collider
 // :REV:2.0
 // :WORLD:OpenSim

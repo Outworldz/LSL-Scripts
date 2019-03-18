@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Gaming
 // :NAME:Does not use a Sensor to delete or start a NPC
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Game, Sensor
 // :REV:1.0
 // :WORLD:OpenSim

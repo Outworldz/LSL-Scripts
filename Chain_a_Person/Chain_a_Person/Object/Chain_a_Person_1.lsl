@@ -1,6 +1,6 @@
 // :CATEGORY:Particles
 // :NAME:Chain_a_Person
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-06-05 16:33:46.367
 // :EDITED:2013-09-18 15:38:50
 // :ID:161
@@ -15,7 +15,7 @@
 //
 // This Script is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 // 
-// author: Ferd Frederix 
+// author: Fred Beckhusen (Ferd Frederix) 
 // requires a chain texture
 
 // /1 on to turn on

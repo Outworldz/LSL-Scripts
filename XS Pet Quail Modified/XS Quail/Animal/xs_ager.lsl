@@ -1,6 +1,6 @@
 // :CATEGORY:XS Quail
 // :NAME:XS Pet Quail Modified
-// :AUTHOR:Xundra Snowpaw, Ferd Frederix
+// :AUTHOR:Xundra Snowpaw, Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2014-01-17 11:32:47
 // :ID:987
@@ -15,7 +15,7 @@
 // Version .24  10-3-2011
 
 // script by Xundra Snowpaw
-// mods by Ferd Frederix
+// mods by Fred Beckhusen (Ferd Frederix)
 // Allows arbitrary growth without any constants or prim limits
 // 2 tunable parameters for aging time and maximum growth time
 

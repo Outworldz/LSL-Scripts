@@ -14,7 +14,7 @@
 // :CODE:
 //:LICENSE: CC-BY-SA
 // 
-// Rev 1.1 05/14/2015 Pathches to make this actually work by Ferd Frederix - 'agent' was incorrectly used.
+// Rev 1.1 05/14/2015 Pathches to make this actually work by Fred Beckhusen (Ferd Frederix) - 'agent' was incorrectly used.
 // Originally from http://forums.osgrid.org/viewtopic.php?f=5&t=3655
 
 // Well here is the camera hud I promised. It is based on one that was originally released by Dan

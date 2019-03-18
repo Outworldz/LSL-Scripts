@@ -1,6 +1,6 @@
 // :CATEGORY:Particles
 // :NAME:Heart_shower_when_two_people_are_near
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-10-15 00:41:33.033
 // :EDITED:2013-09-18 15:38:54
 // :ID:374
@@ -12,7 +12,7 @@
 // :CODE:
 // Created by Ama Omega 3-7-2004
 // Updated by Jopsy Pendragon 5-11-2004
-// sensor for 2 people added by Ferd Frederix 10-15-2011
+// sensor for 2 people added by Fred Beckhusen (Ferd Frederix) 10-15-2011
 
 
 // SECTION ONE: APPEARANCE -- These settings affect how each particle LOOKS.

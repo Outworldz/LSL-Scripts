@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Music
 // :NAME:42_minute_Music_Box
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2012-10-09 15:37:27.430
 // :EDITED:2015-04-27  12:31:53
@@ -15,7 +15,7 @@
 
 
 // :CODE:
-// 10-09-2012 first reeleasedby Ferd Frederix
+// 10-09-2012 first reeleasedby Fred Beckhusen (Ferd Frederix)
 // 1-5-2014 rev 1.1
 // Rev 1.1: change order of vars and set it to 9.0 seconds length files. added touch on/off
 // Rev 1.2 optimized for Opensim

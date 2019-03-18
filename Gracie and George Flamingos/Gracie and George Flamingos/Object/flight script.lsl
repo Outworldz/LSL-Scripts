@@ -1,6 +1,6 @@
 // :CATEGORY:Birds
 // :NAME:Gracie and George Flamingos
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-12-04 12:12:20
 // :EDITED:2014-12-04
@@ -12,9 +12,9 @@
 // Free-flight bird system without physics main script
 // :CODE:
 // Bird flock flight script
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 // This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
-//  This means that this script itself is not for sale and that modifications to it must be provided to anyone upon request. Pets made with this script may be sold. ~ Ferd Frederix
+//  This means that this script itself is not for sale and that modifications to it must be provided to anyone upon request. Pets made with this script may be sold. ~ Fred Beckhusen (Ferd Frederix)
 
 // requires the following animations:
 // land, fly, peck, walk1, walk2, walk3 

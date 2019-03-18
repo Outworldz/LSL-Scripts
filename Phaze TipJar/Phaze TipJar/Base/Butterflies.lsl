@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:tipjar
 // :NAME:Phaze TipJar
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2016-05-02 13:00:35
 // :EDITED:2016-05-02  12:00:35

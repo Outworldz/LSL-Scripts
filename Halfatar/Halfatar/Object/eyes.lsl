@@ -1,6 +1,6 @@
 // :CATEGORY:Avatar
 // :NAME:Halfatar
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-10-04 11:11:27
 // :EDITED:2013-10-04 11:11:27
 // :ID:999
@@ -12,7 +12,7 @@
 // :CODE:
 // script to control each eye
 // Use in half-avatars
-// :Author: Ferd Frederix
+// :Author: Fred Beckhusen (Ferd Frederix)
 
 
 

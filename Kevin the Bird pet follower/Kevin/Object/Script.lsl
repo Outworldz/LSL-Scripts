@@ -1,6 +1,6 @@
 // :CATEGORY:Pets
 // :NAME:Kevin the Bird pet follower
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-12-17 10:52:05
 // :EDITED:2013-12-17 10:52:05
 // :ID:1007
@@ -15,7 +15,7 @@
 //
 // Written by Xylor Baysklef
 // Adapted and added by Garth Fairlight
-// Adapted by Ferd Frederix
+// Adapted by Fred Beckhusen (Ferd Frederix)
 ////////////////////////////////////////////
 
 

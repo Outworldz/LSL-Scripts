@@ -1,6 +1,6 @@
 // :CATEGORY:Textures
 // :NAME:TextureAllByDescription
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2014-01-01 12:18:56
 // :EDITED:2014-01-01 12:18:56
 // :ID:1008

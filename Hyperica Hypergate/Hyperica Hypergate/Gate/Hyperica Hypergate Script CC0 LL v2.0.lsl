@@ -27,7 +27,7 @@
 //	  changed state Running
 //    implemented timer termination scheme
 /////////////////////////////////////////////////////////////////////////////////
-// rev 5.1 by Ferd Frederix
+// rev 5.1 by Fred Beckhusen (Ferd Frederix)
 // Bool, and Integer cannot be compared in some worlds
 // llListFindList compares lists, not list and string.
 

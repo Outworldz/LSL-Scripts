@@ -1,6 +1,6 @@
 // :CATEGORY:Collision
 // :NAME:Shrink-on-collide
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-07-15 10:24:02
 // :EDITED:2014-07-15

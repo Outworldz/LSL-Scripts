@@ -1,4 +1,4 @@
-//:AUTHOR: Ferd Frederix
+//:AUTHOR: Fred Beckhusen (Ferd Frederix)
 //:DESCRIPTION:
 // Button Script for console
 //:CODE:

@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Sign
 // :NAME:SignChanger
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2017-11-19 21:56:00
 // :EDITED:2017-11-19  20:56:00

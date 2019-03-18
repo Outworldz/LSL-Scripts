@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Gaming
 // :NAME:Sequencer and Collider for All in One NPC Controller
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Game, Collider
 // :REV:1.0
 // :WORLD:Opensim

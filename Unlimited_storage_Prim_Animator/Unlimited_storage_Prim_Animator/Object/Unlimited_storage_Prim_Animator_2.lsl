@@ -1,6 +1,6 @@
 // :CATEGORY:Animation
 // :NAME:Unlimited_storage_Prim_Animator
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-09-07 21:37:12.857
 // :EDITED:2013-09-18 15:39:08
 // :ID:936
@@ -12,7 +12,7 @@
 // :CODE:
 // Prim Animator DB
 // 06/20/2011
-// Author Ferd Frederix
+// Author Fred Beckhusen (Ferd Frederix)
 
 // Prim Storage script.
 // Copyright 2011 Fred Beckhusen - all rights reserved

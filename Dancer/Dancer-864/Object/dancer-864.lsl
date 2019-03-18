@@ -1,6 +1,6 @@
 // :CATEGORY:Dance
 // :NAME:Dancer
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:51
 // :ID:214
@@ -11,7 +11,7 @@
 // Dance Server
 // :CODE:
 
-// Open source do with as you want license by Ferd Frederix
+// Open source do with as you want license by Fred Beckhusen (Ferd Frederix)
 
 // plays a random bunch of animations that are located in the prim inventory when it is attached or rezzed.
 

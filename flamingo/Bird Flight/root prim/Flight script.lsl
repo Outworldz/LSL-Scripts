@@ -1,6 +1,6 @@
 // :CATEGORY:Bird
 // :NAME:flamingo
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2013-09-06
 // :EDITED:2014-09-24
@@ -13,9 +13,9 @@
 // :CODE:
 
 // Bird flock flight script
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 // This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
-// This means that this script itself is not for sale, that the script must be full Mod at all time, and that modifications to it MUST be provided to anyone upon request. Pets made with this script may be sold. ~ Ferd Frederix
+// This means that this script itself is not for sale, that the script must be full Mod at all time, and that modifications to it MUST be provided to anyone upon request. Pets made with this script may be sold. ~ Fred Beckhusen (Ferd Frederix)
 // 5-26-2013 
 
 

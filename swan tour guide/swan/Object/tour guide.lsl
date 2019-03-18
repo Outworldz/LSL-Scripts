@@ -1,6 +1,6 @@
 // :CATEGORY:Tour
 // :NAME:swan tour guide
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:05
 // :ID:854
@@ -12,7 +12,7 @@
 // :CODE:
 
 // Poseball script for both pose balls
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 integer _debug = 0;
 integer REZ = 3454;
 list Line = [];

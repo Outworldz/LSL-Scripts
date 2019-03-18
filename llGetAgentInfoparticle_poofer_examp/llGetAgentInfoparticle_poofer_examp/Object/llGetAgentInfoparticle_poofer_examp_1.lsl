@@ -1,6 +1,6 @@
 // :CATEGORY:Particles
 // :NAME:llGetAgentInfoparticle_poofer_examp
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-01-10 05:20:56.000
 // :EDITED:2013-09-18 15:38:56
 // :ID:483

@@ -1,6 +1,6 @@
 // :CATEGORY:Tour
 // :NAME:OpenSim Tour Car
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-09-07 10:50:19
 // :EDITED:2014-09-07

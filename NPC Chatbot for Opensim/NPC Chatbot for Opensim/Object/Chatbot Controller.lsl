@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:ChatBot
 // :NAME:NPC Chatbot for Opensim
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2016-07-27 16:13:55
 // :EDITED:2016-07-27  15:13:55

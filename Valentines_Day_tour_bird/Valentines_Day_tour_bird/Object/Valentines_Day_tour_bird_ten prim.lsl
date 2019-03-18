@@ -1,6 +1,6 @@
 // :CATEGORY:Tour Guide
 // :NAME:Valentines_Day_tour_bird
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2011-02-04 22:42:15.247
 // :EDITED:2014-03-11

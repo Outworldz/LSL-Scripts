@@ -1,6 +1,6 @@
 // :CATEGORY:Music
 // :NAME:Music Player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:58
 // :ID:548
@@ -13,7 +13,7 @@
 
 // general purpose avatar sensor for the music playert
 // When someone gets in range, this starts the music sequence if a HUD or if the player is in the same prim
-// 10-09-2012 by Ferd Frederix
+// 10-09-2012 by Fred Beckhusen (Ferd Frederix)
 
 // This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 // http://creativecommons.org/licenses/by/3.0/deed.en_US

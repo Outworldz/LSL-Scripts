@@ -1,0 +1,80 @@
+<Project name="Script tests" guid="f28e92de-ca2f-4ce4-a305-4e716a846729">
+	<Object name="Object" guid="82797365-4565-48b1-bca5-cfd60a95daa3" active="true">
+		<Script name="GrafittiBoard.lsl" guid="2603470e-5fad-433d-b08b-0f514c63fcc1">
+		</Script>
+		<Script name="KanEd-Test01.lsl" guid="71ff13fe-b5bd-45d3-8563-cd6f5afb643f">
+		</Script>
+		<Script name="KanEd-Test02.lsl" guid="a7503dc5-381b-4e44-bb6c-fd450abc8b08">
+		</Script>
+		<Script name="KanEd-Test03.lsl" guid="acae9d76-2b40-4d5b-9c09-725db04ba463">
+		</Script>
+		<Script name="KanEd-Test04.lsl" guid="ec607e22-314a-48b2-bbac-65fa73caea46">
+		</Script>
+		<Script name="KanEd-Test05.lsl" guid="d272729e-80ce-4849-b27e-991415f40e7f">
+		</Script>
+		<Script name="KanEd-Test06.lsl" guid="4b36fc84-7fa7-4ae9-8292-22a3eabb536e">
+		</Script>
+		<Script name="KanEd-Test07.lsl" guid="dad25562-0218-4742-9aec-e47b8f0bb8be">
+		</Script>
+		<Script name="KanEd-Test08.lsl" guid="b70be97b-fcc8-49c5-bd12-82d8cce9d061">
+		</Script>
+		<Script name="KanEd-Test09.lsl" guid="f59b1411-3ecc-4361-af2c-a04f07ca3a50">
+		</Script>
+		<Script name="KanEd-Test10.lsl" guid="9cdad1ee-af91-437e-84f8-811ef6812ab8">
+		</Script>
+		<Script name="KanEd-Test11.lsl" guid="14b9bbfa-4439-42b0-9b72-1a243dcf4cb0">
+		</Script>
+		<Script name="KanEd-Test12.lsl" guid="ffc4f46e-587c-47f0-b28b-e7e24adf0524">
+		</Script>
+		<Script name="KanEd-Test13.lsl" guid="ef9a7282-304c-48cb-96f5-a8ba397df4bc">
+		</Script>
+		<Script name="KanEd-Test14.lsl" guid="71edfeb2-42d7-4132-b22f-43651ffe2747">
+		</Script>
+		<Script name="KanEd-Test15.lsl" guid="4251be30-1017-4557-aa22-bdadb94f6502">
+		</Script>
+		<Script name="KanEd-Test16.lsl" guid="2eb3e2ab-72a9-4d20-8e98-90631e1fda64">
+		</Script>
+		<Script name="llAbs.lsl" guid="81649c5f-6bab-4a75-9606-83fd86118a85">
+		</Script>
+		<Script name="llAcos.lsl" guid="281ebc71-f73f-42e8-b72d-4bcc76cf51d2">
+		</Script>
+		<Script name="llAddToLandBanList.lsl" guid="22efa239-bdca-4e3a-be21-187fa66338de">
+		</Script>
+		<Script name="llAddToLandPassList.lsl" guid="3361fb13-692a-4aaf-abd9-10c5066ca11a">
+		</Script>
+		<Script name="llAdjustSoundVolume.lsl" guid="8b1e12ce-5436-478d-9ab0-c35ec2066f16">
+		</Script>
+		<Script name="llAllowInventoryDrop.lsl" guid="1bc6752b-5f04-479a-adfb-2001cb992d6f">
+		</Script>
+		<Script name="llAngleBetween.lsl" guid="d82819d9-beaa-4768-8253-f1cd3126f7d2">
+		</Script>
+		<Script name="llApplyImpulse.lsl" guid="62903286-5cad-40a2-9888-62aad9514c76">
+		</Script>
+		<Script name="llAsin.lsl" guid="3e8fd5a5-a1e7-46ae-94c9-1e4d10a0a813">
+		</Script>
+		<Script name="llAtan2.lsl" guid="be4a592f-3e41-4994-a97a-000776c79a14">
+		</Script>
+		<Script name="llAvatarOnSitTarget.lsl" guid="13f3f855-5d4e-448f-a785-b75d2b37f34e">
+		</Script>
+		<Script name="llBase64ToString.lsl" guid="1d3e2048-1fb1-4c8c-a25e-264c0f31f39c">
+		</Script>
+		<Script name="llRemoveFromLandBanList.lsl" guid="e5035ac6-d54f-4fa5-894e-b424c99b34c4">
+		</Script>
+		<Script name="llRemoveFromLandPassList.lsl" guid="0e724799-76c2-4304-92c7-d6255f1e34e7">
+		</Script>
+		<Script name="llResetLandBanList.lsl" guid="d08b72ce-186d-43f1-8f18-dab6b0c2e192">
+		</Script>
+		<Script name="llResetLandPassList.lsl" guid="23b1256a-e851-4605-a427-553354d3bb6e">
+		</Script>
+		<Script name="llSay.lsl" guid="952bcb15-e2e2-4726-9c43-0dbe1a007289">
+		</Script>
+		<Script name="llSetParcelMusicURL.lsl" guid="32349cfa-f45d-4793-a966-930ba4f77221">
+		</Script>
+		<Script name="llSetRot.lsl" guid="4d1a9773-23d5-4688-a449-bff6f9b64bf5">
+		</Script>
+		<Script name="osTextBoard.lsl" guid="a32a4c43-1f5b-415b-9d25-8076cbf57869">
+		</Script>
+		<Script name="osWeatherMap.lsl" guid="ec572526-4076-463d-a6ed-45971cc6aec3">
+		</Script>
+	</Object>
+</Project>

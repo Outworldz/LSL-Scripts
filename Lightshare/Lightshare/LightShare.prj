@@ -1,0 +1,6 @@
+<Project name="LightShare" guid="de58eebf-be94-48b7-9876-f635bd604179">
+	<Object name="Object" guid="1057a144-9863-4782-a205-6d0133ce354d" active="true">
+		<Script name="Lightshare.lsl" guid="29990be8-f475-4c5e-a5f6-f856d5aa8971">
+		</Script>
+	</Object>
+</Project>

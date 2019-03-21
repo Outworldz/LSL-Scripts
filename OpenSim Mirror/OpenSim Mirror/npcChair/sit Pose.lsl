@@ -1,6 +1,6 @@
 // :CATEGORY:NPC
 // :NAME:OpenSim Mirror
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2013-09-08
 // :EDITED:2014-02-14 12:32:45

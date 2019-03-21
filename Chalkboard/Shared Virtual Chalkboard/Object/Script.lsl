@@ -1,6 +1,6 @@
 // :CATEGORY:Communications
 // :NAME:Chalkboard
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2014-01-07 22:48:53
 // :EDITED:2014-01-07 22:48:12
 // :ID:1009
@@ -20,7 +20,7 @@
 
 
 // :License:  Creative Commons CC
-// :Author: Ferd Frederix
+// :Author: Fred Beckhusen (Ferd Frederix)
 // :Description:Shared media paper for collaborative chatting in any Virtual world.
  // Makes a box <2.8, 1.8, 0.10>
 // tapers the  x and y = 0.1 to make it framed

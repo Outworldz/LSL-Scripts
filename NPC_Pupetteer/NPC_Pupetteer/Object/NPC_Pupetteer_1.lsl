@@ -8,7 +8,7 @@
 // :REV:1.0
 // :WORLD:OpenSim
 // :DESCRIPTION:
-// Bug fixes by Ferd Frederix 7-30-2013//
+// Bug fixes by Fred Beckhusen (Ferd Frederix) 7-30-2013//
 // Note: @wander will only wander around the rez point.  
 // :CODE:
 // original from http://was.fm/opensim:npc
@@ -21,7 +21,7 @@
 //  rights of fair usage, the disclaimer and warranty conditions.        //
 ///////////////////////////////////////////////////////////////////////////
 
-// Mods by Ferd Frederix
+// Mods by Fred Beckhusen (Ferd Frederix)
 
 // 7-29-2013
 // llSensor  had two params swapped

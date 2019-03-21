@@ -1,6 +1,6 @@
 // :CATEGORY:Fish
 // :NAME:Free-Swimming-Fish
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-25 14:05:41
 // :EDITED:2013-09-25 14:05:41
 // :ID:998

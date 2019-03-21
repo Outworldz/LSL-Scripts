@@ -1,6 +1,6 @@
 // :CATEGORY:Presentations
 // :NAME:Talking_animated_picture
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-08-05 22:38:41.050
 // :EDITED:2013-09-18 15:39:06
 // :ID:866
@@ -19,7 +19,7 @@
 // 
 // Please note that under the terms of this license, you  must share this script OPEN SOURCE, with mod rights. You cannot sell this script or the objects derived from it.
 
-// Script by Ferd Frederix
+// Script by Fred Beckhusen (Ferd Frederix)
 // Creative Commons Attribution-NonCommercial-ShareAlike 3.0 
 // See http://creativecommons.org/licenses/by-nc-sa/3.0/ for the license.
 

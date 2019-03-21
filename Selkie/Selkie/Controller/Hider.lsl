@@ -1,6 +1,6 @@
 // :CATEGORY:Transmogrify
 // :NAME:Selkie
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-10-15 21:30:47
 // :ID:737

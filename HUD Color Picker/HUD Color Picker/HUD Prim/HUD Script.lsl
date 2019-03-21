@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:HUD
 // :NAME:HUD Color Picker
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-07-15 10:04:24
 // :EDITED:2015-07-15  09:04:24
@@ -18,7 +18,7 @@
 // Based on Rainbow Palette by Rui Clary
 // Modified by Jor3l Boa. Better interface and more readable :P
 // Modified by Rui Clary on 2011.06.20 - some corrections
-// Modified by Ferd Frederix 2015.07.14 to have intensity control and be non-UUID specific (Opensim compatible).
+// Modified by Fred Beckhusen (Ferd Frederix) 2015.07.14 to have intensity control and be non-UUID specific (Opensim compatible).
 
 // Available under the Creative Commons Attribution-ShareAlike 3.0 license
 // http://creativecommons.org/licenses/by-sa/3.0/

@@ -13,7 +13,7 @@
 Opensim Partnership program// :REVISION: 2
 // :CODE:
 // Put this in a box. When two people touch it, they can make a partership.
-// Mods by Ferd Frederix for Dreamgrid
+// Mods by Fred Beckhusen (Ferd Frederix) for Dreamgrid
 
 // A SETTING YOU HAVE TO SET FOR SECURITY
 // It works when blank, but it is possible for someone with this script to make or drop partners!

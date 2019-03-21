@@ -1,6 +1,6 @@
 // :CATEGORY:Music
 // :NAME:Master-Slave Background Sound Player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-08-11 17:29:36
 // :EDITED:2014-09-07
@@ -24,7 +24,7 @@
 // http://creativecommons.org/licenses/by-nc/3.0/deed.en_US
 // This script cannot be sold even as part of another object, it must always remain free and fully modifiable.
 
-// 10-09-2012 first released by Ferd Frederix
+// 10-09-2012 first released by Fred Beckhusen (Ferd Frederix)
 // 01-05-2014 ev 1.1 change order of vars and set it to 9.0 seconds length files. added touch on/offRT
 // 9-27-2014 Rev 1.2 optimized for Opensim
 //

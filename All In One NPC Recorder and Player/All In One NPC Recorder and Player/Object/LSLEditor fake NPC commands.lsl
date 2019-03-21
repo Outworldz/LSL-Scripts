@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:NPC
 // :NAME:All In One NPC Recorder and Player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2013-09-08 18:27:47
 // :EDITED:2015-09-24  13:25:15

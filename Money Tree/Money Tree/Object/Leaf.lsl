@@ -1,6 +1,6 @@
 // :CATEGORY:Money Tree
 // :NAME:Money Tree
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-02-20 14:27:38
 // :EDITED:2014-02-20

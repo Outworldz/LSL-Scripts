@@ -1,6 +1,6 @@
 // :CATEGORY:HUD
 // :NAME:Selkie
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:02
 // :ID:737
@@ -11,7 +11,7 @@
 // Hus positioner
 // :CODE:
 
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 // This improved HUD positioner is updated for Viewer 2.0. It will place your HUD in any of the 4 corners, and it moves Center and Center 2 to the left and right edges.   It also allows the user to re-position the HUD, and it will remember their movements.   Detach and re-attach will place it at the remembered position.
 
 // Downloaded from : http://www.outworldz.com/cgi/freescripts.plx?ID=1453
@@ -42,7 +42,7 @@
 // \_| \___|_|  \__,_| \_| |_|  \___|\__,_|\___|_|  |_/_/\_\
 //
 // fred@mitsi.com
-// author Ferd Frederix
+// author Fred Beckhusen (Ferd Frederix)
 //
 
 integer  lasttarget;

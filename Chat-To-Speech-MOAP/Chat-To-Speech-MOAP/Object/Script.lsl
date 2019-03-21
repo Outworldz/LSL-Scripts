@@ -16,7 +16,7 @@
 // :CODE:
 
 // Original script by  John Jamison john at imagilearning.com
-// Mods by Ferd Frederix for various speakers
+// Mods by Fred Beckhusen (Ferd Frederix) for various speakers
 // resets when rezzed to establish listener.
 // checks for > 100 chars, which Google ignores
 

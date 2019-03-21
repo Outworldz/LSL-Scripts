@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Gaming
 // :NAME:Hypergrid Story Three
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Game, Collider
 // :CREATED:2015-11-24 20:36:34
 // :EDITED:2015-11-24  19:36:34

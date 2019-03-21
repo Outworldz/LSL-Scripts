@@ -12,7 +12,7 @@
 // :CODE:
 // The Script
 //Feel Free To Mod The Following Values. ~Davy
-Rev 2 - fixed the rotations to be expressed in degrees - Ferd Frederix
+Rev 2 - fixed the rotations to be expressed in degrees - Fred Beckhusen (Ferd Frederix)
 
 //Animation Options
 string animation_name = "sit"; //The name of the animation to use (In Object Inv.)

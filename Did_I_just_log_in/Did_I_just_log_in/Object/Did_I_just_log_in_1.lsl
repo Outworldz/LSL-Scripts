@@ -1,6 +1,6 @@
 // :CATEGORY:Attachment
 // :NAME:Did_I_just_log_in
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-03-05 13:12:16.960
 // :EDITED:2013-09-18 15:38:51
 // :ID:236

@@ -20,7 +20,7 @@
 // Provided under Creative Commons Attribution-Non-Commercial-ShareAlike 4.0 International license.
 // Please be sure you read and adhere to the terms of this license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 //
-// rev 1.1 Added GIF capability - Ferd Frederix
+// rev 1.1 Added GIF capability - Fred Beckhusen (Ferd Frederix)
 // Images from the Gif2SL program can be used. These have the name Texture;X;Y;FPS. The script detects the X, Y and FPS
 // numbers and animates the face of the prim to match
 //  Example: PMAC002;5;4;10 will animate a 5 X 4 GIF at 10 FPS

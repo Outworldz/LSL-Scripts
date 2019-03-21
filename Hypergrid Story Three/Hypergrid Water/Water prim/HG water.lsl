@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Gaming
-// :NAME:Hypergate water by Ferd Frederix
-// :AUTHOR:Ferd Frederix
+// :NAME:Hypergate water by Fred Beckhusen (Ferd Frederix)
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Water, Game, Hypergate
 // :REV:2.0
 // :WORLD:OpenSim

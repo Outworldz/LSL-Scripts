@@ -1,6 +1,6 @@
 // :CATEGORY:Hovertext
 // :NAME:HoverTextPointer
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-12-17 18:02:25
 // :EDITED:2014-12-17

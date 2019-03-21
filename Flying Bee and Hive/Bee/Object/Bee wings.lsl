@@ -1,6 +1,6 @@
 // :CATEGORY:Flying Bee
 // :NAME:Flying Bee and Hive
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-08 12:59:24
 // :EDITED:2013-09-18 15:38:53
 // :ID:995

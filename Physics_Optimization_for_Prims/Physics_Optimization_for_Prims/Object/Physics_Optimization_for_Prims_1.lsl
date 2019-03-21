@@ -1,6 +1,6 @@
 // :CATEGORY:Pysics
 // :NAME:Physics_Optimization_for_Prims
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-06-29 13:53:07.687
 // :EDITED:2013-09-18 15:38:59
 // :ID:627

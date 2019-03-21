@@ -1,6 +1,6 @@
 // :CATEGORY:Transmogrify
 // :NAME:Transmogrifier
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-08-15 10:29:47.683
 // :EDITED:2014-01-01 12:18:57
 // :ID:920
@@ -11,7 +11,7 @@
 // Pet Script. Goes in and attached prims that you want to transmogrify to
 // :CODE:
 // License: CC-BY. Please do not remove the copyright or this notice
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 
 // for your pet that appears when you fly.
 // makes pet appear and dissapear when you fly

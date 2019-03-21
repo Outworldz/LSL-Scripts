@@ -1,6 +1,6 @@
 // :CATEGORY:XS Pet
 // :NAME:XS Pet Xundra Snowpaw Original Quail
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:11
 // :ID:989

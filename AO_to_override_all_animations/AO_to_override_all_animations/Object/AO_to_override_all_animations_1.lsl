@@ -1,6 +1,6 @@
 // :CATEGORY:AO
 // :NAME:AO_to_override_all_animations
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-05-08 20:15:22.530
 // :EDITED:2013-09-18 15:38:47
 // :ID:48

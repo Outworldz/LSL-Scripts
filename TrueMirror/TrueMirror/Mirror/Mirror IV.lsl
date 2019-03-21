@@ -17,7 +17,7 @@
 // Provided under Creative Commons Attribution-Non-Commercial-ShareAlike 4.0 International license.
 // Please be sure you read and adhere to the terms of this license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-// Mods: Ferd Frederix tweaked it slightly to use the mirrored animations from a web site
+// Mods: Fred Beckhusen (Ferd Frederix) tweaked it slightly to use the mirrored animations from a web site
 // You can use the BVH Mirror web site at http://tali.appspot.com/bvh/bvhmirror.html to flip any animation around
 // You can get free, open source animations at www.outworldz.com/download
 

@@ -1,6 +1,6 @@
 // :CATEGORY:Birds
 // :NAME:Gracie and George Flamingos
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-12-04 12:13:00
 // :EDITED:2014-12-04

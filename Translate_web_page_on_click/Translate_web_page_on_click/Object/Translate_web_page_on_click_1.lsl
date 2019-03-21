@@ -1,6 +1,6 @@
 // :CATEGORY:Translator
 // :NAME:Translate_web_page_on_click
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-09-16 11:41:22.897
 // :EDITED:2013-09-18 15:39:08
 // :ID:919

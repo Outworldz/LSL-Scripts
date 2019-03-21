@@ -1,6 +1,6 @@
 // :CATEGORY:Door
 // :NAME:Magic Door
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:56
 // :ID:499
@@ -11,7 +11,7 @@
 // teleporting door
 // :CODE:
 
-// Ferd Frederix
+// Fred Beckhusen (Ferd Frederix)
 
 
 integer debug = 1;
@@ -70,7 +70,7 @@ Go()
      //Final cleanup by Keknehv Psaltery
      //Changed jump value to 411 (4096 ceiling) by Jesse Barnett
      // Compute the number of jumps necessary
-     // rotated by Ferd Frederix
+     // rotated by Fred Beckhusen (Ferd Frederix)
      //llSitTarget(destpos, ROT);//Set the sit target
      integer jumps = (integer)(llVecDist(DestPosition, llGetPos()) / 10.0) + 1;
      // Try and avoid stack/heap collisions

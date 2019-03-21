@@ -1,6 +1,6 @@
 // :CATEGORY:Attachment
 // :NAME:Anti_noscript_script
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:47
 // :ID:41
@@ -20,7 +20,7 @@
 // \_| \___|_|  \__,_| \_| |_|  \___|\__,_|\___|_|  |_/_/\_\
 //
 // fred@mitsi.com
-// author Ferd Frederix
+// author Fred Beckhusen (Ferd Frederix)
 //
 
 // anti-no-script script

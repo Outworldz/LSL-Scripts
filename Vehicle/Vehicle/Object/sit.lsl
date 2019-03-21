@@ -1,6 +1,6 @@
 // :CATEGORY:vehicle
 // :NAME:Vehicle
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-09-08 19:11:15
 // :EDITED:2014-09-08

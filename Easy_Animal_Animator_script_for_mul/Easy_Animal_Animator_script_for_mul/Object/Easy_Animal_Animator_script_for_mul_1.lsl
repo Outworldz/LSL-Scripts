@@ -1,6 +1,6 @@
 // :CATEGORY:Easy Animator
 // :NAME:Easy_Animal_Animator_script_for_mul
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-06-01 13:49:28.000
 // :EDITED:2013-09-18 15:38:52
 // :ID:267
@@ -19,7 +19,7 @@
 // | ||  __/ | | (_| | | | | | |  __/ (_| |  __/ |  | |>  <
 // \_| \___|_|  \__,_| \_| |_|  \___|\__,_|\___|_|  |_/_/\_\
 //
-// author Ferd Frederix
+// author Fred Beckhusen (Ferd Frederix)
 
 // Prim positioner child script.
 // Put a copy of this script in any prim you wish to move

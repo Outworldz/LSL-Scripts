@@ -1,6 +1,6 @@
  // :CATEGORY:Music
  // :NAME:Master-Slave Background Sound Player
- // :AUTHOR:Ferd Frederix
+ // :AUTHOR:Fred Beckhusen (Ferd Frederix)
  // :KEYWORDS:
  // :CREATED:2014-08-11 17:29:36
  // :EDITED:2014-09-07

@@ -1,6 +1,6 @@
 // :CATEGORY:Tandy
 // :NAME:Tandy the Nymph
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:06
 // :ID:867
@@ -13,7 +13,7 @@
 
 // One Script Prim Animation
 
-// Original Script by: Ferd Frederix
+// Original Script by: Fred Beckhusen (Ferd Frederix)
 // No Spam version by: Gino Rascon
 // 12-11-2012 rev 2 add Commit command
 

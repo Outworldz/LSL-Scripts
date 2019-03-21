@@ -9,7 +9,7 @@
 // :REV:1.0
 // :WORLD:OpenSim
 // :DESCRIPTION:
-// Mods by Ferd Frederix to onlykill NPCS withing 10 meters
+// Mods by Fred Beckhusen (Ferd Frederix) to onlykill NPCS withing 10 meters
 // Based on http://opensimulator.org/wiki/User:Fritigern/Scripts#NPC_stuff
 // sim-wide NPC killer
 // License: http://creativecommons.org/licenses/by-sa/2.5/

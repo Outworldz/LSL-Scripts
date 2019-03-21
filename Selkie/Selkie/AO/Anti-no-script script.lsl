@@ -1,6 +1,6 @@
 // :CATEGORY:AO
 // :NAME:Selkie
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:02
 // :ID:737
@@ -11,7 +11,7 @@
 // no script script
 // :CODE:
 
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 // Lets any attachment with scripts work in a no-script zone.
 
 // Downloaded from : http://www.outworldz.com/cgi/freescripts.plx?ID=1644
@@ -35,7 +35,7 @@
 // \_| \___|_|  \__,_| \_| |_|  \___|\__,_|\___|_|  |_/_/\_\
 //
 // fred@mitsi.com
-// author Ferd Frederix
+// author Fred Beckhusen (Ferd Frederix)
 //
 
 // anti-no-script script

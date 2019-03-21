@@ -1,6 +1,6 @@
 // :CATEGORY:Door
 // :NAME:Door_or_swimming_pool_cover
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-12-02 23:07:08.757
 // :EDITED:2013-09-18 15:38:52
 // :ID:254

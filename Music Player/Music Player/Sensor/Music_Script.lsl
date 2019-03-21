@@ -1,6 +1,6 @@
 // :CATEGORY:Music
 // :NAME:Music Player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:58
 // :ID:548
@@ -11,7 +11,7 @@
 // Sensor
 // :CODE:
 
-// 10-09-2012 by Ferd Frederix
+// 10-09-2012 by Fred Beckhusen (Ferd Frederix)
 
 // May be triggered to run continually, start it by touching it or use the sensor script when someone gets nearby.
 

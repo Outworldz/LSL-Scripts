@@ -13,7 +13,7 @@
 //
 // Exception: I am allowing this script to be sold inside an original build.
 // You are not selling the script, you are selling the build.
-// Ferd Frederix
+// Fred Beckhusen (Ferd Frederix)
 
 // Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 

@@ -32,7 +32,7 @@
 
 
 integer explosionChannel = -1337; // CHannel used to make objects involved in explosions communicate with one another
-// integer listenHandle;  // unused - Ferd Frederix
+// integer listenHandle;  // unused - Fred Beckhusen (Ferd Frederix)
 float detonationTime = 4.0;
 float counter = 0.0;
 integer primGeneratorStartValue = 10;

@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Prim
 // :NAME:Prim_Animation_Compiler
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS: Animation, Puppeteer
 // :CREATED:2013-02-25 10:47:09.853
 // :EDITED:2015-08-07  14:27:52

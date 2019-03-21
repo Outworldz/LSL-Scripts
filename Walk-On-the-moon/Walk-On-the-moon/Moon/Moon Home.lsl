@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:World
 // :NAME:Walk-On-the-moon
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2013-11-19 16:49:18
 // :EDITED:2017-03-11  11:22:42
@@ -18,7 +18,7 @@
 // Version 2
 
 // original script by Xundra Snowpaw
-// mods by Ferd Frederix
+// mods by Fred Beckhusen (Ferd Frederix)
 // revisions:
 // 10-3-2011 Mod by Ferd to listen to HOME_CHANNEL, not -237918, the original src has no other reference to that channel.
 // 11-16-2011 Use latest globals from GLobal Constants
@@ -321,7 +321,7 @@ default
 // :CODE:
 // :CATEGORY:World
 // :NAME:Walk-On-the-moon
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-11-19 16:49:18
 // :ID:1003
 // :REV:2
@@ -335,7 +335,7 @@ default
 // Version 2
 
 // original script by Xundra Snowpaw
-// mods by Ferd Frederix
+// mods by Fred Beckhusen (Ferd Frederix)
 // revisions:
 // 10-3-2011 Mod by Ferd to listen to HOME_CHANNEL, not -237918, the original src has no other reference to that channel.
 // 11-16-2011 Use latest globals from GLobal Constants

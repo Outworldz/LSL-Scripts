@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Flying NPC's
 // :NAME:Opensim Ridable NPC
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-03-17 10:27:54
 // :EDITED:2015-04-14  11:57:50

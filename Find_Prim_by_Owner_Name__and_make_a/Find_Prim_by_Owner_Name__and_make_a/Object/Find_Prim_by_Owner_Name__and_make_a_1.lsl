@@ -1,6 +1,6 @@
 // :CATEGORY:Radar
 // :NAME:Find_Prim_by_Owner_Name__and_make_a
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-10-06 13:23:16.210
 // :EDITED:2013-09-18 15:38:53
 // :ID:301
@@ -12,7 +12,7 @@
 // :CODE:
 // Change the next line to find an avatars prims
 
-string avatar = "Ferd Frederix";
+string avatar = "Fred Beckhusen (Ferd Frederix)";
 
 default
 {

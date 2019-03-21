@@ -1,6 +1,6 @@
 // :CATEGORY:Music
 // :NAME:HUD_Music_player_with_trigger
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-10-09 15:42:19.730
 // :EDITED:2013-09-18 15:38:55
 // :ID:394

@@ -1,6 +1,6 @@
 // :CATEGORY:Tandy
 // :NAME:Tandy the Nymph
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:06
 // :ID:867
@@ -11,7 +11,7 @@
 // Tandy
 // :CODE:
 
-// mods by Ferd Frederix for Tandy the Nymph
+// mods by Fred Beckhusen (Ferd Frederix) for Tandy the Nymph
 // 12-10-2012
 
 // Put a spark texture in the inventory, too , or else you get white sparks.

@@ -14,7 +14,7 @@
 
 
 // Revision:
-// Ferd Frederix removed useless stuff
+// Fred Beckhusen (Ferd Frederix) removed useless stuff
 
 key RequestStops;
 key GetIndexLines;

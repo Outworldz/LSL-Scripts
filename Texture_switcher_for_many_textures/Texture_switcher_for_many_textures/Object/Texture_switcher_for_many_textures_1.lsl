@@ -1,6 +1,6 @@
 // :CATEGORY:Texture
 // :NAME:Texture_switcher_for_many_textures
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-10-06 15:56:27.900
 // :EDITED:2013-09-18 15:39:07
 // :ID:880

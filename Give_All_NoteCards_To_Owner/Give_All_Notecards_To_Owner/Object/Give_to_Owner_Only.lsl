@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Maibox
 // :NAME:Give_All_NoteCards_To_Owner
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2016-06-01 10:19:39
 // :EDITED:2016-06-01  09:23:07

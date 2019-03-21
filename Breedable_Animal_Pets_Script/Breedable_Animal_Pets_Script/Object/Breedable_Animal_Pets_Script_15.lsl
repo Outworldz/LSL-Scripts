@@ -8,7 +8,7 @@
 // :REV:1.0
 // :WORLD:Second Life
 // :DESCRIPTION:
-// This script can be used to set the quail into it's initial size. Once this script has been loaded into the root prim of the quail and run, it can be deleted// Author Ferd Frederix
+// This script can be used to set the quail into it's initial size. Once this script has been loaded into the root prim of the quail and run, it can be deleted// Author Fred Beckhusen (Ferd Frederix)
 // :CODE:
 default
 {

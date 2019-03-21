@@ -13,7 +13,7 @@
 // A simple Bird follower script using llLookAt and llMoveToTarget
 // :CODE:
 // llLookAt code original by Dahlia Trimble  02/8/2015
-// mods by Ferd Frederix 02-24-2015
+// mods by Fred Beckhusen (Ferd Frederix) 02-24-2015
 // More mods by Ferd for finding anyone and staying in front.
 
 vector gOffset = <2.0, 0.0, 0>;

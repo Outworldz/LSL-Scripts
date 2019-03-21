@@ -1,6 +1,6 @@
 // :CATEGORY:Egret
 // :NAME:Gwenette
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:54
 // :ID:370
@@ -42,7 +42,7 @@
 //////////////////////// ORIGINAL AUTHORS CODE BEGINS ////////////////////////////////////////////
 // One Script Prim Animation
 
-// Original Script by: Ferd Frederix
+// Original Script by: Fred Beckhusen (Ferd Frederix)
 // No Spam version by: Gino Rascon
 
 integer runtime = TRUE; // set to TRUE after making the notecard

@@ -1,6 +1,6 @@
 // :CATEGORY:Avatar
 // :NAME:Halfatar
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-10-04 11:10:45
 // :EDITED:2013-10-04 11:10:45
 // :ID:999
@@ -13,7 +13,7 @@
 // script to play an animation while walking or running only.
 // requires animation named "stranglehold"
 // Use in half-avatars
-// :Author: Ferd Frederix
+// :Author: Fred Beckhusen (Ferd Frederix)
 
 
 

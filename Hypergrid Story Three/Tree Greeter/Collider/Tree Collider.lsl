@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:NPC
 // :NAME:Collider
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 
 // :REV:1

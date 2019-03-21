@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Prim
 // :NAME:Prim_Animation_Compiler
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS: Animation, Puppeteer
 // :CREATED:2013-02-25 10:47:09.853
 // :EDITED:2015-10-20  14:27:52
@@ -21,7 +21,7 @@
 	// editing time required between compile and publish, at minimal cost in compiled script load, readability of script 
 
 
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 // Based on an excellent script by Allen Firethorn
 // This is free software, it is not for sale at any price. Yu can use it and sell the object.
 
@@ -141,7 +141,7 @@ default {
 
             vector scale = llGetScale();
             SayCode("// Prim animation compiler //\n"
-                + "// Ferd Frederix - http://www.outworldz.com\n"
+                + "// Fred Beckhusen (Ferd Frederix) - http://www.outworldz.com\n"
                 + "integer playbackchannel = 1; // The default llMessageLinked number\n"
                 + "rotation calcChildRot(rotation rdeltaRot){\n"
                 + "\tif (llGetAttached())\n"

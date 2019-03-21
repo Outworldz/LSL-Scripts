@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Radio
 // :NAME:Top2000_Radio_Stations_Player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2013-12-14 13:33:32
 // :EDITED:2019-03-18  22:44:26

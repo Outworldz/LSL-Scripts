@@ -51,11 +51,11 @@
 //
 
 // REVISIONS:
-// V2 09-25-2014 - Ferd Frederix - added debug info
+// V2 09-25-2014 - Fred Beckhusen (Ferd Frederix) - added debug info
 //               save NPC key in description so pose ball can be removed and replaced
 //               Added Sensor to make NPCs go away when no one is around                    
 
-// V3 01-22-2015 - Ferd Frederix - Fixed the timer so it plays more than ane animation- 
+// V3 01-22-2015 - Fred Beckhusen (Ferd Frederix) - Fixed the timer so it plays more than ane animation- 
 //
 // -----------------------------------------------------------------------
 // USER VARIABLES

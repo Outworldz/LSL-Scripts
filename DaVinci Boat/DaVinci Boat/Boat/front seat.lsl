@@ -1,6 +1,6 @@
 // :CATEGORY:Boat
 // :NAME:DaVinci Boat
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-08
 // :EDITED:2013-09-18 15:38:51
 // :ID:220

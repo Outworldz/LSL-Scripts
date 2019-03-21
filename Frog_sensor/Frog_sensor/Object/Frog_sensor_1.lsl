@@ -12,7 +12,7 @@
 // :CODE:
 
 // Frog player
-// Written by Ferd Frederix
+// Written by Fred Beckhusen (Ferd Frederix)
 // Scans every 10 seconds for visitors within 5 meters.
 // then it croaks
 

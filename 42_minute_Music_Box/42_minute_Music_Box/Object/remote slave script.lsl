@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Music
 // :NAME:42_minute_Music_Box
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-01-07 22:38:00
 // :EDITED:2015-04-27  12:31:53

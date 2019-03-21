@@ -1,6 +1,6 @@
 // :CATEGORY:FaceLight
 // :NAME:facelight
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-04-04 22:00:30
 // :EDITED:2014-04-04

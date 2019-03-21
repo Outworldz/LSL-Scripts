@@ -1,5 +1,5 @@
 // Script Name: Prim_Animation_Compiler.lsl
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 // This prim animator compiler is a very useful and easy to use script for Second Life and OpenSim. Setup is very simple. Just drop the two script into the object, click the object, and give your animation a name. Move all the prims around, and click Record. When done, click the Compile button. It writes fast, optimized code for you.
 
 // Downloaded from : http://www.outworldz.com/cgi/freescripts.plx?ID=1691
@@ -17,10 +17,10 @@
 //
 // You cannot attach a license to any of these scripts to make any license more or less restrictive.
 //
-// All scripts by avatar Ferd Frederix, unless stated otherwise in the script, are licensed as Creative Commons By Attribution and Non-Commercial.
+// All scripts by avatar Fred Beckhusen (Ferd Frederix), unless stated otherwise in the script, are licensed as Creative Commons By Attribution and Non-Commercial.
 // Commercial use is NOT allowed - no resale of my scripts in any form.  
 // This means you cannot sell my scripts but you can give them away if they are FREE.  
-// Scripts by Ferd Frederix may be sold when included in a new object that actually uses these scripts. Putting my script in a prim and selling it on marketplace does not constitute a build.
+// Scripts by Fred Beckhusen (Ferd Frederix) may be sold when included in a new object that actually uses these scripts. Putting my script in a prim and selling it on marketplace does not constitute a build.
 // For any reuse or distribution, you must make clear to others the license terms of my works. This is done by leaving headers intact.
 // See http://creativecommons.org/licenses/by-nc/3.0/ for more details and the actual license agreement.
 // You must leave any author credits and any headers intact in any script you use or publish.

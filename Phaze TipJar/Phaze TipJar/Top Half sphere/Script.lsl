@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:tipjar
 // :NAME:Phaze TipJar
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2016-05-02 12:59:52
 // :EDITED:2016-05-02  11:59:52
@@ -13,7 +13,7 @@
 // A tipjar made with two spheres.  The top will pop when touched
 // :CODE:
 //Keknehv Psaltery Updated Version of DONATION BOX By jean cook, ama omega, and nada epoch Debugged by YadNi Monde.
-// changed into a butterfly dispenser by Ferd Frederix
+// changed into a butterfly dispenser by Fred Beckhusen (Ferd Frederix)
 // (LoL) Yea, that s a Bunch O Peeps =)
 
 //Summary: The following script will make an object accept donations on your behalf.
@@ -47,17 +47,17 @@ default
         totaldonated += amount;
         string name= llKey2Name(id);
         llSetText( owner + "'s Tip Jar.\nRelease the butterflies!\n  \nLast Donor:\n " + name + " gave $L" + (string)amount ,<.25,1,.65>,1);
-        //llInstantMessage(id,"Thanks for the tip!  I really appreciate it. ~ Ferd Frederix");
+        //llInstantMessage(id,"Thanks for the tip!  I really appreciate it. ~ Fred Beckhusen (Ferd Frederix)");
      
         if (amount == 1)
             llSay(0,"Uhh, thanks I think, " + name );
         
         if (amount > 0)
-            llSay(0,"Thanks for the tip, " + name +"! I really appreciate it. ~ Ferd Frederix");
+            llSay(0,"Thanks for the tip, " + name +"! I really appreciate it. ~ Fred Beckhusen (Ferd Frederix)");
         else if (amount > 100)
-            llSay(0,"Thanks for the awesome tip, " + name +"!  I  appreciate it. ~ Ferd Frederix");
+            llSay(0,"Thanks for the awesome tip, " + name +"!  I  appreciate it. ~ Fred Beckhusen (Ferd Frederix)");
         else if (amount > 300)
-            llSay(0,"Thanks for the AWESOME tip, " + name +"!  I really appreciate it. ~ Ferd Frederix");
+            llSay(0,"Thanks for the AWESOME tip, " + name +"!  I really appreciate it. ~ Fred Beckhusen (Ferd Frederix)");
                 
         llInstantMessage(llGetOwner(),(string)llKey2Name(id)+" donated $" + (string)amount);
         

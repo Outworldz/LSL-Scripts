@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Radio
 // :NAME:MOAP Top 2000 Radio Stations Player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2012-09-04 15:30:52.010
 // :EDITED:2019-03-18  22:30:00
@@ -14,7 +14,7 @@
 // :CODE:
 
 // More information on this radio player is at <a href="http://www.outworldz.com/Secondlife/posts/streaming">this link</a>
-// Copyright 2010 Ferd Frederix
+// Copyright 2010 Fred Beckhusen (Ferd Frederix)
 // License:
 // Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 // http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US

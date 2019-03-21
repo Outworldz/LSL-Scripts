@@ -1,6 +1,6 @@
 // :CATEGORY:Music
 // :NAME:Simple_MP3_music_player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-06-16 15:25:21.700
 // :EDITED:2013-09-18 15:39:02
 // :ID:763
@@ -10,7 +10,7 @@
 // :DESCRIPTION:
 // Add music URLs to a list, and call 'play(llDumpList2String(playlist,","));'// // This function then builds the necessary data for autostarting the music , continually streaming the mp3's back-to-back, and loops them when done.// // Your limit is 1024K bytes for the embedded URL's, which is a lot of URL's, even when the escape function triples some of the characters
 // :CODE:
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 // simple mp3 player for SL
 // See http://wpaudioplayer.com/standalone/ for details 
 
@@ -22,7 +22,7 @@
 //
 //Your limit is 1024K bytes for the embedded URL's, which is a lot of URL's, even when the escape function triples some of the characters
 //
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 // simple mp3 player for SL
 play(string url)
 {

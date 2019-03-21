@@ -1,6 +1,6 @@
 // :CATEGORY:Movement
 // :NAME:Moving_Mountains__like_in_Avatar
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-07-18 11:46:58.413
 // :EDITED:2013-09-18 15:38:57
 // :ID:527

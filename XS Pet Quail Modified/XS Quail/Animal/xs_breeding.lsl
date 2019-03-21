@@ -1,6 +1,6 @@
 // :CATEGORY:XS Pet
 // :NAME:XS Pet Quail Modified
-// :AUTHOR:Xundra Snowpaw, Ferd Frederix
+// :AUTHOR:Xundra Snowpaw, Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:09
 // :ID:987
@@ -16,7 +16,7 @@
 // xs_breeding: LINK_CALL_MALE_INFO was in error on line 159, was LINK_CALL_MALE, should be LINK_CALL_MALE_INFO
 
 // script by Xundra Snowpaw
-// mods by Ferd Frederix
+// mods by Fred Beckhusen (Ferd Frederix)
 //
 // New BSD License: http://www.opensource.org/licenses/bsd-license.php
 // Copyright (c) 2010, Xundra Snowpaw

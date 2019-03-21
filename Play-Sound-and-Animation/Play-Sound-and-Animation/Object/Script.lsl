@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Sound
 // :NAME:Play-Sound-and-Animation
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-02-25 22:55:57
 // :EDITED:2015-02-25  21:55:57

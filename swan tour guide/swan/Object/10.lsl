@@ -1,6 +1,6 @@
 // :CATEGORY:Tour
 // :NAME:swan tour guide
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-11-27 13:38:09
 // :ID:854

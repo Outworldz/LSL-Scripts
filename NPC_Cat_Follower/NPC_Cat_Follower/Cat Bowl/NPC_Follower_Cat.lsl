@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:OpenSim NPC
 // :NAME:NPC_Cat_Follower
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2013-11-27 13:33:04
 // :EDITED:2016-07-09  14:33:57
@@ -12,7 +12,7 @@
 // :DESCRIPTION:
 // A NPC follower. Will follow close to any avatar.
 //  Touch to turn on or off.
-// Has lots of mods by Ferd Frederix
+// Has lots of mods by Fred Beckhusen (Ferd Frederix)
 // License: http://creativecommons.org/licenses/by-nc
 // some code bits from author: jpvdgiessen
 // You are free:

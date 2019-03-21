@@ -1,6 +1,6 @@
 // :CATEGORY:XS Pet
 // :NAME:XS Pet Robot
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS: Pet,XS,breed,breedable,companion,Ozimal,Meeroo,Amaretto,critter,Fennux,Pets
 // :CREATED:2013-09-06
 // :EDITED:2014-01-30 12:24:21
@@ -21,7 +21,7 @@
 // Noncommercial -- You may not use this work for commercial purposes, i.e., you cannot sell this script in any form, including derivatives.
 // If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
 // This means that you cannot sell this or derivative code by itself, but you may share and use this code in any object or virtual world.
-// You must attribute authorship in the scripts to Ferd Frederix and Xundra Snowpaw, and leave this notice intact.
+// You must attribute authorship in the scripts to Fred Beckhusen (Ferd Frederix) and Xundra Snowpaw, and leave this notice intact.
 // You do not have to give back to the community any changes you make, however, code changes would be greatly appreciated!
 //
 // Exception: I am allowing this script to be used in an original build and sold with the build.

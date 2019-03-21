@@ -46,7 +46,7 @@
 // I would also like to take the time here to recognize Archanox Underthorn
 // as the creator of the original animation override.
 
-// Mods to fix Opensim Crap by Ferd Frederix
+// Mods to fix Opensim Crap by Fred Beckhusen (Ferd Frederix)
 
 
 

@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Teleport
 // :NAME:Elven Door Teleport System
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-12-04 12:11:30
 // :EDITED:2015-04-14  11:57:46
@@ -12,7 +12,7 @@
 // :DESCRIPTION:
 // DESCRIPTION: []::Elven Door teleport System invisible prim - put inside the main system
 // :CODE:
-// Ferd Frederix
+// Fred Beckhusen (Ferd Frederix)
 
 
 integer debug = 0;

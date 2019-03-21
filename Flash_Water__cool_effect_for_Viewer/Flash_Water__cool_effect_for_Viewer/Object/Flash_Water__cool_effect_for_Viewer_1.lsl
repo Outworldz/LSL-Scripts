@@ -1,6 +1,6 @@
 // :CATEGORY:Water
 // :NAME:Flash_Water__cool_effect_for_Viewer
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-06-18 22:25:45.157
 // :EDITED:2013-09-18 15:38:53
 // :ID:315

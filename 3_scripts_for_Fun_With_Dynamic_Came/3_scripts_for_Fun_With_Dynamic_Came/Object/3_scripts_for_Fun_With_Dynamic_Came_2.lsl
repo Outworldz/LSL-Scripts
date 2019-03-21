@@ -15,7 +15,7 @@
 // ControlCam script, by Azurei Ash, feel free to use and distribute
 // To be used as a HUD attachment, touch to turn on, touch again to turn off
 // HUD toggle by Ariane Brodie
-// Rev 1.1 8-17-2013 Patched to compile by Ferd Frederix, un-initted owner vs llGetOwner()
+// Rev 1.1 8-17-2013 Patched to compile by Fred Beckhusen (Ferd Frederix), un-initted owner vs llGetOwner()
 
 // Initial camera position relative to avatar
 // <1,0,.75> = 1 meter forward, 0 meters left, .75 meters up

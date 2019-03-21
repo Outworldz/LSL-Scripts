@@ -1,6 +1,6 @@
 // :CATEGORY:HUD
 // :NAME:Improved_HUD_positioner
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-06-22 15:17:05.390
 // :EDITED:2013-09-18 15:38:55
 // :ID:399
@@ -23,7 +23,7 @@
 // \_| \___|_|  \__,_| \_| |_|  \___|\__,_|\___|_|  |_/_/\_\
 //
 // fred@mitsi.com
-// author Ferd Frederix
+// author Fred Beckhusen (Ferd Frederix)
 //
 
 integer  lasttarget;

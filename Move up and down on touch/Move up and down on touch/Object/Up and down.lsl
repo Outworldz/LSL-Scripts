@@ -1,6 +1,6 @@
 // :CATEGORY:Movement
 // :NAME:Move up and down on touch
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-12-09 11:43:19
 // :EDITED:2013-12-09 11:43:19
 // :ID:1005

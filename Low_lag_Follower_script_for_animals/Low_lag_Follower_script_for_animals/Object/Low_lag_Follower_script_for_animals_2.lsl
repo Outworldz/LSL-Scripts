@@ -1,6 +1,6 @@
 // :CATEGORY:Animal
 // :NAME:Low_lag_Follower_script_for_animals
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-08-04 16:17:15.970
 // :EDITED:2013-09-18 15:38:56
 // :ID:496
@@ -11,7 +11,7 @@
 // This Chaser Script goes into an invisible prim.  Make it large and visible at first. or you will certainly have an invisible, tiny, hard to catch prim wandering your sim!
 // :CODE:
 // Primchaser script 
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 
 // Copyright 2011.   Licensed under the GNU open source license GPLv3
 // http://www.gnu.org/copyleft/gpl.html

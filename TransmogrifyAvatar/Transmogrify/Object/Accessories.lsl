@@ -1,6 +1,6 @@
 // :CATEGORY:Transmogrify
 // :NAME:TransmogrifyAvatar
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-08
 // :EDITED:2014-01-01 12:18:57
 // :ID:921
@@ -12,7 +12,7 @@
 // :CODE:
 // Transmogrifyer script
 // License: CC-BY. Please do not remove the copyright or this notice
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 
 // For all your worn accessories (not the pet)
 // makes accessories like shoes and hair disappear when you fly.

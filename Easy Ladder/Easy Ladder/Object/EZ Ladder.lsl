@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Animation
 // :NAME:Easy Ladder
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Ladder
 // :CREATED:2015-07-15 10:04:12
 // :EDITED:2016-05-02  11:59:18
@@ -21,7 +21,7 @@
 
  BVH: climb-rope
 
-Ferd Frederixz - removed cruft, added offsets and removed ugly hacks. 
+Fred Beckhusen (Ferd Frederix)z - removed cruft, added offsets and removed ugly hacks. 
 
 */
  

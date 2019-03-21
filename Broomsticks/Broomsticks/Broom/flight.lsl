@@ -1,6 +1,6 @@
 // :CATEGORY:Halloween
 // :NAME:Broomsticks
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:49
 // :ID:119
@@ -24,7 +24,7 @@
 // * April 15, 2004 - Adapted to work as DIY helicopter script -CT
 // * ???, 2004 - Adapted to work as magic carpet. -CT
 // * April 10, 2006 - Released to public. Tidied some code. Added beacon. Allowed anyone to pilot, no longer keyed to owner. -CT
-// modified to be a borrom - Ferd Frederix
+// modified to be a borrom - Fred Beckhusen (Ferd Frederix)
 
 integer sit = FALSE;
 

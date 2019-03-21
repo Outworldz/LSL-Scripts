@@ -1,6 +1,6 @@
 // :CATEGORY:XS Pet
 // :NAME:Texture_server_for_XS_Pets
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-08-16 11:11:55.200
 // :EDITED:2013-09-17 21:48:44
 // :ID:879
@@ -25,7 +25,7 @@
 //
 // Exception: I am allowing this script to be sold inside an original build.
 // You are not selling the script, you are selling the build.
-// Ferd Frederix
+// Fred Beckhusen (Ferd Frederix)
 
 
 

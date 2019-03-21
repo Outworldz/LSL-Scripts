@@ -1,6 +1,6 @@
 // :CATEGORY:XS Pet
 // :NAME:XS Pet Robot
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS: Pet,XS,breed,breedable,companion,Ozimal,Meeroo,Amaretto,critter,Fennux,Pets
 // :CREATED:2013-09-06
 // :EDITED:2014-03-22
@@ -69,7 +69,7 @@ integer LINK_SLEEP = 7999;              // disable sleep by parameter
 integer LINK_TIMER = 8000;              // scan for food bowl about every 1800 seconds
 integer LINK_DIE = 9999;                // death
 
-string Copyright = " (c)2014 by Ferd Frederix";    // You cannot change this line, but you can change the code that prints it!
+string Copyright = " (c)2014 by Fred Beckhusen (Ferd Frederix)";    // You cannot change this line, but you can change the code that prints it!
 // See License agreements above.
 //  Attribution is required, as these files are copyrighted. 
 

@@ -1,6 +1,6 @@
 // :CATEGORY:Follower
 // :NAME:Keyframe Follower
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-12-04 12:14:04
 // :EDITED:2014-12-04
@@ -13,7 +13,7 @@
 // :CODE:
 
 // Prim animation compiler //
-// Ferd Frederix - http://www.outworldz.com
+// Fred Beckhusen (Ferd Frederix) - http://www.outworldz.com
 integer playbackchannel = 1; // The default llMessageLinked number
 rotation calcChildRot(rotation rdeltaRot){
     if (llGetAttached())

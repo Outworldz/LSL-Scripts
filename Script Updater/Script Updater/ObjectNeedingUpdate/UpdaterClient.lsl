@@ -1,6 +1,6 @@
 // :CATEGORY:Updater
 // :NAME:Script Updater
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Update, updater
 // :CREATED:2014-01-30 12:16:43
 // :EDITED:2014-02-14 12:33:24

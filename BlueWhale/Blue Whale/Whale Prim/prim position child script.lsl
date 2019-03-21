@@ -1,6 +1,6 @@
 // :CATEGORY:Blue Whale
 // :NAME:BlueWhale
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:49
 // :ID:107
@@ -20,7 +20,7 @@
 // | ||  __/ | | (_| | | | | | |  __/ (_| |  __/ |  | |>  <
 // \_| \___|_|  \__,_| \_| |_|  \___|\__,_|\___|_|  |_/_/\_\
 //
-// author Ferd Frederix
+// author Fred Beckhusen (Ferd Frederix)
 
 // Prim positioner child script.
 // Put a copy of this script in any prim you wish to move

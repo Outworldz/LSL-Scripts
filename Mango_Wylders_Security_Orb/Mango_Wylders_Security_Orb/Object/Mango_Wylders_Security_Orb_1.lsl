@@ -11,7 +11,7 @@
 // Mango Wylder's Security Orb    
 // :CODE:
 // Written by Mango Wylder except where noted
-// Mods by Ferd Frederix for OpenSim on 3-1-2013
+// Mods by Fred Beckhusen (Ferd Frederix) for OpenSim on 3-1-2013
 // Mods by Ferd from the Second Life wiki, thanks to a tip from Perrie Juran 5-29-2013
 // Please see the notes below  for usage
 

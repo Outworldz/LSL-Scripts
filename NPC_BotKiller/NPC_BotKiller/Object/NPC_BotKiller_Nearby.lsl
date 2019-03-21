@@ -1,6 +1,6 @@
 // :CATEGORY:OpenSim NPC
 // :NAME:NPC_BotKiller
-// :AUTHOR:Ferd frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2013-08-02 12:52:56.077
 // :EDITED:2014-09-24

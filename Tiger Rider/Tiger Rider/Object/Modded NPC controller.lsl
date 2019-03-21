@@ -1,6 +1,6 @@
 // :CATEGORY:Rider
 // :NAME:Tiger Rider
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-13 13:18:50
 // :EDITED:2013-09-18 15:39:07
 // :ID:996
@@ -101,7 +101,7 @@ string osGetNotecard(string name) {
 
 // Instructions on how to use this is at http://www.outworldz.com/opensim/posts/NPC/
 // This is an OpenSim-only script.
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 
   
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -112,7 +112,7 @@ string osGetNotecard(string name) {
 ///////////////////////////////////////////////////////////////////////////////////////////
 // The original NPC controller was from http://was.fm/opensim:npc
 
-// Extensive additions and bug fixes by Fred Beckhusem, aka Ferd Frederix, fred@mitsi.com
+// Extensive additions and bug fixes by Fred Beckhusem, aka Fred Beckhusen (Ferd Frederix), fred@mitsi.com
 // llSensor had two params swapped
 // @Wander would wander where it had rezzed, not where it was.
 // There was no 'no_sensor' event in sit, so if a @sit failed, the NPC got stuck

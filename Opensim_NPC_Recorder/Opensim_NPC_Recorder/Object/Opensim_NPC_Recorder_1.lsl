@@ -1,6 +1,6 @@
 // :CATEGORY:OpenSim NPC
 // :NAME:Opensim_NPC_Recorder
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-07-30 13:47:53.993
 // :EDITED:2013-09-18 15:38:59
 // :ID:596

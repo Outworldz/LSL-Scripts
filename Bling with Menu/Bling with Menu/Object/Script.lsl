@@ -1,6 +1,6 @@
 // :CATEGORY:Particles
 // :NAME:Bling with Menu
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:48
 // :ID:95

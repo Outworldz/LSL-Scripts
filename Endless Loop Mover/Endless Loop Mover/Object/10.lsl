@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Tour
 // :NAME:Endless Loop Mover
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS: Movement, Walking, Teleporting
 // :CREATED:2013-09-06
 // :EDITED:2015-08-05  10:12:51

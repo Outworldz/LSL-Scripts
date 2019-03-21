@@ -1,6 +1,6 @@
 // :CATEGORY:NPC
 // :NAME:NPC rotator
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-09-24 14:52:23
 // :EDITED:2014-09-24
@@ -31,7 +31,7 @@ integer active=TRUE;
 vector offSet=<0.0, 0.0, 1.0>;
 
 
-// V1.1 Ferd Frederix - remote control - Link messages to the prim animator are captured here.
+// V1.1 Fred Beckhusen (Ferd Frederix) - remote control - Link messages to the prim animator are captured here.
 // any NPC Options?
 // OS_NPC_CREATOR_OWNED will create an 'owned' NPC that will only respond to osNpc* commands issued from scripts that have the same owner as the one that created the NPC.
 // OS_NPC_NOT_OWNED will create an 'unowned' NPC that will respond to any script that has OSSL permissions to call osNpc* commands.

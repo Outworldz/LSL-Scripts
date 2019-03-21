@@ -1,6 +1,6 @@
 // :CATEGORY:XS Pet
 // :NAME:XS Pet Robot
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS: Pet,XS,breed,breedable,companion,Ozimal,Meeroo,Amaretto,critter,Fennux,Pets
 // :CREATED:2013-09-06
 // :EDITED:2014-01-30 12:24:21
@@ -28,7 +28,7 @@
 //
 // Exception: I am allowing this script to be sold inside an original build.
 // You are not selling the script, you are selling the build.
-// Ferd Frederix
+// Fred Beckhusen (Ferd Frederix)
 
 
 

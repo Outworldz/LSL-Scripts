@@ -1,6 +1,6 @@
 // :CATEGORY:Fish
 // :NAME:Free-Swimming-Fish
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-25 14:05:08
 // :EDITED:2013-09-25 14:05:08
 // :ID:998
@@ -19,7 +19,7 @@
 ////////////////////////////////////////////
 // Follow Me Script segment
 //
-// Written by Ferd Frederix
+// Written by Fred Beckhusen (Ferd Frederix)
 ///////////////////////////////////////// ///
 float RADIUS = 2.0;
 

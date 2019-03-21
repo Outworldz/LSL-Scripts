@@ -1,6 +1,6 @@
 // :CATEGORY:Prim Animator
 // :NAME:Archipelis scripts for prim animator
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:38:48
 // :ID:52
@@ -14,7 +14,7 @@
 // :CODE:
 
 // With the courtesy of BestMomo Lagan.
-// remove extra textures, script, and allow re-linked prim animation by Ferd Frederix
+// remove extra textures, script, and allow re-linked prim animation by Fred Beckhusen (Ferd Frederix)
 
 string generate_index(integer i)
 {

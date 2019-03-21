@@ -1,6 +1,6 @@
 // :CATEGORY:Greeter
 // :NAME:Give_a_notecard_in_their_native_lan
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2011-10-22 10:57:12.247
 // :EDITED:2013-09-18 15:38:54
 // :ID:350

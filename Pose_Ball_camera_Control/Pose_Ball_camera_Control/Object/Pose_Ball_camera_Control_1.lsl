@@ -1,6 +1,6 @@
 // :CATEGORY:Camera
 // :NAME:Pose_Ball_camera_Control
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-03-10 23:41:43.637
 // :EDITED:2013-09-18 15:39:00
 // :ID:642
@@ -11,7 +11,7 @@
 // Pose_Ball_camera_Control
 // :CODE:
 //Original idea by Linden Lab's Dan Linden
-// Mods by Ferd Frederix
+// Mods by Fred Beckhusen (Ferd Frederix)
 
 key agent;
 

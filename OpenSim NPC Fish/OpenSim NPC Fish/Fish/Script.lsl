@@ -1,6 +1,6 @@
 // :CATEGORY:OpenSim NPC
 // :NAME:OpenSim NPC Fish
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-02-14 12:33:23
 // :EDITED:2014-02-15 13:46:29

@@ -1,6 +1,6 @@
 // :CATEGORY:AO
 // :NAME:Selkie
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:02
 // :ID:737
@@ -12,7 +12,7 @@
 // :CODE:
 
 // Low Lag AO by Casper Warden // Completely license free
-// Mods by Ferd Frederix for use with dual identity Selkie avatars
+// Mods by Fred Beckhusen (Ferd Frederix) for use with dual identity Selkie avatars
 
 // 8-11-2013 Rev 0.2
 

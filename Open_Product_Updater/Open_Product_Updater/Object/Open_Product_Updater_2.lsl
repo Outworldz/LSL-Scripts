@@ -1,6 +1,6 @@
 // :CATEGORY:Updater
 // :NAME:Open_Product_Updater
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-05-24 13:20:21.143
 // :EDITED:2013-09-18 15:38:59
 // :ID:589
@@ -10,7 +10,7 @@
 // :DESCRIPTION:
 // Client Script. Please remember to configure the UUID in both the server and the client,it is simple, and free.  Make sure your product is named something like  "Name-V1", where the number  is the latest version.    Give this out.  When it is rezzed, it will check with the server to see if there is a higher numbered object available. // // You can set CHATTY = FALSE and the operation of the updater will be silent.  If TRUE, it will announce "Checking for updates" when it is rezzed.
 // :CODE:
-// Script by Ferd Frederix
+// Script by Fred Beckhusen (Ferd Frederix)
 // fred@mitsi.com
 // License: CC-BY-NC
 // This means you must leave the headers in this script intact, and it is not to be sold by itself, not even for a Linden

@@ -1,6 +1,6 @@
 // :CATEGORY:Animated GIF
 // :NAME:MultiGIF_menu
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2012-10-18 09:27:59.460
 // :EDITED:2013-09-18 15:38:57
 // :ID:535

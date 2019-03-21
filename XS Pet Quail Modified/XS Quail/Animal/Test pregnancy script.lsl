@@ -1,6 +1,6 @@
 // :CATEGORY:XS Pet
 // :NAME:XS Pet Quail Modified
-// :AUTHOR:Xundra Snowpaw, Ferd Frederix
+// :AUTHOR:Xundra Snowpaw, Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-09-06
 // :EDITED:2013-09-18 15:39:09
 // :ID:987
@@ -13,11 +13,11 @@
 
 // Version .24  10-3-2011
 
-// script by Ferd Frederix
+// script by Fred Beckhusen (Ferd Frederix)
 //
 
 // New BSD License: http://www.opensource.org/licenses/bsd-license.php
-// Copyright (c) 2010, Ferd Frederix
+// Copyright (c) 2010, Fred Beckhusen (Ferd Frederix)
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:

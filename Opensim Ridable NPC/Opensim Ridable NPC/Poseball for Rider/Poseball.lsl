@@ -1,7 +1,7 @@
 // :SHOW:
 // :CATEGORY:Rider
 // :NAME:Opensim Ridable NPC
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2015-03-17 10:28:24
 // :EDITED:2015-03-17  09:28:24

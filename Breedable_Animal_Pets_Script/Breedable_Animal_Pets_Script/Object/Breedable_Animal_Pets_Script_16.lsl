@@ -8,7 +8,7 @@
 // :REV:1.0
 // :WORLD:Second Life
 // :DESCRIPTION:
-// xs_debug - a script tointercept messages inside and outside your bird// Version 2, 10-2-2011 by Ferd Frederix// Prints out the channel and the link number
+// xs_debug - a script tointercept messages inside and outside your bird// Version 2, 10-2-2011 by Fred Beckhusen (Ferd Frederix)// Prints out the channel and the link number
 // :CODE:
 integer FOOD_CHANNEL = -999191;
 integer ANIMAL_CHANNEL = -999192;

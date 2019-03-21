@@ -1,6 +1,6 @@
 // :CATEGORY:Groups
 // :NAME:Group_Info_on_touch
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2013-04-12 11:54:42.040
 // :EDITED:2013-09-18 15:38:54
 // :ID:366
@@ -18,13 +18,13 @@
 // [09:50] Object: open_enrollment:N
 // [09:50] Object: membership_fee:0
 // [09:50] Object: founderid:a4dd7d22-071e-47d3-98c7-4d793e07124a
-// [09:50] Object: founder:Ferd Frederix the Blue Adept (ferd.frederix)
+// [09:50] Object: founder:Fred Beckhusen (Ferd Frederix) the Blue Adept (ferd.frederix)
 // [09:50] Object: groupid:9045d102-57c5-cea1-a1b1-b42ec27d8e25
 // [09:50] Object: imageid:2446d7da-0e11-a83b-6d84-6dedc375de46
-// [09:50] Object: founder:Ferd Frederix the Blue Adept (ferd.frederix)
+// [09:50] Object: founder:Fred Beckhusen (Ferd Frederix) the Blue Adept (ferd.frederix)
 // License:  Creative Commons/BY   
 // http://creativecommons.org/licenses/by/2.0/
-// author: Ferd Frederix 
+// author: Fred Beckhusen (Ferd Frederix) 
 
 string url = "http://world.secondlife.com/group/";
 key http_request_id;

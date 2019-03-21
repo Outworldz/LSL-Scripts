@@ -1,7 +1,7 @@
 // :SHOW:1
 // :CATEGORY:Gaming
 // :NAME:Game Prim Script for5 Game sequence Web site.
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:Game, conteoller
 // :REV:5.5
 // :WORLD:OpenSim, Second life

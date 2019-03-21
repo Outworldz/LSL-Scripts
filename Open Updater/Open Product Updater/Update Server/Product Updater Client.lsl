@@ -1,6 +1,6 @@
 // :CATEGORY:Updater
 // :NAME:Open Updater
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2013-09-06
 // :EDITED:2014-02-24
@@ -12,7 +12,7 @@
 // Grid-wide Updater for products. This is the Client
 // :CODE:
 
-// Script by Ferd Frederix
+// Script by Fred Beckhusen (Ferd Frederix)
 // fred@mitsi.com
 // License: CC-BY-NC
 // This means you must leave the headers in this script intact, and it is not to be sold by itself, not even for a Linden

@@ -1,6 +1,6 @@
 // :CATEGORY:Music
 // :NAME:Radio Buttoned Sound Player
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2014-09-08 19:06:13
 // :EDITED:2014-09-08

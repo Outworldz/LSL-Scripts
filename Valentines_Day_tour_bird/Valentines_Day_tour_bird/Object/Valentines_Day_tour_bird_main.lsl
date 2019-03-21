@@ -1,6 +1,6 @@
 // :CATEGORY:Tour Guide
 // :NAME:Valentines_Day_tour_bird
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :KEYWORDS:
 // :CREATED:2011-02-04 22:42:15.247
 // :EDITED:2014-03-11
@@ -11,7 +11,7 @@
 // :DESCRIPTION:
 // The main tour script.  Put this in the seat of the tour guide.
 // :CODE:
-// Author: Ferd Frederix
+// Author: Fred Beckhusen (Ferd Frederix)
 integer _debug = 0;
 integer REZ = 3454;
 list Line = [];

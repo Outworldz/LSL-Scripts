@@ -1,6 +1,6 @@
 // :CATEGORY:Animal
 // :NAME:The_Blue_Whale_project
-// :AUTHOR:Ferd Frederix
+// :AUTHOR:Fred Beckhusen (Ferd Frederix)
 // :CREATED:2010-05-28 12:46:01.023
 // :EDITED:2013-09-18 15:39:07
 // :ID:883

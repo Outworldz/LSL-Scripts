@@ -1,0 +1,48 @@
+<Project name="Dance Hud" guid="b3d3ee5f-632f-483e-84e6-e2a82b8ebb7d">
+	<Object name="Object" guid="e4c1c888-dc43-42a9-9405-df85af59dd4c" active="true">
+		<Script name="Root Prim Script.lsl" guid="6293d3f3-0b09-4324-b818-b489440f7885">
+		</Script>
+		<Script name="Next Button Script.lsl" guid="533a9f7d-b937-46b8-8fa5-41de460ae08f">
+		</Script>
+		<Script name="Back Button Script.lsl" guid="4f9d76b2-8369-43d1-bf65-0c05f0e54927">
+		</Script>
+		<Unknown name="cherished-f.bvh" guid="97afbde9-35bb-4bc5-a364-24e5bb9940c5">
+		</Unknown>
+		<Unknown name="cherished-m.bvh" guid="4fb7252c-9633-468f-99b5-9cdb939be2cf">
+		</Unknown>
+		<Unknown name="eternal-f.bvh" guid="078473f5-8a7d-4d80-b3a0-33d834d04b70">
+		</Unknown>
+		<Unknown name="eternal-f-wait.bvh" guid="16dc6b9f-0b68-4b4f-924f-7c56bbce3cc4">
+		</Unknown>
+		<Unknown name="eternal-m.bvh" guid="ff9061be-625e-440b-a11b-6490524cf30a">
+		</Unknown>
+		<Unknown name="eternal-m-wait.bvh" guid="3b82e0c5-94d7-430a-b12f-30808a946cb5">
+		</Unknown>
+		<Unknown name="magicmoment-f.bvh" guid="05c81bb2-f645-449c-b17d-6a7fa35a51e2">
+		</Unknown>
+		<Unknown name="magicmoment-f2.bvh" guid="8656c71e-3791-4008-9f79-adc202a49c82">
+		</Unknown>
+		<Unknown name="magicmoment-f-wait.bvh" guid="327a000c-af02-4c6c-8c93-68a3e848b4c0">
+		</Unknown>
+		<Unknown name="magicmoment-m.bvh" guid="cf18ddc8-70c8-4754-b2a5-9aa4b998779f">
+		</Unknown>
+		<Unknown name="magicmoment-m2.bvh" guid="9cb60b85-d3c1-4e7f-87b4-b40722033da4">
+		</Unknown>
+		<Unknown name="magicmoment-m-wait.bvh" guid="93828ef1-127c-4410-8dd4-7e5146c81447">
+		</Unknown>
+		<Script name="Stop Button Script.lsl" guid="407e8b61-4d50-4c5c-88d9-2698263c4022">
+		</Script>
+		<Unknown name="underyourspell2-f.bvh" guid="5336c187-1229-45a8-b83a-555f5b786f0f">
+		</Unknown>
+		<Unknown name="underyourspell2-m.bvh" guid="48cc3282-dacc-4f63-ae4f-1db92a1e9f60">
+		</Unknown>
+		<Unknown name="underyourspell-f.bvh" guid="d35499d0-a100-48cc-892c-fd8c8c4ae6f5">
+		</Unknown>
+		<Unknown name="underyourspell-f-wait.bvh" guid="fbeab8c4-2268-4a4d-95f7-8f15c1adc5f5">
+		</Unknown>
+		<Unknown name="underyourspell-m.bvh" guid="4cd71fcd-4646-4cbf-94ea-044296551b34">
+		</Unknown>
+		<Unknown name="underyourspell-m-wait.bvh" guid="1b26aaca-6ed4-443d-88b0-8298a1611970">
+		</Unknown>
+	</Object>
+</Project>

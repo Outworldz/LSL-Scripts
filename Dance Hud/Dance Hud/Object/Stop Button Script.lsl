@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:Dance
+// :NAME:Dance Hud
+// :AUTHOR:Anonymous
+// :KEYWORDS:
+// :CREATED:2019-04-04 20:49:27
+// :EDITED:2019-04-04  19:49:27
+// :ID:1120
+// :NUM:1970
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// Dance Hud Stop Button
+// :CODE:
 integer active = FALSE;
 
 default

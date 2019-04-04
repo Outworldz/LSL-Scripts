@@ -1,17 +1,7 @@
-// :SHOW:
-// :CATEGORY:Dreamgrid Specific
-// :NAME:Opensim Partners
-// :AUTHOR:Digiworldz.com
-// :KEYWORDS:
-// :CREATED:2019-03-18 23:44:18
-// :EDITED:2019-03-18  22:44:18
-// :ID:1115
-// :NUM:1920
-// :REV:1
-// :WORLD:OpenSim
-// :DESCRIPTION:
-Opensim Partnership program// :REVISION: 2
-// :CODE:
+//:AUTHOR: Digiworldz.com
+//:DESCRIPTION: Opensim Partnership program
+// :REVISION: 2
+//:CODE:
 // Put this in a box. When two people touch it, they can make a partership.
 // Mods by Fred Beckhusen (Ferd Frederix) for Dreamgrid
 

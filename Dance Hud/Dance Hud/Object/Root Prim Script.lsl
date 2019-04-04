@@ -1,12 +1,6 @@
-// :SHOW:
 // :CATEGORY:Animation
 // :NAME:Dance Hud
 // :AUTHOR:unknown
-// :KEYWORDS:
-// :CREATED:2019-03-21 14:40:38
-// :EDITED:2019-03-21  13:40:38
-// :ID:1117
-// :NUM:1959
 // :REV:1.0
 // :WORLD:Second Life, Opensim
 // :DESCRIPTION:

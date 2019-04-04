@@ -1,17 +1,3 @@
-// :SHOW:
-// :CATEGORY:Animation
-// :NAME:Dance Hud
-// :AUTHOR:Anonymous
-// :KEYWORDS:
-// :CREATED:2019-03-21 14:42:14
-// :EDITED:2019-03-21  13:42:14
-// :ID:1117
-// :NUM:1962
-// :REV:1
-// :WORLD:Second Life
-// :DESCRIPTION:
-// DESCRIPTION: []::Animation HUD Root Prim
-// :CODE:
 integer active = FALSE;
 
 default

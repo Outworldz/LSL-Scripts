@@ -1,12 +1,6 @@
-// :SHOW:
 // :CATEGORY:Scripting
-// :NAME:Script Tests
 // :AUTHOR:Justin Clark-Casey (justincc)
 // :KEYWORDS:Opensim
-// :CREATED:2019-03-18 23:44:21
-// :EDITED:2019-03-18  22:44:21
-// :ID:1116
-// :NUM:1923
 // :REV:1
 // :WORLD:Opensim
 // :DESCRIPTION:

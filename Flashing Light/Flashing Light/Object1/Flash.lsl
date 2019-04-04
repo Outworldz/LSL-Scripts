@@ -1,6 +1,12 @@
+// :SHOW:
 // :CATEGORY:Lights
-// :NAME:Blinking light
+// :NAME:Flashing Light
 // :AUTHOR:Fred Beckhusen
+// :KEYWORDS:
+// :CREATED:2019-03-21 14:45:15
+// :EDITED:2019-03-21  13:45:15
+// :ID:1118
+// :NUM:1963
 // :REV:1.0
 // :WORLD:Second Life, Opensim
 // :DESCRIPTION:

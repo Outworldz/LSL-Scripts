@@ -1,6 +1,12 @@
+// :SHOW:
 // :CATEGORY:Lighting
 // :NAME:Lightshare
 // :AUTHOR:Jeff Hall
+// :KEYWORDS:
+// :CREATED:2019-04-04 20:49:32
+// :EDITED:2019-04-04  19:49:32
+// :ID:1122
+// :NUM:1972
 // :REV:1.0
 // :WORLD:Second Life, Opensim
 // :DESCRIPTION:

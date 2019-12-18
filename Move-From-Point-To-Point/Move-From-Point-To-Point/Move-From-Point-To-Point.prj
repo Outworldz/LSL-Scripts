@@ -1,0 +1,6 @@
+<Project name="Move-From-Point-To-Point" guid="3efa6557-d0b9-4d11-b090-a5f637fbe05d">
+	<Object name="Mover Prim" guid="dba12071-44c7-443b-87d1-32e37d549c9f" active="true">
+		<Script name="Mover Script.lsl" guid="4c2d4f6b-40a9-4648-821f-9c8dac1b8105">
+		</Script>
+	</Object>
+</Project>

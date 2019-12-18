@@ -1,0 +1,6 @@
+<Project name="Lag Meter" guid="c7ac11a4-f71f-4511-b545-c0c4f2f320cf">
+	<Object name="Object" guid="daec7a0d-6e12-4946-abc2-40a5ed6cc649" active="true">
+		<Script name="Open Source Lag meter.lsl" guid="e3463ba7-4c16-4d51-a0fa-9ec3a59e434d">
+		</Script>
+	</Object>
+</Project>

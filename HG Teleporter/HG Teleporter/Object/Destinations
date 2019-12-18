@@ -1,0 +1,29 @@
+
+// Example notecard
+
+// Enter each destination in the form :
+//  grid | region | x,y (global location) | url | x,y,z (optional landing point)
+
+// The optional landing point is useful in the case of sims that not been designed
+//  for direct teleport,  when your avatar lands underwater or in a closed room.
+Raels World|The High castle|2359,1466|||
+Raels World|Tomb raider Temple| 2409,1516|||
+Raels World|Sleepless City| 2399,1506|||
+Raels World|Raels World| 2339,1446 |||
+Raels World|Raels habitat| 2349,1456|||
+Raels World|Raels Freebee mall|2389,1496|||
+Raels World|Raels flight test ground|2379,1486|||
+Raels World|Raels club|2419,1526|||
+Raels World|Doomed city|2369,1476|||martin
+
+
+// Example notecard
+
+// Enter each destination in the form :
+//  grid | region | x,y (global location) | url | x,y,z (optional landing point)
+
+// The optional landing point is useful in the case of sims that not been designed
+//  for direct teleport,  when your avatar lands underwater or in a closed room.
+
+
+Raels World | The High castle |  2359,1466 || 92.232.227.241|

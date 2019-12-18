@@ -1,0 +1,6 @@
+<Project name="Opensim VIsitors List" guid="cb98e94a-a5b5-4304-9783-8df59fb9db39">
+	<Object name="Object" guid="888e5254-391b-4ca7-a4b9-30351f7cba3a" active="true">
+		<Script name="Script.lsl" guid="9461f733-27d0-4a7c-befa-446866c014f0">
+		</Script>
+	</Object>
+</Project>

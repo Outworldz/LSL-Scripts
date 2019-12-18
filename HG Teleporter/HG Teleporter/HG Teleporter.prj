@@ -1,0 +1,8 @@
+<Project name="HG Teleporter" guid="51805803-890c-4338-89ee-33df6ab6756f">
+	<Object name="Object" guid="93af6471-e139-4d3d-8546-7822d412954f" active="true">
+		<Notecard name="Destinations" guid="98d91026-d7ee-4380-8381-b09382c404a5">
+		</Notecard>
+		<Script name="Script.lsl" guid="3b8f2075-0fb7-4c26-840d-0979021e98c8">
+		</Script>
+	</Object>
+</Project>

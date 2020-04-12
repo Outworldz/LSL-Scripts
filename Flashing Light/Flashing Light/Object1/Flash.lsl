@@ -1,10 +1,10 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:Lights
 // :NAME:Flashing Light
 // :AUTHOR:Fred Beckhusen
 // :KEYWORDS:
 // :CREATED:2019-04-04 20:49:29
-// :EDITED:2019-04-04  19:49:29
+// :EDITED:2020-04-10  08:29:20
 // :ID:1121
 // :NUM:1971
 // :REV:1.0

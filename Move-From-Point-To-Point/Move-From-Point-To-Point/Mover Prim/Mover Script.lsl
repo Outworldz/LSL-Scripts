@@ -1,10 +1,10 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:Mover
 // :NAME:Move-From-Point-To-Point
 // :AUTHOR:Unknown
 // :KEYWORDS:
 // :CREATED:2019-08-30 11:39:48
-// :EDITED:2019-08-30  10:39:48
+// :EDITED:2020-04-10  08:29:30
 // :ID:1125
 // :NUM:2012
 // :REV:1
@@ -12,8 +12,6 @@
 // :DESCRIPTION:
 // Move From point to pint tour guide
 // :CODE:
-//:Author: Unknown
-//:CATEGORY: Mover
 
 float delay    = 0.1;
 integer     m_STEPS = 64;

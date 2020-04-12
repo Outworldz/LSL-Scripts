@@ -1,10 +1,10 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:Scripting
 // :NAME:Script Tests
 // :AUTHOR:Justin Clark-Casey (justincc)
 // :KEYWORDS:Opensim
 // :CREATED:2019-04-04 20:49:50
-// :EDITED:2019-04-04  19:49:50
+// :EDITED:2020-04-10  08:29:40
 // :ID:1124
 // :NUM:1974
 // :REV:1

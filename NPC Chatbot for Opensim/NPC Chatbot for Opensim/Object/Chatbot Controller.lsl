@@ -1,40 +1,31 @@
-// :SHOW:
 // :CATEGORY:ChatBot
-// :NAME:NPC Chatbot for Opensim
-// :AUTHOR:Fred Beckhusen (Ferd Frederix)
-// :KEYWORDS:
-// :CREATED:2016-07-27 16:13:55
-// :EDITED:2016-07-27  15:13:55
-// :ID:1108
-// :NUM:1906
+// :NAME:PersonalityForge Chatbot
+// :AUTHOR:Ferd Frederix
 // :REV:1.0
-// :WORLD:OpenSim
+// :WORLD:Second Life, OpenSim
 // :DESCRIPTION:
-// This chatbot is for OpenSim Only. It only works on NPC's with  a modified All-In-One NPC script, which is also included
+// This chatbot is for OpenSim Only. It only works on NPC's.
+
+// Chatbot for PersonalityForge. Get a free  account at http://www.personalityforge.com.
 // 5,000 chats are free.
 // :CODE:
-// Chatbot uses PersonalityForge. Get a free  account at http://www.personalityforge.com.
-// first, get a free  account at http://www.personalityforge.com.
+// fiorst, get a free  account at http://www.personalityforge.com.
 // Get an API ID, and add it to the apiKey : 
   
-string apiKey = "BlahBlah";    // your supplied apiKey from your Chat Bot API subscription 
-
-
-// Add the domain or IP of your OpenSim server to the list of authorized domains at http://www.personalityforge.com/botland/myapi.php
-// Add a checkmark to the "Enable Simple API" in your account.
+string apiKey = "keU6Hv3tbk318wn1";    // your supplied apiKey from your Chat Bot API subscription 
+   
+// Add the domain *.secondlife.com or your OpenSim server IP to the list of authorized domains at http://www.personalityforge.com/botland/myapi.php
+// Add a checkmark to the "Enable Simple API" in tyour account.
 // Click on the Simple API tab and pick a chatbot ID from the list of chatbots under the heading "Selecting A Chat Bot ID"
 // for example, Countess Elvira is 99232.  Put that in chatBot ID below.
 // Sex Bot Ciran is 100387. 
 // 754 is Liddora a sexy tart
   
 string chatBotID = "23958";    // the ID of the chat bot you're talking to
-
-// The first time, you may want to test it with this set to TRUE
-integer debug = FALSE;  // Set this TRUE to see the gory details
-
-// more constants below
-integer greeting = TRUE;     // if TRUE, say hello when anyone comes up. 
+integer greeting = TRUE;     // if TRUE, say hello when anyone comes up.
+  
 integer lookat = FALSE;
+integer debug = FALSE;  // Set this TRUE to see the gory details
      
 ////////// REMOVE THESE IN WORLD ////////////////
 ///////// LSLEDIT DEBUG ONLY////////////////////
@@ -45,7 +36,7 @@ integer lookat = FALSE;
 /////////////////////////////////////////////////////////////////////
 
 // various  tuneable code bits
-float range = 35; // haw far away an avatar is before we greet them/. No point in making this more than 20, that cannot hear us after that
+float range = 35; // haw far awy an avatar is before we greet them/. No point in making this more than 20, that cannot hear us after that
 float  wpm = 85; // 33 wpm = 2.75 cps @ 5 chars per word for a typical avatar to type with.
 //  Larger numbers make your NPC answer quicker.
 float cps;
@@ -104,6 +95,7 @@ string KeyValueGet(string var) {
 
 default  
 {
+    
     on_rez(integer param)
     {
         llResetScript();

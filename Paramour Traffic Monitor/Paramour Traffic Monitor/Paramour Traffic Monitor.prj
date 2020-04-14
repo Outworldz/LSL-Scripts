@@ -1,0 +1,10 @@
+<Project name="Paramour Traffic Monitor" guid="bd010f13-a0a4-4ba2-9e55-b7fa9a54037b">
+	<Object name="Object" guid="e1842e05-1b05-4e95-8d0c-9d3e675a0299" active="true">
+		<Notecard name="Notecard.txt" guid="8bcbe1c0-192a-4114-83b9-9f44d0cfa5ec">
+		</Notecard>
+		<Script name="Paramour+Region+Traffic+Monitor+v2.0.lsl" guid="8a4b91e0-1bd1-4e0f-8de3-19bc05ef1e91">
+		</Script>
+		<Script name="Paramour+Stats+Retriever+for+Region+Traffic+Monitor+2.0  Script 2.lsl" guid="613d0374-accf-4406-b74a-d501c5d1ed1e">
+		</Script>
+	</Object>
+</Project>

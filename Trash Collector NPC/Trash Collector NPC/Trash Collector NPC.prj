@@ -1,5 +1,7 @@
 <Project name="Trash Collector NPC" guid="c07664f4-2d12-4d4c-8286-b65ed8ad0281">
 	<Object name="NPC Box" guid="5575be97-3a9a-4d40-acc9-54a5d0ce25d5" active="true">
+		<Notecard name="Trash Bot" guid="e086eabb-7262-4810-9f7d-416a04514f56">
+		</Notecard>
 		<Script name="Trash Collector script.lsl" guid="29d71b36-8986-4fd2-aa62-672584ff4fd1">
 		</Script>
 	</Object>

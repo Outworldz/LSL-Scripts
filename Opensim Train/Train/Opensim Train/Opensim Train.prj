@@ -1,0 +1,8 @@
+<Project name="Opensim Train" guid="932dca8f-78b8-4161-a7ea-311d976591dc">
+	<Object name="Object" guid="6d5198cb-a5ed-47d9-b6a7-40e07b60e223" active="true">
+		<Notecard name="NoteCard.txt" guid="1bcc799e-59fc-40d5-9d00-21012d7d47e2">
+		</Notecard>
+		<Script name="Opensim Train.lsl" guid="17e8cca7-08f4-4437-9822-957494ba26ca">
+		</Script>
+	</Object>
+</Project>

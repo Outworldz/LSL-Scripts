@@ -1,0 +1,6 @@
+<Project name="FlashLamp" guid="78cd614c-f14e-43cf-9ee7-8679767a0dad">
+	<Object name="Object" guid="1c350625-e0a5-41df-9f63-840d22f72e89" active="true">
+		<Script name="Flash.lsl" guid="3bfc97fd-b1bf-4318-8790-54490b09dc9c">
+		</Script>
+	</Object>
+</Project>

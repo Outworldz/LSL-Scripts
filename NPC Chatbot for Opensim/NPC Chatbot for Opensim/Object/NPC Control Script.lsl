@@ -1,24 +1,34 @@
-// :SHOW:
-// :CATEGORY:ChatBot
-// :NAME:NPC Chatbot for Opensim
-// :AUTHOR:Fred Beckhusen (Ferd Frederix)
+// :CATEGORY:NPC
+// :NAME:All_in_1_NPC_Recorder_and_Player
+// :AUTHOR:Ferd Frederix
 // :KEYWORDS:
-// :CREATED:2016-07-27 16:14:00
-// :EDITED:2016-07-27  15:14:00
-// :ID:1108
-// :NUM:1907
-// :REV:1.0
+// :CREATED:2013-09-08 18:27:47
+// :ID:27
+// :NUM:1612 
+// :REV:1.6 
 // :WORLD:OpenSim
 // :DESCRIPTION:
-// Modified All in one NPC recorder player for NPC use
+// All in one NPC recorder player.
+// Supports both absolute and relative paths and many new commands
+// Add animations named "Fly, Walk, Stand and Run"
 // Click Prim to use.
-
+// Should be worn as a HUD to record.
+// Put it on the ground and click Sensor or Start NPC when done.
 // :CODE:
+// Rev 1.6 5-24-2014
+   
+// Rev 1.1 10-2-2014 @Sit did not work.  Minor tweaks to casting for lslEditor
+// Rev 1.2 10-14-2014 @ sit had wrong type.
+// Rev 1.3 relative movement fixed for @fly
+// Rev 1.4 4-3-2014 allow anyone to use this, non owners and non group members can only start and stop.
+// Rev 1.5 5-17-2014 set sensor to auto start on reboot of sim
+// Rev 1.6 5-24-2014 move menu so you can get it by touching, removed many of the KeyValues to RAM for efficiency
+
   
 //*******************************************************************//
 // Instructions on how to use this is at http://www.free-lsl-scripts.com/opensim/posts/NPC/
 // This is an OpenSim-only script.
-// Author: Fred Beckhusen (Ferd Frederix)
+// Author: Ferd Frederix
    
   
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -28,7 +38,7 @@
 //  rights of fair usage, the disclaimer and warranty conditions.                        //
 ///////////////////////////////////////////////////////////////////////////////////////////
 // The original NPC controller was from http://was.fm/opensim:npc
-// Extensive additions and bug fixes by Fred Beckhusem, aka Fred Beckhusen (Ferd Frederix), fred@mitsi.com
+// Extensive additions and bug fixes by Fred Beckhusem, aka Ferd Frederix, fred@mitsi.com
 // llSensor had two params swapped
 // @Wander would wander where it had rezzed, not where it was.
 // There was no 'no_sensor' event in sit, so if a @sit failed, the NPC got stuck

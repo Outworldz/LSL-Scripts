@@ -1,0 +1,60 @@
+// :SHOW:
+// :CATEGORY:Region Traffic Monitor 
+// :NAME:Region Traffic Monitor Stats Retriever
+// :AUTHOR:Aine Caoimhe
+// :KEYWORDS:Region Traffic Monitor 
+// :REV:2.0
+// :WORLD:Opensim, Second Life
+// :DESCRIPTION:
+// Paramour Stats Retriever
+// :CODE:
+
+
+
+PARAMOUR REGION TRAFFIC MONITOR AND STATS RETRIEVER v2.0
+by Aine Caoimhe (LACM) Sept. 2015
+
+This is a region traffic monitor and greeter script and companion detailed stats retriever intended for high volume regions where the greeter needs to have the minimum possible impact on the region, particularly at peak traffic times.
+
+I accomplished this by streamlining many of the functions in the basic script v1.0 that I released 2+ years ago, and by altering the storage mechanism somewhat to both spread out the "hit" and to allow it to be used in a very high traffic region where the total visitor count could exceed the ~750 record storage capability limit of a notecard. Now, each month's traffic data is held on a separate notecard and, for further efficiency, tracking is done using UNIC timestamps. Since those aren't particularly human-friendly to read, I've added an optional "reporting" module (the Stats Retriever) that will parse and convert a selected month's data into a list showing day of the week, date and time of each person's visit as well as which grid they call home. There is a summary of that month's traffic supplied at the top. This is handed to the owner as a separate notecard that they can archive or use for whatever other purpose they wish.
+
+I removed the ability to give Notecards and/or Landmarks as part of the greeter's functions because doing so invokes a rather nasty 2-second thread-locking function that is utterly unsuitable for high traffic regions. Instead, I suggest you place a separate box of these nearby and set it to sell the contents to someone. This transfers the contents without locking up precious script threads. Your greeting message can inform the visitor where to pick those up.
+
+This script is a region-wide one (it detects and greets anyone entering the region, not just the parcel, and there is no range limit (even on huge vars!). It does require the use of OSSL functions to achieve this (and to store its data)
+
+You can use the box this comes in as your greeter and put it anywhere in the region you like; or you can pull the scripts out and place them in any other object you like.
+
+INSTRUCTIONS
+
+ENSURE OSSL FUNCTIONS ARE ENABLED IN THE REGION
+The scripts use the following OSSL functions:
+osGetAvatarList() used to poll who is in the region
+osGetNotecard() to retrive stored data
+osMakeNotecard() to presist data reliably
+osGetGridName() to find out what grid this script is running in
+osIsNpc() to avoid greeting NPCs
+
+Details for how to enable OSSL may be found at www.Opensimulator.org
+
+REZ OR INSERT THE SCRIPTS
+Either rez the greeter box and use it as your greeter (you'll probably want to change the box's name) or take a copy of the scripts (and this readme notecard) and place them in any existing object in the region to have it act as your greeter.
+
+The "Stats Retriever" script it optional and if you're content with the basic "floaty stats" report above the greeter you can omit it entirely. You can also add or remove it later since it does all of its work on touch and is otherwise dormant.
+
+CONFIGURE THE SCRIPTS
+Both scripts are DISABLED BY DEFAULT to allow you to do the initial configuration settings. Then, once you're ready to use it, simply enable them (see below).
+
+3.1 Configuring the main Region Traffic Monitor script
+The top section of the script contains a variety of customizable settings for the monitor that you might wish to adjust. Instructions for each one are contained in the body of the script.
+Once you're satisfied with the settings, change line 39 to read:
+integer enabled=TRUE;
+then save. This will enable the monitor and it will begin to do its thing.
+
+3.2 Configuring the Stats Retriever script
+There are no user settings for this script other than to enable or disable it. Once you're ready to use it simply change line 15 to read:
+integer enabled=TRUE;
+then save. You will then be able to touch the greeter to obtain the reports. Only the owner can do so.
+
+LICENSE
+Both scripts are provided under Creative Commons Attribution-Non-Commercial-ShareAlike 4.0 International license. Please be sure you read and adhere to the terms of this license: https://creativecommons.org/licenses/by-nc-sa/4.0/
+You can further customize or modify either to meet your own needs.

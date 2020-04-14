@@ -1,10 +1,10 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:Building
 // :NAME:BuildersBuddy-Opensim
 // :AUTHOR:Newfie Pendragon
 // :KEYWORDS:Opensim
 // :CREATED:2019-04-04 20:48:29
-// :EDITED:2019-04-04  19:48:29
+// :EDITED:2020-04-10  08:29:12
 // :ID:1119
 // :NUM:1964
 // :REV:2

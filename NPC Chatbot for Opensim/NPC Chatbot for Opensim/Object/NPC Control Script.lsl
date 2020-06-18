@@ -1,10 +1,12 @@
+// :SHOW:
 // :CATEGORY:NPC
-// :NAME:All_in_1_NPC_Recorder_and_Player
+// :NAME:NPC Chatbot for Opensim
 // :AUTHOR:Ferd Frederix
 // :KEYWORDS:
 // :CREATED:2013-09-08 18:27:47
-// :ID:27
-// :NUM:1612 
+// :EDITED:2020-04-22  23:20:16
+// :ID:1129
+// :NUM:1612
 // :REV:1.6 
 // :WORLD:OpenSim
 // :DESCRIPTION:

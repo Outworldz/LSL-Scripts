@@ -1,8 +1,12 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:Light
-// :NAME:Flashing Light
+// :NAME:FlashLamp
 // :AUTHOR:Unknown
 // :KEYWORDS:Light
+// :CREATED:2020-04-22 00:18:03
+// :EDITED:2020-04-22  23:18:03
+// :ID:1126
+// :NUM:2013
 // :REV:1
 // :WORLD:Opensim, Second Life
 // :DESCRIPTION:

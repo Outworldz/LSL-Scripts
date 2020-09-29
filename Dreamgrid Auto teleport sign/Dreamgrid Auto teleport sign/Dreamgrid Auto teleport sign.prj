@@ -1,0 +1,6 @@
+<Project name="Dreamgrid Auto teleport sign" guid="78fbc5b8-f4be-4131-9a4d-7eefe82f0009">
+	<Object name="Object" guid="bece8098-892b-495c-b9b0-4f8f7f0b6bd2" active="true">
+		<Script name="Script.lsl" guid="362c5e38-78ee-4474-aa51-3dae947f8732">
+		</Script>
+	</Object>
+</Project>

@@ -22,7 +22,7 @@
 // License:
 // Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 // http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US
-// That means this must always be free. 
+// That means this must always be free.
 // Revisions:
 // V1.1 allow longer names
 // V1.2 code added to transmit url to other parcels, additional script
@@ -63,7 +63,7 @@ authorize() // Conditional for Owner & Group Recognition
     {
         authorized = TRUE;
     } else {
-       authorized = FALSE;
+            authorized = FALSE;
     }
 }
 
@@ -232,10 +232,10 @@ state locking
         else
         {
             llOwnerSay("Still loading stations, please wait a moment");
-       }
-}
+        }
+    }
 
-listen(integer channel, string name, key id, string message)
+    listen(integer channel, string name, key id, string message)
     {
         integer where ;
         if (message == "-")
@@ -280,7 +280,7 @@ listen(integer channel, string name, key id, string message)
             }
             else if (message == "Lock-Out")
             {
-               // state security;
+                // state security;
                 pubpriv = "Public";
                 DIALOG_CHOICES = lCategories;
                 pageNum = 1;
@@ -328,11 +328,15 @@ listen(integer channel, string name, key id, string message)
     }
 
     http_response(key request_id, integer status, list metadata, string body)
-    {   
+    {
         if (request_id == http_request_id)
         {
             busy = FALSE;
-
+            llSay(0,"Body is:" +body);
+            if (TRUE) {
+                return;
+            }
+            
             if (type == 1)
             {
                 lCategories = llParseString2List(body,["|"],[]);
@@ -394,7 +398,7 @@ state security
 
         }
     }
- }
+}
 
 
 

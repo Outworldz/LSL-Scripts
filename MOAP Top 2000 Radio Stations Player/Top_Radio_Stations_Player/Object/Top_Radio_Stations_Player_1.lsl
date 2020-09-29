@@ -18,7 +18,7 @@
 // License:
 // Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 // http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US
-// That means this must always be free. 
+// That means this must always be free.
 
 // V1.1 allow longer names
 
@@ -306,6 +306,7 @@ default {
 
     http_response(key request_id, integer status, list metadata, string body)
     {
+        llSay(0,body);
         if (request_id == http_request_id)
         {
             busy = FALSE;

@@ -1,8 +1,12 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:Meter
 // :NAME:Lag Meter
 // :AUTHOR:Chaser.Zaks
 // :KEYWORDS:Lag Meter
+// :CREATED:2020-04-22 00:19:53
+// :EDITED:2020-04-22  23:19:53
+// :ID:1128
+// :NUM:2016
 // :REV:1
 // :WORLD:Opensim
 // :DESCRIPTION:

@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:Teleporter
+// :NAME:HG Teleporter
+// :AUTHOR:Jeff Kelley
+// :KEYWORDS:
+// :CREATED:2020-04-22 00:19:49
+// :EDITED:2020-04-22  23:19:49
+// :ID:1127
+// :NUM:2015
+// :REV:1
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// Notecrad teleport
+// :CODE:
 
 
 //LSL-Editor ONLY code - delete this to actually work in-Openim

@@ -1,6 +1,12 @@
+// :SHOW:
 // :CATEGORY:ChatBot
-// :NAME:PersonalityForge Chatbot
+// :NAME:NPC Chatbot for Opensim
 // :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2020-04-22 00:20:16
+// :EDITED:2020-04-22  23:20:16
+// :ID:1129
+// :NUM:2018
 // :REV:1.0
 // :WORLD:Second Life, OpenSim
 // :DESCRIPTION:

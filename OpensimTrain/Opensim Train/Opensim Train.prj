@@ -1,0 +1,10 @@
+<Project name="Opensim Train" guid="08efd93f-0a34-40aa-a109-7ccea2572736">
+	<Object name="Train" guid="af6bb54b-85e8-48b4-abbd-ed925aeea955" active="true">
+		<Script name="LocomotiveScript.lsl" guid="1d100a02-07b9-44c0-8503-aa94fe7c87ee">
+		</Script>
+		<Texture name="2021-03-14_101046.jpg" guid="a923b843-72a5-4691-af4a-c0e07fe8ffe1">
+		</Texture>
+		<Notecard name="Readme.txt" guid="a273d400-f38c-4979-80d7-e3bbeb1e1e08">
+		</Notecard>
+	</Object>
+</Project>

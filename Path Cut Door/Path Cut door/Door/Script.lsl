@@ -15,21 +15,54 @@
 vector cut = < 0, 0.25 , 0 >;
 float step = .015;
 integer cycles ;
+integer direction = -1;
+Open ()
+{
+    cycles = 50;
+    while (cycles--) {
+        cut.x += step;
+        llSetPrimitiveParams([PRIM_TYPE, PRIM_TYPE_CYLINDER, PRIM_HOLE_DEFAULT, //hole_shape
+                      cut,    // cut
+                      0.95,    // hollow
+                      < 0.0, 0.0, 0.0 >,    // twist
+                      < 1.0, 1.0, 0.0 >,    // top_size
+                      < 0.0, 0.0, 0.0 >]);
+
+        llSay(0,(string) cut);
+    };
+  //  step *= -1;
+
+}
+
+Close()
+{
+    cycles = 50;
+    while (cycles--) {
+        cut.x -= step;
+        llSetPrimitiveParams([PRIM_TYPE, PRIM_TYPE_CYLINDER, PRIM_HOLE_DEFAULT, //hole_shape
+                      cut,    // cut
+                      0.95,    // hollow
+                      < 0.0, 0.0, 0.0 >,    // twist
+                      < 1.0, 1.0, 0.0 >,    // top_size
+                      < 0.0, 0.0, 0.0 >]);
+  
+        llSay(0,(string) cut);
+    };
+   // step *= -1;
+
+
+    
+}
 
 default {
-    touch_start(integer total_number) {
-          cycles = 50;
-          while (cycles--) {
-             cut.x += step;
-            llSetPrimitiveParams([PRIM_TYPE, PRIM_TYPE_CYLINDER, PRIM_HOLE_DEFAULT, //hole_shape
-                          cut,    // cut
-                          0.95,    // hollow
-                          < 0.0, 0.0, 0.0 >,    // twist
-                          < 1.0, 1.0, 0.0 >,    // top_size
-                        < 0.0, 0.0, 0.0 >]);
 
-                   // llSay(0,(string) cut);
-        };
-        step *= -1;
+    touch_start(integer total_number) {
+
+        if (direction = ! direction )
+        {
+            Open();
+        } else {
+           Close();            
+        }
     }
 }

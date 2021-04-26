@@ -1,10 +1,9 @@
 // :SHOW:1
-// :CATEGORY:Presentation
+// :CATEGORY:NPC
 // :NAME:Trash Collector NPC
 // :AUTHOR:Unknown
 // :KEYWORDS: NPC
 // :CREATED:2021-04-26 23:58:23
-// :EDITED:2021-04-26  22:58:23
 // :ID:1144
 // :NUM:2038
 // :REV:1

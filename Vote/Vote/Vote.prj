@@ -1,0 +1,6 @@
+<Project name="Vote" guid="28cbc92e-02c3-4464-aa58-3eda8a30ffa6">
+	<Object name="Object" guid="925b15b7-4429-4415-9dc5-94d4b3f09303" active="true">
+		<Script name="Script.lsl" guid="c614f157-5f78-4baa-8581-3aee06d76607">
+		</Script>
+	</Object>
+</Project>

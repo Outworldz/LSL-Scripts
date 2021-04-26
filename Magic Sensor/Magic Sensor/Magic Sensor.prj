@@ -1,0 +1,6 @@
+<Project name="Magic Sensor" guid="20b73037-e759-4b82-ae54-df5458c0563d">
+	<Object name="Object" guid="3361255d-6fd9-46ae-964a-a5ed9af89be5" active="true">
+		<Script name="Script.lsl" guid="5e9f9091-5236-4791-bcf6-b1e7aeda3251">
+		</Script>
+	</Object>
+</Project>

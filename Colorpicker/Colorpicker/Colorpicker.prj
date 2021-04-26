@@ -1,0 +1,6 @@
+<Project name="Colorpicker" guid="70c2edb1-475a-4316-8f24-ea8f91e1b047">
+	<Object name="Object" guid="293fa598-8f67-44c2-b22c-db2ae06ea784" active="true">
+		<Script name="Script.lsl" guid="5e267ec3-dbff-4c7c-9a0f-a22f12a41172">
+		</Script>
+	</Object>
+</Project>

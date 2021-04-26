@@ -1,0 +1,6 @@
+<Project name="Single-Prim Multi-Drawer Script" guid="f1671031-768a-415a-be02-02aa98d508d7">
+	<Object name="Drawer" guid="460fa189-732d-42b0-96e3-b2dd639e16f1" active="true">
+		<Script name="Script.lsl" guid="2b2e62c6-8874-4385-8f1e-7c3b1bfa088a">
+		</Script>
+	</Object>
+</Project>

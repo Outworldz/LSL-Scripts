@@ -1,0 +1,6 @@
+<Project name="PostBox by Ana" guid="9532efdb-be3b-448c-a7b8-511a7519b187">
+	<Object name="PostBox" guid="1a7dfc2d-6bc3-46f1-84f9-a53b23ebd72e" active="true">
+		<Script name="Script.lsl" guid="fe3c4606-8807-49e1-bd62-21970e4bec39">
+		</Script>
+	</Object>
+</Project>

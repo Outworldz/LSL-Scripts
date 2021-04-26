@@ -1,0 +1,6 @@
+<Project name="PawPrints" guid="a8827ec8-79b5-4635-8f32-94af2173404c">
+	<Object name="Pawprint Prim attach to foot" guid="7a75d157-321e-4276-9c48-756954d04d71" active="true">
+		<Script name="Script.lsl" guid="12992910-812a-41c2-a50e-3c7a4d1e57e4">
+		</Script>
+	</Object>
+</Project>

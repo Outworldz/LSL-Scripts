@@ -1,0 +1,6 @@
+<Project name="Soul Finder" guid="d6321acb-aaf6-4ac2-ab0f-041e4f9a6cce">
+	<Object name="Wear this Prim" guid="5c874dcc-413a-491d-921b-5982516dada3" active="true">
+		<Script name="Script.lsl" guid="5766b7ae-094d-4e27-adf2-56336fd1ca9c">
+		</Script>
+	</Object>
+</Project>

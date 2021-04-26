@@ -1,0 +1,6 @@
+<Project name="Advanced Tree Planter V3.0" guid="5b149f5c-f1a2-40e8-9a0a-0a870117f668">
+	<Object name="Object" guid="d4a77120-44c9-41d5-98ee-f6e22a5afab7" active="true">
+		<Script name="Script.lsl" guid="041bfe93-5952-44f2-8e6b-491ed1c5c706">
+		</Script>
+	</Object>
+</Project>

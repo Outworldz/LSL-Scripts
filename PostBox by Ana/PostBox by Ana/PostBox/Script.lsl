@@ -1,6 +1,12 @@
-// :AUTHOR:Anatova Akina
+// :SHOW:
 // :CATEGORY:Email
-// :NAME:PostBox
+// :NAME:PostBox by Ana
+// :AUTHOR:Anatova Akina
+// :KEYWORDS:
+// :CREATED:2021-04-26 23:47:32
+// :EDITED:2021-04-26  22:47:32
+// :ID:1140
+// :NUM:2033
 // :REV:1.0
 // :WORLD:Second Life,Opensim
 // :DESCRIPTION:

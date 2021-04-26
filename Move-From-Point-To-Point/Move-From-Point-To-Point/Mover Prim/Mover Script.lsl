@@ -1,12 +1,10 @@
-
-//:Author: Unknown
-//:CATEGORY: Mover
 // :SHOW:1
 // :CATEGORY:Mover
 // :NAME:Move-From-Point-To-Point
 // :AUTHOR:Unknown
 // :KEYWORDS:
 // :CREATED:2019-08-30 11:39:48
+// :EDITED:2021-04-26  22:40:29
 // :ID:1125
 // :NUM:2012
 // :REV:2
@@ -14,6 +12,7 @@
 // :DESCRIPTION:
 // Move From point to pint tour guide
 // :CODE:
+
 
 
 

@@ -1,6 +1,12 @@
+// :SHOW:
 // :CATEGORY:Sensor
-// :NAME:Mafic Sensor
+// :NAME:Magic Sensor
 // :AUTHOR:CyberGlo Cyberstar
+// :KEYWORDS:
+// :CREATED:2021-04-26 23:40:28
+// :EDITED:2021-04-26  22:40:28
+// :ID:1134
+// :NUM:2024
 // :REV:1.0
 // :WORLD:Second Life, Opensim
 // :DESCRIPTION:

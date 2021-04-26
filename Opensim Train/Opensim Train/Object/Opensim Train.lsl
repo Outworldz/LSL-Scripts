@@ -1,8 +1,12 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:Train
 // :NAME:Opensim Train
 // :AUTHOR:Moundsa Mayo
 // :KEYWORDS:Opensim Train
+// :CREATED:2021-04-26 23:42:50
+// :EDITED:2021-04-26  22:42:50
+// :ID:1135
+// :NUM:2026
 // :REV:2.6.0
 // :WORLD:Opensim
 // :DESCRIPTION:

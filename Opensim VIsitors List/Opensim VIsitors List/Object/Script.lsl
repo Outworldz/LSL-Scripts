@@ -1,8 +1,12 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:Meter
-// :NAME:Visitor Display
+// :NAME:Opensim VIsitors List
 // :AUTHOR:Unknown
 // :KEYWORDS:Visitor Display
+// :CREATED:2021-04-26 23:42:50
+// :EDITED:2021-04-26  22:42:50
+// :ID:1136
+// :NUM:2027
 // :REV:1
 // :WORLD:Opensim
 // :DESCRIPTION:

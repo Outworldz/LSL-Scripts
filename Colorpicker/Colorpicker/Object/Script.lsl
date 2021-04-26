@@ -1,6 +1,12 @@
+// :SHOW:
 // :CATEGORY:Color
-// :NAME:COlor Picker
+// :NAME:Colorpicker
 // :AUTHOR:Anonymous
+// :KEYWORDS:
+// :CREATED:2021-04-26 23:30:52
+// :EDITED:2021-04-26  22:30:52
+// :ID:1131
+// :NUM:2021
 // :REV:1.0
 // :WORLD:Second Life, Opensim
 // :DESCRIPTION:

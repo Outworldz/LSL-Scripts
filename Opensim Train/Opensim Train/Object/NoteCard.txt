@@ -1,3 +1,17 @@
+// :SHOW:1
+// :CATEGORY:Train
+// :NAME:Opensim Train
+// :AUTHOR:Moundsa Mayo
+// :KEYWORDS:
+// :CREATED:2021-04-26 23:42:50
+// :EDITED:2021-04-26  22:46:16
+// :ID:1135
+// :NUM:2025
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// 
+// :CODE:
 SOME NOTES ABOUT THIS SCRIPT
 
 I'm more of a script hacker than a script editor, and I decided to hack this script. I got rid of the Guide prims and got it to run ON the MESH TRACK! I did this by editing the script and replacing the value of gsSensorTargetName from Guide to Freight. Then I renamed each mesh track to Freight. I found this mostly worked just as well.

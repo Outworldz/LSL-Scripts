@@ -1,10 +1,16 @@
-// :NAME:Advanced Tree Planter V3.0
+// :SHOW:
+// :CATEGORY:Tree 
+// :NAME:Advanced Tree Planter
 // :AUTHOR:CyberGlo CyberStar
 // :KEYWORDS:
+// :CREATED:2021-04-26 23:30:44
+// :EDITED:2021-04-26  22:30:44
+// :ID:1130
+// :NUM:2020
 // :REV:3.0
 // :WORLD:Second Life, Opensim
-// :DESCRIPTION:This device will plant an entire forrest in the 0,0 to 256,256 range (can be changed).  It will plant trees at different heights in accordance with the land height level. 
-// :CATEGORY:Tree 
+// :DESCRIPTION:
+// This device will plant an entire forrest in the 0,0 to 256,256 range (can be changed).  It will plant trees at different heights in accordance with the land height level. 
 // :CODE:
 
 // This device will plant an entire forrest in the 0,0 to 256,256 range (can be changed).  It will plant trees at different heights in accordance with the land height level. 

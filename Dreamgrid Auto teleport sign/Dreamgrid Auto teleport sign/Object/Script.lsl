@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:DreamGrid
+// :NAME:Dreamgrid Auto teleport sign
+// :AUTHOR:Ferd Frederix
+// :KEYWORDS:
+// :CREATED:2021-04-26 23:31:25
+// :EDITED:2021-04-26  22:31:25
+// :ID:1132
+// :NUM:2022
+// :REV:1
+// :WORLD:OpenSim
+// :DESCRIPTION:
+// Autoload Teleporter Board
+// :CODE:
 // (c) The owner of Avatar Jeff Kelley, 2010
 //
 // This script is licensed under Creative Commons BY-NC-SA

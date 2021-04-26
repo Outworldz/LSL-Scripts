@@ -1,10 +1,16 @@
+// :SHOW:
 // :CATEGORY:Train
-// :NAME:Opensim Train
+// :NAME:OpensimTrain
 // :AUTHOR:Moundsa Mayo
-// :CREATED:
-// :EDITED:
+// :KEYWORDS:
+// :CREATED:2021-04-26 23:42:51
+// :EDITED:2021-04-26  22:42:51
+// :ID:1137
+// :NUM:2028
 // :REV:2.6.0// :WORLD:OpensimSim
-// :DESCRIPTION:this is setup for non-physical, phantom movement but can be modified for physical, etc.
+// :WORLD:Second Life
+// :DESCRIPTION:
+// this is setup for non-physical, phantom movement but can be modified for physical, etc.
 // :CODE:
 
 // [VRCLocomotiveOpensourceScript]

@@ -1,10 +1,16 @@
+// :SHOW:
 // :CATEGORY:Particles
-// :NAME:Pawprints
+// :NAME:PawPrints
 // :AUTHOR:CyberGlo CyberStar
+// :KEYWORDS:
+// :CREATED:2021-04-26 23:46:31
+// :EDITED:2021-04-26  22:46:31
+// :ID:1139
+// :NUM:2032
 // :REV:1.0
 // :WORLD:Second Life, Opensim
 // :DESCRIPTION:
-//drop this script in a prim with a texture and wear it on your foot.
+// //drop this script in a prim with a texture and wear it on your foot.
 // :CODE:
 
 //PawPrints by CyberGlo CyberStar

@@ -1,8 +1,12 @@
-// :SHOW:
+// :SHOW:1
 // :CATEGORY:Region Traffic Monitor 
-// :NAME:Region Traffic Monitor Stats Retriever
+// :NAME:Paramour Traffic Monitor
 // :AUTHOR:Aine Caoimhe
 // :KEYWORDS:Region Traffic Monitor 
+// :CREATED:2021-04-26 23:46:31
+// :EDITED:2021-04-26  22:46:31
+// :ID:1138
+// :NUM:2030
 // :REV:2.0
 // :WORLD:Opensim, Second Life
 // :DESCRIPTION:

@@ -1,0 +1,6 @@
+<Project name="Giver with HTTP notice" guid="21db7bb6-6899-49df-96c2-967de0672748">
+	<Object name="Object" guid="271b6ddf-84f0-4fc1-b0bf-63a31e620eab" active="true">
+		<Script name="Script.lsl" guid="54e7417b-27b4-4e95-a98c-e456c45162a9">
+		</Script>
+	</Object>
+</Project>

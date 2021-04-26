@@ -1,0 +1,6 @@
+<Project name="Shoutcast" guid="24fa9204-ad41-4655-a587-955f4e146c5f">
+	<Object name="Object1" guid="5275bad8-dad0-4886-90ab-d50349608ae4" active="true">
+		<Script name="Script.lsl" guid="2b6582f4-3d73-47d3-a292-15bc686205d4">
+		</Script>
+	</Object>
+</Project>

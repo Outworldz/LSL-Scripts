@@ -1,3 +1,4 @@
+
 // :SHOW:
 // :CATEGORY:Giver
 // :NAME:Giver with HTTP notice
@@ -10,7 +11,7 @@
 // :REV:1
 // :WORLD:Second Life
 // :DESCRIPTION:
-// Gves inventory and sends what it did to a HTTP server
+// Gives inventory and sends what it did to a HTTP server
 // :CODE:
 //
 // Give with notice via HTTP

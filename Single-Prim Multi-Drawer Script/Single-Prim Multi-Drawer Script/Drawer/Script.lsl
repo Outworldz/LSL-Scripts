@@ -1,7 +1,12 @@
+// :SHOW:
 // :CATEGORY:Furniture
-// :NAME: Single-Prim Multi-Drawer Script
+// :NAME:Single-Prim Multi-Drawer Script
 // :AUTHOR:Sheena  Desade
 // :KEYWORDS:
+// :CREATED:2021-04-26 23:58:10
+// :EDITED:2021-04-26  22:58:10
+// :ID:1142
+// :NUM:2035
 // :REV:1.0
 // :WORLD:Second Life, Opensim
 // :DESCRIPTION:

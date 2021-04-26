@@ -1,6 +1,12 @@
+// :SHOW:
 // :CATEGORY:Sensor
 // :NAME:Soul Finder
 // :AUTHOR:CyberGlo CyberStar
+// :KEYWORDS:
+// :CREATED:2021-04-26 23:58:11
+// :EDITED:2021-04-26  22:58:11
+// :ID:1143
+// :NUM:2036
 // :REV:1.0
 // :WORLD:Second Life, Opensim
 // :DESCRIPTION:

@@ -4,11 +4,10 @@
 // :AUTHOR:CyberGlo CyberStar
 // :KEYWORDS:
 // :CREATED:2021-04-26 23:30:44
-// :EDITED:2021-04-26  22:30:44
 // :ID:1130
 // :NUM:2020
-// :REV:3.0
-// :WORLD:Second Life, Opensim
+// :REV:3.1
+// :WORLD:Opensim
 // :DESCRIPTION:
 // This device will plant an entire forrest in the 0,0 to 256,256 range (can be changed).  It will plant trees at different heights in accordance with the land height level. 
 // :CODE:
@@ -21,6 +20,10 @@
 // step 3:  click the cube.
 // Note:  If I were you I would make all the trees you put in the cube phantom, this makes it much easier on the physics engine of your simulator.
 
+// For LSLEditor testing
+//float osGetTerrainHeight(float x, float y) {
+//    return 20;
+//}
 
 integer gIntX;
 integer gIntY;
@@ -30,13 +33,10 @@ integer gIntStartX;
 integer gIntStartY;
 integer gIntEndX;
 integer gIntEndY;
-list gListInventoryList;
 rotation gRotRelative = <0.707107, 0.0, 0.0, 0.707107>;
 
 float gFltPlantProbability;
 float gFltRandMax;
-integer gIntTreePick;
-string gStrTreeName;
 
 default
 {

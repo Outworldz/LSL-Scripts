@@ -1,3 +1,17 @@
+// :SHOW:
+// :CATEGORY:Vote
+// :NAME:Vote
+// :AUTHOR:Anonymous
+// :KEYWORDS:
+// :CREATED:2021-04-26 00:06:33
+// :EDITED:2021-04-26  23:06:33
+// :ID:1145
+// :NUM:2039
+// :REV:1
+// :WORLD:Second Life
+// :DESCRIPTION:
+// 
+// :CODE:
 // Voting script, only allows one vote per avi
 // @author JB Kraft
 // script from http://wiki.secondlife.com/wiki/Vote_Simple

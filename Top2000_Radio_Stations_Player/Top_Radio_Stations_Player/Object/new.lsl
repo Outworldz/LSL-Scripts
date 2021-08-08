@@ -1,60 +1,99 @@
-//
-// Give with notice
-//
+// :SHOW:
+// :CATEGORY:Tree 
+// :NAME:Advanced Tree Planter
+// :AUTHOR:CyberGlo CyberStar
+// :KEYWORDS:
+// :CREATED:2021-04-26 23:30:44
+// :EDITED:2021-04-26  22:30:44
+// :ID:1130
+// :NUM:2020
+// :REV:3.0
+// :WORLD:Second Life, Opensim
+// :DESCRIPTION:
+// This device will plant an entire forrest in the 0,0 to 256,256 range (can be changed).  It will plant trees at different heights in accordance with the land height level. 
+// :CODE:
 
-// Fill in your server and port, if necessary, port 80 is a default.
-string SERVER = "http://outworldz.com";
+// This device will plant an entire forrest in the 0,0 to 256,256 range (can be changed).  It will plant trees at different heights in accordance with the land height level. 
+// You've never seen a forrest like this, it's truly beautiful when finished.
+// Be sure to understand this script fully.  
+// step 1:  put script in cube
+// step 2:  put several varieties of FULL COPY Trees in the cube.
+// step 3:  click the cube.
+// Note:  If I were you I would make all the trees you put in the cube phantom, this makes it much easier on the physics engine of your simulator.
 
-
-
-//    * This function cases the script to sleep for 3.0 seconds.
-//    * If inventory is missing from the prim's inventory then an error is shouted on DEBUG_CHANNEL.
-//    * Avatar must be, or have recently been, within the same Region as sending object.
-//    * Does not create a folder when avatar is a prim UUID.
-//         o The prim must be in the same region.
-
-//Examples
-
-// When a user clicks this object, this script will give a folder containing everything in the objects inventory
-// This can serve as a unpacker script for boxed objects
-
-default {
-
-    http_request(key id, string method, string body)
-    {
-        llOwnerSay("Someone just got " + llGetObjectName());
-    }
-    
-    touch_start(integer total_number) {
-
-       llHTTPRequest(SERVER + "?Name=" + llGetObjectName(),[], "");
-                            
-        list        inventory;
-        string      name;
-        integer     num = llGetInventoryNumber(INVENTORY_ALL);
-        integer     i;
-
-        for (i = 0; i < num; ++i) {
-            name = llGetInventoryName(INVENTORY_ALL, i);
-            if(llGetInventoryPermMask(name, MASK_NEXT) & PERM_COPY)
-                inventory += name;
-            else
-                llSay(0, "Don't have permissions to give you \""+name+"\".");
-        }
-
-
-        //we don't want to give them this script
-        i = llListFindList(inventory, [llGetScriptName()]);
-        inventory = llDeleteSubList(inventory, i, i);
-
-        if (llGetListLength(inventory) < 1) {
-            llSay(0, "No items to offer.");
-        } else {
-            // give folder to agent, use name of object as name of folder we are giving
-            llGiveInventoryList(llDetectedKey(0), llGetObjectName(), inventory);
-            llHTTPRequest(SERVER,[],llGetObjectName());
-        }
-
-    }
+float osGetTerrainHeight(float x, float y) {
+    return 20;
 }
 
+integer gIntX;
+integer gIntY;
+integer gIntZ;
+
+integer gIntStartX;
+integer gIntStartY;
+integer gIntEndX;
+integer gIntEndY;
+rotation gRotRelative = <0.707107, 0.0, 0.0, 0.707107>;
+
+float gFltPlantProbability;
+float gFltRandMax;
+
+default
+{
+    state_entry()
+    {
+    }    
+    
+    touch_start(integer param)
+    {
+        gIntStartX=0;
+        gIntStartY=0;
+        gIntEndX = 256;
+        gIntEndY = 256;
+        gFltPlantProbability = .5;
+        integer count = llGetInventoryNumber(INVENTORY_OBJECT);
+        gFltRandMax = (float)count;
+        gIntZ = 0;
+        string gStrTreeName;
+        for (gIntStartX=2;gIntStartX<gIntEndX;gIntStartX+=4)
+        {
+            for (gIntStartY=2;gIntStartY<gIntEndY;gIntStartY+=4)
+            {
+                gIntX =  gIntStartX;
+                gIntY =  gIntStartY;
+                llSetRegionPos(<gIntX,gIntY,gIntZ>);
+                //llOwnerSay((string)gIntX + "   " +(string)gIntY);
+                llSetText("X: " + (string)gIntX + " Y: " + (string)gIntY+ " Z: " + (string)gIntZ, <1,1,1>, 1.0);
+                integer gIntTreePick = (integer) llFrand(gFltRandMax+1);
+                float fltDoIRez = llFrand(1.0);
+                if (fltDoIRez < gFltPlantProbability) 
+                {
+                    gStrTreeName = llGetInventoryName(INVENTORY_OBJECT,gIntTreePick);
+                    llSleep(3.0);
+                    if (gStrTreeName != "")
+                    {
+                        vector vecNowPos = llGetPos();
+                        float fltLandHeight = osGetTerrainHeight(vecNowPos.x,vecNowPos.y);
+                        integer intNewX = (integer)vecNowPos.x;
+                        integer intNewY= (integer)vecNowPos.y;
+                        integer intNewZ=(integer)fltLandHeight;
+                        vecNowPos = <intNewX,intNewY, intNewZ>;
+                        llSetRegionPos(vecNowPos);
+                           
+                        llOwnerSay("I planted: " + gStrTreeName);
+                        if (gStrTreeName == "TreeSP")
+                        {
+                             llRezObject(gStrTreeName, llGetPos() + <0.0,0.0,3.0>, <0.0,0.0,0.0>, <0.0,0.0,0.0,1.0>, 0);
+                        }
+                        else
+                        {
+                            llRezObject(gStrTreeName, llGetPos() + <0.0,0.0,8.5>, <0.0,0.0,0.0>, gRotRelative, 0);
+                        }
+                        llSleep(3.0);
+                    }
+                }
+            }
+        }
+        llOwnerSay("I have finished planting Trees.");
+    }
+}

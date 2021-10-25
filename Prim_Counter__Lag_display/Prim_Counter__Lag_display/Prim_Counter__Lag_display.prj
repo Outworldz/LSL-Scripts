@@ -1,6 +1,6 @@
-<Project name="Prim_Counter__Lag_display" guid="D8BE45C4-6C00-1014-B904-200204C60A89">
-	<Object name="Object" guid="D8BE46B5-6C00-1014-B904-200204C60A89">
-		<Script name="Prim_Counter__Lag_display_1.lsl" guid="D8BE6EE3-6C00-1014-B904-200204C60A89">
+<Project name="Prim_Counter__Lag_display" guid="d8be45c4-6c00-1014-b904-200204c60a89">
+	<Object name="Object" guid="d8be46b5-6c00-1014-b904-200204c60a89">
+		<Script name="Prim_Counter__Lag_display_1.lsl" guid="d8be6ee3-6c00-1014-b904-200204c60a89">
 		</Script>
 	</Object>
 </Project>

@@ -1,0 +1,50 @@
+# Vendor v1.8 Configuration File
+#
+# Created by Tech Guy 2014
+
+
+#DO NOT CHANGE THIS LINE
+luna=1251
+
+# YOUR CONFIGURATION IS BELOW THIS LINE
+# Mark as True if all item will be the same price.
+singleprice=true
+
+# The Single Price of All Items
+price=199
+
+# Set to True if you wish to use HoverText over your vendor board
+hovertext=true
+
+# The Text for the Hover Text Field if previous option is set to true. If set false this option can be ignored. Set this Option to 'dynamic' to read text from product names
+hovertextstring=dynamic
+
+# Hover Text Color
+# Colors to choose from:
+# "NAVY", "BLUE", "AQUA", "TEAL", "OLIVE", "GREEN, LIME", "YELLOW", "ORANGE", "RED", "MAROON", "FUCHSIA", "PURPLE", "WHITE", "SILVER", "GRAY", "BLACK"
+hovertextcolor=white
+
+#Hover Text Price Label  E.g:   "Buy Now" or "Price"  This Label preceeds the Price in P$ in the HoverText
+hoverpricelabel=Buy Now
+
+#Loop Product Selction when at end of List (true vs false)
+loopselection=true
+# Name of InfoCard Given from ! Button
+infocard=myinfocard
+# Name of Vendor Help Card Given from ? Button
+helpcard=vendorhelp
+#Should we auto cycle through your products
+slideshow=true
+# If slideshow is enabled how often should we switch Products (in seconds)
+slidetimer=10
+#Enable Profit Sharing (TRUE/FALSE)
+profitsharing=TRUE
+# UUIDs of ShareHolders, Un-Used lines are ignored.
+ShareHolder=Tech Guy||33
+ShareHolder=Zoie Viper||33
+ShareHolder=Sebastian Viper||33
+
+
+
+
+

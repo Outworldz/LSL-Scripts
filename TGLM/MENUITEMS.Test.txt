@@ -1,0 +1,21 @@
+
+// Single Person Animations
+
+MENU Single | ALL | WHITE
+POSE Sleep Back | sleeping-onback
+POSE Sleep Front | sleeping-stomach
+POSE Breakfast | breakfastinbed 
+POSE Read | read-a-book-onstomach
+POSE Meditate | meditate
+SWAP
+STOP
+BACK
+
+MENU Cuddles | ALL | BLUE | PINK
+POSE Memories | makingmemories-m | makingmemories-f
+POSE Cuddle 03 | Cuddle 03M | Cuddle 03F
+POSE Cuddle 04 | Cuddle KM | Cuddle KF
+POSE Cuddle 05 | Cuddle LM | Cuddle LF
+SWAP
+STOP
+BACK

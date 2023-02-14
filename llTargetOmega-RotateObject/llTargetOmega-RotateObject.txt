@@ -1,0 +1,30 @@
+// llTargetOmega substitution by Dora Gustafson, Studio Dora 2014
+
+integer P;
+
+KeyFramedOmega( vector axis, float spinrate)
+{
+    llSetKeyframedMotion( [], []);
+    if ( spinrate )
+    {
+        float v = TWO_PI/3.0;
+        if ( spinrate < 0 ) v = -v;
+        list L = [llAxisAngle2Rot( axis/llGetRot(), v), v/spinrate];
+        llSetKeyframedMotion( L+L+L, [KFM_DATA, KFM_ROTATION, KFM_MODE, KFM_LOOP]);
+    }
+}
+
+default
+{
+    state_entry()
+    {
+        llSetPrimitiveParams([PRIM_PHYSICS_SHAPE_TYPE, PRIM_PHYSICS_SHAPE_CONVEX]);
+    }
+    touch_end( integer n)
+    {
+        P = ++P%4;
+        if ( P == 1 ) KeyFramedOmega( <0,0,1>, 0.6);       // Positive spin
+        else if ( P == 3 ) KeyFramedOmega( <0,0,1>, 0.6); // Negative spin
+        else KeyFramedOmega( <0,0,1>, 0.0);                // Stop spin
+    }
+}

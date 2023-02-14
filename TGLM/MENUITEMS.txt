@@ -1,0 +1,74 @@
+POSE stand | stand | stand  | stand                        //pose before starting and when stopping
+POSE default | sit_ground | sit_ground | sit_ground   //default pose when no animation entered
+
+MENUORDER         // use new (sane) menu button order -- same as in files.  Omit this for WELM compatibility.
+// NORELOAD            // inhibit reload on rez -- use for worn item, but "Menu Reset" if you make a copy!
+
+
+MENU MAIN MENU | ALL
+
+// link-message button.  LINKMSG buttonname | parms
+// where parms is a comma-separated list: menu,primnum,lm-num-arg,lm-str-arg
+//   menu is 1 if the LM will cause a menu, or 0 if not (to avoid menu stacking if remenu is on).
+//   primnum is the primitive number (see llMessageLinked() docs)
+//   lm-num-arg is the 'num' arg in the LM.  If sending to same prim as WELM, avoid -100 to 100 range.
+//   lm-str-arg is the 'str' arg in the LM
+//  The menu user's key is passed as the LM 'key' arg.
+//
+// Example (commented out):
+// LINKMSG Show/Hide | 0,-4,-100,show-hide
+// -- inhibits remenu and calls llMessageLinked(-4, 100, "textures", toucherKey)
+
+TOMENU - // 10 (total) blank spaces for modular configs.  Unused entries are automatically deleted.
+TOMENU -
+TOMENU -
+TOMENU -
+TOMENU -
+TOMENU -
+TOMENU -
+TOMENU -
+TOMENU -
+TOMENU -
+STOP                                             //remove poseballs
+TOMENU OPTIONS                      // options menu
+
+
+MENU OPTIONS | OWNER            //this menu can be accessed by the OWNER only (other options: GROUP / ALL)
+
+BALLUSERS BallUsers | ALL       //switches who can sit on the poseballs: ALL/GROUP (set default)
+MENUUSERS MenuUsers | ALL  //switches who access main menu: ALL/GROUP/OWNER (set default)
+
+ADJUST Adjust Pos                       //changes poseballs into transparant beams easy to select for moving
+DUMP Dump Pos                           //lists all positions stored in memory, copy/paste into .POSITIONS for backup
+SAVE Save Pos                             //saves the poseball positions of the currently selected pose into memory
+
+TOMENU Height
+LINKMSG Dump Props | 0,-4,1,DUMPPROPS    // dump all prop configs
+LINKMSG Save Prop | 0,-4,1,SAVEPROP      // save position/rotation for a prop
+
+CHAT Chat Info | ON                    //switches chat info: ON/OFF (set default)
+TOMENU ShutDown...
+BACK
+
+//REDO RedoMenu | ON            //switches if menu reappears automatically: ON/OFF (set default)
+//INVISIBLE Invisible                  //make the main object invisible/visible (usefull if it's worn)
+//SHOW                                        //put this in some menu in case you want an option to show/hide the balls
+//HIDE                                           //(usually not needed, as the balls are created and removed in a click)
+
+MENU Height | OWNER
+Z+1                                                //adjust Z = height offset in cm - use any integer to set the step size
+Z+5                                                //                    (note: the Z-buttons are deactivated for other users)
+Z+25
+Z-1
+Z-5
+Z-25
+BACK
+
+
+MENU ShutDown... | OWNER
+RELOAD Pos Reset                          // use after changing *.POSITIONS* or *.PROPS* files
+RESTART Restart                             // solves any problem but stack/heap collision (tools->reset scripts for that)
+CHECK ConfigCheck                       // check config consistency.  NOTE: does a Pos Reset when done!
+RESET Menu Reset                         // use after changing *.MENUITEMS* files
+OFF ShutDown!                               //(note: only the owner can Shutdown/Startup, even if menu set to ALL)
+BACK

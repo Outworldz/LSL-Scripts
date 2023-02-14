@@ -1,0 +1,49 @@
+In order to Copy and setup a new game the following configuration changes must be made manually
+
+NOTE: The Game Always Starts in Diag Mode (Free Play). That needs to be changed in the .gameconfig NC. Located inside this Server.
+
+!!! Communication Channels
+
+1. New Game Server Communication Channel
+    In Scripts:
+        Game Engine -> Line 75
+        Game Server Relay -> Line 16
+        Game Config Server -> Line 7
+        User Database Server -> Line 263
+        JackPot Server -> Line 263
+2. New Common Communication Channel (DBComChannel, ServerComChannel)
+    In Scripts
+        Game Engine -> Line 76
+        Game Server Relay -> Line 17
+        User Database Server -> Line 262
+        Game Event Logger Database Server -> Line 262
+        JackPot Server -> Line 262
+        Avatar Scanner -> Line 13
+3. New Avatar Scanner Communication Channel
+    In Scripts
+        JackPot Server -> Line 264
+        Avatar Scanner -> Line 12
+        
+        
+        
+!!! Device Names (DB and Remote DB names)
+
+1. Hover Text String
+    In Scripts:
+        User Database Server -> Line 266
+        Game Event Logger Database Server -> Line 264
+        JackPot Server -> Line 268
+2. Database name (DBName)
+    In Scripts:
+        User Database Server -> Line 265
+        Game Event Logger Database Server -> Line 263
+        JackPot Server -> Line 267
+        
+!!! Prim Names and Descriptions !!! (Only for Event Logging and message purposes)
+
+!!! Server UUIDs !!!
+Change Inside Game Config Servers .gameconfig NoteCard
+Change inside of Game Engine (In Gambling Machine Before you Duplicate)
+
+!!! Texture UUIDs !!!
+Game Engine Script -> Line 1 Needs to be changed to the Number Grid for that specific Game Type

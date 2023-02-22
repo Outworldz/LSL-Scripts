@@ -114,14 +114,12 @@ default
 		integer maxprims=llGetParcelMaxPrims(llGetPos(), MeasureNonParcelPrims);
 		string  sim_version=llGetEnv("sim_version");
 		list lsim_version=llParseString2List(sim_version,[" "],[]);
-		string sim_version_clean=llList2String(lsim_version,0)+" "+llList2String(lsim_version,1);//llDumpList2String(lsim_version,","); llList2String(lsim_version,0)+" "+
-        	integer simMemMB = osGetSimulatorMemory() / (1024*1024);
+		string sim_version_clean=llList2String(lsim_version,0)+" "+llList2String(lsim_version,1);
 		llSetText(
 			"Region: "+region+
 			//"\nSimChan: "+llGetEnv("sim_channel")+
 			"\nSimHostn: "+llGetEnv("simulator_hostname")+
 			"\nSimVrsn: "+sim_version_clean+
-   		        "\nSimMem: "+(string)simMemMB+"MB"+
         		"\nPhysics: "+osGetPhysicsEngineName()+
         		"\nScript Engine: " + osGetScriptEngineName()+
 //			"\nProdn: "+llGetEnv("region_product_name")+

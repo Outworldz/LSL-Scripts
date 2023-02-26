@@ -120,8 +120,10 @@ default
 			//"\nSimChan: "+llGetEnv("sim_channel")+
 			"\nSimHostn: "+llGetEnv("simulator_hostname")+
 			"\nSimVrsn: "+sim_version_clean+
+        		"\nPhysics: "+osGetPhysicsEngineName()+
+        		"\nScripts: " + osGetScriptEngineName()+
 //			"\nProdn: "+llGetEnv("region_product_name")+
-			"\nAvatars: "+(string)avatars+"/"+llGetEnv("agent_limit")+
+			"\nAvas: "+(string)avatars+"/"+llGetEnv("agent_limit")+
 			"\nPrims left: "+(string)(maxprims-primsused)+" ("+(string)primsused+"/"+(string)maxprims+")"+
 			"\nTemp on rez: "+(string)llGetParcelPrimCount(llGetPos(),PARCEL_COUNT_TEMP, FALSE)+
 			"\nDilation: "+llGetSubString((string)((1.-region_time_dilation)*100.), 0, 3)+"%"+

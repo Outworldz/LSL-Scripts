@@ -1,24 +1,21 @@
+// :SHOW:
 // :CATEGORY:Inventory Giver
 // :NAME:Landmark_Giver
 // :AUTHOR:Anonymous
+// :KEYWORDS:
 // :CREATED:2010-01-10 05:20:56.000
-// :EDITED:2013-09-18 15:38:56
+// :EDITED:2022-05-18  22:48:34
 // :ID:456
 // :NUM:612
 // :REV:1.0
-// :WORLD:Second Life
+// :WORLD:Second Life, Opensim
 // :DESCRIPTION:
 // Landmark Giver.lsl
 // :CODE:
 
-// Bedlam Enterprises
 
 default
 {
-    state_entry()
-    {
-        llResetScript();
-    }
 
     touch_start(integer total_number)
     {

@@ -1,0 +1,28 @@
+Telepad Instructions
+
+This Networked Telepad system allows you to
+create teleport points throughout a region.
+Its almost too easy to use.
+ 
+1)  Simply Rez a pad where you want a TP Point.
+2)  Edit the description (*not* the name) of
+     the object to the name of the place
+     (House, Pool, Skybox, etc...)
+3)  Click on the telepad, and choose "Reset" 
+     from the dialog box. Only the owner can do this.
+     (this adds the telepad to the network)
+      
+**Important** if you move a telepad, or delete one,
+ you must use "Reset" to be sure all telepads receive
+ the changes. (Reset just the one you moved, not all of them)
+ 
+ To use it, touch it, choose the destination, then right
+ click it and choose Teleport.
+ 
+ ** advanced configuration options **
+ If the description starts with a minus  (for example -Beach)
+ then the telepad will serve as a direct telepad to that  location.
+ 
+ To change the channel number for the network. Changet the number proceeding the colon in the 
+ teleport pads description.
+ For example    Beach:-99999

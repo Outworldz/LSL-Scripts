@@ -1,0 +1,27 @@
+vector LANDING = <128,128,32>;  // Edit this for where they land
+
+ key avatarkey;
+ 
+ default
+{
+    state_entry()
+    {
+        llVolumeDetect(FALSE);
+        llVolumeDetect(TRUE);
+    }
+    collision_start(integer n)
+    {
+        llOwnerSay("Avatar Arriving:" + llDetectedName(0));
+        avatarkey = llDetectedKey(0);
+        osForceOtherSit(avatarkey, llGetKey());
+    } 
+
+    changed(integer what) {
+        if (what & CHANGED_LINK) {
+            llSetRegionPos(llGetObjectDesc());
+            llUnSit(avatarkey);
+            llSetRegionPos(LANDING);
+            llResetScript();
+        }
+    }
+}

@@ -1,0 +1,59 @@
+//To scrub child prims too
+//This script also started with "The Scrubber" by Jopsy Pendragon, Feb 10 2006, Version 1
+
+//Update Tigger Genira 27 November 2009 for self distribution
+//Update WDC Voom 8 November 2010 for better child action.
+
+//Instructions: Put this script in the root prim of a build which is giving you grief.
+
+//It will distribute itself to all the prims in the link set and reset/unset most persistant prim settings that can only be set by scripts.
+//Once it has sent the script to the child prims you MUST take the whole object into inventory.
+//Re-rez the object
+//Edit it and 'set all scripts to running in selection'
+
+string Me;
+integer Pin=3141;
+ 
+default
+{
+    state_entry()
+    {
+        Me = llGetScriptName();
+        if(llGetLinkNumber() == 1)
+        {
+            //root prim
+            llOwnerSay("Inserted in root, sending to child prims");
+            integer i;
+            for (i = 2; i <= llGetNumberOfPrims(); i++)
+            {
+                 key prim_key = llGetLinkKey (i); 
+                 llRemoteLoadScriptPin (prim_key, Me, Pin, TRUE, 0); 
+            }
+            llOwnerSay("Done");             
+        }
+ 
+        llSetSitText( "" );
+        llSetTouchText( "" );
+        llParticleSystem( [ ] );
+        llSetText( "", ZERO_VECTOR, 1.0 );
+        llTargetOmega( ZERO_VECTOR, 0, 0 );
+        llSetCameraAtOffset( ZERO_VECTOR );
+        llSetCameraEyeOffset( ZERO_VECTOR );
+        llSitTarget( ZERO_VECTOR, ZERO_ROTATION );
+        llSetTextureAnim( FALSE , ALL_SIDES, 1, 1, 0, 0, 0.0 );
+ 
+        integer iScriptCount = llGetInventoryNumber(INVENTORY_SCRIPT)-1;
+        while(iScriptCount > -1)
+        {
+            if(llGetInventoryName(INVENTORY_SCRIPT,iScriptCount) != Me)
+            {
+                llRemoveInventory(llGetInventoryName(INVENTORY_SCRIPT,iScriptCount));
+            }
+            iScriptCount--;
+        }
+ 
+        llOwnerSay("This Prim is Clean... ");
+        llRemoveInventory( Me );
+        // vanish without a trace...
+    }
+}

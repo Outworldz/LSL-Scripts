@@ -1,0 +1,90 @@
+# Game Server Configuration File
+#
+# Created by Tech Guy 2014
+
+
+# Server Configuration
+
+#Are we in Debug Mode?
+DebugMode=FALSE
+
+# Server Communication Channel
+ServerComChannel=-13546788
+
+# Common Communication Channel (ie DBComChannel)
+CommonComChannel=-260046
+
+# Avatar Scanner Communication Channel
+ScannerComChannel=-18006
+
+#Security Key (Used for Inter-Device Communication)
+SecurityKey=3d7b1a28-f547-4d10-8924-7a2b771739f4
+
+# NETWORK KEYS (Given during Machines Initial Call to tell it about DB Servers and Self)
+# DO NOT CHANGE THE ORDER OF THESE 3 CONFIG DIRECTIVES
+GameServer=5b8c8de4-e142-4905-a28f-d4d00607d3e9
+GameDBServer=b9dbc6a4-2ac3-4313-9a7f-7bd1e11edf78
+GameEventDBServer=dbfa0843-7f7f-4ced-83f6-33223ae57639
+
+# Game Configuration
+
+# Game Name
+gamename=Heaven and Hell
+
+# HighScores for User to Beat
+highscores=11000||15000||20000||30000||40000||45000||75000||95000||125000||150000
+
+# Win Values. Any Given gamevalue (Gv), Multiplied by the associated multiplier (M), the Associated Pot Value(Pv) is (Pv=Gv*M)
+pots=10||25||75||150||300||400||1250||2500||3750||5000
+
+# Game Values
+gamevalues=P$5||P$10||P$25||P$50||P$75||P$100||P$250||P$500||P$750||P$1000
+
+# Win Multipliers  
+multipliers=2||2.5||3||3||4||4||5||5||5||5
+
+# Length of Round for Given Game Value
+roundlengths=5||5||6||8||8||10||10||15||15||20
+
+# Admin Menu Users
+user=Tech Guy
+user=Sebastian Viper
+
+# Game Points Configuration
+
+#JackPot Percentage
+PotPercent=10
+
+#List Of Possible Deduction Percentages
+Mummy=0.20||0.30||0.40||0.50
+# How Long should each Round Last
+roundTime=25
+# Points Awarded for a Single Number Match
+pointsSingleField=200
+# Points Awarded for a Line Made
+pointsLine=1000
+# Points Awarded for Pattern Fill
+pointsPattern=5000
+# Points Awarded for Fill Board
+pointsAll=10000
+# Points Awarded for Diamond
+pointsCash=1000
+# Points Awarded for 
+pointsPlus=1000
+
+# Diagnostic Mode
+DiagMode=FALSE
+
+# JackPot Server Configuration Directives
+
+# Maximum # of Jackpots Before Server Reset
+MaxJackPots=6
+# JackPot Timer (in seconds). The Time inbetween awarding jackpots.  (3600=1hr)*6=21600(6hrs)
+JackPotTimer=3600
+# Initial Jackpot Value (NOTE: Stored in User DB Server)
+InitialJackPot=100
+
+# User Database Server Configuration Directives
+
+# Upload Timer. Time Between Backing Up to Offworld Server (in seconds). Database is Truncated at this same interval.
+UserUploadTimer=3720

@@ -18,7 +18,7 @@
 //DO NOT CLOSE SOURCE OR SELL ALONE.
 
 //Configuration:
-integer MeasureNonParcelPrims=FALSE;
+integer MeasureNonParcelPrims=TRUE;
 //Variables, these are dynamically set, don't bother with them.
 float timertime=0.5;
 string region;
